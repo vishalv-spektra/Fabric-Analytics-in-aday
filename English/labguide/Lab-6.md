@@ -222,7 +222,7 @@ Let’s add a few measures we need to create the Sales dashboard.
 
 2. From the top menu, select **Home -> New Measure**. Notice the formula bar is displayed.
 
-3. Enter **Sales = SUM(‘Sales’[Sales Amount])** in the **formula bar**.
+3. Enter **Sales = SUM(Sales[Sales Amount])** in the **formula bar**.
 
 4. Click the **check mark** left of the formula bar or click the **Enter** button.
 
@@ -238,7 +238,7 @@ Let’s add a few measures we need to create the Sales dashboard.
 
 9. With the **Sales table** selected from the top menu, select **Home -> New Measure**. Notice the formula bar is displayed.
 
-10. Enter **Units = SUM(‘Sales’[Quantity])** in the **formula bar**.
+10. Enter **Units = SUM(Sales[Quantity])** in the **formula bar**.
 
 11. Click the **check mark** left of the formula bar or click the **Enter** button.
 
@@ -252,7 +252,7 @@ Let’s add a few measures we need to create the Sales dashboard.
 
 15. With the **Sales table** selected from the top menu, select **Home -> New Measure**. Notice the formula bar is displayed.
 
-16. Enter **Sales Orders = DISTINCTCOUNT(‘Sales’[InvoiceID])** in the **formula bar**.
+16. Enter **Sales Orders = DISTINCTCOUNT(Sales[InvoiceID])** in the **formula bar**.
 
 17. Click the **check mark** left of the formula bar or click the **Enter** button.
 
@@ -370,13 +370,13 @@ Let’s add the remaining measures.
 
 6. From the **Format** dropdown select **Currency**.
 
-7. Set Decimal places to 0.
+7. Set Decimal places to **0**.
 
     ![](../media/Lab-6/image34.png)
 
 8. Follow similar steps to add the following measures:
 
-    1. In **Sales** table, **GM = SUM(‘Sales’[LineProfit])** formatted as **Currency with 0 decimal places**.
+    1. In **Sales** table, **GM = SUM(Sales[LineProfit])** formatted as **Currency with 0 decimal places**.
 
     2. In **Sales** table, **GM% = DIVIDE([GM], [Sales])** formatted as **Percentage with 0 decimal places**.
 

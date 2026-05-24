@@ -492,7 +492,7 @@ In a real scenario, data is updated at the source. Since we are in a training en
 
 15. You will be navigated to the next dialog where we can edit the names. Select the **Edit icon** under Actions for **Sales.Invoices_May**.
 
-16. Rename **Sales.Invoices_May to InvoicesMay.**
+16. Rename **Sales.Invoices_May** to **InvoicesMay.**
 
 17. Select the **check mark** next to the name to save the change.
 
