@@ -112,7 +112,7 @@ Shortcuts are used to create a link to the target location. Shortcuts provide ac
 
 1. You will be navigated to the next dialog where we can edit the names. Select the **Edit icon (1)** under Actions for **Application.Cities**.
 
-1. Rename **Application.Cities to Cities (2)**.
+1. Rename **Application.Cities** to **Cities (2)**.
 
 1. Select the check mark next to the name to save the change **(3)**.
 

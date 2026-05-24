@@ -252,7 +252,7 @@ Let’s add a little more complexity to our scenario. We have noticed that if th
 
 1. From the left panel, click **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, to be navigated to the workspace home.
 
-2. From the top menu, click **+ New item (1)** and from the popout window **,** click **Pipeline (2)**.
+2. From the top menu, click **+ New item (1)** and from the popout window, click **Pipeline (2)**.
 
     ![](../media/Lab-5/image25.png)
 
