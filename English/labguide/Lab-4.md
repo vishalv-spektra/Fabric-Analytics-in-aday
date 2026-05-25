@@ -86,6 +86,27 @@ By the end of this lab, you will have learned:
 
     ![](../media/Lab-4/image10.png)
 
+     > #### **Note:** <span style="color:maroon;">If you encounter the error **“We could not find queries in your clipboard.”** while copying queries into Dataflow Gen2, follow the steps below to manually create the queries. 
+    >
+    >1. On the **Dataflow Gen2** page, select **Get data from another source** to open the source selection window.
+    >
+    >    ![](../media/Lab-4/clipboardissue1.png)
+    >
+    >2. In the search bar, search for **Blank query (1)**, and then select the **Blank query (2)** option from the results.
+    >
+    >    ![](../media/Lab-4/clipboardissue2.png)
+    >    
+    >3. In the query editor window, remove the existing default code and replace it with the copied Power Query (M query) code **(1)** from your clipboard. Then select **Next (2)** to apply the query.
+    >
+    >    ![](../media/Lab-4/clipboardissue3.png)
+    >
+    >4. In the left-side query pane, right-click the query name, select **Rename**, and rename the query to **People**.
+    >
+    >    ![](../media/Lab-4/clipboardissue4.png)
+    >
+    >Alternatively, you can use Remote Desktop (RDP) to connect directly to your virtual machine, which allows the clipboard functionality to work correctly for copying and pasting queries. For detailed instructions on connecting through RDP, refer to the following step-by-step guide: [RDP: Known Functionality Issues](https://learner-docs.cloudlabs.ai/Learner/Troubleshooting/RDP/).
+
+
 ## Task 2: Create SharePoint connection
 
 1. Select **Configure connection**.
@@ -209,6 +230,19 @@ The connection is established, and you can view the data in the preview panel. F
     >**Note**: If you are working in the lab environment, please select the **ellipsis (…)** on the top right of the screen. Use the slider to **enable** **VM Native Clipboard**. Select OK in the dialog. Once done pasting the queries you can disable this option.
 
     ![](../media/Lab-4/image23.png)
+
+    > #### **Note:** <span style="color:maroon;">If you encounter the error **“We could not find queries in your clipboard.”** while pasting queries into Dataflow Gen2, manually create the queries one at a time using a **Blank query**. Add the **SupplierCategories** query by following the same steps used earlier in **Task 1** to create the **People** query. After replacing the default code with the copied Power Query (M query) code, add the query and then rename the query to **SupplierCategories**. 
+    >
+    > - Then select the **Get data** drop-down **(1)** and choose **Blank query (2)** to create another query. Repeat the same process for the following queries:
+    > 
+    > * `Suppliers`
+    > * `Supplier`
+    > * `PO`
+    > * `PO Line Items`
+    >  
+    >   ![](../media/Lab-4/clipboardissue5.png)
+    >
+    > Alternatively, you can use RDP to connect directly to your virtual machine, which allows the clipboard functionality to work correctly for copying and pasting queries. Refer to [RDP: Known Functionality Issues](https://learner-docs.cloudlabs.ai/Learner/Troubleshooting/RDP/) for step-by-step instructions to connect using RDP.
 
 ## Task 6: Create connection to Snowflake
 
