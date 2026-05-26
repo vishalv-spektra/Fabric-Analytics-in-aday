@@ -83,9 +83,9 @@ By the end of this lab, you will have learned:
 
 7. On the top right corner of the screen, select the **user** **icon**.
 
-8. Select **Free trial**.
+8. Select **Start trial**.
 
-    ![](../media/Lab-2/image10.png)
+    ![](../media/Lab-2/image10new.png)
 
 9. Upgrade to a free Microsoft Fabric trial dialog opens. Select **Activate**.
 
