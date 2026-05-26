@@ -11,9 +11,8 @@
     - Task 1: Enable a Microsoft Fabric trial license
 
 - Fabric Workspace
-## Task 1: Enable a Microsoft Fabric trial license
+
     - Task 2: Create a Fabric Workspace
-1. Select **Power BI Portal** on the desktop of the virtual machine. You may be prompted to sign in.
 
     - Task 3: Create a Lakehouse
 
