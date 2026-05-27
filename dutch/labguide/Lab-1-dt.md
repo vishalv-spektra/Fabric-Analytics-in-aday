@@ -40,7 +40,7 @@ Om waardevolle inzichten uit de gegevens te halen, haalt u gegevens op uit meerd
 
 * **Werknemersgegevens:** komen uit het HR-systeem; deze worden opgeslagen als een exportbestand in een SharePoint-map. Deze worden elke ochtend om 09:00 uur bijgewerkt.
 
-![](../media/Lab-1/image6.png)
+   ![](../media/Lab-1/image6.png)
 
 U bouwt momenteel een semantisch model in Power BI Premium dat gegevens uit de bovenstaande bronsystemen ophaalt om te voldoen aan uw rapportagebehoeften en eindgebruikers de mogelijkheid te bieden om zelfstandig analyses uit te voeren. U gebruikt Power Query om uw model bij te werken.
 
