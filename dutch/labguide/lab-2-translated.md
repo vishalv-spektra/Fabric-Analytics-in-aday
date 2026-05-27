@@ -66,13 +66,13 @@ Aan het einde van dit lab heeft u geleerd:
 
     - **E-mail/Gebruikersnaam:** <inject key="AzureAdUserEmail"></inject>
 
-        ![](../media/Lab-2/image8.png)
+        ![](../media/Lab-1/image9.png)
 
 4. Voer nu de volgende **Tijdelijke toegangscode** in en klik op **Aanmelden**.
 
     - **Tijdelijke toegangscode:** <inject key="AzureAdUserPassword"></inject>
 
-        ![](../media/Lab-2/image9.png)
+        ![](../media/Lab-1/image10.png)
 
 5. U wordt doorgestuurd naar de vertrouwde **Power BI Service-startpagina**.
 
@@ -218,17 +218,17 @@ Aan het einde van dit lab heeft u geleerd:
 
     g. **Maak uw eerste User Data Functions aan:** Deze sectie helpt u bij het aanmaken van User Data Functions, die handig zijn voor het beheren en transformeren van gebruikersdata.
 
-    ![](../media/Lab-2/image22.png)
+    ![](../media/Lab-2/image23.png)
 
 4. Klik op **Terug naar workloads** in de linkerbovenhoek van het scherm. Deze actie brengt u naar de hoofdpagina van workloads, waar u andere hulpmiddelen of secties kunt verkennen.
 
-    ![](../media/Lab-2/image23.png)
+    ![](../media/Lab-2/image24.png)
 
 ## Taak 5: Industry Solutions-ervaring
 
 1. Klik op de pagina **Workloads** op **Industry Solutions** om door te gaan.
 
-    ![](../media/Lab-2/image24.png)
+    ![](../media/Lab-2/image25.png)
 
 2. U wordt doorgestuurd naar de Industry Solutions-startpagina. Hieronder volgt een gedetailleerd overzicht van de secties, ontworpen om u te helpen Industry Solutions effectief en stap voor stap te gebruiken.
 
@@ -262,17 +262,17 @@ Aan het einde van dit lab heeft u geleerd:
 
     f. **Aan de slag met Retail Solutions:** Begin met het implementeren van retail-oplossingen in uw projecten.
 
-    ![](../media/Lab-2/image25.png)
+    ![](../media/Lab-2/image26.png)
 
 3. Klik op **Terug naar workloads** in de linkerbovenhoek van het scherm. Deze actie brengt u naar de hoofdpagina van workloads, waar u andere hulpmiddelen of secties kunt verkennen.
 
-    ![](../media/Lab-2/image23.png)
+    ![](../media/Lab-2/image24.png)
 
 ## Taak 6: Real-Time Intelligence-ervaring
 
 1. Klik op de pagina **Workloads** op **Real-Time Intelligence** om door te gaan.
 
-    ![](../media/Lab-2/image26.png)
+    ![](../media/Lab-2/image27.png)
 
 2. U wordt doorgestuurd naar de Real-Time Intelligence-startpagina. Hieronder volgt een gedetailleerd overzicht van de secties, ontworpen om u te helpen Real-Time Intelligence effectief en stap voor stap te gebruiken.
 
@@ -324,17 +324,17 @@ Aan het einde van dit lab heeft u geleerd:
 
     h. **Aan de slag met Activator:** Klik op de knop "Openen" om te beginnen met de concepten van Activator en het hulpmiddel effectief te gebruiken.
 
-    ![](../media/Lab-2/image27.png)
+    ![](../media/Lab-2/image28.png)
 
 3. Klik op **Terug naar workloads** in de linkerbovenhoek van het scherm. Deze actie brengt u naar de hoofdpagina van workloads, waar u andere hulpmiddelen of secties kunt verkennen.
 
-    ![](../media/Lab-2/image23.png)
+    ![](../media/Lab-2/image24.png)
 
 ## Taak 7: Data Engineering-ervaring
 
 1. Klik op de pagina **Workloads** op Data Engineering om door te gaan.
 
-    ![](../media/Lab-2/image28.png)
+    ![](../media/Lab-2/image29.png)
 
 2. U wordt doorgestuurd naar de **Data Engineering**-startpagina. Hieronder volgt een gedetailleerd overzicht van de secties, ontworpen om u te helpen **Data Engineering** effectief en stap voor stap te gebruiken.
 
@@ -382,17 +382,17 @@ Aan het einde van dit lab heeft u geleerd:
 
     j. **Maak uw eerste API for GraphQL aan:** Klik op de knop "Openen" om te leren hoe u een API for GraphQL aanmaakt.
 
-    ![](../media/Lab-2/image29.png)
+    ![](../media/Lab-2/image30.png)
 
 3. Klik op **Terug naar workloads** in de linkerbovenhoek van het scherm. Deze actie brengt u naar de hoofdpagina van workloads, waar u andere hulpmiddelen of secties kunt verkennen.
 
-    ![](../media/Lab-2/image23.png)
+    ![](../media/Lab-2/image24.png)
 
 ## Taak 8: Data Science-ervaring
 
 1. Klik op de pagina **Workloads** op **Data Science** om door te gaan.
 
-    ![](../media/Lab-2/image30.png)
+    ![](../media/Lab-2/image31.png)
 
 2. U wordt doorgestuurd naar de **Data Science**-startpagina. Hieronder volgt een gedetailleerd overzicht van de secties, ontworpen om u te helpen **Data Science** effectief te gebruiken.
 
@@ -428,17 +428,17 @@ Aan het einde van dit lab heeft u geleerd:
 
     e. **Notebooks ontwikkelen en uitvoeren:** Klik op de knop "Openen" om te leren hoe u notebooks kunt ontwikkelen en uitvoeren voor dataanalyse.
 
-    ![](../media/Lab-2/image31.png)
+    ![](../media/Lab-2/image32.png)
 
 3. Klik op **Terug naar workloads** in de linkerbovenhoek van het scherm. Deze actie brengt u naar de hoofdpagina van workloads, waar u andere hulpmiddelen of secties kunt verkennen.
 
-    ![](../media/Lab-2/image23.png)
+    ![](../media/Lab-2/image24.png)
 
 ## Taak 9: Data Warehouse-ervaring
 
 1. Klik op de pagina **Workloads** op **Data Warehouse** om door te gaan.
 
-    ![](../media/Lab-2/image32.png)
+    ![](../media/Lab-2/image33.png)
 
 2. U wordt doorgestuurd naar de Data Warehouse-startpagina. Hieronder volgt een gedetailleerd overzicht van de secties, ontworpen om u te helpen Data Warehouse effectief en stap voor stap te gebruiken.
 
@@ -482,17 +482,17 @@ Aan het einde van dit lab heeft u geleerd:
 
     b. **Aan de slag met Warehouse:** Klik op de knop "Openen" om te leren hoe u een warehouse kunt gebruiken om data te analyseren.
 
-    ![](../media/Lab-2/image33.png)
+    ![](../media/Lab-2/image34.png)
 
 3. Klik op **Terug naar workloads** in de linkerbovenhoek van het scherm. Deze actie brengt u naar de hoofdpagina van workloads, waar u andere hulpmiddelen of secties kunt verkennen.
 
-    ![](../media/Lab-2/image23.png)
+    ![](../media/Lab-2/image24.png)
 
 ## Taak 10: Databases-ervaring
 
 1. Klik op de pagina **Workloads** op **Databases** om door te gaan.
 
-    ![](../media/Lab-2/image34.png)
+    ![](../media/Lab-2/image35.png)
 
 2. U wordt doorgestuurd naar de Databases-startpagina. Hieronder volgt een gedetailleerd overzicht van de secties, ontworpen om u te helpen Databases effectief te gebruiken.
 
@@ -516,11 +516,11 @@ Aan het einde van dit lab heeft u geleerd:
 
     c. **Databasesjablonen:** Bekijk een bibliotheek met vooraf gemaakte sjablonen van veelgebruikte databaseontwerpen.
 
-    ![](../media/Lab-2/image35.png)
+    ![](../media/Lab-2/image36.png)
 
 3. Klik op **Terug naar workloads** in de linkerbovenhoek van het scherm. Deze actie brengt u naar de hoofdpagina van workloads, waar u andere hulpmiddelen of secties kunt verkennen.
 
-    ![](../media/Lab-2/image23.png)
+    ![](../media/Lab-2/image24.png)
 
     In dit lab hebben we de Fabric-interface verkend en een Fabric workspace en een Lakehouse aangemaakt. In het volgende lab leren we hoe u Shortcuts in Lakehouse kunt gebruiken om verbinding te maken met ADLS Gen2-data en hoe u deze data kunt transformeren met behulp van views.
 

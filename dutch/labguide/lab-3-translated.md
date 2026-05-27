@@ -106,9 +106,9 @@ Shortcuts worden gebruikt om een koppeling naar de doellocatie te maken. Shortcu
 
     11. Warehouse.StockItems
 
-    >**Opmerking:** Sales.Invoices_May is de enige map die **niet** is geselecteerd.
+        >**Opmerking:** Sales.Invoices_May is de enige map die **niet** is geselecteerd.
 
-    ![](../media/Lab-3/image9.png)
+        ![](../media/Lab-3/image9.png)
 
 1. U wordt naar het volgende dialoogvenster geleid, waar u de namen kunt bewerken. Selecteer het **bewerkingspictogram (1)** onder Actions voor **Application.Cities**.
 
