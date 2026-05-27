@@ -60,273 +60,247 @@ Aan het einde van dit lab heeft u geleerd:
 
 # Dataflow Gen2
 
-## Taak 1: Geplande vernieuwing configureren voor Supplier Dataflow
+## Task 1: Geplande vernieuwing configureren voor Supplier Dataflow
 
-Laten we beginnen met het configureren van een geplande vernieuwing van Supplier Dataflow.
+Laten we beginnen met het configureren van een geplande vernieuwing voor de **Supplier Dataflow**.
 
-1. Navigeer terug naar de Fabric-werkruimte, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, door de werkruimte te selecteren in het linkerdeelvenster.
+1. Navigeer terug naar de Fabric-werkruimte **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** door de werkruimte te selecteren in het linkerpaneel.
 
-
-2. Om het deelvenster met de lijst van artefacten te maximaliseren, selecteert u de dubbele pijl rechtsboven in het deelvenster.
+2. Om het paneel met de lijst van artefacten te maximaliseren, selecteert u de **dubbele pijl** rechtsboven in het paneel.
 
     ![](../media/Lab-5/image6.png)
 
-
-3. Alle artefacten die u heeft aangemaakt, worden hier weergegeven. Typ aan de rechterkant van het scherm **df** in het **zoekvak**. Hiermee filtert u de artefacten op Dataflows.
+3. Alle artefacten die u hebt aangemaakt, worden hier weergegeven. Typ aan de rechterkant van het scherm **df** in het **zoekvak**. Hiermee worden de artefacten gefilterd op **Dataflows**.
 
     ![](../media/Lab-5/image7.png)
 
+4. Beweeg de muisaanwijzer over de rij **df_Supplier_Snowflake**. Selecteer de **drie puntjes (…)**.
 
-4. Beweeg de muisaanwijzer over de rij **df_Supplier_Snowflake**. Selecteer het **beletselteken (…)**.
-
-
-5. U ziet opties om de Dataflow te verwijderen, openen en te vernieuwen. Laten we de vernieuwingsgeschiedenis bekijken. Selecteer **Recent Runs**.
+5. U ziet opties om de **Dataflow** te verwijderen, openen en vernieuwen. Laten we de vernieuwingsgeschiedenis bekijken. Selecteer **Recente uitvoeringen**.
 
     ![](../media/Lab-5/image8.png)
 
     >**Opmerking:** Er verschijnt een venster/deelvenster aan de rechterkant met een lijst van vernieuwingen.
 
-
-6. U zult zien dat er één vernieuwing heeft plaatsgevonden toen we in het vorige lab de optie **Save and run** hebben geselecteerd. Het **Type** vernieuwing dat wordt weergegeven is **On Demand**, wat aangeeft dat dit een handmatig uitgevoerde vernieuwing was.
+6. U zult zien dat er één vernieuwing heeft plaatsgevonden toen we in het vorige lab de optie **Opslaan en uitvoeren** selecteerden. Het weergegeven **Type** vernieuwing is **Op aanvraag**, wat aangeeft dat dit een handmatig uitgevoerde vernieuwing was.
 
     ![](../media/Lab-5/image9.png)
 
+7. Selecteer de koppeling **Starttijd**.
 
-7. Selecteer de koppeling **Start time**.
-
-    >**Opmerking:** De begintijd zal bij u anders zijn.
+    >**Opmerking:** De starttijd zal bij u anders zijn.
 
     ![](../media/Lab-5/image10.png)
 
-    Het detailscherm wordt geopend. Dit scherm toont de details van de vernieuwing: de begintijd, eindtijd en duur. Ook worden de tabellen/activiteiten vermeld die zijn vernieuwd. Als er een fout is opgetreden, kunt u op de naam van de tabel/activiteit klikken om verder onderzoek te doen.
+    Het detailscherm wordt geopend. Dit scherm toont de details van de vernieuwing: de starttijd, eindtijd en duur. Ook worden de tabellen/activiteiten weergegeven die zijn vernieuwd. Als er een fout optreedt, kunt u op de naam van de tabel/activiteit klikken voor verder onderzoek.
 
     ![](../media/Lab-5/image11.png)
 
 8. Sluit dit scherm door op de **X** rechtsboven te klikken. U wordt teruggeleid naar de **werkruimte**.
 
-9. Beweeg de muisaanwijzer over de rij **df_Supplier_Snowflake**. Selecteer het **beletselteken (…)**.
+9. Beweeg de muisaanwijzer over de rij **df_Supplier_Snowflake**. Selecteer de **drie puntjes (…)**.
 
-10. Laten we bekijken hoe we een automatische vernieuwing kunnen plannen. Kies de optie **Settings**.
+10. Laten we bekijken hoe we een automatische vernieuwing kunnen plannen. Selecteer de optie **Instellingen**.
 
     ![](../media/Lab-5/image12.png)
 
-11. In het geopende **Settings**-deelvenster ziet u drie opties:
+11. In het geopende deelvenster **Instellingen** ziet u drie opties:
 
-    - **About:** Hier kunt u de naam van de Dataflow wijzigen en een beschrijving toevoegen. U kunt ook zien wie de eigenaar van de dataflow is en wanneer deze voor het laatst is gewijzigd.
+    - **Info:** Hier kunt u de naam van de Dataflow wijzigen en een beschrijving toevoegen. U kunt ook zien wie de eigenaar van de Dataflow is en wanneer deze voor het laatst is gewijzigd.
 
-    - **Endorsement:** Hiermee kunt u opgeven of de dataflow het label **Promoted** of **Certified** krijgt, zodat anderen dit kunnen zien.
+    - **Goedkeuring:** Hiermee kunt u aangeven of de Dataflow het label **Gepromoot** of **Gecertificeerd** krijgt, zodat anderen dit kunnen zien.
 
-    - **Schedule:** Hier kunt u de planning van uw dataflows instellen.
+    - **Schema:** Hier kunt u de planning voor uw Dataflows instellen.
 
         ![](../media/Lab-5/image13.png)
 
-12. Selecteer de optie **Schedule**.
+12. Selecteer de optie **Schema**.
 
-
-13. Om een schema te activeren, klikt u eenvoudig op **Add Schedule**.
+13. Om een planning te activeren, klikt u eenvoudig op **+ Planning toevoegen**.
 
     ![](../media/Lab-5/image14.png)
 
+14. U kunt nu de frequentie van de vernieuwing instellen door een optie te kiezen voor de eigenschap **Herhalen**. Kies voor dit scenario **Dagelijks (1)**.
 
-14. U kunt nu de frequentie van de vernieuwing opgeven door een optie te kiezen voor de eigenschap **Repeat**. Voor dit scenario kiest u **Daily (1)**.
+15. Voor de eigenschap **Tijd** geeft u **12:00 AM (2)** op, omdat we middernacht willen gebruiken.
 
-15. Voor de eigenschap **Time** kunt u **12:00 AM** **(2)** opgeven, omdat we middernacht willen.
+    >**Opmerking:** Door op de koppeling **Nog een tijd toevoegen** te klikken, kunt u meerdere vernieuwingstijden toevoegen.
 
-    >**Opmerking:** Door op de koppeling Add another time te klikken, kunt u meerdere vernieuwingstijden toevoegen.
+16. U kunt ook een **Startdatum en -tijd (3)** en een **Einddatum en -tijd (4)** opgeven. Kies voor dit scenario de huidige dag als begin- en einddatum.
 
-
-16. U kunt ook een **Start date and time (3)** en een **End date and time (4)** opgeven. Kies voor dit scenario de huidige dag als begin- en einddatum.
-
-
-17. U kunt de gewenste **Time Zone (5)** opgeven. Selecteer tot slot **Save**.
+17. U kunt de gewenste **Tijdzone (5)** opgeven. Selecteer vervolgens **Opslaan**.
 
     ![](../media/Lab-5/image15.png)
 
-
-18. U ziet de geplande vernieuwing en kunt deze bewerken of verwijderen als deze niet langer nodig is, of aanvullende geplande vernieuwingen toevoegen.
+18. U ziet nu de geplande vernieuwing en kunt deze bewerken of verwijderen wanneer deze niet langer nodig is, of aanvullende geplande vernieuwingen toevoegen.
 
     ![](../media/Lab-5/image16.png)
 
-    Zoals eerder vermeld, moeten we aangepaste logica bouwen voor het scenario waarin het medewerkerbestand in SharePoint niet op tijd wordt aangeleverd. Laten we een Pipeline gebruiken om dit op te lossen.
+    Zoals eerder vermeld, moeten we aangepaste logica bouwen voor het scenario waarin het medewerkersbestand in **SharePoint** niet op tijd wordt aangeleverd. Laten we een **Pipeline** gebruiken om dit op te lossen.
 
 # Pipeline
 
 ## Taak 2: Pipeline aanmaken
 
-1. Navigeer terug naar de Fabric-werkruimte, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, door de werkruimte te selecteren in het linkerdeelvenster.
+1. Navigeer terug naar de Fabric-werkruimte **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** door de werkruimte te selecteren in het linkerpaneel.
 
-2. Selecteer in het bovenste menu **+ New item (1) -> Pipeline (2)**.
+2. Selecteer in het bovenste menu **+ Nieuw item (1) -> Pijplijn (2)**.
 
     ![](../media/Lab-5/image17.png)
 
-3. Er wordt een dialoogvenster voor een nieuwe pipeline geopend. Geef de pipeline de naam **pl_Refresh_People_SharePoint** en selecteer **Create**.
+3. Er wordt een venster **Nieuwe Pijplijn** geopend. Geef de pipeline de naam **pl_Refresh_People_SharePoint** en selecteer **Maken**.
 
     ![](../media/Lab-5/image18.png)
 
-    U wordt doorgestuurd naar de **Pipeline-pagina**. Als u eerder met Azure Data Factory heeft gewerkt, zal dit scherm u bekend voorkomen. Laten we een kort overzicht geven van de indeling.
+    U wordt doorgestuurd naar de **Pipeline-pagina**. Als u eerder met **Azure Data Factory** hebt gewerkt, zal dit scherm u bekend voorkomen. Laten we een kort overzicht van de indeling bekijken.
 
-    U bevindt zich op het **Home**-scherm. In het bovenste menu vindt u opties voor het toevoegen van veelgebruikte activiteiten: valideren, een pipeline uitvoeren en de uitvoeringsgeschiedenis bekijken. In het centrale deelvenster vindt u snelle opties om de pipeline te beginnen bouwen.
+    U bevindt zich op het scherm **Start**. In het bovenste menu vindt u opties voor het toevoegen van veelgebruikte activiteiten, het valideren van de pipeline, het uitvoeren van een pipeline en het bekijken van de uitvoeringsgeschiedenis. In het centrale paneel vindt u snelle opties om te beginnen met het bouwen van de pipeline.
 
     ![](../media/Lab-5/image19.png)
 
+4. Selecteer in het bovenste menu **Activiteiten**. In dit menu vindt u een lijst met veelgebruikte activiteiten.
 
-4. Selecteer in het bovenste menu **Activities**. In het menu vindt u een lijst met veelgebruikte activiteiten.
-
-
-5. Selecteer het **beletselteken (…)** aan de rechterkant van het menu om alle overige beschikbare activiteiten te bekijken. We gaan in dit lab een aantal van deze activiteiten gebruiken.
+5. Selecteer de **drie puntjes (…)** aan de rechterkant van het menu om alle overige beschikbare activiteiten te bekijken. We zullen in dit lab enkele van deze activiteiten gebruiken.
 
     ![](../media/Lab-5/image20.png)
 
+6. Klik in het bovenste menu op **Uitvoeren**. Hier vindt u opties om de uitvoering van de pipeline te starten en te plannen. U vindt hier ook de optie om de uitvoeringsgeschiedenis te bekijken via **Uitvoeringsgeschiedenis bekijken**.
 
-6. Klik in het bovenste menu op **Run**. U vindt hier opties om de pipeline-uitvoering te starten en in te plannen. U vindt ook de optie om de uitvoeringsgeschiedenis te bekijken via View run history.
+7. Selecteer in het bovenste menu **Weergave**. Hier vindt u opties om de code in **JSON-indeling** te bekijken. U vindt hier ook opties om activiteiten automatisch uit te lijnen.
 
-
-7. Selecteer in het bovenste menu **View**. Hier vindt u opties om de code in JSON-formaat te bekijken. U vindt ook opties om de activiteiten automatisch uit te lijnen.
-
-    >**Opmerking:** Als u een JSON-achtergrond heeft, kunt u aan het einde van het lab vrijelijk View JSON code selecteren. U zult merken dat alle orchestratie die u via de ontwerpweergave uitvoert, ook in JSON kan worden geschreven.
+    >**Opmerking:** Als u bekend bent met **JSON**, kunt u aan het einde van het lab gerust **JSON-code weergeven** selecteren. U zult merken dat alle orkestratie die via de ontwerpweergave wordt uitgevoerd, ook in JSON kan worden geschreven.
 
     ![](../media/Lab-5/image21.png)
 
-## Taak 3: Eenvoudige Pipeline bouwen
+## Taak 3: Eenvoudige pipeline bouwen
 
-Laten we beginnen met het bouwen van de pipeline. We hebben een activiteit nodig om de Dataflow te vernieuwen. Laten we een geschikte activiteit zoeken.
+Laten we beginnen met het bouwen van de pipeline. We hebben een activiteit nodig om de **Dataflow** te vernieuwen. Laten we een geschikte activiteit zoeken.
 
+1. Selecteer in het bovenste menu **Activiteiten -> Gegevensstroom**. De **Dataflow-activiteit** wordt toegevoegd aan het centrale ontwerpvenster. U ziet dat het onderste deelvenster nu configuratieopties voor de Dataflow-activiteit toont.
 
-1. Selecteer in het bovenste menu **Activities -> Dataflow**. De Dataflow-activiteit wordt toegevoegd aan het centrale ontwerpdeelvenster. U ziet dat het onderste deelvenster nu configuratieopties voor de Dataflow-activiteit toont.
+2. We gaan de activiteit configureren om verbinding te maken met de dataflow **df_People_SharePoint**. Selecteer in het **onderste deelvenster** de optie **Instellingen**.
 
-
-2. We gaan de activiteit configureren om verbinding te maken met de dataflow df_People_SharePoint. Selecteer in het **onderste deelvenster** de optie **Settings**.
-
-    >**Opmerking:** Mogelijk moet u het onderste deelvenster omhoog slepen om de instellingen te zien.*
+    >**Opmerking:** Mogelijk moet u het onderste deelvenster omhoog slepen om de instellingen te zien.
 
     ![](../media/Lab-5/image22.png)
 
+3. Zorg ervoor dat **Werkruimte** is ingesteld op uw Fabric-werkruimte, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
-3. Zorg ervoor dat **Workspace** is ingesteld op uw Fabric-werkruimte, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
+4. Selecteer in de vervolgkeuzelijst **Dataflow** de optie **df_People_SharePoint**. Wanneer deze **Dataflow-activiteit** wordt uitgevoerd, wordt **df_People_SharePoint** vernieuwd. Eenvoudig, toch?
 
-4. Selecteer in de **Dataflow-vervolgkeuzelijst** de optie **df_People_SharePoint**. Wanneer deze Dataflow-activiteit wordt uitgevoerd, wordt **df_People_SharePoint** vernieuwd. Eenvoudig, toch?
-
-    In ons scenario worden de medewerkergegevens niet op een vast schema bijgewerkt. Soms treedt er een vertraging op. Laten we bekijken hoe we hier rekening mee kunnen houden.
+    In ons scenario worden de medewerkersgegevens niet volgens een vast schema bijgewerkt. Soms treedt er vertraging op. Laten we bekijken hoe we hiermee rekening kunnen houden.
 
     ![](../media/Lab-5/image23.png)
 
-5. Selecteer in het **onderste deelvenster** de optie **General**. Laten we de activiteit een naam en beschrijving geven.
+5. Selecteer in het **onderste deelvenster** de optie **Algemeen**. Laten we de activiteit een naam en beschrijving geven.
 
+6. Voer in het veld **Naam** de waarde **dfactivity_People_SharePoint** in.
 
-6. Voer in het veld **Name** de waarde **dfactivity_People_SharePoint** in.
+7. Voer in het veld **Beschrijving** de tekst **Dataflow-activiteit voor het vernieuwen van de dataflow df_People_SharePoint** in.
 
+8. U ziet dat er een optie is om een activiteit te deactiveren. Deze functie is handig tijdens het testen of debuggen. Laat de instelling op **Geactiveerd** staan.
 
-7. Voer in het veld **Description** de tekst **Dataflow-activiteit voor het vernieuwen van de dataflow df_People_SharePoint** in.
+9. Er is een optie om een **Time-out** in te stellen. Laat de **standaardwaarde** staan, zodat de dataflow voldoende tijd heeft om te vernieuwen.
 
+    >**Opmerking:** Omdat de gegevens niet volgens een vast schema beschikbaar zijn, stellen we de activiteit in om elke 10 minuten opnieuw te worden uitgevoerd, met maximaal drie pogingen. Als ook de derde poging mislukt, wordt een fout gerapporteerd.
 
-8. U ziet dat er een optie is om een activiteit te deactiveren. Deze functie is handig bij het testen of debuggen. Laat de instelling op **Activated** staan.
+10. Stel **Opnieuw proberen** in op **3**.
 
+11. Vouw de sectie **Geavanceerd** uit.
 
-9. Er is een optie om **Timeout** in te stellen. Laat de **standaardwaarde** staan, zodat de dataflow voldoende tijd heeft om te vernieuwen.
+12. Stel **Interval opnieuw proberen (sec)** in op **600**.
 
-    >**Opmerking:** Omdat de gegevens niet op een vast schema beschikbaar zijn, stellen we de activiteit in om elke 10 minuten opnieuw te worden uitgevoerd, maximaal drie keer. Als de derde poging ook mislukt, wordt een fout gerapporteerd.
-
-
-10. Stel **Retry** in op **3**.
-
-
-11. Vouw de sectie **Advanced** uit.
-
-
-12. Stel **Retry interval (sec)** in op **600**.
-
-
-13. Selecteer in het menu **Home -> Save**-pictogram om de pipeline op te slaan.
+13. Selecteer in het menu **Start -> Opslaan** om de pipeline op te slaan.
 
     ![](../media/Lab-5/image24.png)
 
-    Let op het voordeel van het gebruik van de pipeline ten opzichte van het instellen van een geplande vernieuwing voor de dataflow (zoals we deden voor de eerdere dataflow):
+    Merk op wat het voordeel is van het gebruik van een **pipeline** in plaats van het instellen van een geplande vernieuwing voor de dataflow (zoals we deden voor de eerdere dataflow):
 
     - De pipeline biedt de mogelijkheid om meerdere keren opnieuw te proberen voordat de vernieuwing als mislukt wordt gemarkeerd.
 
     - De pipeline biedt de mogelijkheid om naast het vernieuwen van de dataflow ook andere taken uit te voeren.
 
-## Taak 4: Nieuwe Pipeline aanmaken
+## Taak 4: Nieuwe pipeline aanmaken
 
-Laten we ons scenario iets complexer maken. We hebben geconstateerd dat als de gegevens om 09:00 niet beschikbaar zijn, ze doorgaans binnen vijf minuten beschikbaar zijn. Als dit tijdvenster wordt gemist, duurt het 15 minuten voordat het bestand beschikbaar is. We willen de nieuwe pogingen plannen na vijf en 15 minuten. Laten we bekijken hoe dit kan worden gerealiseerd door een nieuwe Pipeline aan te maken.
+Laten we ons scenario iets complexer maken. We hebben vastgesteld dat als de gegevens om 09:00 uur niet beschikbaar zijn, ze meestal binnen vijf minuten beschikbaar komen. Als dit tijdsvenster wordt gemist, duurt het ongeveer 15 minuten voordat het bestand beschikbaar is. We willen de nieuwe pogingen plannen na vijf en vijftien minuten. Laten we bekijken hoe dit gerealiseerd kan worden door een nieuwe pipeline aan te maken.
 
-1. Klik in het linkerdeelvenster op **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** om naar de startpagina van de werkruimte te navigeren.
+1. Klik in het linkerpaneel op **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** om terug te keren naar de startpagina van de werkruimte.
 
-2. Klik in het bovenste menu op **+ New item (1)** en klik in het pop-upvenster op **Pipeline (2)**.
+2. Klik in het bovenste menu op **+ Nieuw item (1)** en selecteer vervolgens **Pijplijn (2)** in het pop-upvenster.
 
     ![](../media/Lab-5/image25.png)
 
-3. Het dialoogvenster voor een nieuwe pipeline wordt geopend. **Geef** de pipeline de naam **pl_Refresh_People_SharePoint_Option2 (3)** en selecteer **Create (4)**.
+3. Het venster **Nieuwe Pijplijn** wordt geopend. Geef de pipeline de naam **pl_Refresh_People_SharePoint_Option2 (3)** en selecteer **Maken (4)**.
 
     ![](../media/Lab-5/image26.png)
 
 ## Taak 5: Until-activiteit aanmaken
 
-1. U wordt doorgestuurd naar het Pipeline-scherm. Selecteer in het menu **Activities**.
+1. U wordt doorgestuurd naar het scherm **Pipeline**. Selecteer in het menu **Activiteiten**.
 
-2. Klik op het **beletselteken (…)** aan de rechterkant.
+2. Klik op de **drie puntjes (…)** aan de rechterkant.
 
-3. Klik in de lijst met activiteiten op **Until**.
+3. Selecteer in de lijst met activiteiten **Until**.
 
-    **Until:** is een activiteit die wordt gebruikt om te herhalen totdat aan een voorwaarde is voldaan.
+    **Until:** is een activiteit die wordt gebruikt om acties te herhalen totdat aan een bepaalde voorwaarde is voldaan.
 
-    In ons scenario gaan we de dataflow herhalen en vernieuwen totdat dit succesvol is, of totdat we drie keer hebben geprobeerd.
+    In ons scenario zullen we de dataflow blijven vernieuwen totdat dit succesvol is, of totdat we drie pogingen hebben uitgevoerd.
 
     ![](../media/Lab-5/image27.png)
 
 ## Taak 6: Variabelen aanmaken
 
-1. We moeten variabelen aanmaken die worden gebruikt voor het herhalen en het instellen van de status. Selecteer het **lege gebied** in het pipeline-ontwerpdeelvenster.
+1. We moeten variabelen aanmaken die worden gebruikt voor herhalingen en het instellen van de status. Selecteer het **lege gebied** in het ontwerpvenster van de pipeline.
 
-2. U ziet dat het menu in het onderste deelvenster verandert. Selecteer **Variables**.
+2. U zult zien dat het menu in het onderste deelvenster verandert. Selecteer **Variabelen**.
 
-3. Selecteer **+ New** om een nieuwe variabele toe te voegen.
+3. Selecteer **+ Nieuw** om een nieuwe variabele toe te voegen.
 
-4. Er verschijnt een rij. Voer **varCounter** in het **tekstvak Name** in. We gebruiken deze variabele om drie keer te herhalen.
+4. Er verschijnt een nieuwe rij. Voer **varCounter** in het tekstvak **Naam** in. We gebruiken deze variabele om drie herhalingen uit te voeren.
 
-5. Selecteer in de **vervolgkeuzelijst Type** de optie **Integer**.
+5. Selecteer in de vervolgkeuzelijst **Type** de optie **Geheel getal**.
 
-6. Voer als **Default value** de waarde **0** in.
+6. Voer als **Standaardwaarde** de waarde **0** in.
 
-    >**Opmerking:** We voegen het voorvoegsel var toe aan variabelenamen, zodat ze eenvoudig te vinden zijn. Dit is tevens een goede praktijk.
+    >**Opmerking:** We gebruiken het voorvoegsel **var** voor variabelenamen zodat ze gemakkelijker te herkennen zijn. Dit is ook een aanbevolen werkwijze.
 
     ![](../media/Lab-5/image28.png)
 
-7. Selecteer **+ New** om nog een nieuwe variabele toe te voegen.
+7. Selecteer **+ Nieuw** om nog een variabele toe te voegen.
 
-8. Er verschijnt een rij. Voer **varTempCounter** in het **tekstvak Name** in. We gebruiken deze variabele om de variabele varCounter te verhogen.
+8. Er verschijnt een nieuwe rij. Voer **varTempCounter** in het tekstvak **Naam** in. We gebruiken deze variabele om de waarde van **varCounter** te verhogen.
 
-9. Selecteer in de **vervolgkeuzelijst Type** de optie **Integer**.
+9. Selecteer in de vervolgkeuzelijst **Type** de optie **Geheel getal**.
 
-10. Voer als **Default value** de waarde **0** in.
+10. Voer als **Standaardwaarde** de waarde **0** in.
 
-11. Volg vergelijkbare stappen om nog drie variabelen toe te voegen:
+11. Voeg op vergelijkbare wijze nog drie variabelen toe:
 
-    1. **varIsSuccess** van het type **String** en standaardwaarde **No**. Deze variabele wordt gebruikt om aan te geven of de dataflow-vernieuwing is geslaagd.
+    1. **varIsSuccess** van het type **Tekenreeks** met de standaardwaarde **No**. Deze variabele wordt gebruikt om aan te geven of de vernieuwing van de dataflow succesvol is uitgevoerd.
 
-    2. **varSuccess** van het type **String** en standaardwaarde **Yes**. Deze variabele wordt gebruikt om de waarde van varIsSuccess in te stellen als de dataflow-vernieuwing is geslaagd.
+    2. **varSuccess** van het type **Tekenreeks** met de standaardwaarde **Yes**. Deze variabele wordt gebruikt om de waarde van **varIsSuccess** in te stellen wanneer de vernieuwing van de dataflow succesvol is.
 
-    3. **varWaitTime** van het type **Integer** en standaardwaarde **60**. Deze variabele wordt gebruikt om de wachttijd in te stellen als de dataflow mislukt. (Ofwel 5 minuten/300 seconden of 15 minuten/900 seconden.)
+    3. **varWaitTime** van het type **Geheel getal** met de standaardwaarde **60**. Deze variabele wordt gebruikt om de wachttijd in te stellen wanneer de dataflow mislukt (5 minuten/300 seconden of 15 minuten/900 seconden).
 
-        >**Opmerking:** Zorg ervoor dat er geen spatie staat voor of na de variabelenaam.
+        >**Opmerking:** Zorg ervoor dat er geen spaties vóór of na de variabelenaam staan.
 
         ![](../media/Lab-5/image29.png)
 
 ## Taak 7: Until-activiteit configureren
 
-1. Selecteer de **Until**-activiteit.
+1. Selecteer de activiteit **Until**.
 
-2. Selecteer in het **onderste deelvenster** de optie **General**.
+2. Selecteer in het **onderste deelvenster** de optie **Algemeen**.
 
-3. Voer als **Name** de waarde **Iterator** in.
+3. Voer bij **Naam** de waarde **Iterator** in.
 
-4. Voer als **Description** de tekst **"Iterator voor het vernieuwen van de dataflow. Er worden maximaal 3 pogingen gedaan"** in.
+4. Voer bij **Beschrijving** de tekst **"Iterator voor het vernieuwen van de dataflow. Er worden maximaal 3 pogingen uitgevoerd"** in.
 
     ![](../media/Lab-5/image30.png)
 
-5. Selecteer in het onderste deelvenster **Settings (1)**.
+5. Selecteer in het onderste deelvenster **Instellingen (1)**.
 
-6. Selecteer het **tekstvak Expression (2)**. We moeten een expressie invoeren in dit tekstvak die als true of false wordt geëvalueerd. De Until-activiteit blijft herhalen zolang deze expressie als false wordt geëvalueerd. Zodra de expressie als true wordt geëvalueerd, stopt de Until-activiteit met herhalen en gaat verder naar de volgende activiteit.
+6. Selecteer het tekstvak **Expressie (2)**. We moeten een expressie invoeren in dit tekstvak die wordt geëvalueerd als **waar** of **onwaar**. De activiteit **Until** blijft herhalen zolang deze expressie als **onwaar** wordt geëvalueerd. Zodra de expressie als **waar** wordt geëvalueerd, stopt de activiteit **Until** met herhalen en gaat deze verder naar de volgende activiteit.
 
 7. Selecteer de koppeling **Add dynamic content (3)** die onder het tekstvak verschijnt.
 
@@ -336,77 +310,65 @@ Laten we ons scenario iets complexer maken. We hebben geconstateerd dat als de g
 
 8. Het dialoogvenster **Pipeline expression builder** wordt geopend. In de onderste helft van het dialoogvenster ziet u een menu:
 
-    1. **Parameters:** Waarden die aan de pipeline worden doorgegeven. Bijvoorbeeld een waarde van de ene pipeline die aan een andere pipeline wordt doorgegeven. Deze waarden kunnen in elke expressie worden gebruikt, maar kunnen niet worden gewijzigd tijdens de pipeline-uitvoering.
+    1. **Parameters:** Waarden die aan de pipeline worden doorgegeven. Bijvoorbeeld een waarde van de ene pipeline die aan een andere pipeline wordt doorgegeven. Deze waarden kunnen in elke expressie worden gebruikt, maar kunnen niet worden gewijzigd tijdens de uitvoering van de pipeline.
 
-    2. **System variables:** Kunnen worden gebruikt in expressies bij het definiëren van entiteiten binnen een van de services. Bijvoorbeeld pipeline-id, pipeline-naam, triggernaam, enzovoort.
+    2. **Systeemvariabelen:** Kunnen worden gebruikt in expressies bij het definiëren van entiteiten binnen een van de services. Bijvoorbeeld pipeline-id, pipelinenaam, triggernaam, enzovoort.
 
-    3. **Trigger parameters:** Parameters die de pipeline hebben geactiveerd. Bijvoorbeeld bestandsnaam of mappad.
+    3. **Triggerparameters:** Parameters die de pipeline hebben geactiveerd, zoals een bestandsnaam of maplocatie.
 
-    4. **Functions:** U kunt functies aanroepen binnen expressies. Functies zijn ingedeeld in de categorieën Collection, Conversion, Date, Logical, Math en String. Zo is concat een String-functie en add een Math-functie.
+    4. **Functies:** U kunt functies gebruiken binnen expressies. Functies zijn onderverdeeld in de categorieën Verzameling, Conversie, Datum, Logisch, Wiskunde en Tekenreeks. Bijvoorbeeld: **concat** is een tekenreeksfunctie en **add** is een wiskundefunctie.
 
-    5. **Variables:** Pipeline-variabelen zijn waarden die tijdens een pipeline-uitvoering kunnen worden ingesteld en gewijzigd. In tegenstelling tot pipeline-parameters, die op pipeline-niveau worden gedefinieerd en niet kunnen worden gewijzigd tijdens een pipeline-uitvoering, kunnen pipeline-variabelen worden ingesteld en gewijzigd binnen een pipeline via een Set variable-activiteit. We gaan de Set variable-activiteit binnenkort gebruiken.
+    5. **Variabelen:** Pipeline-variabelen zijn waarden die tijdens de uitvoering van een pipeline kunnen worden ingesteld en gewijzigd. In tegenstelling tot pipelineparameters, die op pipeline-niveau worden gedefinieerd en niet kunnen worden gewijzigd tijdens de uitvoering van een pipeline, kunnen pipelinevariabelen worden aangepast met behulp van een activiteit **Variabele instellen**. We zullen deze activiteit binnenkort gebruiken.
 
-    6. **Library variables:** Library Variables gebruiken variabelen die zijn gedefinieerd in de **Variable Library Fabric Item**. Deze variabelen bieden een gecentraliseerde manier om configuraties te beheren over werkruimten heen ter ondersteuning van CI/CD-workflows. Ze kunnen worden gebruikt in combinatie met pipelines, notebooks, Lakehouse shortcuts en meer.
+    6. **Bibliotheekvariabelen:** Bibliotheekvariabelen gebruiken variabelen die zijn gedefinieerd in het Fabric-item **Variable Library**. Deze variabelen bieden een centrale manier om configuraties tussen werkruimten te beheren ter ondersteuning van CI/CD-workflows. Ze kunnen worden gebruikt in combinatie met pipelines, notebooks, Lakehouse-shortcuts en meer.
 
         ![](../media/Lab-5/image32.png)
 
-9. Klik op **Functions** in het menu.
+9. Klik in het menu op **Functies**.
 
-10. Selecteer in de sectie **Logical Functions** de functie **or**. U ziet dat **@or()** wordt toegevoegd aan het tekstvak voor de dynamische expressie. De **or**-functie heeft twee parameters nodig; we werken nu aan de eerste parameter.
+10. Selecteer in de sectie **Logische functies** de functie **or**. U ziet dat **@or()** wordt toegevoegd aan het tekstvak voor de dynamische expressie. De functie **or** vereist twee parameters; we werken nu aan de eerste parameter.
 
     ![](../media/Lab-5/image33.png)
 
+11. Plaats de cursor **tussen de haakjes** van de functie **@or**.
 
-11. Plaats de cursor **tussen de haakjes** van de **@or**-functie.
+12. Selecteer in de sectie **Logische functies** de functie **equals**. U ziet dat deze wordt toegevoegd aan het tekstvak voor de dynamische expressie.
 
-
-12. Selecteer in de sectie **Logical Functions** de functie **equals**. U ziet dat deze wordt toegevoegd aan het tekstvak voor de dynamische expressie.
-
-    >**Opmerking:** Uw functie zou er als volgt uit moeten zien: **@or(equals())**. De equals-functie heeft ook twee parameters nodig. We controleren of de variabele varCounter gelijk is aan 3.
+    >**Opmerking:** Uw functie zou er nu als volgt uit moeten zien: **@or(equals())**. De functie **equals** vereist ook twee parameters. We gaan controleren of de variabele **varCounter** gelijk is aan **3**.
 
     ![](../media/Lab-5/image34.png)
 
+13. Plaats nu de cursor **tussen de haakjes** van de functie **@equals** om de parameters toe te voegen.
 
-13. Plaats nu de cursor **tussen de haakjes** van de **@equals**-functie om de parameters toe te voegen.
-
-
-14. Selecteer in het onderste menu **Variables**.
-
+14. Selecteer in het onderste menu **Variabelen**.
 
 15. Selecteer de variabele **varCounter** als eerste parameter.
 
+16. Voer **3** in als tweede parameter van de functie **equals**. Zoals weergegeven in de onderstaande afbeelding zou uw expressie er als volgt uit moeten zien:
 
-16. Voer **3** in als tweede parameter van de equals-functie. Zoals in de onderstaande schermafbeelding ziet uw expressie er als volgt uit: **@or(equals(variables('varCounter'),3))**
+    **@or(equals(variables('varCounter'),3))**
 
     ![](../media/Lab-5/image35.png)
 
-
-17. We moeten de tweede parameter aan de **or**-functie toevoegen. **Voeg een komma toe** tussen de twee afsluitende haakjes. Typ deze keer de functienaam. Begin met typen **equ** en er verschijnt een vervolgkeuzelijst met beschikbare functies (dit heet IntelliSense). Selecteer de functie **equals**.
+17. We moeten de tweede parameter toevoegen aan de functie **or**. **Voeg een komma toe** tussen de twee afsluitende haakjes. Typ deze keer de functienaam handmatig. Begin met typen **equ**; er verschijnt een vervolgkeuzelijst met beschikbare functies (IntelliSense). Selecteer de functie **equals**.
 
     ![](../media/Lab-5/image36.png)
 
-
-18. De eerste parameter van de equals-functie is een variabele. Plaats **de cursor voor de komma**.
-
+18. De eerste parameter van de functie **equals** is een variabele. Plaats de cursor **vóór de komma**.
 
 19. Begin met typen **variables(**
 
+20. Selecteer met behulp van IntelliSense de optie **variables('varIsSuccess')**.
 
-20. Selecteer met behulp van IntelliSense de optie **variables('varIsSuccess')**
+21. Voer na de komma de tweede parameter in. Begin opnieuw met typen **variables(**
 
-
-21. Voer na de komma de tweede parameter in. Begin met typen **variables(**
-
-
-22. Selecteer met behulp van IntelliSense de optie **variables('varSuccess')**. Hier vergelijken we de waarde van varIsSuccess met de waarde van varSuccess. (varSuccess heeft als standaardwaarde Yes.)
+22. Selecteer met behulp van IntelliSense de optie **variables('varSuccess')**. Hier vergelijken we de waarde van **varIsSuccess** met de waarde van **varSuccess**. (**varSuccess** heeft standaard de waarde **Yes**.)
 
     ![](../media/Lab-5/image37.png)
-
 
 23. Uw expressie zou er als volgt uit moeten zien:
 
     **@or(equals(variables('varCounter'),3),equals(variables('varIsSuccess'), variables('varSuccess')))**
-
 
 24. Selecteer **OK**.
 
@@ -414,187 +376,174 @@ Laten we ons scenario iets complexer maken. We hebben geconstateerd dat als de g
 
 ## Taak 8: Dataflow-activiteit configureren
 
-
-1. U wordt teruggeleid naar het ontwerpscherm. Selecteer de **Until-activiteit** en kies in het **onderste deelvenster** de optie **Activities**. We gaan nu de activiteiten toevoegen die moeten worden uitgevoerd.
-
+1. U wordt teruggeleid naar het ontwerpscherm. Selecteer de activiteit **Until** en kies in het **onderste deelvenster** de optie **Activiteiten**. We gaan nu de activiteiten toevoegen die moeten worden uitgevoerd.
 
 2. Selecteer het **bewerkingspictogram** in de eerste rij. U wordt doorgestuurd naar een leeg iterator-ontwerpscherm.
 
     ![](../media/Lab-5/image39.png)
 
+3. Selecteer in het bovenste menu **Activiteiten -> Gegevensstroom**. De activiteit **Dataflow** wordt toegevoegd aan het ontwerpvenster.
 
-3. Selecteer in het bovenste menu **Activities -> Dataflow**. De Dataflow-activiteit wordt toegevoegd aan het ontwerpdeelvenster.
+4. Terwijl de activiteit **Dataflow** geselecteerd is, selecteert u in het onderste deelvenster de optie **Algemeen**. Laten we de activiteit een naam en beschrijving geven.
 
+5. Voer in het veld **Naam** de waarde **dfactivity_People_SharePoint** in.
 
-4. Selecteer met de **Dataflow-activiteit geselecteerd** in het onderste deelvenster de optie **General**. Laten we de activiteit een naam en beschrijving geven.
-
-
-5. Voer in het veld **Name** de waarde **dfactivity_People_SharePoint** in.
-
-
-6. Voer in het veld **Description** de tekst **"Dataflow-activiteit voor het vernieuwen van de dataflow df_People_SharePoint"** in.
+6. Voer in het veld **Beschrijving** de tekst **"Dataflow-activiteit voor het vernieuwen van de dataflow df_People_SharePoint"** in.
 
     ![](../media/Lab-5/image40.png)
 
+7. Selecteer in het onderste deelvenster **Instellingen**.
 
-7. Selecteer **Settings** in het onderste deelvenster.
+8. Zorg ervoor dat **Werkruimte** is ingesteld op uw werkruimte **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
-
-8. Zorg ervoor dat **Workspace** is ingesteld op uw werkruimte, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
-
-
-9. Selecteer in de **Dataflow-vervolgkeuzelijst** de optie **df_People_SharePoint**.
+9. Selecteer in de vervolgkeuzelijst **Dataflow** de optie **df_People_SharePoint**.
 
     ![](../media/Lab-5/image41.png)
 
 ## Taak 9: 1<sup>e</sup> Set variable-activiteit configureren
 
-We hebben de Dataflow-activiteit geconfigureerd zoals we eerder in het lab hebben gedaan. Nu voegen we nieuwe logica toe. Als de dataflow-vernieuwing is geslaagd, moeten we de Until-iterator verlaten. Ter herinnering: een van de voorwaarden om de iterator te verlaten is het instellen van de waarde van de variabele varIsSuccess op Yes.
+We hebben de **Dataflow-activiteit** geconfigureerd zoals eerder in het lab. Nu gaan we nieuwe logica toevoegen. Als de vernieuwing van de dataflow succesvol is, moeten we de iterator **Until** verlaten. Ter herinnering: één van de voorwaarden om de iterator te verlaten, is het instellen van de waarde van de variabele **varIsSuccess** op **Yes**.
 
-1. Selecteer in het bovenste menu **Activities -> Set variable**. De Set variable-activiteit wordt toegevoegd aan het ontwerpcanvas.
+1. Selecteer in het bovenste menu **Activiteiten -> Variabele instellen**. De activiteit **Variabele instellen** wordt toegevoegd aan het ontwerpvenster.
 
-2. Selecteer met de **Set variable-activiteit** geselecteerd in het onderste deelvenster de optie **General**. Laten we de activiteit een naam en beschrijving geven.
+2. Terwijl de activiteit **Variabele instellen** geselecteerd is, selecteert u in het onderste deelvenster de optie **Algemeen**. Laten we de activiteit een naam en beschrijving geven.
 
-3. Voer in het veld **Name** de waarde **set_varIsSuccess** in.
+3. Voer in het veld **Naam** de waarde **set_varIsSuccess** in.
 
-4. Voer in het veld **Description** de tekst **"Variabele varIsSuccess instellen op Yes"** in.
+4. Voer in het veld **Beschrijving** de tekst **"Variabele varIsSuccess instellen op Yes"** in.
 
-    >**Opmerking:** Beweeg de muisaanwijzer over de **Dataflow-activiteit**. Aan de rechterkant van het activiteitsvak ziet u vier pictogrammen. Deze kunnen worden gebruikt om verbinding te maken met de volgende activiteit op basis van het resultaat van de activiteit:
+    >**Opmerking:** Beweeg de muisaanwijzer over de activiteit **Dataflow**. Aan de rechterkant van het activiteitvak ziet u vier pictogrammen. Deze kunnen worden gebruikt om verbinding te maken met de volgende activiteit op basis van het resultaat van de activiteit:
 
-    1. Het **grijze gebogen pijl**-pictogram wordt gebruikt bij het overslaan van de activiteit.
+    1. Het pictogram met de **grijze gebogen pijl** wordt gebruikt wanneer de activiteit wordt overgeslagen.
+    
+    2. Het pictogram met het **groene vinkje** wordt gebruikt wanneer de activiteit succesvol wordt uitgevoerd.
+    
+    3. Het pictogram met het **rode kruis** wordt gebruikt wanneer de activiteit mislukt.
+    
+    4. Het pictogram met de **blauwe rechte pijl** wordt gebruikt wanneer de activiteit wordt voltooid.
 
-    2. Het **groene vinkje**-pictogram wordt gebruikt bij het slagen van de activiteit.
-
-    3. Het **rode kruis**-pictogram wordt gebruikt bij het mislukken van de activiteit.
-
-    4. Het **blauwe rechte pijl**-pictogram wordt gebruikt bij de voltooiing van de activiteit.
-
-5. Klik op het **groene vinkje** van de Dataflow-activiteit dfactivity_People_SharePoint en sleep dit naar de nieuwe **Set variable-activiteit set_varIsSuccess**. Zo wordt de Set variable-activiteit uitgevoerd als de dataflow-vernieuwing is geslaagd.
+5. Klik op het **groene vinkje** van de activiteit **Dataflow dfactivity_People_SharePoint** en sleep dit naar de nieuwe activiteit **Variabele instellen set_varIsSuccess**. Hierdoor wordt de activiteit **Variabele instellen** uitgevoerd wanneer de vernieuwing van de dataflow succesvol is.
 
     ![](../media/Lab-5/image42.png)
 
-6. Selecteer met de **Set variable-activiteit** geselecteerd de optie **Settings** in het onderste menu.
+6. Terwijl de activiteit **Variabele instellen** geselecteerd is, selecteert u in het onderste menu de optie **Instellingen**.
 
-7. Zorg ervoor dat in het onderste deelvenster **Variable type** is ingesteld op **Pipeline variable**.
+7. Zorg ervoor dat in het onderste deelvenster **Variabeletype** is ingesteld op **Pipelinevariabele**.
 
-8. Selecteer in het veld **Name** de waarde **varIsSuccess**. Dit is de variabele waarvan we de waarde gaan instellen.
+8. Selecteer in het veld **Naam** de waarde **varIsSuccess**. Dit is de variabele waarvan we de waarde gaan instellen.
 
-9. Selecteer in het veld **Value** het **tekstvak**. Selecteer de koppeling **Add dynamic content**.
+9. Selecteer in het veld **Waarde** het **tekstvak**. Selecteer vervolgens de koppeling **Dynamische inhoud toevoegen**.
 
     ![](../media/Lab-5/image43.png)
 
-10. Het dialoogvenster Pipeline expression builder wordt geopend. Selecteer het tekstgebied **Add dynamic content below using any combination of expressions, functions, and system variables (1)**.
+10. Het dialoogvenster **Pipeline expression builder** wordt geopend. Selecteer het tekstgebied **Dynamische inhoud hieronder toevoegen met een combinatie van expressies, functies en systeemvariabelen (1)**.
 
-11. Klik in het onderste menu op het **beletselteken (...) (2)** en selecteer vervolgens **Variables (3) -> varSuccess (4)**. U ziet dat **@variables('varSuccess')** wordt ingevoerd in het tekstgebied. Ter herinnering: bij het aanmaken van de variabelen hebben we de waarde van de variabele varSuccess vooraf ingesteld op Yes. We kennen dus de waarde Yes toe aan de variabele varIsSuccess.
+11. Klik in het onderste menu op de **drie puntjes (...) (2)** en selecteer vervolgens **Variabelen (3) -> varSuccess (4)**. U ziet dat **@variables('varSuccess')** wordt ingevoerd in het tekstgebied. Ter herinnering: tijdens het aanmaken van de variabelen hebben we de waarde van de variabele **varSuccess** vooraf ingesteld op **Yes**. Hiermee kennen we dus de waarde **Yes** toe aan de variabele **varIsSuccess**.
 
-12. Selecteer **OK**. U wordt teruggeleid naar het **iterator-ontwerpdeelvenster**.
+12. Selecteer **OK**. U wordt teruggeleid naar het **iterator-ontwerpvenster**.
 
     ![](../media/Lab-5/image44.png)
 
-    Nu moeten we de teller instellen als de dataflow-activiteit mislukt. In een Pipeline kunnen we een variabele niet naar zichzelf verwijzen. Dit betekent dat we de tellervariabele varCounter niet kunnen verhogen door er één bij op te tellen (varCounter = varCounter + 1). Daarom maken we gebruik van de variabele varTempCounter.
+    Nu moeten we de teller instellen wanneer de activiteit **Dataflow** mislukt. In een **Pipeline** kunnen we een variabele niet naar zichzelf laten verwijzen. Dit betekent dat we de tellervariabele **varCounter** niet kunnen verhogen met één (**varCounter = varCounter + 1**). Daarom gebruiken we de variabele **varTempCounter**.
 
 ## Taak 10: 2<sup>e</sup> Set variable-activiteit configureren
 
-1. Selecteer in het bovenste menu **Activities -> Set variable**. De Set variable-activiteit wordt toegevoegd aan het ontwerpcanvas.
+1. Selecteer in het bovenste menu **Activiteiten -> Variabele instellen**. De activiteit **Variabele instellen** wordt toegevoegd aan het ontwerpvenster.
 
-2. Selecteer met de **Set variable-activiteit** geselecteerd in het onderste deelvenster de optie **General**. Laten we de activiteit een naam en beschrijving geven.
+2. Terwijl de activiteit **Variabele instellen** geselecteerd is, selecteert u in het onderste deelvenster de optie **Algemeen**. Laten we de activiteit een naam en beschrijving geven.
 
-3. Voer in het veld **Name** de waarde **set_varTempCounter** in.
+3. Voer in het veld **Naam** de waarde **set_varTempCounter** in.
 
-4. Voer in het veld **Description** de tekst **"Variabele varTempCounter verhogen"** in.
+4. Voer in het veld **Beschrijving** de tekst **"Variabele varTempCounter verhogen"** in.
 
-5. Klik op het **rode kruis** van de Dataflow-activiteit en sleep dit naar de nieuwe Set variable-activiteit. Zo wordt deze Set variable-activiteit uitgevoerd als de dataflow-vernieuwing mislukt.
+5. Klik op het **rode kruis** van de activiteit **Dataflow** en sleep dit naar de nieuwe activiteit **Variabele instellen**. Hierdoor wordt deze activiteit uitgevoerd wanneer de vernieuwing van de dataflow mislukt.
 
     ![](../media/Lab-5/image45.png)
 
-6. Selecteer met de **Set variable-activiteit** geselecteerd de optie **Settings** in het onderste menu.
+6. Terwijl de activiteit **Variabele instellen** geselecteerd is, selecteert u in het onderste menu de optie **Instellingen**.
 
-7. Zorg ervoor dat in het onderste deelvenster **Variable type** is ingesteld op **Pipeline variable**.
+7. Zorg ervoor dat in het onderste deelvenster **Variabeletype** is ingesteld op **Pipelinevariabele**.
 
-8. Selecteer in het veld **Name** de waarde **varTempCounter**. Dit is de variabele waarvan we de waarde gaan instellen.
+8. Selecteer in het veld **Naam** de waarde **varTempCounter**. Dit is de variabele waarvan we de waarde gaan instellen.
 
-9. Selecteer in het veld **Value** het **tekstvak**. Selecteer de koppeling **Add dynamic content**.
+9. Selecteer in het veld **Waarde** het **tekstvak**. Selecteer vervolgens de koppeling **Dynamische inhoud toevoegen**.
 
-10. Het dialoogvenster Pipeline expression builder wordt geopend. Voer **@add(variables('varCounter'),1)** in.
+10. Het dialoogvenster **Pipeline expression builder** wordt geopend. Voer de volgende expressie in:
 
-    >**Opmerking:** U kunt deze expressie vrij typen, via het menu de functies selecteren, of kopiëren en plakken. Deze functie stelt de waarde van de variabele varTempCounter in op de waarde van de variabele varCounter plus één (varTempCounter = varCounter + 1).
+    **@add(variables('varCounter'),1)**
+
+    >**Opmerking:** U kunt deze expressie handmatig typen, functies selecteren via het menu of de expressie kopiëren en plakken. Deze functie stelt de waarde van de variabele **varTempCounter** in op de waarde van de variabele **varCounter** plus één (**varTempCounter = varCounter + 1**).
 
     ![](../media/Lab-5/image46.png)
 
-    Nu moeten we de waarde van de variabele varCounter instellen op de waarde van varTempCounter.
+    Nu moeten we de waarde van de variabele **varCounter** instellen op de waarde van **varTempCounter**.
 
 ## Taak 11: 3<sup>e</sup> Set variable-activiteit configureren
 
-1. Selecteer in het bovenste menu **Activities -> Set variable**. De Set variable-activiteit wordt toegevoegd aan het ontwerpcanvas.
+1. Selecteer in het bovenste menu **Activiteiten -> Variabele instellen**. De activiteit **Variabele instellen** wordt toegevoegd aan het ontwerpvenster.
 
-2. Selecteer met de **Set variable-activiteit** geselecteerd in het onderste deelvenster de optie **General**. Laten we de activiteit een naam en beschrijving geven.
+2. Terwijl de activiteit **Variabele instellen** geselecteerd is, selecteert u in het onderste deelvenster de optie **Algemeen**. Laten we de activiteit een naam en beschrijving geven.
 
-3. Voer in het veld **Name** de waarde **set_varCounter** in.
+3. Voer in het veld **Naam** de waarde **set_varCounter** in.
 
-4. Voer in het veld **Description** de tekst **"Variabele varCounter verhogen"** in.
+4. Voer in het veld **Beschrijving** de tekst **"Variabele varCounter verhogen"** in.
 
-5. Klik op het **groene vinkje** van de Set variable-activiteit set_varTempCounter en sleep dit naar de nieuwe **Set variable-activiteit set_varCounter**.
+5. Klik op het **groene vinkje** van de activiteit **Variabele instellen set_varTempCounter** en sleep dit naar de nieuwe activiteit **Variabele instellen set_varCounter**.
 
     ![](../media/Lab-5/image47.png)
 
-6. Selecteer met de **Set variable-activiteit set_varCounter** geselecteerd de optie **Settings** in het onderste menu.
+6. Terwijl de activiteit **Variabele instellen set_varCounter** geselecteerd is, selecteert u in het onderste menu de optie **Instellingen**.
 
-7. Zorg ervoor dat in het onderste deelvenster **Variable type** is ingesteld op **Pipeline variable**.
+7. Zorg ervoor dat in het onderste deelvenster **Variabeletype** is ingesteld op **Pipelinevariabele**.
 
-8. Selecteer in het veld **Name** de waarde **varCounter**. Dit is de variabele waarvan we de waarde gaan instellen.
+8. Selecteer in het veld **Naam** de waarde **varCounter**. Dit is de variabele waarvan we de waarde gaan instellen.
 
+9. Selecteer in het veld **Waarde** het **tekstvak**. Selecteer vervolgens de koppeling **Dynamische inhoud toevoegen**.
 
-9. Selecteer in het veld **Value** het **tekstvak**. Selecteer de koppeling **Add dynamic content**.
+10. Het dialoogvenster **Pipeline expression builder** wordt geopend. Voer de volgende expressie in:
 
+    **@variables('varTempCounter')**
 
-10. Het dialoogvenster Pipeline expression builder wordt geopend. Voer **@variables('varTempCounter')** in. U kunt deze expressie vrij typen, via het menu de functies selecteren, of kopiëren en plakken.
+    U kunt deze expressie handmatig typen, functies selecteren via het menu of de expressie kopiëren en plakken.
 
-11. Klik op **OK**.
+11. Selecteer **OK**.
 
     ![](../media/Lab-5/image48.png)
 
-    >**Opmerking:** Deze functie stelt de waarde van de variabele varCounter in op de waarde van de variabele varTempCounter (varCounter = varTempCounter). Aan het einde van elke iteratie hebben zowel varCounter als varTempCounter dezelfde waarde.
+    >**Opmerking:** Deze functie stelt de waarde van de variabele **varCounter** in op de waarde van de variabele **varTempCounter** (**varCounter = varTempCounter**). Aan het einde van elke iteratie hebben zowel **varCounter** als **varTempCounter** dezelfde waarde.
 
 ## Taak 12: Wait-activiteit configureren
 
-Vervolgens moeten we 5 minuten/300 seconden wachten als de dataflow-vernieuwing de eerste keer mislukt voordat we het opnieuw proberen. Als de dataflow-vernieuwing de tweede keer mislukt, moeten we 15 minuten/900 seconden wachten en het opnieuw proberen. We gaan de Wait-activiteit en de variabele varWaitTime gebruiken om de wachttijd in te stellen.
+Vervolgens moeten we 5 minuten/300 seconden wachten als de vernieuwing van de dataflow de eerste keer mislukt voordat we het opnieuw proberen. Als de vernieuwing van de dataflow de tweede keer mislukt, moeten we 15 minuten/900 seconden wachten voordat we opnieuw proberen. We gaan de activiteit **Wachten** en de variabele **varWaitTime** gebruiken om de wachttijd in te stellen.
 
+1. Selecteer in het bovenste menu **Activiteiten -> drie puntjes (…) -> Wachten**. De activiteit **Wachten** wordt toegevoegd aan het ontwerpvenster.
 
-1. Selecteer in het bovenste menu **Activities -> ellipsis (…) -> Wait**. De Wait-activiteit wordt toegevoegd aan het ontwerpcanvas.
+2. Terwijl de activiteit **Wachten** geselecteerd is, selecteert u in het onderste deelvenster de optie **Algemeen**. Laten we de activiteit een naam en beschrijving geven.
 
+3. Voer in het veld **Naam** de waarde **wait_onFailure** in.
 
-2. Selecteer met de **Wait-activiteit** geselecteerd in het onderste deelvenster de optie **General**. Laten we de activiteit een naam en beschrijving geven.
+4. Voer in het veld **Beschrijving** de tekst **"300 seconden wachten bij de 2e poging en 900 seconden bij de 3e poging"** in.
 
-
-3. Voer in het veld **Name** de waarde **wait_onFailure** in.
-
-
-4. Voer in het veld **Description** de tekst **"300 seconden wachten bij de 2e poging en 900 seconden bij de 3e poging"** in.
-
-
-5. Klik op het **groene vinkje** van de Set variable-activiteit set_varCounter en sleep dit naar de nieuwe **Wait-activiteit wait_onFailure**.
+5. Klik op het **groene vinkje** van de activiteit **Variabele instellen set_varCounter** en sleep dit naar de nieuwe activiteit **Wachten wait_onFailure**.
 
     ![](../media/Lab-5/image49.png)
 
+6. Terwijl de activiteit **Wachten** geselecteerd is, selecteert u in het onderste menu de optie **Instellingen**.
 
-6. Selecteer met de **Wait-activiteit** geselecteerd de optie **Settings** in het onderste menu.
+7. Selecteer in het veld **Wachttijd in seconden** het **tekstvak** en kies vervolgens de koppeling **Dynamische inhoud toevoegen**.
 
-
-7. Selecteer in het veld **Wait time in seconds** het **tekstvak** en kies de koppeling **Add dynamic content**.
-
-
-8. Het dialoogvenster Pipeline expression builder wordt geopend. Voer het volgende in:
-
-   ```
-   @if(
-       greater(variables('varCounter'), 1),
-       if(equals(variables('varCounter'), 2),
-           mul(variables('varWaitTime'),15 ),
-           mul(variables('varWaitTime'), 0)
-       ),
-       mul(variables('varWaitTime'),5 )
-   )
-   ```
+8. Het dialoogvenster **Pipeline expression builder** wordt geopend. Voer de volgende expressie in:
+    
+    ```
+    @if(
+        greater(variables('varCounter'), 1),
+        if(equals(variables('varCounter'), 2),
+            mul(variables('varWaitTime'),15 ),
+            mul(variables('varWaitTime'), 0)
+        ),
+        mul(variables('varWaitTime'),5 )
+    )
+    ```
 
     U kunt deze expressie vrij typen, via het menu de functies selecteren, of kopiëren en plakken.
 
@@ -612,54 +561,53 @@ Vervolgens moeten we 5 minuten/300 seconden wachten als de dataflow-vernieuwing 
 
 9. Selecteer **OK**.
 
-    **Controlepunt:** Uw **Until**-iterator zou er als volgt uit moeten zien als in de onderstaande schermafbeelding.
+    **Controlepunt:** Uw iterator **Until** zou er nu uit moeten zien zoals in de onderstaande schermafbeelding.
 
     ![](../media/Lab-5/image51.png)
 
-10. Selecteer linksboven in het ontwerpcanvas **pl_Refresh_People_Sharepoint_Option2** of **Main Canvas** om de Until-iterator te verlaten.
+10. Selecteer linksboven in het ontwerpvenster **pl_Refresh_People_Sharepoint_Option2** of **Hoofdcanvas** om de iterator **Until** te verlaten.
 
     ![](../media/Lab-5/image52.png)
 
-
-11. We zijn klaar met het aanmaken van de pipeline. Selecteer in het bovenste menu **Home -> Save**-pictogram om de pipeline op te slaan.
+11. We zijn klaar met het maken van de pipeline. Selecteer in het bovenste menu **Start -> Opslaan** om de pipeline op te slaan.
 
     ![](../media/Lab-5/image53.png)
 
 ## Taak 13: Geplande vernieuwing configureren voor Pipeline
 
-1. We kunnen de pipeline testen door **Home -> Run** te selecteren.
-         
-    >**Opmerking:** Het kan enkele minuten duren voordat de pipeline een vernieuwing heeft voltooid. Dit is een trainingsomgeving, dus het bestand in SharePoint is altijd beschikbaar. Uw pipeline zal daarom nooit mislukken.
+1. We kunnen de pipeline testen door **Start -> Uitvoeren** te selecteren.
 
-2. We kunnen de pipeline instellen om op een schema te worden uitgevoerd. Selecteer in het bovenste menu **Home -> Schedule**. Het dialoogvenster Schedule wordt geopend.
+    >**Opmerking:** Het kan enkele minuten duren voordat de pipeline een vernieuwing voltooit. Dit is een trainingsomgeving, waardoor het bestand in **SharePoint** altijd beschikbaar is. Daarom zal uw pipeline nooit mislukken.
 
-3. Selecteer de knop **+ Add Schedule** onder **Scheduled run**.
+2. We kunnen de pipeline configureren om volgens een planning uit te voeren. Selecteer in het bovenste menu **Start -> Planning**. Het dialoogvenster **Planning** wordt geopend.
+
+3. Selecteer de knop **+ Planning toevoegen** onder **Geplande uitvoering**.
 
     ![](../media/Lab-5/image54.png)
 
-4. Stel de **vervolgkeuzelijst Repeat** in op **Daily**.
+4. Stel de vervolgkeuzelijst **Herhalen** in op **Dagelijks**.
 
-5. Stel **Time** in op **9 AM**.
+5. Stel **Tijd** in op **09:00 AM**.
 
-6. Stel **Start date and time** in op **Vandaag**.
+6. Stel **Startdatum en -tijd** in op **Vandaag**.
 
-7. Stel **End date and time** in op een **toekomstige datum**.
+7. Stel **Einddatum en -tijd** in op een **toekomstige datum**.
 
 8. Stel uw **tijdzone** in.
 
-    >**Opmerking:** Omdat dit een labomgeving is, kunt u de tijdzone instellen op uw voorkeurstijdzone. In een werkelijk scenario stelt u de tijdzone in op basis van de locatie van uw gegevensbron.
+    >**Opmerking:** Omdat dit een labomgeving is, kunt u de tijdzone naar wens instellen. In een praktijkscenario stelt u de tijdzone in op basis van de locatie van uw gegevensbron.
 
-9. Selecteer **Save**.
+9. Selecteer **Opslaan**.
 
-10. Selecteer het **X**-teken rechtsboven in het dialoogvenster om het te sluiten.
+10. Selecteer het pictogram **X** rechtsboven in het dialoogvenster om het te sluiten.
 
     ![](../media/Lab-5/image55.png)
 
-11. Selecteer uw Fabric-werkruimte **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** in het linkerdeelvenster om naar de werkruimte te navigeren.
+11. Selecteer uw Fabric-werkruimte **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** in het linkerpaneel om terug te keren naar de werkruimte.
 
-    >**Opmerking:** In het Schedule-scherm is er geen optie om een melding te ontvangen bij slagen of mislukken (zoals bij Dataflow Schedule). Meldingen kunnen worden ingesteld door een activiteit aan de pipeline toe te voegen. We doen dit niet in dit lab, omdat dit een labomgeving is.
+    >**Opmerking:** In het scherm **Planning** is er geen optie om meldingen te ontvangen bij succes of mislukking (zoals bij **Dataflow-planning**). Meldingen kunnen worden ingesteld door een activiteit aan de pipeline toe te voegen. Dit behandelen we niet in dit lab, omdat dit een trainingsomgeving is.
 
-    We hebben vernieuwingsschema's ingesteld voor de verschillende gegevensbronnen. In het volgende lab maken we een semantisch model met relaties, metingen en andere modelleringshandelingen.
+    We hebben nu vernieuwingsschema's ingesteld voor de verschillende gegevensbronnen. In het volgende lab zullen we een **semantisch model** maken met relaties, metingen en andere modelleringsactiviteiten.
 
 # Referenties
 
