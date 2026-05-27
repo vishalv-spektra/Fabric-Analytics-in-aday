@@ -560,47 +560,47 @@ Laten we de Sales-weergave maken, die wordt gecreëerd door de tabellen InvoiceL
 
 ## Taak 5: Product-weergave maken met Visual Query
 
-Laten we de Product-weergave maken, die wordt gecreëerd door de tabellen **ProductItem**, **ProductItemGroup** en **ProductGroups** samen te voegen. Om het proces sneller te laten verlopen, gaan we code kopiëren naar de **Advanced Editor**.
+Laten we de **Product-weergave** maken, die wordt gecreëerd door de tabellen **ProductItem**, **ProductItemGroup** en **ProductGroups** samen te voegen. Om het proces sneller te laten verlopen, gaan we code kopiëren naar de **Geavanceerde editor**.
 
-1. Klik in het bovenste menu op de vervolgkeuzelijst naast **New SQL query (1)** en selecteer vervolgens **New visual query (2)**.
+1. Klik in het bovenste menu op de vervolgkeuzelijst naast **Nieuwe SQL-query (1)** en selecteer vervolgens **Nieuwe visuele query (2)**.
 
     ![](../media/Lab-3/image54.png)
 
-2. Vanuit de sectie **Explorer** moeten we tabellen toevoegen aan het Visual Query-paneel. Klik op de drie puntjes naast de tabel **ProductItem (1)** en selecteer **Insert into canvas (2)**.
+2. Vanuit de sectie **Verkenner** moeten we tabellen toevoegen aan het **Visual Query-paneel**. Klik op de drie puntjes naast de tabel **ProductItem (1)** en selecteer **Invoegen in canvas (2)**.
 
     ![](../media/Lab-3/image55.png)
 
 3. Herhaal dezelfde stappen voor de tabellen **ProductItemGroup** en **ProductGroups**.
 
-4. Selecteer in de Visual Query-editor **Open in popup** om de Power Query-editor te openen.
+4. Selecteer in de **Visual Query-editor** **Openen in pop-upvenster** om de **Power Query-editor** te openen.
 
     ![](../media/Lab-3/image56.png)
 
-5. Terwijl de query **ProductItem (1)** is geselecteerd, selecteert u in het lint **Home (2) -> Combine (3) -> vervolgkeuzelijst Merge queries (4) -> Merge queries as new (5)**. Het venster **Merge** wordt geopend.
+5. Terwijl de query **ProductItem (1)** geselecteerd is, selecteert u in het lint **Start (2) -> Combineren (3) -> vervolgkeuzelijst Query's samenvoegen (4) -> Query's samenvoegen als nieuwe query (5)**. Het venster **Query's samenvoegen** wordt geopend.
 
     ![](../media/Lab-3/image57.png)
 
-6. Selecteer bij **Left table for merge** de tabel **ProductItem**.
+6. Selecteer bij **Linkertabel voor samenvoegen** de tabel **ProductItem**.
 
-7. Selecteer bij **Right table for merge** de tabel **ProductItemGroup**.
+7. Selecteer bij **Rechtertabel voor samenvoegen** de tabel **ProductItemGroup**.
 
 8. Selecteer de kolommen **StockItemID** uit beide tabellen. We gaan deze kolom gebruiken voor de koppeling.
 
-9. Selecteer **Left outer** als **Join kind**.
+9. Selecteer **Linker buitenste (Left outer)** als **Type samenvoeging**.
 
-10. Selecteer **OK**. Er wordt een nieuwe query **Merge** aangemaakt.
+10. Selecteer **OK**. Er wordt een nieuwe query **Samenvoegen** aangemaakt.
 
     ![](../media/Lab-3/image58.png)
 
-11. Terwijl de query **Merge** geselecteerd is, selecteert u in het lint **Home -> Advanced editor**. Het venster **Advanced editor** wordt geopend.
+11. Terwijl de query **Samenvoegen** geselecteerd is, selecteert u in het lint **Start -> Geavanceerde editor**. Het venster **Geavanceerde editor** wordt geopend.
 
     ![](../media/Lab-3/image59.png)
 
-    >**Opmerking:** Als u de **Advanced Editor** niet kunt vinden, kunt u deze openen via **Home -> Query -> Advanced Editor**.
+    >**Opmerking:** Als u de **Geavanceerde editor** niet kunt vinden, kunt u deze openen via **Start -> Query -> Geavanceerde editor**.
 
-12. **Selecteer alle code** in de **Advanced editor** en **verwijder** deze.
+12. **Selecteer alle code** in de **Geavanceerde editor** en **verwijder** deze.
 
-13. **Plak** de onderstaande code in de **Advanced editor**.
+13. **Plak** de onderstaande code in de **Geavanceerde editor**.
 
     ```
     let
@@ -613,23 +613,23 @@ Laten we de Product-weergave maken, die wordt gecreëerd door de tabellen **Prod
        #"Choose columns"
     ```
 
-14. Selecteer **OK** om de Advanced Editor te sluiten. U wordt teruggeleid naar de **Power Query-editor**.
+14. Selecteer **OK** om de **Geavanceerde editor** te sluiten. U wordt teruggeleid naar de **Power Query-editor**.
 
     ![](../media/Lab-3/image60.png)
 
-15. Dubbelklik in het **Queries**-paneel aan de linkerkant op de query **Merge** om deze te hernoemen.
+15. Dubbelklik in het **Query's**-paneel aan de linkerkant op de query **Merge** om deze te hernoemen.
 
 16. **Wijzig de naam** van de query **Merge** naar **Product**.
 
-17. Klik met de rechtermuisknop op de query **Product** en selecteer **Enable load** om het laden van deze query in te schakelen.
+17. Klik met de rechtermuisknop op de query **Product** en selecteer **Laden inschakelen** om het laden van deze query in te schakelen.
 
-18. Selecteer **Save** om het Power Query-venster op te slaan en te sluiten. U wordt doorgestuurd naar **Visual Query**.
+18. Selecteer **Opslaan** om het **Power Query**-venster op te slaan en te sluiten. U wordt doorgestuurd naar **Visual Query**.
 
     ![](../media/Lab-3/image61.png)
 
-19. Selecteer in het menu van Visual Query **Save as view**. Het venster **Save as view** wordt geopend. Merk op dat de SQL-query beschikbaar is. U kunt deze bekijken indien gewenst.
+19. Selecteer in het menu van Visual Query **Opslaan als weergave**. Het venster **Opslaan als weergave** wordt geopend. Merk op dat de SQL-query beschikbaar is. U kunt deze bekijken indien gewenst.
 
-20. Voer **Product** in als **View name**.
+20. Voer **Product** in als **Naam van de weergave**.
 
 21. Selecteer **OK** om de weergave op te slaan.
 
@@ -637,13 +637,13 @@ Laten we de Product-weergave maken, die wordt gecreëerd door de tabellen **Prod
 
     U ontvangt een melding zodra de weergave is opgeslagen.
 
-22. Vouw in het **Explorer**-paneel (links) **Views** uit. U ziet nu de nieuw aangemaakte **Product**-weergave.
+22. Vouw in het **Verkenner**-paneel (links) **Weergaven** uit. U ziet nu de nieuw aangemaakte **Product-weergave**.
 
     ![](../media/Lab-3/image63.png)
 
-    We hebben de gegevens van de ADLS Gen2-gegevensbron getransformeerd. In dit lab hebben we geleerd hoe we Shortcuts kunnen maken en hebben we verschillende opties verkend voor het gebruik van Visual Query-weergaven om gegevens te transformeren.
+    We hebben de gegevens van de **ADLS Gen2-gegevensbron** getransformeerd. In dit lab hebben we geleerd hoe we **Shortcuts** kunnen maken en hebben we verschillende opties verkend voor het gebruik van **Visual Query-weergaven** om gegevens te transformeren.
 
-    In het volgende lab leren we hoe we **Dataflow Gen2** kunnen gebruiken en een **Shortcut** naar een ander Lakehouse kunnen maken.
+    In het volgende lab leren we hoe we **Dataflow Gen2** kunnen gebruiken en een **Shortcut** naar een ander **Lakehouse** kunnen maken.
 
 # Referenties
 
