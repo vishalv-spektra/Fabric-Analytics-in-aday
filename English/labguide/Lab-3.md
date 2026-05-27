@@ -152,7 +152,7 @@ Shortcuts are used to create a link to the target location. Shortcuts provide ac
 
 ## Task 2: Create Geo view using Visual Query
 
-1. We can access the Lakehouse using a SQL endpoint. This provides the ability to query the data and create views. On the **top right** of the screen, select **Anakyze data with (1) -> SQL analytics endpoint (2)**.
+1. We can access the Lakehouse using a SQL endpoint. This provides the ability to query the data and create views. On the **top right** of the screen, select **Analyze data with (1) -> SQL analytics endpoint (2)**.
 
     ![](../media/Lab-3/image13.png)
 
