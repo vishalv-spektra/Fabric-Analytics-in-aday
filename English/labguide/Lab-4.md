@@ -141,7 +141,7 @@ The connection is established, and you can view the data in the preview panel. F
 
 5. We want to create the table in the Lakehouse we created earlier. In the left panel, navigate to **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
-6. Select **lh_FAIAD**.
+6. Select **lh_FAIAD -> dbo**.
 
 7. Leave the table name as **People**.
 
@@ -292,7 +292,7 @@ Notice the five queries are pasted and now you have the Queries panel on the lef
 
 6. We want to create the table in the Lakehouse we created earlier. In the left panel, navigate to **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
-7. Select **lh_FAIAD**.
+7. Select **lh_FAIAD -> dbo**.
 
 8. Leave the table name as **Supplier**.
 
