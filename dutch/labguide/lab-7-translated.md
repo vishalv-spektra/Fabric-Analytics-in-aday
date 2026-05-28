@@ -54,45 +54,45 @@ Aan het einde van dit lab hebt u geleerd:
 
 Laten we beginnen met de optie om het rapport automatisch aan te maken. Later in het lab maken we het rapport opnieuw dat we hebben in Power BI.
 
-1. Navigeer terug naar de **Fabric workspace** die u heeft aangemaakt in Lab 2, met de naam **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
+1. Navigeer terug naar de **Fabric-workspace** die u heeft aangemaakt in Lab 2, met de naam **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
-2. Selecteer onderin het linkerdeelvenster het pictogram **Fabric experience selector**.
+2. Selecteer onderin het linkerdeelvenster het pictogram **Fabric-ervaringskiezer**.
 
     ![](../media/Lab-7/image6.png)
 
-3. Het dialoogvenster Fabric experience wordt geopend. Selecteer **Power BI**. U wordt doorgestuurd naar de **Power BI Home page**.
+3. Het dialoogvenster Fabric-ervaring wordt geopend. Selecteer **Power BI**. U wordt doorgestuurd naar de **Power BI-startpagina**.
 
     ![](../media/Lab-7/image7.png)
 
-4. Selecteer **+ New report** in het bovenste menu.
+4. Selecteer **+ Nieuw rapport** in het bovenste menu.
 
     ![](../media/Lab-7/image8.png)
 
-5. U wordt doorgestuurd naar het scherm **Build your first report**. Er zijn opties om een rapport te bouwen met Excel, CSV, gegevens handmatig in te voeren of een gepubliceerd semantic model te kiezen. We hebben in de vorige labs een semantic model aangemaakt, dus laten we dat gebruiken. Selecteer **Pick a published semantic model**.
+5. U wordt doorgestuurd naar het scherm **Uw eerste rapport bouwen**. Er zijn opties om een rapport te bouwen met Excel, CSV, gegevens handmatig in te voeren of een gepubliceerd semantisch model te kiezen. We hebben in de vorige labs een semantisch model aangemaakt, dus laten we dat gebruiken. Selecteer **Een gepubliceerd semantisch model kiezen**.
 
     ![](../media/Lab-7/image9.png)
 
 6. Wanneer de pagina wordt geopend, kiest u een dataset om in uw rapport te gebruiken. U ziet dat we meerdere opties hebben. **Selecteer sm_FAIAD**.
 
-    1. **sm_FAIAD:** Dit is het semantic model dat we hebben aangemaakt en dat we willen gebruiken om het rapport te bouwen.
+    1. **sm_FAIAD:** Dit is het semantische model dat we hebben aangemaakt en dat we willen gebruiken om het rapport te bouwen.
 
     2. **lh_FAIAD:** Dit is de Lakehouse waar we alle gegevens in hebben geladen.
 
     3. **Units by Supplier:** Dit is de dataset die we hebben aangemaakt met T-SQL.
 
-7. Klik op de **pijl naast de knop Auto-create report**. U ziet dat er twee opties zijn: Auto-create report en Create a blank report. Laten we het automatisch aanmaken uitproberen; selecteer **Auto-create report**.
+7. Klik op de **pijl naast de knop Rapport automatisch aanmaken**. U ziet dat er twee opties zijn: Rapport automatisch aanmaken en Een leeg rapport maken. Laten we het automatisch aanmaken uitproberen; selecteer **Automatisch rapport aanmaken**.
 
     ![](../media/Lab-7/image10.png)
 
-8. Power BI begint het rapport automatisch aan te maken. Wanneer het rapport klaar is, verschijnt er rechtsboven in het scherm een dialoogvenster. Selecteer **View report now, of het wordt automatisch geladen over enkele seconden**.
+8. Power BI begint het rapport automatisch aan te maken. Wanneer het rapport klaar is, verschijnt er rechtsboven in het scherm een dialoogvenster. Selecteer **Rapport nu weergeven**, of het wordt automatisch geladen over enkele seconden.
 
     ![](../media/Lab-7/image11.png)
 
-    **Controlepunt:** U beschikt nu over een rapport dat eruitziet zoals de onderstaande schermafbeelding. Er zijn een aantal KPI's en enkele trendvisuals. Dit is een goed startpunt als u een nieuw model analyseert en snel aan de slag wilt.
+    >**Controlepunt:** U beschikt nu over een rapport dat eruitziet zoals de onderstaande schermafbeelding. Er zijn een aantal KPI's en enkele trendvisuals. Dit is een goed startpunt als u een nieuw model analyseert en snel aan de slag wilt.
 
     >**Opmerking:** U ziet dat u in het bovenste menu de mogelijkheid heeft om het rapport te bewerken of sommige gegevens als tabellen te bekijken. U kunt deze opties vrijelijk verkennen.
 
-9. Laten we dit rapport opslaan. Selecteer in het bovenste menu **Save**.
+9. Laten we dit rapport opslaan. Selecteer in het bovenste menu **Opslaan**.
 
 10. Het dialoogvenster voor het opslaan van uw rapport wordt geopend. Geef het rapport de naam **rpt_Sales_Auto_Report**.
 
@@ -100,7 +100,7 @@ Laten we beginnen met de optie om het rapport automatisch aan te maken. Later in
 
 11. Zorg ervoor dat het rapport wordt opgeslagen in uw workspace, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
-12. Selecteer **Save**.
+12. Selecteer **Opslaan**.
 
     ![](../media/Lab-7/image12.png)
     
@@ -118,23 +118,19 @@ Laten we een nieuw rapport maken met een leeg canvas.
 
 1. Selecteer in het **linkerdeelvenster** de naam van uw workspace, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, om naar de workspace te navigeren.
 
-2. Selecteer in het bovenste menu **New item -> Report**. U wordt doorgestuurd naar de pagina voor het bouwen van uw eerste rapport.
+2. Selecteer in het bovenste menu **Nieuw item -> Rapport**. U wordt doorgestuurd naar de pagina voor het bouwen van uw eerste rapport.
 
     ![](../media/Lab-7/image14.png)
 
-
-3. Selecteer **Pick a published semantic model**, zodat we het model kunnen kiezen dat we hebben aangemaakt.
+3. Selecteer **Een gepubliceerd semantisch model kiezen**, zodat we het model kunnen kiezen dat we hebben aangemaakt.
 
     ![](../media/Lab-7/image9.png)
 
+4. Wanneer het dialoogvenster "Een semantisch model kiezen om in uw rapport te gebruiken" wordt geopend, selecteert u **sm_FAIAD**.
 
-4. Wanneer het dialoogvenster "Pick a semantic model to use in your report" wordt geopend, selecteert u **sm_FAIAD**.
-
-
-5. Klik op de **pijl naast de knop Auto-create report**. Selecteer **Create a blank report**. U wordt doorgestuurd naar een rapportpagina die lijkt op de rapportpagina van Power BI Desktop.
+5. Klik op de **pijl naast de knop Rapport automatisch aanmaken**. Selecteer **Een leeg rapport maken**. U wordt doorgestuurd naar een rapportpagina die lijkt op de rapportpagina van Power BI Desktop.
 
     ![](../media/Lab-7/image15.png)
-
 
 6. Als u dit nog niet heeft gedaan, open dan het bestand **FAIAD.pbix** in de map **Reports** op het **bureaublad** van uw labomgeving.
 
@@ -142,55 +138,39 @@ Laten we een nieuw rapport maken met een leeg canvas.
 
     ![](../media/Lab-7/image16.png)
 
+7. Navigeer terug naar het **Power BI-canvas** in uw browser.
 
-7. Navigeer terug naar het **Power BI canvas** in uw browser.
+8. Selecteer het pictogram **Pagina opmaken** in het deelvenster **Visualisatie**.
 
+9. Vouw de sectie **Canvasachtergrond** uit.
 
-8. Selecteer het pictogram **Format page** in het deelvenster **Visualization**.
-
-
-9. Vouw de sectie **Canvas background** uit.
-
-
-10. Selecteer **Browse** bij de optie **Image**. Het dialoogvenster Bestandsverkenner wordt geopend.
-
+10. Selecteer **Bladeren** bij de optie **Afbeelding**. Het dialoogvenster Bestandsverkenner wordt geopend.
 
 11. Navigeer naar de map **Reports** op het **bureaublad** van uw labomgeving.
 
-
 12. Selecteer **Summary Background.png**.
 
+13. Stel de vervolgkeuzelijst **Afbeeldingsaanpassing** in op **Passend maken**.
 
-13. Stel de vervolgkeuzelijst **Image fit** in op **Fit**.
-
-
-14. Stel de Transparency in op **0%**.
+14. Stel de **Transparantie** in op **0%**.
 
     ![](../media/Lab-7/image17.png)
 
 ## Taak 3: Koptekst toevoegen aan het rapport
 
-
-1. Laten we de koptekst toevoegen in de bovenste marge. Selecteer in het **menu** de optie **Text box**.
-
+1. Laten we de koptekst toevoegen in de bovenste marge. Selecteer in het **menu** de optie **Tekstvak**.
 
 2. Voer **Fabrikam Company** in als de eerste regel in het tekstvak.
 
-
 3. Voer **Sales Report** in als de tweede regel in het tekstvak.
 
+4. Markeer **Fabrikam Company** en stel **Lettertype** in op **Segoe UI** en **tekengrootte** op **18, vet**.
 
-4. Markeer **Fabrikam Company** en stel **Font** in op **Segoe UI** en **tekengrootte** op **18, vet**.
+5. Markeer **Sales Report** en stel **Lettertype** in op **Segoe UI** en **tekengrootte** op **14**.
 
+6. Met het **tekstvak geselecteerd**, vouwt u in het deelvenster **Tekstvak opmaken** aan de rechterkant **Effecten** uit.
 
-5. Markeer **Sales Report** en stel **Font** in op **Segoe UI** en **tekengrootte** op **14**.
-
-
-6. Met het **tekstvak geselecteerd**, vouwt u in het deelvenster Format text box aan de rechterkant **Effects** uit.
-
-
-7. Gebruik de schuifregelaar **Background** om deze in te stellen op **Off**.
-
+7. Gebruik de schuifregelaar **Achtergrond** om deze in te stellen op **Uit**.
 
 8. Pas de grootte van het **tekstvak aan zodat het in de bovenste marge past**.
 
@@ -198,84 +178,61 @@ Laten we een nieuw rapport maken met een leeg canvas.
 
 ## Taak 4: KPI's toevoegen aan het rapport
 
-
 1. Laten we de KPI Sales toevoegen. Selecteer de **lege ruimte** op het canvas om de focus van het tekstvak weg te halen.
 
+2. Selecteer in de sectie **Visualisaties** de visual **Kaart**.
 
-2. Selecteer in de sectie **Visualizations** de visual **Card**.
-
-
-3. Vouw in de sectie **Data** de tabel **Sales** uit.
-
+3. Vouw in de sectie **Gegevens** de tabel **Sales** uit.
 
 4. Selecteer de measure **Sales**.
 
     ![](../media/Lab-7/image19.png)
 
-
-5. Met de **Card visual geselecteerd**, selecteert u het pictogram **Format visual** in de sectie **Visualizations**.
-
+5. Met de **Kaart-visual geselecteerd**, selecteert u het pictogram **Visual opmaken** in de sectie **Visualisaties**.
 
 6. Vouw de sectie **Callout** uit.
 
-
-7. Selecteer de vervolgkeuzelijst **Value**. Wijzig de tekengrootte naar **12**.
+7. Selecteer de vervolgkeuzelijst **Waarde**. Wijzig de tekengrootte naar **12**.
 
     ![](../media/Lab-7/image20.png)
 
-
 8. Met de sectie **Callout** nog steeds geselecteerd, vouwt u de sectie **Label** uit.
-
 
 9. Verklein de **tekengrootte** naar **10**.
 
+10. Selecteer de vervolgkeuzelijst **Kleur**. Het dialoogvenster met het kleurenpalet wordt geopend.
 
-10. Selecteer de vervolgkeuzelijst **Color**. Het dialoogvenster met het kleurenpalet wordt geopend.
-
-
-11. Selecteer **More Colors**.
-
+11. Selecteer **Meer kleuren**.
 
 12. Stel de hexadecimale waarde in op **#004753**.
 
     ![](../media/Lab-7/image21.png)
 
+13. Vouw de sectie **Kaarten** uit.
 
-13. Vouw de sectie **Cards** uit.
-
-
-14. Gebruik de schuifregelaar **Accent bar** om deze in te stellen op **Off**.
+14. Gebruik de schuifregelaar **Accentbalk** om deze in te stellen op **Uit**.
 
     ![](../media/Lab-7/image22.png)
 
+15. Selecteer **Algemeen** in het deelvenster Visualisaties.
 
-15. Selecteer **General** in het deelvenster Visualizations.
+16. Vouw de sectie **Effecten** uit.
 
-
-16. Vouw de sectie **Effects** uit.
-
-
-17. Gebruik de schuifregelaar **Background** om deze in te stellen op **Off**.
-
+17. Gebruik de schuifregelaar **Achtergrond** om deze in te stellen op **Uit**.
 
 18. Pas de grootte van de **visual** aan en verplaats deze naar **het linker vak zoals weergegeven in de schermafbeelding**.
 
     ![](../media/Lab-7/image23.png)
 
-
-19. Laten we nog een card toevoegen. Selecteer de **Sales Card** die we zojuist hebben aangemaakt. **Kopieer** de visual door **Ctrl+C** op uw toetsenbord te selecteren.
-
+19. Laten we nog een kaart toevoegen. Selecteer de **Sales-kaart** die we zojuist hebben aangemaakt. **Kopieer** de visual door **Ctrl+C** op uw toetsenbord te selecteren.
 
 20. **Plak** de visual door **Ctrl+V** op uw toetsenbord te selecteren. U ziet dat de visual op het canvas wordt geplakt.
 
+21. Met de **nieuwe visual geselecteerd**, verwijdert u in de sectie **Visualisatiepaneel -> Visual bouwen -> Velden** de measure **Sales**.
 
-21. Met de **nieuwe visual geselecteerd**, verwijdert u in de sectie **Visualization pane -> Build visual -> Fields** de measure **Sales**.
+22. Vouw vanuit de sectie **Gegevens** de tabel **Sales** uit en selecteer de measure **Units**.
 
-
-22. Vouw vanuit de sectie **Data** de tabel **Sales** uit en selecteer de measure **Units**.
-
-
-23. Pas de grootte van de **visual** aan en **plaats deze in het vak onder de Sales visual**.
+23. Pas de grootte van de **visual** aan en **plaats deze in het vak onder de Sales-visual**.
 
     ![](../media/Lab-7/image24.png)
 
