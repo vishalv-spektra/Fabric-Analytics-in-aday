@@ -238,19 +238,16 @@ Laten we een nieuw rapport maken met een leeg canvas.
 
 ## Taak 5: Line chart toevoegen aan het rapport
 
-Laten we een line chart maken om Sales over tijd per Reseller Company te visualiseren.
+Laten we een lijndiagram maken om Sales over tijd per Reseller Company te visualiseren.
+
+1. Selecteer de **lege ruimte** op het canvas om de focus van de visual met meerdere rijen weg te halen.
+
+2. Selecteer in de sectie **Visualisaties** het **Lijndiagram**.
 
 
-1. Selecteer de **lege ruimte** op het canvas om de focus van de multi-row card visual weg te halen.
+3. Vouw in de sectie **Gegevens** de tabel **Date** uit.
 
-
-2. Selecteer in de sectie **Visualizations** de **Line chart**.
-
-
-3. Vouw in de sectie **Data** de tabel **Date** uit.
-
-
-4. Selecteer het veld **Year**. U ziet dat Year standaard wordt opgeteld en aan de Y-axis wordt toegevoegd. Laten we dit corrigeren.
+4. Selecteer het veld **Year**. U ziet dat Year standaard wordt samengevat en aan de **Y-as** wordt toegevoegd. Laten we dit corrigeren.
 
     ![](../media/Lab-7/image25.png)
 
@@ -258,9 +255,7 @@ Laten we een line chart maken om Sales over tijd per Reseller Company te visuali
 
 Laten we het rapport opslaan voordat we het rapport verlaten om wijzigingen in het model aan te brengen.
 
-
-1. Selecteer in het menu **File -> Save**.
-
+1. Selecteer in het menu **Bestand -> Opslaan**.
 
 2. Het dialoogvenster voor het opslaan van uw rapport wordt geopend. Geef het rapport de naam **rpt_Sales_Report**.
 
@@ -268,55 +263,41 @@ Laten we het rapport opslaan voordat we het rapport verlaten om wijzigingen in h
 
 3. Zorg ervoor dat het rapport wordt opgeslagen in de workspace **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
-
-4. Selecteer **Save**. U ziet dat het rapport is opgeslagen en dat u zich in de weergavemodus bevindt.
+4. Selecteer **Opslaan**. U ziet dat het rapport is opgeslagen en dat u zich in de weergavemodus bevindt.
 
     ![](../media/Lab-7/image26.png)
 
 ## Taak 7: Kolom Year configureren in de tabel Date
 
-
-1. Selecteer in het **bovenste menu** de optie **Edit** om terug te gaan naar de bewerkingsmodus.
+1. Selecteer in het **bovenste menu** de optie **Bewerken** om terug te gaan naar de bewerkingsmodus.
 
     ![](../media/Lab-7/image27.png)
 
-
-2. Selecteer in het **bovenste menu** de optie **Open semantic model**. U ziet dat het semantic model wordt geopend in een nieuw browservenster of -tabblad.
+2. Selecteer in het **bovenste menu** de optie **Semantisch model openen**. U ziet dat het semantische model wordt geopend in een nieuw browservenster of -tabblad.
 
     ![](../media/Lab-7/image28.png)
 
+3. Schakel in de rechterbovenhoek naar de modus **Bewerken**.
 
-3. Schakel in de rechterbovenhoek naar de modus **Editing**.
-
-
-4. Selecteer vanuit het **deelvenster Data aan de rechterkant** de optie Tables.
-
+4. Selecteer vanuit het **deelvenster Gegevens aan de rechterkant** de optie **Tabellen**.
 
 5. Vouw de tabel **Date** uit.
 
-
 6. Selecteer de kolom **Year**.
 
+7. Vouw in het deelvenster **Eigenschappen** aan de linkerkant de sectie **Geavanceerd** uit.
 
-7. Vouw in het deelvenster **Properties** aan de linkerkant de sectie **Advanced** uit.
-
-
-8. Selecteer in de vervolgkeuzelijst **Summarize by** de optie **None**.
+8. Selecteer in de vervolgkeuzelijst **Samenvatten op** de optie **Geen**.
 
     ![](../media/Lab-7/image29.png)
 
-
 9. Navigeer terug naar het **rapportvenster of -tabblad** van de browser.
 
+10. Vouw in het **deelvenster Gegevens** aan de rechterkant de tabel **Date** uit. U ziet dat Year geen sommatieveld meer is.
 
-10. Vouw in het **deelvenster Data** aan de rechterkant de tabel **Date** uit. U ziet dat Year geen sommatieveld meer is.
+11. Met de **Lijndiagram-visual geselecteerd**, verwijdert u **Som van Year** van de **Y-as**.
 
-
-11. Met de **Line chart visual geselecteerd**, verwijdert u **Sum of Year** van de Y-axis.
-
-
-12. Selecteer het veld **Year** en het wordt aan de **X-axis** toegevoegd.
-
+12. Selecteer het veld **Year** en het wordt aan de **X-as** toegevoegd.
 
 13. Vouw de tabel **Sales** uit en selecteer de measure **Sales**.
 
@@ -324,20 +305,15 @@ Laten we het rapport opslaan voordat we het rapport verlaten om wijzigingen in h
 
 ## Taak 8: Kolom Month Name configureren in de tabel Date
 
-
-1. Laten we Month aan dit diagram toevoegen. Sleep vanuit de tabel Date het veld **MonthNameShort** onder **Year** in de **X-axis**. U ziet dat de visual is gesorteerd op Sales. Laten we het sorteren op **MonthNameShort**.
-
+1. Laten we Month aan dit diagram toevoegen. Sleep vanuit de tabel Date het veld **MonthNameShort** onder **Year** in de **X-as**. U ziet dat de visual is gesorteerd op Sales. Laten we het sorteren op **MonthNameShort**.
 
 2. Selecteer het **beletselteken (…)** in de rechterbovenhoek van de visual.
 
-
-3. Selecteer **Sort by -> Year Short_Month_Name**.
-
+3. Selecteer **Sorteren op -> Year Short_Month_Name**.
 
 4. Selecteer het **beletselteken (…)** in de rechterbovenhoek van de visual.
 
-
-5. Selecteer **Sort by -> Sort ascending**.
+5. Selecteer **Sorteren op -> Oplopend sorteren**.
 
     ![](../media/Lab-7/L8T5P3.png)
 
@@ -345,23 +321,17 @@ Laten we het rapport opslaan voordat we het rapport verlaten om wijzigingen in h
 
     ![](../media/Lab-7/image32.png)
 
+6. Navigeer terug naar het **browservenster of -tabblad** waar u het semantische model geopend heeft.
 
-6. Navigeer terug naar het **browservenster of -tabblad** waar u het semantic model geopend heeft.
-
-
-7. Vouw in het deelvenster **Data** de tabel **Date** uit.
-
+7. Vouw in het deelvenster **Gegevens** de tabel **Date** uit.
 
 8. Selecteer de kolom **MonthNameShort**.
 
+9. Vouw in het deelvenster **Eigenschappen** aan de linkerkant de sectie **Geavanceerd** uit.
 
-9. Vouw in het deelvenster **Properties** aan de linkerkant de sectie **Advanced** uit.
-
-
-10. Selecteer in de vervolgkeuzelijst **Sort by column** de optie **Month**.
+10. Selecteer in de vervolgkeuzelijst **Sorteren op kolom** de optie **Month**.
 
     ![](../media/Lab-7/image33.png)
-
 
 11. Navigeer terug naar het **rapportvenster of -tabblad** van de browser. U ziet dat de maanden nu correct zijn gesorteerd.
 
@@ -369,39 +339,39 @@ Laten we het rapport opslaan voordat we het rapport verlaten om wijzigingen in h
 
 ## Taak 9: Line chart opmaken
 
-U ziet hoe eenvoudig het is om het semantic model bij te werken terwijl u rapporten bouwt. Dit geeft een naadloze interactie zoals in Power BI Desktop.
+U ziet hoe eenvoudig het is om het semantische model bij te werken terwijl u rapporten bouwt. Dit geeft een naadloze interactie zoals in Power BI Desktop.
 
-1. Met de **Line chart visual geselecteerd**, vouwt u in de sectie **Data** de tabel **Reseller** uit.
+1. Met de **Lijndiagram-visual geselecteerd**, vouwt u in de sectie **Gegevens** de tabel **Reseller** uit.
 
-1. Sleep het veld **Reseller -> Reseller Company** naar de sectie **Legend**.
+1. Sleep het veld **Reseller -> Reseller Company** naar de sectie **Legenda**.
 
     ![](../media/Lab-7/image35.png)
 
-1. Met de **Line chart visual geselecteerd**, selecteert u vanuit de sectie **Visualization** het pictogram **Format visual icon -> General**.
+1. Met de **Lijndiagram-visual geselecteerd**, selecteert u vanuit de sectie **Visualisaties** het pictogram **Visual opmaken -> Algemeen**.
 
-1. Vouw de sectie **Title** uit.
+1. Vouw de sectie **Titel** uit.
 
-1. Stel de tekst **Title** in op **Sales over time**.
+1. Stel de tekst **Titel** in op **Sales over time**.
 
-1. Vouw de sectie **Effects** uit.
+1. Vouw de sectie **Effecten** uit.
 
-1. Gebruik de schuifregelaar **Background** om deze in te stellen op **Off**.
+1. Gebruik de schuifregelaar **Achtergrond** om deze in te stellen op **Uit**.
 
     ![](../media/Lab-7/image36.png)
 
-1. Selecteer vanuit de sectie **Visualization** het pictogram **Format visual icon -> Visual**.
+1. Selecteer vanuit de sectie **Visualisaties** het pictogram **Visual opmaken -> Visual**.
 
-1. Vouw de sectie **Lines** uit.
+1. Vouw de sectie **Lijnen** uit.
 
-1. Selecteer in de vervolgkeuzelijst **Apply settings to -> Series** de optie **Tailspin Toys**.
+1. Selecteer in de vervolgkeuzelijst **Instellingen toepassen op -> Reeks** de optie **Tailspin Toys**.
 
-1. Vouw de sectie **Colors** uit.
+1. Vouw de sectie **Kleuren** uit.
 
-1. Stel de **color** in op **#F17925**.
+1. Stel de **kleur** in op **#F17925**.
 
-1. Selecteer in de vervolgkeuzelijst **Apply settings to -> Series** de optie **Wingtip Toys**.
+1. Selecteer in de vervolgkeuzelijst **Instellingen toepassen op -> Reeks** de optie **Wingtip Toys**.
 
-1. Stel de **color** in op **#004753**.
+1. Stel de **kleur** in op **#004753**.
 
 1. Pas de grootte van de **visual** aan en verplaats deze naar **het vak rechtsboven zoals weergegeven in de schermafbeelding**.
 
@@ -409,170 +379,137 @@ U ziet hoe eenvoudig het is om het semantic model bij te werken terwijl u rappor
 
     ![](../media/Lab-7/image37.png)
 
-1. Laten we het rapport opslaan; selecteer in het menu **File -> Save**.
+1. Laten we het rapport opslaan; selecteer in het menu **Bestand -> Opslaan**.
 
     Zoals eerder vermeld, zullen we in dit lab niet alle visuals bouwen. In uw eigen tijd kunt u gerust meer visuals bouwen.
 
 ## Taak 10: Power BI Desktop verbinden met het Semantic model
 
-Laten we nu zien hoe eenvoudig het is om Power BI Desktop te verbinden met het semantic model en visuals te bouwen.
-
+Laten we nu zien hoe eenvoudig het is om Power BI Desktop te verbinden met het semantische model en visuals te bouwen.
 
 1. Open het bestand **FAIADTemplate.pbix** in de map **Reports** op het **bureaublad** van uw labomgeving.
 
-
-2. Selecteer in het lint **Home -> OneLake Catalog -> Power BI semantic models**.
+2. Selecteer in het lint **Start -> OneLake-catalogus -> Power BI-semantische modellen**.
 
     ![](../media/Lab-7/image38.png)
 
+3. Het dialoogvenster OneLake Data Hub wordt geopend. Selecteer **sm_FAIAD**, het semantische model dat we hebben aangemaakt.
 
-3. Het dialoogvenster OneLake data hub wordt geopend. Selecteer **sm_FAIAD**, het semantic model dat we hebben aangemaakt.
-
-
-4. Selecteer **Connect**. U ziet dat het deelvenster Data de tabellen uit het semantic model bevat.
+4. Selecteer **Verbinden**. U ziet dat het deelvenster Gegevens de tabellen uit het semantische model bevat.
 
     ![](../media/Lab-7/image39.png)
 
-
-5. Selecteer in het **linkerdeelvenster** de **Model view**. U ziet dat we de relaties tussen tabellen kunnen bekijken.
+5. Selecteer in het **linkerdeelvenster** de **Modelweergave**. U ziet dat we de relaties tussen tabellen kunnen bekijken.
 
     ![](../media/Lab-7/image40.png)
 
-
-6. Selecteer in het **linkerdeelvenster** de **Report view** om terug te navigeren naar de rapportweergave.
-
+6. Selecteer in het **linkerdeelvenster** de **Rapportweergave** om terug te navigeren naar de rapportweergave.
 
 7. Als u dit nog niet heeft gedaan, open dan het bestand **FAIAD.pbix** in de map **Reports** op het **bureaublad** van uw labomgeving.
 
+8. Selecteer de **rapporttitel-visual**.
 
-8. Selecteer de **rapporttitel visual**.
-
-
-9. Selecteer in het lint **Home -> Copy**.
+9. Selecteer in het lint **Start -> Kopiëren**.
 
     ![](../media/Lab-7/image41.png)
 
-
 10. Navigeer naar **FAIADTemplate.pbix** en selecteer het rapportcanvas.
 
-
-11. Selecteer in het lint **Home -> Paste**.
+11. Selecteer in het lint **Start -> Plakken**.
 
     ![](../media/Lab-7/image42.png)
-
 
 12. Kopieer en plak op dezelfde manier de **KPI's Sales en Units**. Ter informatie – meerdere visuals kunnen tegelijk worden gekopieerd en geplakt.
 
     ![](../media/Lab-7/image43.png)
 
-    U ziet dat het eenvoudig is om visuals uit een bestaand rapport te kopiëren en te plakken in een rapport dat verbinding maakt met een semantic model. Houd er rekening mee dat de tabelnamen, kolomnamen en measurenamen identiek moeten zijn om kopiëren en plakken te laten werken. Als ze niet identiek zijn, kan er een fout optreden, maar dit is gemakkelijk op te lossen.
+    U ziet dat het eenvoudig is om visuals uit een bestaand rapport te kopiëren en te plakken in een rapport dat verbinding maakt met een semantisch model. Houd er rekening mee dat de tabelnamen, kolomnamen en measurenamen identiek moeten zijn om kopiëren en plakken te laten werken. Als ze niet identiek zijn, kan er een fout optreden, maar dit is gemakkelijk op te lossen.
 
+13. Navigeer naar **FAIAD.pbix** en selecteer het lijndiagram **Sales over time**.
 
-13. Navigeer naar **FAIAD.pbix** en selecteer de line chart Sales over time.
-
-
-14. Selecteer in het lint **Home -> Copy**.
-
+14. Selecteer in het lint **Start -> Kopiëren**.
 
 15. Navigeer naar **FAIADTemplate.pbix** en selecteer het rapportcanvas.
 
+16. Selecteer in het lint **Start -> Plakken**. U ziet dat de visual niet wordt weergegeven. Dit komt doordat het semantische model momenteel geen hiërarchie maakt op basis van het datumveld.
 
-16. Selecteer in het lint **Home -> Paste**. U ziet dat de visual niet wordt weergegeven. Dit komt doordat het semantic model momenteel geen hiërarchie maakt op basis van het datumveld.
-
-
-17. Laten we dit oplossen. Verwijder in het deelvenster **Visualization**, onder **X-axis**, het veld **StartOfMonth**.
+17. Laten we dit oplossen. Verwijder in het deelvenster **Visualisaties**, onder **X-as**, het veld **StartOfMonth**.
 
     ![](../media/Lab-7/image44.png)
 
+18. Vouw vanuit het **deelvenster Gegevens** de tabel **Date** uit.
 
-18. Vouw vanuit het **deelvenster Data** de tabel **Date** uit.
-
-
-19. Sleep het veld **StartOfMonth** naar de **X-axis**. Hiermee wordt de visual hersteld. Mogelijk moet u de visual nog opmaken.
+19. Sleep het veld **StartOfMonth** naar de **X-as**. Hiermee wordt de visual hersteld. Mogelijk moet u de visual nog opmaken.
 
     ![](../media/Lab-7/image45.png)
 
-
-20. Laten we het rapport opslaan; selecteer in het lint **File -> Save**.
+20. Laten we het rapport opslaan; selecteer in het lint **Bestand -> Opslaan**.
 
 ## Taak 11: Nieuwe gegevens toevoegen om Direct Lake Mode te simuleren
 
-Normaal gesproken moeten we bij Import mode, zodra de gegevens in de bron zijn vernieuwd, het Power BI model vernieuwen, waarna de gegevens in het rapport worden bijgewerkt. Bij Direct query mode zijn de gegevens direct beschikbaar in het Power BI rapport zodra ze in de bron zijn vernieuwd. Direct query mode is echter doorgaans traag. Om dit probleem op te lossen, heeft Microsoft Fabric Direct Lake mode geïntroduceerd. Direct Lake is een snelle manier om gegevens rechtstreeks vanuit de lake in de Power BI engine te laden, klaar voor analyse.
+Normaal gesproken moeten we bij de importmodus, zodra de gegevens in de bron zijn vernieuwd, het Power BI-model vernieuwen, waarna de gegevens in het rapport worden bijgewerkt. Bij de DirectQuery-modus zijn de gegevens direct beschikbaar in het Power BI-rapport zodra ze in de bron zijn vernieuwd. De DirectQuery-modus is echter doorgaans trager. Om dit probleem op te lossen, heeft Microsoft Fabric de Direct Lake-modus geïntroduceerd. Direct Lake is een snelle manier om gegevens rechtstreeks vanuit de lake in de Power BI-engine te laden, klaar voor analyse.
 
-Laten we het scenario verkennen waarbij gegevens worden bijgewerkt in ADLS Gen2 en de wijzigingen onmiddellijk worden weergegeven in het Power BI rapport zonder dat er vernieuwingen hoeven te worden uitgevoerd.
+Laten we het scenario verkennen waarbij gegevens worden bijgewerkt in ADLS Gen2 en de wijzigingen onmiddellijk worden weergegeven in het Power BI-rapport zonder dat er vernieuwingen hoeven te worden uitgevoerd.
 
-In een werkelijk scenario worden gegevens bijgewerkt bij de bron. Omdat we ons in een trainingsomgeving bevinden, simuleren we dit. We hebben verkoopgegevens tot en met april 2024. Laten we verkoopgegevens voor mei 2024 toevoegen door een shortcut te maken naar het bestand van mei 2024 in ADLS Gen2 en de Sales view bij te werken.
+In een werkelijk scenario worden gegevens bijgewerkt bij de bron. Omdat we ons in een trainingsomgeving bevinden, simuleren we dit. We hebben verkoopgegevens tot en met april 2024. Laten we verkoopgegevens voor mei 2024 toevoegen door een snelkoppeling te maken naar het bestand van mei 2024 in ADLS Gen2 en de Sales-view bij te werken.
 
 1. Navigeer terug naar de **browser**.
 
-2. Klik in de rechterbenedenhoek op het **Fabric logo** en schakel over naar de **Fabric view**.
+2. Klik in de rechterbenedenhoek op het **Fabric-logo** en schakel over naar de **Fabric-weergave**.
 
-3. Selecteer **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** in de linker menubalk om naar de workspace home te navigeren.
+3. Selecteer **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** in de linker menubalk om naar de startpagina van de workspace te navigeren.
 
 4. Selecteer **lh_FAIAD** om naar de Lakehouse te navigeren.
 
     ![](../media/Lab-7/image46.png)
 
-5. Selecteer in het **deelvenster Explorer** aan de linkerkant het **beletselteken** naast **Tables**.
+5. Selecteer in het **deelvenster Verkenner** aan de linkerkant het **beletselteken** naast **Tabellen**.
 
-
-6. Selecteer **New shortcut**.
+6. Selecteer **Nieuwe snelkoppeling**.
 
     ![](../media/Lab-7/image47.png)
 
-
-7. Het dialoogvenster New shortcut wordt geopend. Selecteer onder **External sources** de optie **Azure Data Lake Storage Gen2**.
+7. Het dialoogvenster **Nieuwe snelkoppeling** wordt geopend. Selecteer onder **Externe bronnen** de optie **Azure Data Lake Storage Gen2**.
 
     ![](../media/Lab-7/image48.png)
 
+8. Omdat u eerder in de labs al een verbinding heeft aangemaakt, hoeft u geen nieuwe verbinding aan te maken en ziet u uw ADLS-verbinding onder de bestaande verbindingen.
 
-8. Omdat u eerder in de labs al een verbinding heeft aangemaakt, hoeft u geen nieuwe verbinding aan te maken en ziet u uw ADLS verbinding onder de bestaande verbindingen.
+9. Als u deze verbinding eerder in de cursus niet heeft aangemaakt, klikt u op **Nieuwe verbinding maken** en voert u de volgende stappen uit:
 
+10. Voer onder **Verbindingsinstellingen -> URL** de volgende link in: **https://stvnextblobstorage.dfs.core.windows.net/fabrikam-sales**
 
-9. Als u deze verbinding eerder in de cursus niet heeft aangemaakt, klikt u op **Create New connection** en voert u de volgende stappen uit:
-
-
-10. Voer onder **Connection Settings -> URL** de volgende link in: **https://stvnextblobstorage.dfs.core.windows.net/fabrikam-sales**
-
-
-11. Selecteer **Next**.
+11. Selecteer **Volgende**.
 
     ![](../media/Lab-7/image49.png)
 
-
 12. U maakt verbinding met ADLS Gen2 waarbij de mappenstructuur wordt weergegeven in het linkerdeelvenster. Vouw **Delta-Parquet-Format-FY25** uit.
-
 
 13. Selecteer **Sales.Invoices_May**.
 
-
-14. Selecteer **Next**.
+14. Selecteer **Volgende**.
 
     ![](../media/Lab-7/image50.png)
 
-
-15. U wordt doorgestuurd naar het volgende dialoogvenster waar u de namen kunt bewerken. Selecteer het **bewerkingspictogram** onder Actions voor **Sales.Invoices_May**.
-
+15. U wordt doorgestuurd naar het volgende dialoogvenster waar u de namen kunt bewerken. Selecteer het **bewerkingspictogram** onder Acties voor **Sales.Invoices_May**.
 
 16. Hernoem **Sales.Invoices_May** naar **InvoicesMay**.
 
-
 17. Selecteer het **vinkje** naast de naam om de wijziging op te slaan.
 
-
-18. Selecteer **Create**.
+18. Selecteer **Maken**.
 
     ![](../media/Lab-7/image51.png)
 
-    U ziet in het **deelvenster Explorer** aan de linkerkant dat we nu de tabel InvoicesMay hebben. Nu moeten we de Sales view bijwerken.
+    U ziet in het **deelvenster Verkenner** aan de linkerkant dat we nu de tabel InvoicesMay hebben. Nu moeten we de Sales-view bijwerken.
 
-19. Selecteer rechtsboven in het scherm **Lakehouse -> SQL analytics endpoint**.
+19. Selecteer rechtsboven in het scherm **Gegevens analyseren met -> SQL-analyse-eindpunt**.
 
     ![](../media/Lab-7/image52.png)
 
-20. Selecteer in het bovenste menu **Home -> New SQL query**. Er wordt een nieuw SQL query-deelvenster geopend.
+20. Selecteer in het bovenste menu **Start -> Nieuwe SQL-query**. Er wordt een nieuw SQL-querydeelvenster geopend.
 
-21. **Kopieer** de onderstaande code en **plak** deze in het **SQL query-deelvenster**.
+21. **Kopieer** de onderstaande code en **plak** deze in het **SQL-querydeelvenster**.
 
     ```
     ALTER VIEW [dbo].[Sales] AS (
@@ -717,7 +654,7 @@ In een werkelijk scenario worden gegevens bijgewerkt bij de bron. Omdat we ons i
     )
     ```
 
-22. Selecteer in het menu van de visuele query de optie **Run** om de code uit te voeren.
+22. Selecteer in het menu van de visuele query de optie **Uitvoeren** om de code uit te voeren.
 
     Zodra de code is uitgevoerd, hebben we de tabel Sales bijgewerkt met de gegevens van mei 2024.
 
@@ -726,7 +663,7 @@ In een werkelijk scenario worden gegevens bijgewerkt bij de bron. Omdat we ons i
 23. Selecteer **rpt_Sales_Report** in de linker menubalk om terug te navigeren naar het rapport.
 
 
-24. Selecteer in het bovenste menu het **pictogram Vernieuwen**. U ziet nu in de Line chart gegevens voor mei 2024. U ziet ook dat het verkoopbedrag is toegenomen.
+24. Selecteer in het bovenste menu het pictogram **Vernieuwen**. U ziet nu in het lijndiagram gegevens voor mei 2024. U ziet ook dat het verkoopbedrag is toegenomen.
 
     ![](../media/Lab-7/image54.png)
 
@@ -758,21 +695,21 @@ In een werkelijk scenario worden gegevens bijgewerkt bij de bron. Omdat we ons i
 
 Zodra u klaar bent om de labomgeving op te ruimen, volgt u de onderstaande stappen.
 
-1. Selecteer de workspace **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** in het linkerdeelvenster om naar de workspace home te navigeren.
+1. Selecteer de workspace **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** in het linkerdeelvenster om naar de startpagina van de workspace te navigeren.
 
-2. Selecteer in het bovenste menu **Workspace settings**.
+2. Selecteer in het bovenste menu **Instellingen voor werkruimten**.
 
     ![](../media/Lab-7/image55.png)
 
-3. Het dialoogvenster Workspace settings wordt geopend. Scroll omlaag in de sectie **General**.
+3. Het dialoogvenster **Workspace-instellingen** wordt geopend. Scroll omlaag in de sectie **Algemeen**.
 
-4. Selecteer **Remove this workspace**.
+4. Selecteer **Deze workspace verwijderen**.
 
-5. Het dialoogvenster voor het verwijderen van de workspace wordt geopend. Selecteer **Delete**.
+5. Het dialoogvenster voor het verwijderen van de workspace wordt geopend. Selecteer **Verwijderen**.
 
     Hiermee worden de workspace en alle items die in de workspace waren opgeslagen, verwijderd.
 
-    ![](../media/Lab-7/image56.jpeg)
+    ![](../media/Lab-7/image56.png)
 
 # Referenties
 
