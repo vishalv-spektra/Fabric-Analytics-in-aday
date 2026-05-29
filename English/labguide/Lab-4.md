@@ -258,6 +258,8 @@ Notice the five queries are pasted and now you have the Queries panel on the lef
 
 4. Enter the **Snowflake Username** and **Snowflake Password** provided below. Use these credentials to connect all the tables under **Snowflake** to Snowflake and then select **Connect**.
 
+    > **Note:** <span style="color:maroon;"> Please enter the Snowflake username and password carefully. After three consecutive failed login attempts, the Snowflake account will be temporarily locked for **15 minutes** as part of the platform's security policy. If this occurs, you will need to wait **15 minutes** before attempting to sign in again.
+
     - Snowflake Username: <inject key="SnowFlake Username" enableCopy="false" />
 
     - Snowflake Password: <inject key="SnowFlake Password" enableCopy="false" />

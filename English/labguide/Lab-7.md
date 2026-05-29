@@ -502,7 +502,7 @@ In a real scenario, data is updated at the source. Since we are in a training en
 
     Notice in the **Explorer pane** on the left, we now have the InvoicesMay table. Now we need to update the Sales view.
 
-19. On the **top right** of the screen, select **Lakehouse -> SQL analytics endpoint**.
+19. On the **top right** of the screen, select **Analyze data with -> SQL analytics endpoint**.
 
     ![](../media/Lab-7/image52.png)
 
