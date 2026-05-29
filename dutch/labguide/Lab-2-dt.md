@@ -1,6 +1,6 @@
-# Microsoft Fabric - Fabric Analyst in a Day - Lab 2
+# Microsoft Fabric - Fabric Analyst in a Day - Oefening 2
 
-![](../media/Lab-1/main2.jpg)
+![](../media/Lab-1/main2.png)
 
 # Inhoudsopgave
 
