@@ -140,7 +140,7 @@ De verbinding is tot stand gebracht en u kunt de gegevens bekijken in het voorbe
 
 5. We willen de tabel maken in het Lakehouse dat we eerder hebben aangemaakt. Navigeer in het linkerpaneel naar **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
-6. Selecteer **lh_FAIAD**.
+6. Selecteer **lh_FAIAD -> dbo**.
 
 7. Laat de tabelnaam op **People** staan.
 
@@ -291,7 +291,7 @@ Merk op dat de vijf query's zijn geplakt en dat u nu het paneel **Query's** aan 
 
 6. We willen de tabel maken in het Lakehouse dat we eerder hebben aangemaakt. Navigeer in het linkerpaneel naar **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
-7. Selecteer **lh_FAIAD**.
+7. Selecteer **lh_FAIAD -> dbo**.
 
 8. Laat de tabelnaam op **Supplier** staan.
 

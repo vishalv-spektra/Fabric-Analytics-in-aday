@@ -315,7 +315,7 @@ Laten we het rapport opslaan voordat we het rapport verlaten om wijzigingen in h
 
 5. Selecteer **Sorteren op -> Oplopend sorteren**.
 
-    ![](../media/Lab-7/L8T5P3.png)
+    ![](../media/Lab-7/image31.png)
 
     >**Opmerking:** De maanden zijn alfabetisch gesorteerd. Laten we dit oplossen.
 
@@ -661,7 +661,6 @@ In een werkelijk scenario worden gegevens bijgewerkt bij de bron. Omdat we ons i
     ![](../media/Lab-7/image53.png)
 
 23. Selecteer **rpt_Sales_Report** in de linker menubalk om terug te navigeren naar het rapport.
-
 
 24. Selecteer in het bovenste menu het pictogram **Vernieuwen**. U ziet nu in het lijndiagram gegevens voor mei 2024. U ziet ook dat het verkoopbedrag is toegenomen.
 
