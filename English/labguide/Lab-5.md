@@ -106,10 +106,11 @@ Let’s start by configuring a scheduled refresh of Supplier Dataflow.
 
 11. You will see in the **Settings** panel that appeared we have three options: 
 
-    - **About –** Here we can change the name of the Dataflow and add a description. Also, we can see who is the owner of the dataflow and the last time it was modified.    
-    - **Endorsement –** This allows us to specify if the dataflow will carry the **Promoted** or the **Certified** tag for others to see. 
+    - **About:** Here we can change the name of the Dataflow and add a description. Also, we can see who is the owner of the dataflow and the last time it was modified. 
 
-    - **Schedule -** This is where we can schedule out dataflows.    
+    - **Endorsement:** This allows us to specify if the dataflow will carry the **Promoted** or the **Certified** tag for others to see. 
+
+    - **Schedule:** This is where we can schedule out dataflows.    
 
         ![](../media/Lab-5/image13.png)
 
