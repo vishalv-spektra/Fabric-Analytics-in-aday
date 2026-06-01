@@ -156,7 +156,7 @@ Shortcuts worden gebruikt om een koppeling naar de doellocatie te maken. Shortcu
 
 ## Taak 2: Geo-weergave aanmaken met Visual Query
 
-1. We hebben toegang tot de Lakehouse via een SQL endpoint. Dit biedt de mogelijkheid om de gegevens op te vragen en weergaven aan te maken. Selecteer rechtsboven op het scherm **Lakehouse (1) -> SQL analytics endpoint (2)**.
+1. We hebben toegang tot de Lakehouse via een SQL endpoint. Dit biedt de mogelijkheid om de gegevens op te vragen en weergaven aan te maken. Selecteer rechtsboven op het scherm **Gegevens analyseren met (1) -> SQL analytics endpoint (2)**.
 
     ![](../media/Lab-3/image13.png)
 

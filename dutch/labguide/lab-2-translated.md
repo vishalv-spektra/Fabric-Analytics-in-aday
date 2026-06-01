@@ -66,13 +66,13 @@ Aan het einde van dit lab heeft u geleerd:
 
     - **E-mail/Gebruikersnaam:** <inject key="AzureAdUserEmail"></inject>
 
-        ![](../media/Lab-2/image8.png)
+        ![](../media/Lab-1/image9.png)
 
 4. Voer nu de volgende **Tijdelijke toegangscode** in en klik op **Aanmelden**.
 
     - **Tijdelijke toegangscode:** <inject key="AzureAdUserPassword"></inject>
 
-        ![](../media/Lab-2/image9.png)
+        ![](../media/Lab-1/image10.png)
 
 5. U wordt doorgestuurd naar de vertrouwde **Power BI Service-startpagina**.
 

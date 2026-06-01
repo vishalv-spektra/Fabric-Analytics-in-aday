@@ -502,7 +502,7 @@ In een werkelijk scenario worden gegevens bijgewerkt bij de bron. Omdat we ons i
 
     U ziet in het **deelvenster Explorer** aan de linkerkant dat we nu de tabel InvoicesMay hebben. Nu moeten we de Sales view bijwerken.
 
-19. Selecteer rechtsboven in het scherm **Lakehouse -> SQL analytics endpoint**.
+19. Selecteer rechtsboven in het scherm **Gegevens analyseren met -> SQL analytics endpoint**.
 
     ![](../media/Lab-7/image52.png)
 
