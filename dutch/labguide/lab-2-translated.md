@@ -138,7 +138,7 @@ Aan het einde van dit lab heeft u geleerd:
 
     ![](../media/Lab-2/image17.png)
 
-3. Er verschijnt een dialoogvenster voor een nieuwe Lakehouse. Voer **lh_FAIAD** in het tekstvak Naam in.
+3. Er verschijnt een dialoogvenster voor een nieuwe Lakehouse. Voer **lh_FAIAD** in het tekstvak **Naam** in.
 
     >**Opmerking:** lh verwijst hier naar Lakehouse. We voegen het voorvoegsel lh toe zodat het gemakkelijk te herkennen en te zoeken is.
 

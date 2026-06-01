@@ -86,26 +86,6 @@ Aan het einde van dit lab heeft u geleerd:
 
     ![](../media/Lab-4/image10.png)
 
-    > #### **Opmerking:** <span style="color:maroon;">Als u de foutmelding **"We konden geen query's vinden op uw klembord."** tegenkomt tijdens het kopiëren van query's naar **Dataflow Gen2**, volg dan de onderstaande stappen om de query's handmatig te maken.
-    >
-    >1. Selecteer op de pagina **Dataflow Gen2** **Gegevens ophalen uit een andere bron** om het venster voor bronselectie te openen.
-    >
-    >    ![](../media/Lab-4/clipboardissue1.png)
-    >
-    >2. Zoek in de zoekbalk naar **Lege query (1)** en selecteer vervolgens de optie **Lege query (2)** uit de resultaten.
-    >
-    >    ![](../media/Lab-4/clipboardissue2.png)
-    >
-    >3. Verwijder in het query-editorvenster de bestaande standaardcode en vervang deze door de gekopieerde **Power Query (M-query)-code (1)** uit uw klembord. Selecteer vervolgens **Volgende (2)** om de query toe te passen.
-    >
-    >    ![](../media/Lab-4/clipboardissue3.png)
-    >
-    >4. Klik in het linker querypaneel met de rechtermuisknop op de querynaam, selecteer **Naam wijzigen** en wijzig de naam van de query naar **People**.
-    >
-    >    ![](../media/Lab-4/clipboardissue4.png)
-    >
-    >Als alternatief kunt u **Remote Desktop (RDP)** gebruiken om rechtstreeks verbinding te maken met uw virtuele machine, waardoor de functionaliteit van het klembord correct werkt voor het kopiëren en plakken van query's. Raadpleeg voor gedetailleerde instructies over verbinding via RDP de volgende stapsgewijze handleiding: **RDP: Bekende functionaliteitsproblemen**.
-
 ## Taak 2: SharePoint-verbinding maken
 
 1. Selecteer **Verbinding configureren**.
@@ -230,19 +210,7 @@ De verbinding is tot stand gebracht en u kunt de gegevens bekijken in het voorbe
 
     ![](../media/Lab-4/image23.png)
 
-    > #### **Opmerking:** <span style="color:maroon;">Als u de foutmelding **"We konden geen query's vinden op uw klembord."** tegenkomt tijdens het plakken van query's in **Dataflow Gen2**, maak de query's dan handmatig één voor één aan met een **Lege query**. Voeg de query **SupplierCategories** toe door dezelfde stappen te volgen als in **Taak 1** voor het maken van de query **People**. Nadat u de standaardcode hebt vervangen door de gekopieerde **Power Query (M-query)-code**, voegt u de query toe en wijzigt u de naam naar **SupplierCategories**.
-    >
-    >- Selecteer vervolgens de vervolgkeuzelijst **Gegevens ophalen (1)** en kies **Lege query (2)** om een nieuwe query te maken. Herhaal hetzelfde proces voor de volgende query's:
-    >
-    >* `Suppliers`
-    >* `Supplier`
-    >* `PO`
-    >* `PO Line Items`
-    >
-    >   ![](../media/Lab-4/clipboardissue5.png)
-    >
-    >Als alternatief kunt u **RDP** gebruiken om rechtstreeks verbinding te maken met uw virtuele machine, waardoor de functionaliteit van het klembord correct werkt voor het kopiëren en plakken van query's. Raadpleeg **RDP: Bekende functionaliteitsproblemen** voor stapsgewijze instructies.
-
+    
 ## Taak 6: Verbinding maken met Snowflake
 
 Merk op dat de vijf query's zijn geplakt en dat u nu het paneel **Query's** aan de linkerkant ziet. Omdat er nog geen verbinding met **Snowflake** is gemaakt, ziet u een waarschuwingsbericht waarin wordt gevraagd de verbinding te configureren.

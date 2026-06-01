@@ -54,9 +54,9 @@ Aan het einde van dit lab heeft u geleerd:
 
 1. Laten we teruggaan naar de Fabric-werkruimte, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** **(1)** die u heeft aangemaakt in Lab 2, Taak 8.
 
-2. Selecteer de optie **+ New item (2)** in de linkerbovenhoek.
+2. Selecteer de optie **+ Nieuw item (2)** in de linkerbovenhoek.
 
-3. Selecteer onder de sectie **Get Data (3)** de optie **Dataflow Gen2 (4)**.
+3. Selecteer onder de sectie **Gegevens ophalen (3)** de optie **Gegevensstroom Gen2 (4)**.
 
     ![](../media/Lab-4/image6.png)
 
@@ -64,11 +64,11 @@ Aan het einde van dit lab heeft u geleerd:
 
 4. Als u het bestand nog niet heeft geopend, open dan **FAIAD.pbix** in de map **Reports** op het bureaublad van uw labomgeving.
 
-5. Selecteer in het lint **Home -> Transform data**. Het Power Query-venster wordt geopend. Zoals u in de vorige labs heeft opgemerkt, zijn de query's in het linkerdeelvenster georganiseerd per gegevensbron.
+5. Selecteer in het lint **Start -> Gegevens transformeren**. Het Power Query-venster wordt geopend. Zoals u in de vorige labs heeft opgemerkt, zijn de query's in het linkerdeelvenster georganiseerd per gegevensbron.
 
 6. Selecteer in het linkerdeelvenster, onder de map SharePointData, de query **People**.
 
-7. **Klik met de rechtermuisknop** en selecteer **Copy**.
+7. **Klik met de rechtermuisknop** en selecteer **Kopiëren**.
 
     ![](../media/Lab-4/image7.png)
 
@@ -88,15 +88,15 @@ Aan het einde van dit lab heeft u geleerd:
 
 ## Taak 2: SharePoint-verbinding aanmaken
 
-1. Selecteer **Configure connection**.
+1. Selecteer **Verbinding configureren**.
 
     ![](../media/Lab-4/image11.png)
 
-2. Het dialoogvenster Verbinding maken met gegevensbron wordt geopend. Zorg er in de vervolgkeuzelijst **Connection** voor dat **Create new connection** is geselecteerd.
+2. Het dialoogvenster Verbinding maken met gegevensbron wordt geopend. Zorg er in de vervolgkeuzelijst **Verbinding** voor dat **Nieuwe verbinding maken** is geselecteerd.
 
-3. **Authentication kind** moet zijn ingesteld op **Organizational account**.
+3. **Verificatietype** moet zijn ingesteld op **Organisatieaccount**.
 
-4. Selecteer **Connect**.
+4. Selecteer **Verbinden**.
 
     >**Opmerking:** U wordt aangemeld met uw eigen referenties. Deze zijn anders dan die in de onderstaande schermafbeelding.
 
@@ -108,15 +108,15 @@ De verbinding is tot stand gebracht en u kunt de gegevens bekijken in het voorbe
 
 1. Selecteer de query **People (1)**.
 
-2. Selecteer in het lint **Home -> Query (2) -> Add data destination (3) -> Lakehouse (4)**.
+2. Selecteer in het lint **Start -> Query (2) -> Gegevensbestemming toevoegen (3) -> Lakehouse (4)**.
 
     ![](../media/Lab-4/image13.png)
 
-3. Het dialoogvenster Verbinding maken met gegevensbestemming wordt geopend. We moeten een nieuwe verbinding met de Lakehouse aanmaken. Met **Create new connection** geselecteerd in de vervolgkeuzelijst Connection en **Authentication kind** ingesteld op **Organizational account**, selecteert u **Next**.
+3. Het dialoogvenster Verbinding maken met gegevensbestemming wordt geopend. We moeten een nieuwe verbinding met de Lakehouse aanmaken. Met **Nieuwe verbinding maken** geselecteerd in de vervolgkeuzelijst Connection en **Verificatietype** ingesteld op **Organisatieaccount**, selecteert u **Volgende**.
 
     ![](../media/Lab-4/image14.png)
 
-4. Het dialoogvenster Bestemmingsdoel kiezen wordt geopend. Zorg ervoor dat het keuzerondje **New table** is geselecteerd, omdat we een nieuwe tabel aanmaken.
+4. Het dialoogvenster Bestemmingsdoel kiezen wordt geopend. Zorg ervoor dat het keuzerondje **Nieuwe tabel** is geselecteerd, omdat we een nieuwe tabel aanmaken.
 
 5. We willen de tabel aanmaken in de Lakehouse die we eerder hebben aangemaakt. Navigeer in het linkerdeelvenster naar **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
@@ -124,15 +124,15 @@ De verbinding is tot stand gebracht en u kunt de gegevens bekijken in het voorbe
 
 7. Laat de tabelnaam staan als **People**
 
-8. Selecteer **Next**.
+8. Selecteer **Volgende**.
 
     ![](../media/Lab-4/image15.png)
 
-9. Het dialoogvenster Bestemmingsinstellingen kiezen wordt geopend. Zorg ervoor dat "**Use automatic settings**" is **ingeschakeld**.
+9. Het dialoogvenster Bestemmingsinstellingen kiezen wordt geopend. Zorg ervoor dat "**Automatische instellingen gebruiken**" is **ingeschakeld**.
 
     >**Opmerking:** U kunt de automatische instellingen uitschakelen en ziet dan opties voor de updatewijze en schema-opties. Nadat u dit heeft verkend, zorg dan dat "**Use automatic settings**" weer is **ingeschakeld**.
 
-10. Selecteer **Save settings**.
+10. Selecteer **Instellingen opslaan**.
 
     ![](../media/Lab-4/image16.png)
 
@@ -140,13 +140,13 @@ De verbinding is tot stand gebracht en u kunt de gegevens bekijken in het voorbe
 
 1. U wordt teruggestuurd naar het **Power Query-venster**. Let op de rechteronderhoek: de gegevensbestemming is ingesteld op **Lakehouse (1)**.
 
-2. Selecteer in de linkerbovenhoek **Save & run (2)**. Zodra u de melding ziet dat een vernieuwing is gestart, kunt u de dataflow sluiten **(3)**.
+2. Selecteer in de linkerbovenhoek **Opslaan en uitvoeren (2)**. Zodra u de melding ziet dat een vernieuwing is gestart, kunt u de dataflow sluiten **(3)**.
 
     ![](../media/Lab-4/image17.png)
 
     >**Opmerking:** U wordt teruggestuurd naar de werkruimte **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**. Het kan even duren voordat de Dataflow klaar is met uitvoeren.
 
-3. **Dataflow 1** is de dataflow waaraan we hebben gewerkt. Laten we deze hernoemen voordat we verdergaan. Klik op het **beletselteken (…)** naast Dataflow 1. Selecteer **Settings** (terwijl de Dataflow wordt uitgevoerd, heeft u geen toegang tot de instellingen).
+3. **Dataflow 1** is de dataflow waaraan we hebben gewerkt. Laten we deze hernoemen voordat we verdergaan. Klik op het **beletselteken (…)** naast Dataflow 1. Selecteer **Instellingen** (terwijl de Dataflow wordt uitgevoerd, heeft u geen toegang tot de instellingen).
 
     ![](../media/Lab-4/image18.png)
 
@@ -174,9 +174,9 @@ De verbinding is tot stand gebracht en u kunt de gegevens bekijken in het voorbe
 
 1. Laten we teruggaan naar de Fabric-werkruimte, **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)**.
 
-2. Selecteer de optie **+ New item (2)** in de linkerbovenhoek.
+2. Selecteer de optie **+ Nieuw item (2)** in de linkerbovenhoek.
 
-3. Selecteer onder Aanbevolen items de optie **Dataflow Gen2 (3)**.
+3. Selecteer onder Aanbevolen items de optie **Gegevensstroom Gen2 (3)**.
 
     ![](../media/Lab-4/image21.png)
 
@@ -184,7 +184,7 @@ De verbinding is tot stand gebracht en u kunt de gegevens bekijken in het voorbe
 
 4. Als u het bestand nog niet heeft geopend, open dan **FAIAD.pbix** in de map **Reports** op het bureaublad van uw labomgeving.
 
-5. Selecteer in het lint **Home -> Transform data**. Het Power Query-venster wordt geopend. Zoals u in de vorige labs heeft opgemerkt, zijn de query's in het linkerdeelvenster georganiseerd per gegevensbron.
+5. Selecteer in het lint **Gegevensstroom Gen2 (3)**. Het Power Query-venster wordt geopend. Zoals u in de vorige labs heeft opgemerkt, zijn de query's in het linkerdeelvenster georganiseerd per gegevensbron.
 
 6. Selecteer in het linkerdeelvenster, onder de map **SnowflakeData**, via **Ctrl+Select** of Shift+Select de volgende query's:
 
@@ -198,7 +198,7 @@ De verbinding is tot stand gebracht en u kunt de gegevens bekijken in het voorbe
 
     5. PO Line Items
 
-7. **Klik met de rechtermuisknop** en selecteer **Copy**.
+7. **Klik met de rechtermuisknop** en selecteer **Kopiëren**.
 
     ![](../media/Lab-4/image22.png)
 
@@ -214,15 +214,15 @@ De verbinding is tot stand gebracht en u kunt de gegevens bekijken in het voorbe
 
 U ziet dat de vijf query's zijn geplakt en dat u nu het Query's-paneel aan de linkerkant heeft. Omdat er nog geen verbinding voor Snowflake is aangemaakt, wordt een waarschuwingsbericht weergegeven met het verzoek de verbinding te configureren.
 
-1. Selecteer **Configure connection**.
+1. Selecteer **Verbinding configureren**.
 
     ![](../media/Lab-4/image24.png)
 
-2. Het dialoogvenster Verbinding maken met gegevensbron wordt geopend. Zorg er in de vervolgkeuzelijst **Connection** voor dat **Create new connection** is geselecteerd.
+2. Het dialoogvenster Verbinding maken met gegevensbron wordt geopend. Zorg er in de vervolgkeuzelijst **Verbinding** voor dat **Nieuwe verbinding maken** is geselecteerd.
 
 3. **Authentication kind** moet zijn ingesteld op **Snowflake**.
 
-4. Voer de **Snowflake Username** en het **Snowflake Password** in zoals hieronder vermeld. Gebruik deze referenties om alle tabellen onder **Snowflake** te verbinden met Snowflake en selecteer vervolgens **Connect**.
+4. Voer de **Snowflake Username** en het **Snowflake Password** in zoals hieronder vermeld. Gebruik deze referenties om alle tabellen onder **Snowflake** te verbinden met Snowflake en selecteer vervolgens **Verbinden**.
 
     - Snowflake Username: <inject key="SnowFlake Username" enableCopy="false" />
 
@@ -234,7 +234,7 @@ U ziet dat de vijf query's zijn geplakt en dat u nu het Query's-paneel aan de li
 
     - **Snowflake Password:** 8UpfRpExVDXv2AC1
 
-5. Selecteer **Connect**.
+5. Selecteer **Verbinden**.
 
     ![](../media/Lab-4/image25.png)
 
@@ -245,20 +245,17 @@ U ziet dat de vijf query's zijn geplakt en dat u nu het Query's-paneel aan de li
 
 1. Selecteer de query **Supplier (1)**.
 
-2. Selecteer in het lint **Home (2) -> Add data destination (3) -> Lakehouse (4)**.
+2. Selecteer in het lint **Start (2) -> Query (3) -> Gegevensbestemming toevoegen (4) -> Lakehouse (5)**.
 
     ![](../media/Lab-4/image26.png)
 
 3. Het dialoogvenster Verbinding maken met gegevensbestemming wordt geopend. Selecteer in de vervolgkeuzelijst **Connection** de optie **Lakehouse odl_user_<inject key="Deployment ID" enableCopy="false"/> (none)**.
 
-
-4. Selecteer **Next**.
+4. Selecteer **Volgende**.
 
     ![](../media/Lab-4/image27.png)
 
-
 5. Het dialoogvenster Bestemmingsdoel kiezen wordt geopend. Zorg ervoor dat het keuzerondje **New table** is geselecteerd, omdat we een nieuwe tabel aanmaken.
-
 
 6. We willen de tabel aanmaken in de Lakehouse die we eerder hebben aangemaakt. Navigeer in het linkerdeelvenster naar **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
@@ -266,11 +263,11 @@ U ziet dat de vijf query's zijn geplakt en dat u nu het Query's-paneel aan de li
 
 8. Laat de tabelnaam staan als **Supplier**
 
-9. Selecteer **Next**.
+9. Selecteer **Volgende**.
 
     ![](../media/Lab-4/image28.png)
 
-10. Het dialoogvenster Bestemmingsinstellingen kiezen wordt geopend. We gebruiken de automatische instellingen, omdat hiermee een volledige update van de gegevens wordt uitgevoerd. Bovendien worden kolommen indien nodig hernoemd. Selecteer **Save settings**.
+10. Het dialoogvenster Bestemmingsinstellingen kiezen wordt geopend. We gebruiken de automatische instellingen, omdat hiermee een volledige update van de gegevens wordt uitgevoerd. Bovendien worden kolommen indien nodig hernoemd. Selecteer **Instellingen opslaan*.
 
     ![](../media/Lab-4/image29.png)
 
@@ -289,7 +286,7 @@ U ziet dat de vijf query's zijn geplakt en dat u nu het Query's-paneel aan de li
 
     ![](../media/Lab-4/image31.png)
 
-4. Selecteer in de linkerbovenhoek **Save & run (1)**. Zodra u de melding ziet dat een vernieuwing is gestart, kunt u de dataflow sluiten **(2)**.
+4. Selecteer in de linkerbovenhoek **Opslaan en uitvoeren (1)**. Zodra u de melding ziet dat een vernieuwing is gestart, kunt u de dataflow sluiten **(2)**.
 
     ![](../media/Lab-4/image32.png)
 
@@ -315,14 +312,11 @@ U bevindt zich in de Lakehouse **lh_FAIAD**. Zorg ervoor dat u de Lakehouse-weer
 
 ![](../media/Lab-4/image34.png)
 
-
 1. Selecteer in het **Explorer**-paneel het **beletselteken** naast **Tables**.
 
-
-2. Selecteer **New Shortcut**.
+2. Selecteer **Nieuwe snelkoppeling**.
 
     ![](../media/Lab-4/image35.png)
-
 
 3. Het dialoogvenster New shortcut wordt geopend. Selecteer onder **External sources** de optie **Dataverse**.
 
@@ -330,11 +324,11 @@ U bevindt zich in de Lakehouse **lh_FAIAD**. Zorg ervoor dat u de Lakehouse-weer
 
     ![](../media/Lab-4/image36.png)
 
-4. **Selecteer New connection (1)**; het dialoogvenster Verbindingsinstellingen wordt geopend. Voer **org6c18814a.crm.dynamics.com (2)** in als het **Environment domain**.
+4. **Selecteer Nieuwe verbinding (1)**; het dialoogvenster Verbindingsinstellingen wordt geopend. Voer **org6c18814a.crm.dynamics.com (2)** in als het **Environment domain**.
 
-5. Laat **Authentication kind** staan op **Organizational account (3)**.
+5. Laat **Verificatietype** staan op **Organisatieaccount (3)**.
 
-6. Selecteer **Sign in** als u nog niet bent aangemeld.
+6. Selecteer **Aanmelden** als u nog niet bent aangemeld.
 
     ![](../media/Lab-4/image37.png)
 
@@ -344,13 +338,13 @@ U bevindt zich in de Lakehouse **lh_FAIAD**. Zorg ervoor dat u de Lakehouse-weer
 
     ![](../media/Lab-4/image38.png)
 
-8. Selecteer **Next** in het dialoogvenster Verbindingsinstellingen.
+8. Selecteer **Volgende** in het dialoogvenster Verbindingsinstellingen.
 
     U wordt doorgestuurd naar een dialoogvenster waar u de verschillende bucket/mappen vanuit Dataverse kunt selecteren. U ziet dat er veel verschillende buckets beschikbaar zijn. We zouden de benodigde bucket(s) kunnen selecteren en het proces volgen zoals in Lab 3 (Visual query gebruiken om gegevens te transformeren en weergaven aan te maken). We zouden ook Dataflow Gen2 kunnen gebruiken, zoals eerder in dit lab, om verbinding te maken met SharePoint.
 
     In ons scenario heeft het IT-team al een koppeling met Dataverse tot stand gebracht en de benodigde gegevenstransformaties toegepast, in navolging van die in het Power BI Desktop-bestand. Ze hebben deze gegevens ingeladen in de Lakehouse in de Admin-werkruimte en ons toegang verleend tot de tabel(len). Omdat ons IT-team al het zware werk heeft gedaan, kunnen we een shortcut aanmaken naar deze Lakehouse in de Admin-werkruimte.
 
-9. Selecteer **Cancel** in het dialoogvenster New shortcut om terug te gaan naar de Lakehouse.
+9. Selecteer **Annuleren** in het dialoogvenster **Nieuwe snelkoppeling** om terug te gaan naar de Lakehouse.
 
     ![](../media/Lab-4/image39.png)
 
@@ -358,17 +352,17 @@ U bevindt zich in de Lakehouse **lh_FAIAD**. Zorg ervoor dat u de Lakehouse-weer
 
 1. Selecteer in het **Explorer**-paneel het **beletselteken** naast **Tables**.
 
-2. Selecteer **New Shortcut**.
+2. Selecteer **Nieuwe snelkoppeling**.
 
     ![](../media/Lab-4/image35.png)
 
-3. Het dialoogvenster New shortcut wordt geopend. Selecteer de optie **Microsoft OneLake** onder Internal sources.
+3. Het dialoogvenster Nieuwe snelkoppeling wordt geopend. Selecteer de optie **Microsoft OneLake** onder Internal sources.
 
     ![](../media/Lab-4/image40.png)
 
 4. Selecteer **lh_dataverse**.
 
-5. Selecteer **Next**.
+5. Selecteer **Volgende**.
 
     ![](../media/Lab-4/image41.png)
 
@@ -376,7 +370,7 @@ U bevindt zich in de Lakehouse **lh_FAIAD**. Zorg ervoor dat u de Lakehouse-weer
 
 7. Selecteer **Customer**.
 
-8. Selecteer **Next**.
+8. Selecteer **Volgende**.
 
     ![](../media/Lab-4/image42.png)
 

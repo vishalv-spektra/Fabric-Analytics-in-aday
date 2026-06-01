@@ -56,19 +56,19 @@ Shortcuts worden gebruikt om een koppeling naar de doellocatie te maken. Shortcu
 
 1. Selecteer in het **Explorer**-paneel het **beletselteken** naast **Tables**.
 
-1. Selecteer **New shortcut**.
+1. Selecteer **New shortcut (Nieuwe snelkoppeling)**.
 
     ![](../media/Lab-3/image6.png)
 
-1. Het dialoogvenster **New Shortcut** opent. Selecteer onder **External sources** de optie **Azure Data Lake Storage Gen2**.
+1. Het dialoogvenster **New Shortcut (Nieuwe snelkoppeling)** opent. Selecteer onder **External sources (Externe bronnen)** de optie **Azure Data Lake Storage Gen2**.
 
     ![](../media/Lab-3/image7.png)
 
-1. Selecteer **New connection (1)**.
+1. Selecteer **Nieuwe verbinding (1)**.
 
 1. Voer de volgende koppeling in voor de eigenschap **URL**: https://stvnextblobstorage.dfs.core.windows.net/fabrikam-sales **(2):**
 
-1. Klik op **Create New Connection (3)** onder de sectie Connection.
+1. Klik op **Nieuwe verbinding maken (3)** onder de sectie Connection.
 
 1. Selecteer **Shared Access Signature (SAS) (4)** in de vervolgkeuzelijst Authentication kind.
 
@@ -76,13 +76,13 @@ Shortcuts worden gebruikt om een koppeling naar de doellocatie te maken. Shortcu
 
     - **SAS token:** <inject key="Sas token"></inject>
 
-1. Selecteer **Next (6)** rechtsonder op het scherm.
+1. Selecteer **Volgende (6)** rechtsonder op het scherm.
 
     ![](../media/Lab-3/image8.png)
 
 1. U wordt verbonden met ADLS Gen2 en de mappenstructuur wordt weergegeven in het linkerdeelvenster. Vouw **Delta-Parquet-Format-FY25 (1)** uit.
 
-1. **Selecteer** de volgende mappen **(2)** en klik vervolgens op **Next (3):**
+1. **Selecteer** de volgende mappen **(2)** en klik vervolgens op **Volgende (3):**
 
     1. Application.Cities
 
@@ -142,7 +142,7 @@ Shortcuts worden gebruikt om een koppeling naar de doellocatie te maken. Shortcu
 
     > **Opmerking:** Controleer de namen nogmaals. Een typefout veroorzaakt fouten tijdens het lab.
 
-1. Selecteer **Create** om de Shortcut aan te maken.
+1. Selecteer **Maken** om de Shortcut aan te maken.
 
     ![](../media/Lab-3/image11.png)
 
@@ -164,11 +164,11 @@ Shortcuts worden gebruikt om een koppeling naar de doellocatie te maken. Shortcu
 
     We beginnen met het aanmaken van een Geo-weergave. We moeten gegevens uit de tabellen Cities, States en Countries samenvoegen om de Geo-weergave te maken.
 
-2. Klik in het bovenste menu op de vervolgkeuzelijst naast **New SQL query (1)** en selecteer vervolgens **New visual query (2)**.
+2. Klik in het bovenste menu op de vervolgkeuzelijst naast **Nieuwe SQL query (1)** en selecteer vervolgens **Nieuwe visuele query (2)**.
     
     ![](../media/Lab-3/image14.png)
 
-3. Om een query op te bouwen, moeten we tabellen toevoegen aan het Visual Query-paneel. Klik in het Explorer-deelvenster op **Schemas (1)**, vouw **dbo (2)** uit, open **Tables (3)**, klik op het beletselteken naast **Cities (4)** en selecteer **Insert into canvas (5)**.
+3. Om een query op te bouwen, moeten we tabellen toevoegen aan het Visual Query-paneel. Klik in het Explorer-deelvenster op **Schemas (1)**, vouw **dbo (2)** uit, open **Tables (3)**, klik op het beletselteken naast **Cities (4)** en selecteer **lhvoegen in canvas(5)**.
 
     ![](../media/Lab-3/image15.png)
 
@@ -176,23 +176,23 @@ Shortcuts worden gebruikt om een koppeling naar de doellocatie te maken. Shortcu
 
     Vervolgens moeten we deze query's samenvoegen. De visual query editor biedt de optie om de Power Query editor te gebruiken. Laten we dit gebruiken, omdat we hiermee bekend zijn vanuit Power BI.
 
-5. **Selecteer in het menu van de visual query editor** het pictogram **Open in popup** (aan de rechterkant). U wordt naar de Power Query editor geleid.
+5. **Selecteer in het menu van de visual query editor** het pictogram **Openen in pop-upvenster** (aan de rechterkant). U wordt naar de Power Query editor geleid.
          
     >**Opmerking:** Mogelijk moet u naar rechts scrollen of uw tabblad voor de visual query opnieuw openen als u dit pictogram niet direct ziet.
 
     ![](../media/Lab-3/image16.png)
 
-6. Selecteer met de query **Cities (1)** geselecteerd in het lint van de Power Query editor de optie **Home (2) -> Combine (3) -> Merge queries (vervolgkeuzelijst) (4) -> Merge queries as new (5)**. Het dialoogvenster Merge queries opent.
+6. Selecteer met de query **Cities (1)** geselecteerd in het lint van de Power Query editor de optie **Start (2) -> Combineren (3) -> vervolgkeuzelijst Query's samenvoege (4) -> Query's samenvoegen als nieuw (5)**. Het dialoogvenster Merge queries opent.
 
     ![](../media/Lab-3/image17.png)
 
-7. Selecteer in de **Left table for merge** de tabel **Cities**.
+7. Selecteer bij **Linkertabel voor samenvoegen** de tabel **Cities**.
 
-8. Selecteer in de **Right table for merge** de tabel **States**.
+8. Selecteer bij **Rechtertabel voor samenvoegen** de tabel **States**.
 
 9. Selecteer de kolommen **StateProvinceID** uit beide tabellen. We gaan samenvoegen op basis van deze kolom.
 
-10. Selecteer **Inner** als **Join kind**.
+10. Selecteer **Binnen** als **Type Join**.
 
 11. Selecteer **OK**.
 
@@ -218,15 +218,15 @@ Shortcuts worden gebruikt om een koppeling naar de doellocatie te maken. Shortcu
 
     We moeten nu de query Countries samenvoegen.
 
-15. Selecteer met de Merge-query geselecteerd **(1)** de optie **Home (2) -> Combine (3) -> Merge queries (vervolgkeuzelijst) (4) -> Merge queries (5)**.
+15. Selecteer met de Merge-query geselecteerd **(1)** de optie **Start (2) -> Combineren (3) -> vervolgkeuzelijst Query's samenvoegen (4) -> Query's samenvoegen (5)**.
 
     ![](../media/Lab-3/image20.png)
 
-16. Het dialoogvenster Merge query opent. Selecteer in de **Right table for merge** de tabel **Countries**.
+16. Het venster **Query's samenvoegen** wordt geopend. Selecteer bij **Rechtertabel voor samenvoegen** de tabel **Countries**.
 
-17. Selecteer de kolommen **CountryID** uit beide tabellen. We gaan samenvoegen op basis van deze kolom.
+17. Selecteer de kolommen **CountryID** uit beide tabellen. We gaan deze kolom gebruiken voor de koppeling.
 
-18. Selecteer **Inner** als **Join kind**.
+18. Selecteer **Binnen (Inner)** als **Type Join**.
 
 19. Selecteer **OK**.
 
@@ -262,7 +262,7 @@ Shortcuts worden gebruikt om een koppeling naar de doellocatie te maken. Shortcu
 
     We hebben niet alle kolommen in de tabel **Merge** nodig. Zorg ervoor dat u alleen de kolommen selecteert die we nodig hebben.
 
-23. Selecteer met de query **Merge** geselecteerd **(1)** in het lint de optie **Home (2) -> Choose columns (3) -> Choose columns (4)**.
+23. Terwijl de query **Samenvoegen (1)** geselecteerd is, selecteert u in het lint **Start (2) -> Kolommen kiezen (3) -> Kolommen kiezen (4)**.
 
     >**Opmerking:** Als de optie Choose columns niet zichtbaar is, kunt u deze vinden onder Manage columns.
 
@@ -288,13 +288,13 @@ Shortcuts worden gebruikt om een koppeling naar de doellocatie te maken. Shortcu
 
     U ziet dat het proces vergelijkbaar is met Power Query: alle stappen worden vastgelegd in het paneel Applied Steps aan de rechterkant en in de visuele weergave. Laten we de Merge-query hernoemen en Enable load inschakelen, zodat de gegevens vanuit deze query worden geladen.
 
-26. **Klik met de rechtermuisknop** op de query **Merge** in het paneel Queries (links). Selecteer **Rename** en hernoem de query naar **Geo**.
+26. **Klik met de rechtermuisknop** op de query **Samenvoegen** in het paneel Queries (links). Selecteer **Naam wijzigen** en hernoem de query naar **Geo**.
 
-27. **Klik met de rechtermuisknop** op de query **Geo** in het paneel Queries (links). Selecteer **Enable Load** om deze query in te schakelen.
+27. **Klik met de rechtermuisknop** op de query **Geo** in het paneel Queries (links). Selecteer **Laden inschakelen** om deze query in te schakelen.
 
 28. Zorg ervoor dat de query's Cities, States en Countries **uitgeschakeld** zijn.
 
-29. Selecteer **Save**, te vinden rechtsonder in de Power Query editor.
+29. Selecteer **Opslaan**, te vinden rechtsonder in de Power Query editor.
 
     ![](../media/Lab-3/image25.png)
 
@@ -302,13 +302,13 @@ Shortcuts worden gebruikt om een koppeling naar de doellocatie te maken. Shortcu
 
     >**Opmerking:** Alle stappen die we hebben uitgevoerd in de Power Query editor, kunnen ook worden uitgevoerd in de visual query editor.
 
-30. Selecteer in het menu van de visual query editor de optie **Save as view**.
+30. Selecteer in het menu van de visual query editor de optie **Opslaan als weergave**.
 
     ![](../media/Lab-3/image26.png)
 
     Het dialoogvenster Save as view opent. U ziet dat de SQL-query beschikbaar is. U kunt deze bekijken als u de SQL-code wilt controleren.
 
-31. Voer **Geo** in als **View name**.
+31. Voer **Geo** in als **Naam van de weergave**.
 
 32. Selecteer **OK** om de weergave op te slaan.
 
@@ -324,11 +324,11 @@ Shortcuts worden gebruikt om een koppeling naar de doellocatie te maken. Shortcu
 
 Laten we de Reseller-weergave aanmaken, die wordt gemaakt door de tabel Customers samen te voegen met de tabel BuyingGroups. Deze keer maken we de weergave aan via Visual query zonder de Power Query-optie te openen.
 
-1. Klik in het bovenste menu op de vervolgkeuzelijst naast **New SQL query (1)** en selecteer vervolgens **New visual query (2)**.
+1. Klik in het bovenste menu op de vervolgkeuzelijst naast **Nieuwe SQL-query (1)** en selecteer vervolgens **Nieuwe visuele query (2)**.
 
     ![](../media/Lab-3/image54.png)
 
-2. Om een query op te bouwen, moeten we tabellen toevoegen aan het Visual Query-paneel. Klik op het beletselteken naast de tabel **BuyingGroups (1)** en selecteer **Insert into canvas (2)**.
+2. Om een query op te bouwen, moeten we tabellen toevoegen aan het Visual Query-paneel. Klik op het beletselteken naast de tabel **BuyingGroups (1)** en selecteer **Invoegen in canvas (2)**.
 
     ![](../media/Lab-3/image29.png)
 
@@ -336,17 +336,17 @@ Laten we de Reseller-weergave aanmaken, die wordt gemaakt door de tabel Customer
 
 4. **Selecteer de query Customers**. Wanneer deze is geselecteerd, heeft Customers een **"+"**-teken na Table (dit geeft aan dat we een stap toevoegen na Table. Als u het **"+"**-teken na Table niet ziet, heeft u mogelijk een andere stap geselecteerd. Selecteer Table en u bent klaar om verder te gaan).
 
-5. Selecteer in het menu van de visual query de optie **Combine -> Merge queries**.
+5. Selecteer in het menu van de visual query de optie **Combineren -> Query's samenvoegen**.
 
     ![](../media/Lab-3/image30.png)
 
     Het dialoogvenster Merge opent met Customers geselecteerd als de bovenste tabel.
 
-6. Selecteer in de **Right table for merge** de tabel **BuyingGroups**.
+6. Selecteer bij **Rechtertabel voor samenvoegen** de tabel **BuyingGroups**.
 
-7. Selecteer de kolommen **BuyingGroupID** uit beide tabellen. We gaan samenvoegen op basis van deze kolom.
+7. Selecteer de kolommen **BuyingGroupID** uit beide tabellen. We gaan deze kolom gebruiken voor de koppeling.
 
-8. Selecteer **Inner** als **Join kind**.
+8. Selecteer **Binnen (Inner)** als **Type samenvoeging**.
 
 9. Selecteer **OK**.
 
@@ -362,7 +362,7 @@ Laten we de Reseller-weergave aanmaken, die wordt gemaakt door de tabel Customer
 
     We hebben niet alle kolommen in onze tabel Customer nodig. Laten we alleen de kolommen selecteren die we nodig hebben.
 
-13. Selecteer in het menu van de visual query de optie **Manage columns -> Choose columns**.
+13. Selecteer in het menu van de visual query de optie **Kolommen beheren -> Kolommen kiezen**.
 
     ![](../media/Lab-3/image33.png)
 
@@ -408,19 +408,19 @@ Laten we de Reseller-weergave aanmaken, die wordt gemaakt door de tabel Customer
 
 18. We moeten de query Customers opslaan, omdat deze alle stappen bevat. We moeten Enable load inschakelen. Selecteer het **beletselteken** in het queryvenster **Customers**.
 
-19. Zorg ervoor dat **Enable load** is aangevinkt.
+19. Zorg ervoor dat **Laden inschakelen** is aangevinkt.
 
     ![](../media/Lab-3/image36.png)
 
-    >**Opmerking:** Het venster **Customer** moet een blauwe rand hebben als Enable load is ingeschakeld.
+    >**Opmerking:** Het venster **Customer** moet een blauwe rand hebben als Laden inschakelen is ingeschakeld.
 
-20. Selecteer in het menu van de visual query de optie **Save as view**.
+20. Selecteer in het menu van de visual query de optie **Opslaan als weergave**.
 
     ![](../media/Lab-3/image37.png)
 
-    Het dialoogvenster Save as view opent. U ziet dat de SQL-query beschikbaar is. U kunt deze bekijken door erop te klikken.
+    Het dialoogvenster **Opslaan als weergave** opent. U ziet dat de SQL-query beschikbaar is. U kunt deze bekijken door erop te klikken.
 
-21. Voer **Reseller** in als **View name**.
+21. Voer **Reseller** in als **Naam van de weergave**.
 
 22. Selecteer **OK** om de weergave op te slaan.
 
@@ -436,31 +436,31 @@ Laten we de Reseller-weergave aanmaken, die wordt gemaakt door de tabel Customer
 
 Laten we de Sales-weergave aanmaken, die wordt gemaakt door de tabellen InvoiceLineItems en Invoices samen te voegen met de Reseller-weergave. We hebben deze query in Power BI Desktop. We kopiëren de code uit de Advanced Editor. Maar voordat we de code kopiëren, moeten we een samenvoegingstabel aanmaken via Visual query, omdat het aanmaken van een lege query niet mogelijk is in Visual query. Laten we deze methode uitproberen.
 
-1. Klik in het bovenste menu op de vervolgkeuzelijst naast **New SQL query** en selecteer vervolgens **New visual query**. 
+1. Klik in het bovenste menu op de vervolgkeuzelijst naast **Nieuwe SQL-query** en selecteer vervolgens **Nieuwe visuele query**. 
 
     ![](../media/Lab-3/image40.png)
 
-2. Vanuit de sectie **Explorer -> Table** moeten we tabellen toevoegen aan het Visual Query-paneel. Klik op het beletselteken naast de tabel **InvoiceLineItems** en selecteer **Insert into canvas**.
+2. Vanuit de sectie **Explorer -> Table** moeten we tabellen toevoegen aan het Visual Query-paneel. Klik op het beletselteken naast de tabel **InvoiceLineItems** en selecteer **Invoegen in canvas**.
 
 3. Herhaal dezelfde stappen voor de tabel **Invoices**.
 
-4. Vanuit de sectie **Explorer -> Views** moeten we tabellen toevoegen aan het Visual Query-paneel. Klik op het beletselteken naast de tabel **Reseller** en selecteer **Insert into canvas**.
+4. Vanuit de sectie **Explorer -> Views** moeten we tabellen toevoegen aan het Visual Query-paneel. Klik op het beletselteken naast de tabel **Reseller** en selecteer **Invoegen in canvas**.
 
-5. Selecteer in de visual query editor de optie **Open in popup** om de Power Query editor te openen.
+5. Selecteer in de visual query editor de optie **Openen in pop-upvenster** om de Power Query editor te openen.
 
     ![](../media/Lab-3/image41.png)
 
-6. Selecteer met de query **InvoiceLineItems** geselecteerd in het lint de optie **Home (2) -> Combine (3) -> Merge queries (vervolgkeuzelijst) (4) -> Merge queries as new (5)**. Het dialoogvenster Merge queries opent.
+6. Selecteer met de query **InvoiceLineItems** geselecteerd in het lint de optie **Start (2) -> Combineren (3) -> vervolgkeuzelijst Query's samenvoegen (4) -> Query's samenvoegen als nieuwe query (5)**. Het dialoogvenster Merge queries opent.
 
     ![](../media/Lab-3/image42.png)
 
-7. Selecteer in de **Left table for merge** de tabel **InvoiceLineItems**.
+7. Selecteer bij **Linkertabel voor samenvoegen** de tabel **InvoiceLineItems**.
 
-8. Selecteer in de **Right table for merge** de tabel **Invoices**.
+8. Selecteer bij **Rechtertabel voor samenvoegen** de tabel **Invoices**.
 
-9. Selecteer de kolommen **InvoiceID** uit beide tabellen. We gaan samenvoegen op basis van deze kolom.
+9. Selecteer de kolommen **InvoiceID** uit beide tabellen. We gaan deze kolom gebruiken voor de koppeling.
 
-10. Selecteer **Inner** als **Join kind**.
+10. Selecteer **Binnen (Inner)** als **Type samenvoeging**.
 
 11. Selecteer **OK**.
 
@@ -470,17 +470,17 @@ Laten we de Sales-weergave aanmaken, die wordt gemaakt door de tabellen InvoiceL
 
 12. Als u dit nog niet heeft gedaan, open dan **FAIAD.pbix** in de map **Reports** op het bureaublad van uw labomgeving.
 
-13. Selecteer in het lint de optie **Home -> Transform data**. Het Power Query-venster opent. Zoals u in het vorige lab heeft gezien, zijn de query's in het linkerdeelvenster georganiseerd per gegevensbron.
+13. Selecteer in het lint de optie **Start -> Gegevens transformeren**. Het Power Query-venster opent. Zoals u in het vorige lab heeft gezien, zijn de query's in het linkerdeelvenster georganiseerd per gegevensbron.
 
     ![](../media/Lab-3/image44.png)
 
 14. Selecteer in het linkerdeelvenster **Queries** onder de map **ADLSData (1)** de query **Sales (2)**.
 
-15. Selecteer in het lint de optie **Home -> Advanced Editor (3)**. Het dialoogvenster Advanced Editor opent.
+15. Selecteer in het lint de optie **Start -> Geavanceerde editor (3)**. Het dialoogvenster Advanced Editor opent.
 
     ![](../media/Lab-3/image45.png)
 
-    >**Opmerking:** Als u de Advanced Editor niet kunt vinden, kunt u deze openen via **Home -> Query -> Advanced Editor**.
+    >**Opmerking:** Als u de Advanced Editor niet kunt vinden, kunt u deze openen via **Start -> Query -> Geavanceerde editor**.
 
 16. **Selecteer de code vanaf regel 3** tot en met de laatste coderegel.
 
@@ -494,14 +494,13 @@ Laten we de Sales-weergave aanmaken, die wordt gemaakt door de tabellen InvoiceL
 
 20. Zorg ervoor dat de query **Merge** is geselecteerd.
 
-21. Selecteer in het lint de optie **Home -> Advanced Editor**. Het dialoogvenster Advanced Editor opent.
+21. Selecteer in het lint de optie **Start -> Geavanceerde editor**. Het dialoogvenster Advanced Editor opent.
 
     ![](../media/Lab-3/image47.png)
 
 22. **Voeg aan het einde van regel 2 een komma toe** (Source = Table.NestedJoin(InvoiceLineItems, {"InvoiceID"}, Invoices, {"InvoiceID"}, "Invoices", JoinKind.Inner)**,**
 
 23. Klik op **Enter** om een nieuwe regel te beginnen.
-
 
 24. Gebruik **Ctrl+V** op uw toetsenbord om de code te plakken die u heeft gekopieerd uit Power BI Desktop.
 
@@ -537,15 +536,15 @@ Laten we de Sales-weergave aanmaken, die wordt gemaakt door de tabellen InvoiceL
 
 28. **Hernoem** de query Merge naar **Sales**.
 
-29. Klik met de rechtermuisknop op de query Sales en selecteer **Enable load** om het laden van de query in te schakelen.
+29. Klik met de rechtermuisknop op de query Sales en selecteer **Laden inschakelen** om het laden van de query in te schakelen.
 
     ![](../media/Lab-3/image51.png)
 
-30. Selecteer **Save** om het Power Query-dialoogvenster op te slaan en te sluiten. U wordt naar de visual query editor geleid.
+30. Selecteer **Opslaan** om het Power Query-dialoogvenster op te slaan en te sluiten. U wordt naar de visual query editor geleid.
 
 31. Selecteer in het menu van de visual query de optie **Save as view**. Het dialoogvenster Save as view opent. U ziet dat de SQL-query beschikbaar is. U kunt deze bekijken als u dat wilt.
 
-32. Voer **Sales** in als **View name (1)**.
+32. Voer **Sales** in als **Naam van de weergave (1)**.
 
 33. Selecteer **OK (2)** om de weergave op te slaan.
 
@@ -561,11 +560,11 @@ Laten we de Sales-weergave aanmaken, die wordt gemaakt door de tabellen InvoiceL
 
 Laten we de Product-weergave aanmaken, die wordt gemaakt door de tabellen **ProductItem**, **ProductItemGroup** en **ProductGroups** samen te voegen. Om het proces te versnellen, gaan we code kopiëren in de Advanced Editor.
 
-1. Klik in het bovenste menu op de vervolgkeuzelijst naast **New SQL query (1)** en selecteer vervolgens **New visual query (2)**.
+1. Klik in het bovenste menu op de vervolgkeuzelijst naast **Nieuwe SQL-query (1)** en selecteer vervolgens **Nieuwe visuele query (2)**.
 
     ![](../media/Lab-3/image54.png)
 
-2. Vanuit de sectie Explorer moeten we tabellen toevoegen aan het Visual Query-paneel. Klik op het beletselteken naast de tabel **ProductItem (1)** en selecteer **Insert into canvas (2)**.
+2. Vanuit de sectie Explorer moeten we tabellen toevoegen aan het Visual Query-paneel. Klik op het beletselteken naast de tabel **ProductItem (1)** en selecteer **Invoegen in canvas (2)**.
 
     ![](../media/Lab-3/image55.png)
 
@@ -575,27 +574,27 @@ Laten we de Product-weergave aanmaken, die wordt gemaakt door de tabellen **Prod
 
     ![](../media/Lab-3/image56.png)
 
-5. Selecteer met de query **ProductItem** geselecteerd **(1)** in het lint de optie **Home (2) -> Combine (3) -> Merge queries (vervolgkeuzelijst) (4) -> Merge queries as new (5)**. Het dialoogvenster Merge opent.
+5. Selecteer met de query **ProductItem** geselecteerd **(1)** in het lint de optie **Start (2) -> Combineren (3) -> vervolgkeuzelijst Query's samenvoegen (4) -> Query's samenvoegen als nieuwe query (5)**. Het dialoogvenster Merge opent.
 
     ![](../media/Lab-3/image57.png)
 
-6. Selecteer in de **Left table for merge** de tabel **ProductItem**.
+6. Selecteer bij **Linkertabel voor samenvoegen** de tabel **ProductItem**.
 
-7. Selecteer in de **Right table for merge** de tabel **ProductItemGroup**.
+7. Selecteer bij **Rechtertabel voor samenvoegen** de tabel **ProductItemGroup**.
 
-8. Selecteer de kolommen **StockItemID** uit beide tabellen. We gaan samenvoegen op basis van deze kolom.
+8. Selecteer de kolommen **StockItemID** uit beide tabellen. We gaan deze kolom gebruiken voor de koppeling.
 
-9. Selecteer **Left outer** als **Join kind**.
+9. Selecteer **Linker buitenste (Left outer)** als **Type samenvoeging**.
 
 10. Selecteer **OK**. Er wordt een nieuwe query Merge aangemaakt.
 
     ![](../media/Lab-3/image58.png)
 
-11. Selecteer met de query Merge geselecteerd in het lint de optie **Home -> Advanced editor**. Het dialoogvenster Advanced editor opent.
+11. Selecteer met de query Merge geselecteerd in het lint de optie **Start -> Geavanceerde editor**. Het dialoogvenster Advanced editor opent.
 
     ![](../media/Lab-3/image59.png)
 
-    >**Opmerking:** Als u de Advanced Editor niet kunt vinden, kunt u deze openen via **Home -> Query -> Advanced Editor**.
+    >**Opmerking:** Als u de Advanced Editor niet kunt vinden, kunt u deze openen via **Start -> Query -> Geavanceerde editor**.
 
 12. **Selecteer alle code** in de Advanced editor en **verwijder** deze.
 
@@ -620,15 +619,15 @@ Laten we de Product-weergave aanmaken, die wordt gemaakt door de tabellen **Prod
 
 16. **Wijzig de naam** van de query Merge naar **Product**.
 
-17. Klik met de rechtermuisknop op de query Product en selecteer **Enable load** om het laden van de query in te schakelen.
+17. Klik met de rechtermuisknop op de query Product en selecteer **Laden inschakelen** om het laden van de query in te schakelen.
 
-18. Selecteer **Save** om het Power Query-dialoogvenster op te slaan en te sluiten. U wordt naar de Visual query geleid.
+18. Selecteer **Opslaan** om het Power Query-dialoogvenster op te slaan en te sluiten. U wordt naar de Visual query geleid.
 
     ![](../media/Lab-3/image61.png)
 
 19. Selecteer in het menu van de visual query de optie **Save as view**. Het dialoogvenster Save as view opent. U ziet dat de SQL-query beschikbaar is. U kunt deze bekijken als u dat wilt.
 
-20. Voer **Product** in als **View name**.
+20. Voer **Product** in als **Naam van de weergave**.
 
 21. Selecteer **OK** om de weergave op te slaan.
 

@@ -90,7 +90,7 @@ Voordat we beginnen met Fabric, bekijken we het huidige rapport in Power BI Desk
 
         ![](../media/Lab-1/image10.png)
 
-6. Het dialoogvenster **Aangemeld blijven bij al uw apps** wordt geopend. Selecteer **OK**.
+6. Het dialoogvenster **Aangemeld blijven bij al uw apps** wordt geopend. Selecteer **Ja**.
 
     ![](../media/Lab-1/image11.png)
 
@@ -106,11 +106,11 @@ Het onderstaande rapport analyseert de verkoop voor Fabrikam. KPI's worden links
 
 >**Opmerking:** In deze training richten we ons op gegevensverzameling, -transformatie en -modellering met behulp van de beschikbare tools in Fabric. We richten ons niet op rapportontwikkeling of -navigatie. Neem een paar minuten de tijd om het rapport te bekijken en ga daarna verder naar de volgende stappen.
 
-1. Laten we de data analyseren per verkoopgebied. Selecteer **New England in de visual Sales Territory** (spreidingsdiagram). U ziet dat uit de verkoop over de tijd blijkt dat reseller Tailspin Toys meer verkopen heeft dan Wingtip Toys in New England. Als u naar het kolomdiagram Sales YoY% kijkt, ziet u dat de verkoopgroei van Wingtip Toys laag is geweest en kwartaal na kwartaal is gedaald in het afgelopen jaar. Na een kleine opleving in Q3 daalde de verkoop opnieuw in Q4.
+1. Laten we de data analyseren per verkoopgebied. Selecteer **New England in de visual Sales Territory** (spreidingsdiagram). U ziet dat uit de verkoop over de tijd blijkt dat reseller Tailspin Toys meer verkopen heeft dan Wingtip Toys in New England. Als u naar het kolomdiagram **Sales YoY%** kijkt, ziet u dat de verkoopgroei van Wingtip Toys laag is geweest en kwartaal na kwartaal is gedaald in het afgelopen jaar. Na een kleine opleving in Q3 daalde de verkoop opnieuw in Q4.
 
     ![](../media/Lab-1/image13.png)
 
-2. Laten we dit vergelijken met het gebied Rocky Mountain. Selecteer **Rocky Mountain in de visual Sales Territory** (spreidingsdiagram). U ziet in het kolomdiagram Sales YoY% dat de verkoop van Wingtip Toys in Q4 van 2023 sterk is gestegen, na twee kwartalen van lage verkoop.
+2. Laten we dit vergelijken met het gebied Rocky Mountain. Selecteer **Rocky Mountain in de visual Sales Territory** (spreidingsdiagram). U ziet in het kolomdiagram **Sales YoY%** dat de verkoop van Wingtip Toys in Q4 van 2023 sterk is gestegen, na twee kwartalen van lage verkoop.
 
     ![](../media/Lab-1/image14.png)
 
@@ -136,7 +136,7 @@ Het onderstaande rapport analyseert de verkoop voor Fabrikam. KPI's worden links
          
     ![](../media/Lab-1/image18.png)
 
-10. U ziet dat er twee feitentabellen zijn: Sales en PO.
+10. U ziet dat er twee feitentabellen zijn: **Sales** en **PO**.
 
     1. De granulariteit van de verkoopdata is op datum, reseller, product en medewerker. Datum, reseller, product en medewerker zijn gekoppeld aan Sales.
 
@@ -164,11 +164,11 @@ Het onderstaande rapport analyseert de verkoop voor Fabrikam. KPI's worden links
 
     - Dataverse
 
-3. Selecteer **Sluiten** om het dialoogvenster Instellingen voor gegevensbron te sluiten.
+3. Selecteer **Sluiten** om het dialoogvenster **Instellingen voor gegevensbron** te sluiten.
 
     ![](../media/Lab-1/image20.png)
 
-4. In het linkerdeelvenster Queries ziet u dat de queries zijn gegroepeerd per databron.
+4. In het linkerdeelvenster **Queries** ziet u dat de queries zijn gegroepeerd per databron.
 
 5. U ziet dat de map **DataverseData** klantdata bevat die beschikbaar is in vier verschillende queries: BabyBoomer, GenX, GenY en GenZ. Deze vier queries worden samengevoegd om de query Customer te maken.
 
