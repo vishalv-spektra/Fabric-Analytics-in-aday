@@ -160,7 +160,9 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 3.  Das Dialogfeld „Neu: Lakehouse“ wird angezeigt. Geben Sie **lh_FAIAD** in das Textfeld „Name“ ein.
 
-    > ***Hinweis:** „lh“ bezieht sich hier auf Lakehouse. Die Buchstaben „lh“ werden vorangestellt, damit das Lakehouse leichter erkannt und gefunden werden kann.* > > ***Hinweis:** Diese Funktion befindet sich nicht mehr in der Vorschauversion, **muss aber dennoch nicht aktiviert werden**.*
+    >***Hinweis:** „lh“ bezieht sich hier auf Lakehouse. Die Buchstaben „lh“ werden vorangestellt, damit das Lakehouse leichter erkannt und gefunden werden kann.* 
+    
+    >***Hinweis:** Diese Funktion befindet sich nicht mehr in der Vorschauversion, **muss aber dennoch nicht aktiviert werden**.*
 
 
 4.  Wählen Sie **Erstellen** aus.
@@ -168,7 +170,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
     ![](../media/Lab-2/image18.png)
 
     Das Lakehouse wird innerhalb kurzer Zeit erstellt, und Sie werden zur Lakehouse-Explorer-Oberfläche weitergeleitet. Oben links neben dem Fabric-Namen in der Kopfzeile befindet sich das Lakehouse-Symbol. Das Arbeitsbereichssymbol in der linken Navigationsleiste zeigt an, dass jetzt ein Element enthalten ist.
-
+    
     Im Lakehouse-Explorer sehen Sie den Abschnitt „Tabellen und Dateien“. In einem Lakehouse können im Abschnitt mit den Dateien auch Dateien von Azure Data Lake Storage Gen2 stehen, oder mit einem Dataflow können Daten in Lakehouse-Tabellen geladen werden. Es stehen mehrere Möglichkeiten zur Auswahl. In den folgenden Übungen werden einige dieser Möglichkeiten vorgestellt.
 
     ![](../media/Lab-2/image19.png)
@@ -190,11 +192,15 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 3.  Sie werden zur Data Factory-Startseite weitergeleitet. Im Folgenden finden Sie eine ausführliche Erläuterung der Abschnitte, die Sie Schritt für Schritt durch eine effektive Verwendung von Data Factory leitet. Dataflow Gen2 ist die nächste Generation von Dataflow.
 
-    > **Was ist Data Factory?** > > Data Factory hilft Ihnen dabei, Daten aus verschiedenen Quellen zu verwalten und zu organisieren. Es ermöglicht Ihnen, Daten zu sammeln, aufzubereiten und zu transformieren, um sie effektiv einsetzen zu können. Egal, ob Sie neu einsteigen oder bereits viel Erfahrung mitbringen, Data Factory stellt Ihnen Tools zu Verfügung, mit denen Sie die Datentransformation einfacher und effizienter gestalten können. > > **Elementtypen:**
+    **Was ist Data Factory?** 
+    
+    Data Factory hilft Ihnen dabei, Daten aus verschiedenen Quellen zu verwalten und zu organisieren. Es ermöglicht Ihnen, Daten zu sammeln, aufzubereiten und zu transformieren, um sie effektiv einsetzen zu können. Egal, ob Sie neu einsteigen oder bereits viel Erfahrung mitbringen, Data Factory stellt Ihnen Tools zu Verfügung, mit denen Sie die Datentransformation einfacher und effizienter gestalten können. 
+    
+    **Elementtypen:**
 
-    1)  **Dataflow Gen2:** Dataflows sind wie Rezepte zum Transformieren von Daten. Sie bieten über 300 verschiedene Transformationen, die Sie auf Ihre Daten anwenden können. Dies bedeutet, dass Sie Ihre Daten auf vielfältige Weise bereinigen, kombinieren und ändern können, um sie ganz an Ihre Anforderungen anzupassen.
+    a. **Dataflow Gen2:** Dataflows sind wie Rezepte zum Transformieren von Daten. Sie bieten über 300 verschiedene Transformationen, die Sie auf Ihre Daten anwenden können. Dies bedeutet, dass Sie Ihre Daten auf vielfältige Weise bereinigen, kombinieren und ändern können, um sie ganz an Ihre Anforderungen anzupassen.
 
-    2)  **Pipeline:** Pipelines sind Workflows, mit denen Sie Ihre Datenprozesse automatisieren können. Sie ermöglichen es Ihnen, flexible Daten-Workflows zu erstellen, die auf Ihre speziellen Anforderungen zugeschnitten werden können. Das erleichtert es, Daten strukturiert zu verwalten und zu verarbeiten.
+    b. **Pipeline:** Pipelines sind Workflows, mit denen Sie Ihre Datenprozesse automatisieren können. Sie ermöglichen es Ihnen, flexible Daten-Workflows zu erstellen, die auf Ihre speziellen Anforderungen zugeschnitten werden können. Das erleichtert es, Daten strukturiert zu verwalten und zu verarbeiten.
 
     3)  **Azure Data Factory:** Azure Data Factory ist ein cloudbasierter Datenintegrationsdienst, mit dem Sie datengesteuerte Workflows zur Orchestrierung und Automatisierung von Datenverschiebungen und Datentransformationen erstellen können.
 
@@ -214,7 +220,9 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     11) **dbt-Auftrag (Vorschauversion):** ermöglicht es Ihnen, dbt zu verwenden und Daten mit SQL in eine vertraute Umgebung zu transformieren.
 
-    > **Erste Schritte:** > > Sie können folgende Schritte ausführen, um mit Data Factory loszulegen:
+    **Erste Schritte:** 
+    
+    Sie können folgende Schritte ausführen, um mit Data Factory loszulegen:
 
     1)  **Verwenden von Data Factory:** Dieser Abschnitt hilft Ihnen beim Einstieg in Data Factory. Er zeigt Ihnen, wie Sie das Tool effektiv verwenden können.
 
@@ -232,18 +240,15 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     ![](../media/Lab-2/image22.png)
 
-
 4.  Klicken Sie in der oberen linken Ecke des Bildschirms auf **Zurück zu Workloads**. Auf diese Weise gelangen Sie zur Workloads-Hauptseite, auf der Sie andere Tools oder Abschnitte erkunden können.
 
     ![](../media/Lab-2/image23.png)
 
 ### Aufgabe 5: Industry Solutions-Funktionsbereich
 
-
 1.  Klicken Sie auf der Seite **Workloads** auf **Industry Solutions**, um fortzufahren.
 
     ![](../media/Lab-2/image24.png)
-
 
 2.  Sie werden zur Startseite von Industry Solutions weitergeleitet. Nachfolgend finden Sie eine detaillierte Übersicht über die Abschnitte, die Ihnen helfen sollen, Industry Solutions effektiv und Schritt für Schritt zu nutzen.
 
@@ -287,14 +292,13 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     ![](../media/Lab-2/image26.png)
 
-
 2.  Sie werden zur Startseite von Real-Time Intelligence weitergeleitet. Nachfolgend finden Sie eine detaillierte Übersicht über die Abschnitte, die Ihnen helfen sollen, Real-Time Intelligence effektiv und Schritt für Schritt zu nutzen.
 
     **Was ist Real-Time Intelligence?**
 
     Mit Real-Time Intelligence können Sie große Mengen an Daten aus verschiedenen Quellen mit hoher Granularität verwalten und analysieren. Die Funktion ermöglicht es Ihnen, Ihre Daten in Echtzeit zu erfassen, zu analysieren und zu verwenden und so Ihre Geschäftsvorgänge durch zeitnahe Entscheidungen und Maßnahmen zu verbessern.
 
-    **Elementtypen  **
+    **Elementtypen**
 
 
 1.  **Eventhouse:** dient dem Erstellen eines Arbeitsbereichs mit einer oder mehreren KQL-Datenbanken, der projektübergreifend genutzt werden kann.
