@@ -1,6 +1,6 @@
-# Microsoft Fabric - Fabric Analyst in a Day - Lab 4
+# Microsoft Fabric - Fabric Analyst in a Day - Oefening 4
 
-![](../media/Lab-1/main4.jpg)
+![](../media/Lab-1/main4.png)
 
 # Inhoudsopgave
 
@@ -83,6 +83,7 @@ Aan het einde van dit lab heeft u geleerd:
     ![](../media/Lab-4/image9.png)
 
     U ziet dat de query is geplakt en beschikbaar is in het linkerdeelvenster. Omdat er nog geen verbinding met SharePoint is aangemaakt, wordt een waarschuwingsbericht weergegeven met het verzoek de verbinding te configureren.
+    
     ![](../media/Lab-4/image10.png)
 
 ## Taak 2: SharePoint-verbinding aanmaken
@@ -91,12 +92,9 @@ Aan het einde van dit lab heeft u geleerd:
 
     ![](../media/Lab-4/image11.png)
 
-
 2. Het dialoogvenster Verbinding maken met gegevensbron wordt geopend. Zorg er in de vervolgkeuzelijst **Connection** voor dat **Create new connection** is geselecteerd.
 
-
 3. **Authentication kind** moet zijn ingesteld op **Organizational account**.
-
 
 4. Selecteer **Connect**.
 
@@ -108,41 +106,31 @@ Aan het einde van dit lab heeft u geleerd:
 
 De verbinding is tot stand gebracht en u kunt de gegevens bekijken in het voorbeeldpaneel. U kunt de Applied Steps van de query's vrij bekijken. Nu moeten we de People-gegevens inladen in de Lakehouse.
 
-
 1. Selecteer de query **People (1)**.
-
 
 2. Selecteer in het lint **Home -> Query (2) -> Add data destination (3) -> Lakehouse (4)**.
 
     ![](../media/Lab-4/image13.png)
 
-
 3. Het dialoogvenster Verbinding maken met gegevensbestemming wordt geopend. We moeten een nieuwe verbinding met de Lakehouse aanmaken. Met **Create new connection** geselecteerd in de vervolgkeuzelijst Connection en **Authentication kind** ingesteld op **Organizational account**, selecteert u **Next**.
 
     ![](../media/Lab-4/image14.png)
 
-
 4. Het dialoogvenster Bestemmingsdoel kiezen wordt geopend. Zorg ervoor dat het keuzerondje **New table** is geselecteerd, omdat we een nieuwe tabel aanmaken.
-
 
 5. We willen de tabel aanmaken in de Lakehouse die we eerder hebben aangemaakt. Navigeer in het linkerdeelvenster naar **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
-
-6. Selecteer **lh_FAIAD**
-
+6. Selecteer **lh_FAIAD -> dbo**
 
 7. Laat de tabelnaam staan als **People**
-
 
 8. Selecteer **Next**.
 
     ![](../media/Lab-4/image15.png)
 
-
 9. Het dialoogvenster Bestemmingsinstellingen kiezen wordt geopend. Zorg ervoor dat "**Use automatic settings**" is **ingeschakeld**.
 
     >**Opmerking:** U kunt de automatische instellingen uitschakelen en ziet dan opties voor de updatewijze en schema-opties. Nadat u dit heeft verkend, zorg dan dat "**Use automatic settings**" weer is **ingeschakeld**.
-
 
 10. Selecteer **Save settings**.
 
@@ -240,7 +228,7 @@ U ziet dat de vijf query's zijn geplakt en dat u nu het Query's-paneel aan de li
 
     - Snowflake Password: <inject key="SnowFlake Password" enableCopy="false" />
 
-    >**Opmerking**: Als u problemen ondervindt bij het verbinden met Snowflake via de referenties uit de omgevingsdetails, gebruik dan de onderstaande referenties.
+        >**Opmerking**: Als u problemen ondervindt bij het verbinden met Snowflake via de referenties uit de omgevingsdetails, gebruik dan de onderstaande referenties.
 
     - **Snowflake Username:** SNOWFLAKE_BACKUP
 
@@ -274,12 +262,9 @@ U ziet dat de vijf query's zijn geplakt en dat u nu het Query's-paneel aan de li
 
 6. We willen de tabel aanmaken in de Lakehouse die we eerder hebben aangemaakt. Navigeer in het linkerdeelvenster naar **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
-
-7. Selecteer **lh_FAIAD**
-
+7. Selecteer **lh_FAIAD -> dbo**
 
 8. Laat de tabelnaam staan als **Supplier**
-
 
 9. Selecteer **Next**.
 
@@ -288,7 +273,6 @@ U ziet dat de vijf query's zijn geplakt en dat u nu het Query's-paneel aan de li
 10. Het dialoogvenster Bestemmingsinstellingen kiezen wordt geopend. We gebruiken de automatische instellingen, omdat hiermee een volledige update van de gegevens wordt uitgevoerd. Bovendien worden kolommen indien nodig hernoemd. Selecteer **Save settings**.
 
     ![](../media/Lab-4/image29.png)
-
 
 11. U wordt teruggestuurd naar het **Power Query-venster**. Let op de rechteronderhoek: **Data destination** is ingesteld op **Lakehouse**. Configureer op vergelijkbare wijze **de gegevensbestemming voor de PO-query**. Zodra dit is gedaan, moet de **PO**-query **Data destination** hebben ingesteld op **Lakehouse**, zoals weergegeven in de onderstaande schermafbeelding.
 
@@ -299,14 +283,11 @@ U ziet dat de vijf query's zijn geplakt en dat u nu het Query's-paneel aan de li
 
 1. Selecteer bovenaan het scherm de **pijl naast Dataflow 2 (de naam kan anders zijn)** om te hernoemen.
 
-
 2. Wijzig in het dialoogvenster de naam in **df_Supplier_Snowflake**.
-
 
 3. Klik op **Enter** om de naamswijziging op te slaan.
 
     ![](../media/Lab-4/image31.png)
-
 
 4. Selecteer in de linkerbovenhoek **Save & run (1)**. Zodra u de melding ziet dat een vernieuwing is gestart, kunt u de dataflow sluiten **(2)**.
 
@@ -314,12 +295,9 @@ U ziet dat de vijf query's zijn geplakt en dat u nu het Query's-paneel aan de li
 
     U wordt teruggestuurd naar de werkruimte **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**. Het kan even duren voordat de dataflow is gepubliceerd.
 
-
 5. Selecteer **lh_FAIAD** om naar de Lakehouse te navigeren.
 
-
 6. Zorg ervoor dat u de Lakehouse-weergave gebruikt (niet de SQL analytics endpoint).
-
 
 7. U ziet dat de tabellen **PO** en **Supplier** nu beschikbaar zijn in de Lakehouse.
          
@@ -352,9 +330,7 @@ U bevindt zich in de Lakehouse **lh_FAIAD**. Zorg ervoor dat u de Lakehouse-weer
 
     ![](../media/Lab-4/image36.png)
 
-
 4. **Selecteer New connection (1)**; het dialoogvenster Verbindingsinstellingen wordt geopend. Voer **org6c18814a.crm.dynamics.com (2)** in als het **Environment domain**.
-
 
 5. Laat **Authentication kind** staan op **Organizational account (3)**.
 
@@ -380,7 +356,6 @@ U bevindt zich in de Lakehouse **lh_FAIAD**. Zorg ervoor dat u de Lakehouse-weer
 
 ## Taak 10: Een Shortcut naar een Lakehouse aanmaken
 
-
 1. Selecteer in het **Explorer**-paneel het **beletselteken** naast **Tables**.
 
 2. Selecteer **New Shortcut**.
@@ -391,9 +366,7 @@ U bevindt zich in de Lakehouse **lh_FAIAD**. Zorg ervoor dat u de Lakehouse-weer
 
     ![](../media/Lab-4/image40.png)
 
-
 4. Selecteer **lh_dataverse**.
-
 
 5. Selecteer **Next**.
 
@@ -401,22 +374,17 @@ U bevindt zich in de Lakehouse **lh_FAIAD**. Zorg ervoor dat u de Lakehouse-weer
 
 6. Vouw in het linkerdeelvenster **lh_dataverse -> Tables** uit. U ziet dat de IT-beheerder toegang heeft verleend tot de tabel Customer.
 
-
 7. Selecteer **Customer**.
-
 
 8. Selecteer **Next**.
 
     ![](../media/Lab-4/image42.png)
 
-
 9. Selecteer **Create** in het volgende dialoogvenster. U wordt teruggestuurd naar de Lakehouse lh_FAIAD.
 
     ![](../media/Lab-4/image43.png)
 
-
 10. Let op in het **Explorer**-paneel aan de linkerkant: de nieuwe tabel **Customer** is aangemaakt.
-
 
 11. Selecteer de tabel **Customer** om de gegevens te bekijken in het voorbeeldpaneel.
 

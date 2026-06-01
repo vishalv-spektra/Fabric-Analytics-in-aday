@@ -1,6 +1,6 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Lab 2
 
-![](../media/Lab-1/main2.jpg)
+![](../media/Lab-1/main2.png)
 
 # Inhoudsopgave
 
@@ -66,13 +66,13 @@ Aan het einde van dit lab heeft u geleerd:
 
     - **E-mail/Gebruikersnaam:** <inject key="AzureAdUserEmail"></inject>
 
-        ![](../media/Lab-1/image9.png)
+        ![](../media/Lab-2/image8.png)
 
 4. Voer nu de volgende **Tijdelijke toegangscode** in en klik op **Aanmelden**.
 
     - **Tijdelijke toegangscode:** <inject key="AzureAdUserPassword"></inject>
 
-        ![](../media/Lab-1/image10.png)
+        ![](../media/Lab-2/image9.png)
 
 5. U wordt doorgestuurd naar de vertrouwde **Power BI Service-startpagina**.
 
@@ -114,7 +114,7 @@ Aan het einde van dit lab heeft u geleerd:
 
 4. Voer in het veld **Naam** de waarde **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** in.
 
-    >***Opmerking:** De naam van de workspace moet uniek zijn. Zorg ervoor dat er een groen vinkje met de tekst 'Deze naam is beschikbaar' wordt weergegeven onder het veld Naam.*
+    >**Opmerking:** De naam van de workspace moet uniek zijn. Zorg ervoor dat er een groen vinkje met de tekst 'Deze naam is beschikbaar' wordt weergegeven onder het veld Naam.
 
 5. U kunt desgewenst een beschrijving voor de workspace invoeren. Dit is een optioneel veld.
 
