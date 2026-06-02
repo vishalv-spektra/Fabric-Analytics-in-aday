@@ -1,4 +1,6 @@
-# ![](../media/Lab-1/image4.png)
+# Microsoft Fabric - Fabric Analyst in a Day - Übung 1
+
+ ![](../media/Lab-1/image.png)
 
 # Inhalt
 
@@ -61,8 +63,7 @@ Sie haben von Microsoft Fabric gehört und möchten es gerne ausprobieren, um al
 
 Bevor wir mit Fabric beginnen, sehen wir uns den aktuellen Bericht in Power BI Desktop an, um die Transformationen und das Modell zu verstehen.
 
-### Aufgabe 1: Power BI Desktop in einer Übungsumgebung einrichten
-
+## Aufgabe 1: Power BI Desktop in einer Übungsumgebung einrichten
 
 1. Öffnen Sie in der Übungsumgebung auf dem **Desktop** im Ordner **Reports** die Datei **FAIAD.pbix.** Die Datei wird in Power BI Desktop geöffnet.
 
@@ -82,7 +83,7 @@ Bevor wir mit Fabric beginnen, sehen wir uns den aktuellen Bericht in Power BI D
 
 4. Geben Sie nun den folgenden **befristeten Zugriffspass** ein, und klicken Sie auf **Anmelden**.
 
-    - Befristeter Zugriffspass:
+    - Befristeter Zugriffspass:<inject key="AzureAdUserPassword"></inject>
 
         ![](../media/Lab-1/image10.png)
 
@@ -94,7 +95,7 @@ Bevor wir mit Fabric beginnen, sehen wir uns den aktuellen Bericht in Power BI D
 
     Nun wird Power BI Desktop geöffnet.
 
-### Aufgabe 2: Power BI Desktop-Bericht analysieren
+## Aufgabe 2: Power BI Desktop-Bericht analysieren
 
 Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs stehen oben links auf der Seite. Die restlichen Visuals zeigen die Verkaufszahlen im Laufe der Zeit, nach Gebiet, Produktgruppe und Wiederverkäuferfirma.
 
@@ -134,18 +135,17 @@ Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs 
 
 10. Beachten Sie, dass es zwei Faktentabellen gibt: Sales und PO.
 
-    a. Die Genauigkeit der Sales-Daten richtet sich nach Date, Reseller, Product und People. Date, Reseller, Product und People sind mit Sales in Zusammenhang gesetzt.
+    1. Die Genauigkeit der Sales-Daten richtet sich nach Date, Reseller, Product und People. Date, Reseller, Product und People sind mit Sales in Zusammenhang gesetzt.
 
-    b. Die Genauigkeit von PO-Daten richtet sich nach Date, Product und People. Date, Product und People sind mit PO in Zusammenhang gesetzt.
+    2. Die Genauigkeit von PO-Daten richtet sich nach Date, Product und People. Date, Product und People sind mit PO in Zusammenhang gesetzt.
 
-    c. Wir haben Supplier-Daten nach Product. Supplier steht mit Product in Zusammenhang.
+    3. Wir haben Supplier-Daten nach Product. Supplier steht mit Product in Zusammenhang.
 
-    d. Wir haben Reseller-Standortdaten nach Geo. Geo steht in Zusammenhang mit Reseller.
+    4. Wir haben Reseller-Standortdaten nach Geo. Geo steht in Zusammenhang mit Reseller.
 
-    e. Wir haben Customer-Informationen nach Reseller. Customer steht in Zusammenhang mit Reseller.
+    5. Wir haben Customer-Informationen nach Reseller. Customer steht in Zusammenhang mit Reseller.
 
-### Aufgabe 3: Power Query-Abfragen überprüfen
-
+## Aufgabe 3: Power Query-Abfragen überprüfen
 
 1. Beschäftigen wir uns nun in Power Query mit den Datenquellen. Wählen Sie im Menüband **Start > Daten transformieren** aus.
 
@@ -178,10 +178,9 @@ Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs 
     ![](../media/Lab-1/image22.png)
 
 8. Sie können die Anmeldeinformationen für die Dataverse-Datenquelle eingeben, indem Sie den **Benutzernamen** und das **Kennwort** eingeben. Die Anmeldeinformationen sind unten angegeben. Wenn Sie fertig sind, wählen Sie **Verbinden** aus.
+    - E-Mail/Benutzername: <inject key="AzureAdUserEmail"></inject>
 
-    - E-Mail/Benutzername: befindet sich auf der Registerkarte „Umgebung“
-
-    - Kennwort: befindet sich auf der Registerkarte „Umgebung“
+    - Kennwort:<inject key="AzureAdUserPassword"></inject>
 
 9. Klicken Sie im Fenster „Abfragen“ auf die Abfrage **ADLS Base Folder**. Sie müssen die Anmeldeinformationen erneut eingeben, wenn Sie diese Abfrage auswählen. Klicken Sie auf **Anmeldeinformationen bearbeiten**.
 
@@ -189,7 +188,7 @@ Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs 
 
 10. Wählen Sie für die ADLS-Datenquelle die Option **Shared Access Signature (SAS)** aus, und geben Sie das unten angegebene **SAS-Token** ein. Wählen Sie dann **Verbinden** aus.
 
-    - **SAS-Token:** befindet sich auf der Registerkarte „Umgebung“
+    - **SAS-Token:** <inject key="Sas token"></inject>
 
         ![](../media/Lab-1/image24.png)
 
@@ -209,9 +208,9 @@ Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs 
 
 13. Geben Sie den **Benutzernamen für Snowflake** und das **Kennwort für Snowflake** ein, die unten angegeben sind. Verwenden Sie diese Anmeldeinformationen, um alle Tabellen unter Snowflake mit Snowflake zu verbinden, und wählen Sie dann „**Verbinden**“.
 
-    - **Snowflake-Benutzername:** TE_SNOWFLAKE1
+    - **Snowflake-Benutzername:**  <inject key="SnowFlake Username" enableCopy="false" />
 
-    - **Snowflake-Kennwort:** 8UpfRpExVDXv2AC1
+    - **Snowflake-Kennwort:** <inject key="SnowFlake Password" enableCopy="false" />
 
         >**Hinweis:** Wenn Sie Probleme beim Herstellen einer Verbindung zu Snowflake mit obigen Anmeldeinformationen haben, verwenden Sie bitte die nachfolgenden Backup-Anmeldeinformationen.
 
@@ -219,7 +218,7 @@ Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs 
 
     - **Snowflake-Kennwort:** 8UpfRpExVDXv2AC1
 
-14. Beachten Sie, dass der Ordner **SnowflakeData** die Dimension „Supplier“ und das Element „PO(Order / Spend)“ enthält.
+14. Beachten Sie, dass der Ordner **SnowflakeData** die Dimension „Supplier“ und das Element „PO(Order/Spend)“ enthält.
 
     - **Die Supplier-Dimension** ergibt sich durch die Zusammenführung der Abfragen „Suppliers“ und „SupplierCategories“.
 
@@ -231,9 +230,9 @@ Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs 
 
 16. Wählen Sie die Option **Microsoft-Konto** aus, und klicken Sie dann auf **Anmelden**. Geben Sie den unten angegebenen Benutzernamen und das Kennwort ein, und wählen Sie dann „Verbinden“ aus.
 
-    - **E-Mail/Benutzername:** befindet sich auf der Registerkarte „Umgebung“
+    - **E-Mail/Benutzername:** <inject key="AzureAdUserEmail"></inject>
 
-    - **Kennwort:** befindet sich auf der Registerkarte „Umgebung“
+    - **Kennwort:**<inject key="AzureAdUserPassword"></inject>
 
         ![](../media/Lab-1/image27.png)
 
