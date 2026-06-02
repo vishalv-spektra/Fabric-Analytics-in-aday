@@ -108,8 +108,7 @@ Beginnen wir damit, eine geplante Aktualisierung des Lieferanten-Dataflows zu ko
  
     - **Info:** Hier können wir den Namen des Dataflows ändern und eine Beschreibung hinzufügen. Außerdem können wir sehen, wer der/die Verantwortliche des Dataflows ist und wann er zuletzt geändert wurde. 
     
-    - **Endorsement:** Hier können wir angeben, ob der Dataflow das Tag **Heraufgestuft** oder 
-    **Zertifiziert** tragen soll, damit andere ihn sehen können. 
+    - **Endorsement:** Hier können wir angeben, ob der Dataflow das Tag **Heraufgestuft** oder **Zertifiziert** tragen soll, damit andere ihn sehen können. 
     
     - **Zeitplan:** Hier können wir Dataflows planen.
 
