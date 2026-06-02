@@ -142,7 +142,7 @@ Die Verbindung wird hergestellt, und Sie können die Daten im Vorschaubereich an
 
     ![](../media/Lab-4/image17.png)
 
-    > **Hinweis:** Sie werden zum **Arbeitsbereich FAIAD <inject key="Deployment ID" enableCopy="false"/>** weitergeleitet. Es kann einige Momente dauern, bis die Ausführung des Dataflows abgeschlossen ist.
+    > **Hinweis:** Sie werden zum **Arbeitsbereich FAIAD_<inject key="Deployment ID" enableCopy="false"/>** weitergeleitet. Es kann einige Momente dauern, bis die Ausführung des Dataflows abgeschlossen ist.
 
 3. Wir arbeiten mit **Dataflow 1**. Benennen wir ihn um, bevor wir fortfahren. Klicken Sie auf die **Auslassungspunkte (...)** neben Dataflow 1. Wählen Sie **Einstellungen** aus. (Während der Dataflow-Ausführung können Sie nicht auf die Einstellungen zugreifen).
 
@@ -156,7 +156,7 @@ Die Verbindung wird hergestellt, und Sie können die Daten im Vorschaubereich an
 
     ![](../media/Lab-4/image19.png)
 
-    Sie werden zum Arbeitsbereich **FAIAD \<inject key="Deployment ID" enableCopy="false"/>** weitergeleitet.
+    Sie werden zum Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** weitergeleitet.
 
 7. Wählen Sie **lh_FAIAD** aus, um zum Lakehouse zu navigieren.
 
@@ -170,7 +170,7 @@ Die Verbindung wird hergestellt, und Sie können die Daten im Vorschaubereich an
 
 ## Aufgabe 5: Snowflake-Abfragen in Dataflow kopieren
 
-1. Wir navigieren zurück zum Fabric-Arbeitsbereich **FAIAD <inject key="Deployment ID" enableCopy="false"/> (1)**.
+1. Wir navigieren zurück zum Fabric-Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)**.
 
 2. Wählen Sie die Option + **Neues Element (2)** in der oberen linken Ecke.
 
@@ -226,7 +226,7 @@ Beachten Sie, dass die fünf Abfragen eingefügt wurden und dass Sie jetzt links
 
     - Snowflake-Kennwort: <inject key="SnowFlake Password" enableCopy="false" />
 
-    > **Hinweis:** Wenn Sie Probleme beim Herstellen einer Verbindung zu Snowflake mit den Anmeldeinformationen aus den Umgebungsdetails haben, verwenden Sie bitte die nachfolgenden Anmeldeinformationen.
+        > **Hinweis:** Wenn Sie Probleme beim Herstellen einer Verbindung zu Snowflake mit den Anmeldeinformationen aus den Umgebungsdetails haben, verwenden Sie bitte die nachfolgenden Anmeldeinformationen.
 
     - **Snowflake-Benutzername:** SNOWFLAKE_BACKUP
 
@@ -246,7 +246,7 @@ Beachten Sie, dass die fünf Abfragen eingefügt wurden und dass Sie jetzt links
 
     ![](../media/Lab-4/image26.png)
 
-3. Das Dialogfeld „Herstellen einer Verbindung mit dem Datenziel“ wird geöffnet. Wählen Sie im **Dropdown-Menü „Verbindung“** die Option **Lakehouse odl_user <inject key="Deployment ID" enableCopy="false"/> (keine)** aus.
+3. Das Dialogfeld „Herstellen einer Verbindung mit dem Datenziel“ wird geöffnet. Wählen Sie im **Dropdown-Menü „Verbindung“** die Option **Lakehouse odl_user_<inject key="Deployment ID" enableCopy="false"/> (keine)** aus.
 
 4. Wählen Sie **Weiter** aus.
 
@@ -254,7 +254,7 @@ Beachten Sie, dass die fünf Abfragen eingefügt wurden und dass Sie jetzt links
 
 5. Das Dialogfeld „Zielort auswählen“ wird geöffnet. Stellen Sie sicher, dass das Optionsfeld **Neue Tabelle** ausgewählt ist, weil wir eine neue Tabelle erstellen.
 
-6. Wir möchten die zuvor erstellte Tabelle in Lakehouse erstellen. Navigieren Sie im linken Bereich zu **Lakehouse -> FAIAD <inject key="Deployment ID" enableCopy="false"/>.**
+6. Wir möchten die zuvor erstellte Tabelle in Lakehouse erstellen. Navigieren Sie im linken Bereich zu **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 7. Wählen Sie **lh_FAIAD** aus.
 
@@ -286,7 +286,7 @@ Beachten Sie, dass die fünf Abfragen eingefügt wurden und dass Sie jetzt links
 
     ![](../media/Lab-4/image32.png)
 
-    Sie werden zum Arbeitsbereich **FAIAD <inject key="Deployment ID" enableCopy="false"/> weitergeleitet**. Es kann einige Momente dauern, bis der Dataflow veröffentlicht wird.
+    Sie werden zum Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/> weitergeleitet**. Es kann einige Momente dauern, bis der Dataflow veröffentlicht wird.
 
 5. Wählen Sie **lh_FAIAD** aus, um zum Lakehouse zu navigieren.
 

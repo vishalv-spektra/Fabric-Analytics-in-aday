@@ -104,10 +104,16 @@ Beginnen wir damit, eine geplante Aktualisierung des Lieferanten-Dataflows zu ko
 
     ![](../media/Lab-5/image12.png)
 
-11. Im Bereich **Einstellungen**, der angezeigt wird, stehen uns drei Optionen zur Verfügung:
- **Info** Hier können wir den Namen des Dataflows ändern und eine Beschreibung hinzufügen. Außerdem können wir sehen, wer der/die Verantwortliche des Dataflows ist und wann er zuletzt geändert wurde. **Endorsement:** Hier können wir angeben, ob der Dataflow das Tag **Heraufgestuft** oder **Zertifiziert** tragen soll, damit andere ihn sehen können. **Zeitplan** Hier können wir Dataflows planen.
+11. Im Bereich **Einstellungen**, der angezeigtwird, stehen uns drei Optionen zur Verfügung:
+ 
+    - **Info:** Hier können wir den Namen des Dataflows ändern und eine Beschreibung hinzufügen. Außerdem können wir sehen, wer der/die Verantwortliche des Dataflows ist und wann er zuletzt geändert wurde. 
+    
+    - **Endorsement:** Hier können wir angeben, ob der Dataflow das Tag **Heraufgestuft** oder 
+    **Zertifiziert** tragen soll, damit andere ihn sehen können. 
+    
+    - **Zeitplan:** Hier können wir Dataflows planen.
 
-    ![](../media/Lab-5/image13.png)
+        ![](../media/Lab-5/image13.png)
 
 12. Wählen Sie die Option **Zeitplan** aus.
 
@@ -497,7 +503,7 @@ Wir haben die Dataflow-Aktivität wie zuvor in der Übung konfiguriert. Nun füg
 
     ![](../media/Lab-5/image48.png)
 
-    **Hinweis:** Diese Funktion legt den Wert der Variablen „varTempCounter“ auf den Wert der Variablen „varTempCounter“ (varCounter = varTempCounter) fest. Am Ende jeder Iteration haben sowohl varCounter als auch varTempCounter denselben Wert.
+    >**Hinweis:** Diese Funktion legt den Wert der Variablen „varTempCounter“ auf den Wert der Variablen „varTempCounter“ (varCounter = varTempCounter) fest. Am Ende jeder Iteration haben sowohl varCounter als auch varTempCounter denselben Wert.
 
 ## Aufgabe 12: Aktivität „Wartezustand“ konfigurieren
 

@@ -669,23 +669,23 @@ In einem realen Szenario werden die Daten an der Quelle aktualisiert. Da wir uns
 
     - **Das Dataset muss mindestens dreimal täglich aktualisiert werden, um den verschiedenen Aktualisierungszeiten der Datenquellen Rechnung zu tragen.**
 
-    Wir haben dieses Problem mithilfe von Direct Lake gelöst. Jeder einzelne Dataflow wird nach seinem Zeitplan aktualisiert. Datasets und Berichte müssen nicht aktualisiert werden.
+        Wir haben dieses Problem mithilfe von Direct Lake gelöst. Jeder einzelne Dataflow wird nach seinem Zeitplan aktualisiert. Datasets und Berichte müssen nicht aktualisiert werden.
 
     - **Ihre Aktualisierungsvorgänge dauern lange, weil die Daten jedes Mal komplett aktualisiert werden müssen, um alle Änderungen an den Daten in den Quellsystemen zu erfassen.**
 
-    Auch hier haben wir dieses Problem mithilfe von Direct Lake gelöst. Jeder einzelne Dataflow wird nach seinem Zeitplan aktualisiert. Datasets und Berichte müssen nicht aktualisiert werden, sodass wir uns keine Sorgen über eine vollständige Aktualisierung machen müssen.
+        Auch hier haben wir dieses Problem mithilfe von Direct Lake gelöst. Jeder einzelne Dataflow wird nach seinem Zeitplan aktualisiert. Datasets und Berichte müssen nicht aktualisiert werden, sodass wir uns keine Sorgen über eine vollständige Aktualisierung machen müssen.
 
     - **Tritt in den Datenquellen, aus denen die Daten abgerufen werden, ein Fehler auf, wird die Dataset-Aktualisierung abgebrochen. Oftmals wird die Mitarbeiterdatei nicht pünktlich hochgeladen, was ebenso zum Abbruch der Dataset-Aktualisierung führt.**
 
-    Dieses Problem lässt sich mit Pipelines lösen, da sie die Möglichkeit bieten, die Aktualisierung bei Fehlern und in verschiedenen Intervallen zu wiederholen.
+        Dieses Problem lässt sich mit Pipelines lösen, da sie die Möglichkeit bieten, die Aktualisierung bei Fehlern und in verschiedenen Intervallen zu wiederholen.
 
     - **Änderungen am Datenmodell nehmen sehr viel Zeit in Anspruch, weil Power Query aufgrund der großen Datenmenge und des aufwändigen Transformationsvorgangs sehr lange braucht, um die Vorschauversionen zu aktualisieren.**
 
-    Wir haben festgestellt, dass Dataflows und Lakehouses effizient und einfach zu ändern sind. Das Laden der Vorschauversion in Dataflows und Lakehouses dauert in der Regel nicht lange.
+        Wir haben festgestellt, dass Dataflows und Lakehouses effizient und einfach zu ändern sind. Das Laden der Vorschauversion in Dataflows und Lakehouses dauert in der Regel nicht lange.
 
     - **Für Power BI Desktop brauchen Sie einen PC mit Windows, auch wenn im Unternehmen Mac-Geräte genutzt werden.**
 
-    Microsoft Fabric ist ein SaaS-Angebot. Wir benötigen lediglich einen Browser, um auf den Dienst zuzugreifen. Wir müssen keine Software auf unseren Desktops installieren.
+        Microsoft Fabric ist ein SaaS-Angebot. Wir benötigen lediglich einen Browser, um auf den Dienst zuzugreifen. Wir müssen keine Software auf unseren Desktops installieren.
 
 # Übungsumgebung bereinigen
 

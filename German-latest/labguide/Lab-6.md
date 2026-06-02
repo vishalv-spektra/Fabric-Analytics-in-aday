@@ -115,9 +115,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 ## Aufgabe 3: Semantisches Modell erstellen
 
-1. Wählen Sie im Menü „SQL-Analyseendpunkt“ die Option **Neues semantisches Modell** aus.
-
-    Neues semantisches Modell
+1. Wählen Sie im Menü „SQL-Analyseendpunkt“ die Option **Neues semantisches Modell** aus Neues semantisches Modell
 
 2. Das Dialogfeld „Neues semantisches Modell“ wird geöffnet. Geben Sie **sm_FAIAD** als Name des Direct Lake-Semantikmodells ein.
 
@@ -157,15 +155,14 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 Wenn Sie sich nicht im neu erstellten semantischen Modell befinden, lassen Sie uns zur richtigen Stelle gehen.
 
-1. Wir kehren zum **Fabric-Arbeitsbereich** zurück und wählen das semantische Modell **sm_FAIAD** aus.
-
-    Semantisches Modell
+1. Wir kehren zum **Fabric-Arbeitsbereich** zurück und wählen das semantische Modell **sm_FAIAD** aus Semantisches Modell.
 
 2. Klicken Sie auf **Semantisches Modell öffnen**.
 
     ![](../media/Lab-6/image16.png)
 
 3. Stellen Sie sicher, dass in der oberen rechten Ecke der **Bearbeitungsmodus** angezeigt wird.
+    
     ![](../media/Lab-6/image17.png)
 
 4. Der erste Schritt besteht darin, Beziehungen zwischen diesen Tabellen zu erstellen.
@@ -375,7 +372,6 @@ Fügen wir die restlichen Measures hinzu.
 8. Fügen Sie auf gleiche Weise die folgenden Measures hinzu:
 
     1. In der Tabelle **Sales** ist **GM = SUM(‘Sales’[LineProfit])** formatiert als **Währung mit 0 Dezimalstellen**.
-
 
     2. In der Tabelle **Sales** ist **GM% = DIVIDE([GM], [Sales])** formatiert als **Prozentsatz mit 0 Dezimalstellen**.
 

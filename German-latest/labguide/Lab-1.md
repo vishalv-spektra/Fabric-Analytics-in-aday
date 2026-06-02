@@ -178,6 +178,7 @@ Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs 
     ![](../media/Lab-1/image22.png)
 
 8. Sie können die Anmeldeinformationen für die Dataverse-Datenquelle eingeben, indem Sie den **Benutzernamen** und das **Kennwort** eingeben. Die Anmeldeinformationen sind unten angegeben. Wenn Sie fertig sind, wählen Sie **Verbinden** aus.
+    
     - E-Mail/Benutzername: <inject key="AzureAdUserEmail"></inject>
 
     - Kennwort:<inject key="AzureAdUserPassword"></inject>

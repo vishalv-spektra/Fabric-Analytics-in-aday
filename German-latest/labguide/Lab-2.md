@@ -111,7 +111,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 3. Rechts im Browser wird das Dialogfeld **Arbeitsbereich erstellen** geöffnet.
 
-4. Geben Sie im Feld **Name** „FAIAD_<inject key="Deployment ID" enableCopy="false"/>“ ein (Sie finden diese auf der Registerkarte „Umgebung“).
+4. Geben Sie im Feld **Name** „ **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** “ ein (Sie finden diese auf der Registerkarte „Umgebung“).
     > **Hinweis:** Der Name des Arbeitsbereichs muss eindeutig sein. Achten Sie darauf, dass unter dem Feld für den Namen ein grünes Häkchen mit dem Text „Dieser Name ist verfügbar“ zu sehen ist.
 
 5. Wenn Sie möchten, können Sie eine Beschreibung des Arbeitsbereichs eingeben. Dieses Feld ist optional.

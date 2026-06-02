@@ -182,7 +182,7 @@ Verknüpfungen werden verwendet, um eine Verbindung zum Zielort herzustellen. Mi
 
 5. Klicken Sie im **Menü des Editors für Visual-Abfragen** auf das Symbol **Im Popup-Fenster öffnen** (rechts). Sie werden zum Power Query-Editor weitergeleitet.
 
-    **Hinweis:** Möglicherweise müssen Sie nach rechts scrollen oder die Registerkarte für Visual-Abfragen erneut öffnen, wenn Sie dieses Symbol nicht sofort sehen.
+    >**Hinweis:** Möglicherweise müssen Sie nach rechts scrollen oder die Registerkarte für Visual-Abfragen erneut öffnen, wenn Sie dieses Symbol nicht sofort sehen.
 
     ![](../media/Lab-3/image16.png)
 
@@ -601,7 +601,7 @@ Wir erstellen die Ansicht „Product“, die durch das Zusammenführen der Tabel
 
     ![](../media/Lab-3/image59.png)
 
-    **Hinweis:** Wenn Sie den erweiterten Editor nicht finden können, können Sie unter **Start-> Abfrage -> Erweiterter Editor** darauf zugreifen.
+    >**Hinweis:** Wenn Sie den erweiterten Editor nicht finden können, können Sie unter **Start-> Abfrage -> Erweiterter Editor** darauf zugreifen.
 
 12. **Wählen Sie den gesamten Code** in „Erweiterter Editor“ aus, und **löschen** Sie ihn.
 
