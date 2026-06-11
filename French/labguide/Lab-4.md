@@ -36,7 +36,7 @@ L’équipe informatique a déjà établi un lien vers Dataverse et appliqué le
 
 # Dataflow Gen2
 
-### Tâche 1 : copier des requêtes SharePoint dans Dataflow
+## Tâche 1 : copier des requêtes SharePoint dans Dataflow
 
 1. Revenons à l’espace de travail Fabric **FAIAD_<username> (1)** que vous avez créé dans le labo 2, tâche 8.
 
@@ -64,7 +64,7 @@ L’équipe informatique a déjà établi un lien vers Dataverse et appliqué le
 
     ![](../media/Lab-4/image8.png)
 
-    **Remarque**** :** si vous travaillez dans un environnement de labo, cliquez sur les points de suspension en haut de l’écran à droite. Utilisez le curseur pour **activer**** le Presse-papiers natif de VM**. Cliquez sur D’ACCORD dans la boîte de dialogue. Après avoir collé les requêtes, vous pouvez désactiver cette option.
+    **Remarque** **:** si vous travaillez dans un environnement de labo, cliquez sur les points de suspension en haut de l’écran à droite. Utilisez le curseur pour **activer** **le Presse-papiers natif de VM**. Cliquez sur D’ACCORD dans la boîte de dialogue. Après avoir collé les requêtes, vous pouvez désactiver cette option.
 
     ![](../media/Lab-4/image9.png)
 
@@ -72,7 +72,7 @@ L’équipe informatique a déjà établi un lien vers Dataverse et appliqué le
 
     ![](../media/Lab-4/image10.png)
 
-### Tâche 2 : créer une connexion SharePoint
+## Tâche 2 : créer une connexion SharePoint
 
 1. Cliquez sur **Configurer la connexion**.
 
@@ -88,7 +88,7 @@ L’équipe informatique a déjà établi un lien vers Dataverse et appliqué le
 
     ![](../media/Lab-4/image12.png)
 
-### Tâche 3 : configurer la destination des données pour la requête People
+## Tâche 3 : configurer la destination des données pour la requête People
 
 La connexion est établie et vous pouvez afficher les données dans le volet d’aperçu. N’hésitez pas à parcourir les étapes appliquées des requêtes. Nous devons maintenant ingérer les données People dans le lakehouse.
 
@@ -116,13 +116,13 @@ La connexion est établie et vous pouvez afficher les données dans le volet d�
 
 9. La boîte de dialogue Choisir les paramètres de destination s’ouvre alors. Assurez-vous que l’option « **Utiliser les paramètres automatiques** » est **activée**.
 
-    **Remarque**** :** vous pouvez désactiver les paramètres automatiques et notez que vous disposez d’options pour définir les options Méthode de mise à jour et Schéma. Ensuite, assurez-vous que l’option « **Utiliser les paramètres automatiques** » est **activée**.
+    **Remarque** **:** vous pouvez désactiver les paramètres automatiques et notez que vous disposez d’options pour définir les options Méthode de mise à jour et Schéma. Ensuite, assurez-vous que l’option « **Utiliser les paramètres automatiques** » est **activée**.
 
 10. Cliquez sur **Enregistrer les paramètres**.
 
     ![](../media/Lab-4/image16.png)
 
-### Tâche 4 : publier et renommer le flux de données SharePoint
+## Tâche 4 : publier et renommer le flux de données SharePoint
 
 1. Vous êtes redirigé vers la **fenêtre Power Query**. Dans le **coin inférieur droit**, notez que la liste déroulante Destination des données est définie sur **Lakehouse (1)**.
 
@@ -156,7 +156,7 @@ La connexion est établie et vous pouvez afficher les données dans le volet d�
 
     **Remarque :** si vous ne voyez pas les tables venant d’être créées, cliquez sur les points de suspension en regard de Tables et sélectionnez Actualiser pour actualiser les tables.
 
-### Tâche 5 : copier des requêtes Snowflake dans Dataflow
+## Tâche 5 : copier des requêtes Snowflake dans Dataflow
 
 1. Revenons à l’espace de travail Fabric **FAIAD_<username> (1)**.
 
@@ -192,11 +192,11 @@ La connexion est établie et vous pouvez afficher les données dans le volet d�
 
 9. Dans le **volet Dataflow**, cliquez sur le **volet central** et utilisez le raccourci clavier **Ctrl + V**. (À l’heure actuelle, le clic droit sur Coller n’est pas pris en charge.) Si vous utilisez un appareil MAC, collez à l’aide du raccourci clavier Cmd + V.
 
-    **Remarque :** si vous travaillez dans l’environnement de labo, cliquez sur les **points de suspension (...)** en haut de l’écran à droite. Utilisez le curseur pour **activer**** le Presse-papiers natif de VM**. Cliquez sur D’ACCORD dans la boîte de dialogue. Après avoir collé les requêtes, vous pouvez désactiver cette option.
+    **Remarque :** si vous travaillez dans l’environnement de labo, cliquez sur les **points de suspension (...)** en haut de l’écran à droite. Utilisez le curseur pour **activer** **le Presse-papiers natif de VM**. Cliquez sur D’ACCORD dans la boîte de dialogue. Après avoir collé les requêtes, vous pouvez désactiver cette option.
 
     ![](../media/Lab-4/image23.png)
 
-### Tâche 6 : créer une connexion à Snowflake
+## Tâche 6 : créer une connexion à Snowflake
 
 Notez que les cinq requêtes sont collées et que vous disposez désormais du volet Requêtes à gauche. Comme nous n’avons pas de connexion créée pour Snowflake, un message d’avertissement s’affiche pour vous demander de configurer la connexion.
 
@@ -226,7 +226,7 @@ Notez que les cinq requêtes sont collées et que vous disposez désormais du vo
 
     La connexion est alors établie et vous pouvez afficher les données dans le volet d’aperçu. N’hésitez pas à parcourir les étapes appliquées des requêtes. En substance, la requête Suppliers comporte les détails des fournisseurs et la requête SupplierCategories, comme son nom l’indique, comporte toutes les catégories de fournisseurs. Ces deux tables sont jointes pour créer la dimension Supplier, avec les colonnes dont nous avons besoin. De même, nous avons fusionné la requête PO Line Items avec la requête PO pour créer le fait PO. Nous devons maintenant ingérer les données Supplier et PO dans Lakehouse.
 
-### Tâche 7 : configurer la destination des données pour les requêtes Supplier et PO
+## Tâche 7 : configurer la destination des données pour les requêtes Supplier et PO
 
 1. Sélectionnez la requête **Supplier (1).**
 
@@ -260,7 +260,7 @@ Notez que les cinq requêtes sont collées et que vous disposez désormais du vo
 
     ![](../media/Lab-4/image30.png)
 
-### Tâche 8 : renommer et publier le flux de données Snowflake
+## Tâche 8 : renommer et publier le flux de données Snowflake
 
 1. En haut de l’écran, cliquez sur la **flèche en regard de Flux de données 2 (le nom peut différer)** pour le renommer.
 
@@ -290,7 +290,7 @@ Notez que les cinq requêtes sont collées et que vous disposez désormais du vo
 
 # Raccourci vers le lakehouse interne
 
-### Tâche 9 : créer un raccourci vers Dataverse
+## Tâche 9 : créer un raccourci vers Dataverse
 
 Vous devriez être dans le lakehouse **lh_FAIAD**. Vérifiez que vous vous trouvez dans la vue Lakehouse (et non dans le point de terminaison analytique SQL).
 
@@ -304,7 +304,7 @@ Vous devriez être dans le lakehouse **lh_FAIAD**. Vérifiez que vous vous trouv
 
 3. La boîte de dialogue Nouveau raccourci s’ouvre alors. Sous **Sources externes**, sélectionnez **Dataverse**.
 
-    **Remarque**** :** dans le labo précédent, nous avons procédé de même pour créer un raccourci vers Azure Data Lake Storage Gen2.
+    **Remarque** **:** dans le labo précédent, nous avons procédé de même pour créer un raccourci vers Azure Data Lake Storage Gen2.
 
     ![](../media/Lab-4/image36.png)
 
@@ -316,7 +316,7 @@ Vous devriez être dans le lakehouse **lh_FAIAD**. Vérifiez que vous vous trouv
 
     ![](../media/Lab-4/image37.png)
 
-7. Dans la boîte de dialogue de connexion, sélectionnez le **compte d’utilisateur** que vous avez utilisé pour ces labos. La boîte de dialogue Connectez-vous à votre compte s’ouvre alors. Choisissez votre compte pour vous connecter. **Remarque**** :** votre compte est différent de celui figurant dans la capture d’écran ci-dessous.
+7. Dans la boîte de dialogue de connexion, sélectionnez le **compte d’utilisateur** que vous avez utilisé pour ces labos. La boîte de dialogue Connectez-vous à votre compte s’ouvre alors. Choisissez votre compte pour vous connecter. **Remarque** **:** votre compte est différent de celui figurant dans la capture d’écran ci-dessous.
 
     ![](../media/Lab-4/image38.png)
 
@@ -330,7 +330,7 @@ Vous devriez être dans le lakehouse **lh_FAIAD**. Vérifiez que vous vous trouv
 
     ![](../media/Lab-4/image39.png)
 
-### Tâche 10 : créer un raccourci vers un lakehouse
+## Tâche 10 : créer un raccourci vers un lakehouse
 
 1. Dans le volet **Explorateur**, cliquez sur les **points de suspension** en regard de **Tables**.
 

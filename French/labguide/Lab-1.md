@@ -55,7 +55,7 @@ Vous avez entendu parler de Microsoft Fabric et décidé de l’essayer pour voi
 
 Avant de prendre en main Fabric, examinons l’état actuel dans Power BI Desktop pour comprendre les transformations et le modèle.
 
-### Tâche 1 : configurer Power BI Desktop dans l’environnement de labo
+## Tâche 1 : configurer Power BI Desktop dans l’environnement de labo
 
 1. Ouvrez le fichier **FAIAD.pbix** situé dans le dossier **Reports** sur le **bureau** de votre environnement de labo. Le fichier s’ouvre alors dans Power BI Desktop.
 
@@ -87,7 +87,7 @@ Avant de prendre en main Fabric, examinons l’état actuel dans Power BI Deskto
 
     Power BI Desktop s’ouvre alors.
 
-### Tâche 2 : analyser l’état Power BI Desktop
+## Tâche 2 : analyser l’état Power BI Desktop
 
 L’état ci-dessous analyse les ventes de Fabrikam. Les KPI sont répertoriés en haut de la page à gauche. Les visuels restants mettent en évidence les ventes au fil du temps, par secteur de vente, groupe de produits et revendeur.
 
@@ -136,7 +136,7 @@ L’état ci-dessous analyse les ventes de Fabrikam. Les KPI sont répertoriés 
 
     e. Nous avons des informations Customer par Reseller. La valeur Customer est liée à la valeur Reseller.
 
-### Tâche 3 : examiner les requêtes Power Query
+## Tâche 3 : examiner les requêtes Power Query
 
 1. Examinons à présent Power Query pour comprendre les sources de données. Dans le ruban, cliquez sur **Accueil -> Transformer les données**.
 

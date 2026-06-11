@@ -18,7 +18,6 @@
 - Nettoyer l’environnement de labo
 - Références
 
-
 # Introduction
 
 Dans cette formation, vous avez découvert le lakehouse, ingéré des données de différentes sources dans le lakehouse, défini un calendrier d’actualisation pour les sources de données et créé un modèle de données. Vous allez maintenant créer un état.
@@ -35,7 +34,7 @@ Dans cette formation, vous avez découvert le lakehouse, ingéré des données d
 
 # Power BI
 
-### Tâche 1 : créer automatiquement un état
+## Tâche 1 : créer automatiquement un état
 
 Commençons par utiliser l’option de création automatique d’un état. Plus tard dans le labo, nous allons recréer l’état dont nous disposons dans Power BI.
 
@@ -49,7 +48,7 @@ Commençons par utiliser l’option de création automatique d’un état. Plus 
 
     ![](../media/Lab-7/image7.png)
 
-4. Cliquez sur **Nouveau rapport** dans le menu supérieur.
+4. Cliquez sur **+ Nouveau rapport** dans le menu supérieur.
 
     ![](../media/Lab-7/image8.png)
 
@@ -97,7 +96,7 @@ Commençons par utiliser l’option de création automatique d’un état. Plus 
 
     ![](../media/Lab-7/image13.png)
 
-### Tâche 2 : configurer l’arrière-plan d’un nouvel état
+## Tâche 2 : configurer l’arrière-plan d’un nouvel état
 
 Nous allons créer un nouvel état en utilisant un canevas vierge.
 
@@ -125,7 +124,7 @@ Nous allons créer un nouvel état en utilisant un canevas vierge.
 
 7. Revenez au **canevas Power BI** dans votre navigateur.
 
-8. Cliquez sur l’**icône**** Mettre en forme la page** dans le volet Visualisation.
+8. Cliquez sur l’**icône** **Mettre en forme la page** dans le volet Visualisation.
 
 9. Développez la section **Arrière-plan du canevas**.
 
@@ -141,7 +140,7 @@ Nous allons créer un nouvel état en utilisant un canevas vierge.
 
     ![](../media/Lab-7/image18.png)
 
-### Tâche 3 : ajouter un en-tête à l’état
+## Tâche 3 : ajouter un en-tête à l’état
 
 1. Ajoutons l’en-tête dans la marge supérieure. Dans le **menu**, cliquez sur **Zone de texte**.
 
@@ -161,13 +160,13 @@ Nous allons créer un nouvel état en utilisant un canevas vierge.
 
     ![](../media/Lab-7/image19.png)
 
-### Tâche 4 : ajouter des KPI à l’état
+## Tâche 4 : ajouter des KPI à l’état
 
 1. Ajoutons l’indicateur de performance clé Sales. Cliquez sur l’**espace blanc** dans le canevas pour détourner le focus de la zone de texte.
 
 2. Dans la section **Visualisations**, cliquez sur le visuel **Carte**.
 
-3. Dans la section **Données**, développez la **table**** Sales**.
+3. Dans la section **Données**, développez la **table** **Sales**.
 
 4. Sélectionnez la mesure **Sales**.
 
@@ -221,13 +220,13 @@ Nous allons créer un nouvel état en utilisant un canevas vierge.
 
     ![](../media/Lab-7/image25.png)
 
-### Tâche 5 : ajouter un graphique en courbes à l’état
+## Tâche 5 : ajouter un graphique en courbes à l’état
 
 Créons un graphique en courbes pour visualiser Sales dans le temps par Reseller Company.
 
 1. Cliquez sur l’**espace blanc** dans le canevas pour détourner le focus du visuel Carte multiligne.
 
-2. Dans la **section**** Visualisations**, sélectionnez **Graphique en courbes**.
+2. Dans la **section** **Visualisations**, sélectionnez **Graphique en courbes**.
 
 3. Dans la section **Données**, développez la table **Date**.
 
@@ -235,7 +234,7 @@ Créons un graphique en courbes pour visualiser Sales dans le temps par Reseller
 
     ![](../media/Lab-7/image26.png)
 
-### Tâche 6 : enregistrer l’état
+## Tâche 6 : enregistrer l’état
 
 Nous allons enregistrer l’état avant de le quitter pour apporter des modifications au modèle.
 
@@ -251,7 +250,7 @@ Nous allons enregistrer l’état avant de le quitter pour apporter des modifica
 
     ![](../media/Lab-7/image27.png)
 
-### Tâche 7 : configurer la colonne Year de la table Date
+## Tâche 7 : configurer la colonne Year de la table Date
 
 1. Dans le **menu supérieur**, cliquez sur **Modifier** pour repasser en mode Édition.
 
@@ -263,7 +262,7 @@ Nous allons enregistrer l’état avant de le quitter pour apporter des modifica
 
 3. Dans le coin supérieur droit, passez au mode **Édition**
 
-4. Dans le volet **Données**** à droite**, cliquez sur Tables.
+4. Dans le volet **Données** **à droite**, cliquez sur Tables.
 
 5. Développez la table **Date**.
 
@@ -287,7 +286,7 @@ Nous allons enregistrer l’état avant de le quitter pour apporter des modifica
 
     ![](../media/Lab-7/image31.png)
 
-### Tâche 8 : configurer la colonne Month Name de la table Date
+## Tâche 8 : configurer la colonne Month Name de la table Date
 
 1. Ajoutons le mois à ce graphique. Dans la table Date, faites glisser le champ **MonthNameShort** sous **Year** sur l’**axe des X**. Notez que le visuel est trié selon Sales. Trions-le selon **MonthNameShort**.
 
@@ -321,7 +320,7 @@ Nous allons enregistrer l’état avant de le quitter pour apporter des modifica
 
     ![](../media/Lab-7/image35.png)
 
-### Tâche 9 : mettre en forme le graphique en courbes
+## Tâche 9 : mettre en forme le graphique en courbes
 
 Notez à quel point il est facile de mettre à jour le modèle sémantique lors de la création des états. Cela donne des interactions fluides comme Power BI Desktop.
 
@@ -367,7 +366,7 @@ Notez à quel point il est facile de mettre à jour le modèle sémantique lors 
 
     Comme indiqué précédemment, nous n’allons pas créer tous les visuels dans ce labo. À votre guise, n’hésitez pas à créer d’autres visuels.
 
-### Tâche 10 : connecter Power BI Desktop au modèle sémantique
+## Tâche 10 : connecter Power BI Desktop au modèle sémantique
 
 Voyons maintenant à quel point il est facile de connecter Power BI Desktop au modèle sémantique et de créer des visuels.
 
@@ -429,7 +428,7 @@ Voyons maintenant à quel point il est facile de connecter Power BI Desktop au m
 
 20. Enregistrons l’état en cliquant sur **Fichier -> Enregistrer** dans le ruban.
 
-### Tâche 11 : ajouter de nouvelles données pour simuler le mode Direct Lake
+## Tâche 11 : ajouter de nouvelles données pour simuler le mode Direct Lake
 
 En général, en mode Import, une fois les données de la source actualisées, nous devons actualiser le modèle Power BI après quoi les données de l’état sont mises à jour. Avec le mode Direct Query, une fois les données actualisées dans la source, elles sont disponibles dans l’état Power BI. Cependant, le mode Direct Query est généralement lent. Pour résoudre ce problème, Microsoft Fabric a introduit le mode Direct Lake. Direct Lake est un moyen rapide de charger les données du lac directement dans le moteur Power BI, prêtes à l’analyse.
 

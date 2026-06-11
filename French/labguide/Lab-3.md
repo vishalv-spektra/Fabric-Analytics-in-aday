@@ -35,7 +35,7 @@ Nous allons commencer par créer un raccourci pour ingérer des données dans un
 
 # Raccourci vers ADLS Gen2
 
-### Tâche 1 : créer un raccourci
+## Tâche 1 : créer un raccourci
 
 Des raccourcis permettent de créer un lien vers l’emplacement cible. Les raccourcis permettent d’accéder aux données sans avoir besoin de les déplacer physiquement dans le lakehouse. Cela s’apparente à la création de raccourcis sur le bureau Windows.
 
@@ -144,7 +144,7 @@ Des raccourcis permettent de créer un lien vers l’emplacement cible. Les racc
 
 # Transformer des données à l’aide d’une requête visuelle
 
-### Tâche 2 : créer une vue Geo à l’aide d’une requête visuelle
+## Tâche 2 : créer une vue Geo à l’aide d’une requête visuelle
 
 1. Nous pouvons accéder au **lakehouse** à l’aide d’un point de terminaison SQL. Ainsi, nous pouvons interroger les données et créer des vues. En **haut à droite** de l'écran, cliquez sur **Lakehouse (1) -> Point de terminaison Analytique SQL (2)**.
 
@@ -310,14 +310,15 @@ Des raccourcis permettent de créer un lien vers l’emplacement cible. Les racc
 
     ![](../media/Lab-3/image28.png)
 
-### Tâche 3 : Créer les vues Reseller, Sales et Product à l’aide d’une requête SQL
+## Tâche 3 : Créer les vues Reseller, Sales et Product à l’aide d’une requête SQL
 
-1\. Dans Fabric, nous pouvons également créer des vues à l’aide de requêtes SQL. Dans le ruban situé en haut, sélectionnez **Nouvelle requête SQL\**
-![](../media/Lab-3/image29.png)
+1. Dans Fabric, nous pouvons également créer des vues à l’aide de requêtes SQL. Dans le ruban situé en haut, sélectionnez **Nouvelle requête SQL**
 
-2 Ici, nous pouvons écrire du TSQL afin de créer les vues dont nous avons besoin.
+    ![](../media/Lab-3/image29.png)
 
-3 Collez la requête SQL ci-dessous dans la fenêtre Requête. Trois vues sont alors créées : Reseller, Sales et Product.
+2. Ici, nous pouvons écrire du TSQL afin de créer les vues dont nous avons besoin.
+
+3. Collez la requête SQL ci-dessous dans la fenêtre Requête. Trois vues sont alors créées : Reseller, Sales et Product.
 
     ```sql
     CREATE VIEW dbo.Reseller AS
@@ -486,13 +487,13 @@ Des raccourcis permettent de créer un lien vers l’emplacement cible. Les racc
     GO
     ```
 
-4 Après l’avoir collé, sélectionnez Exécuter.
+4. Après l’avoir collé, sélectionnez Exécuter.
 
-![](../media/Lab-3/image30.png)
+    ![](../media/Lab-3/image30.png)
 
-5 Dans le volet Explorateur (à gauche), développez Vues. Nous disposons désormais des vues nouvellement créées avec des données prêtes à être utilisées.
+5. Dans le volet Explorateur (à gauche), développez Vues. Nous disposons désormais des vues nouvellement créées avec des données prêtes à être utilisées.
 
-![](../media/Lab-3/image31.png)
+    ![](../media/Lab-3/image31.png)
 
 Nous avons transformé les données de la source de données ADLS Gen2. Dans ce labo, nous avons découvert comment créer des raccourcis et exploré diverses options permettant de transformer des données à l’aide de vues de requête visuelle.
 

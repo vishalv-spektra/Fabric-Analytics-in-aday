@@ -5,9 +5,9 @@
 - Struttura del documento
 - Scenario/Esposizione del problema
 - Panoramica del report di Power BI Desktop
-- Attività 1 - Impostazione di Power BI Desktop nell'ambiente lab
-- Attività 2 - Analisi del report di Power BI Desktop
-- Attività 3 - Analisi delle query in Power Query
+    - Attività 1 - Impostazione di Power BI Desktop nell'ambiente lab
+    - Attività 2 - Analisi del report di Power BI Desktop
+    - Attività 3 - Analisi delle query in Power Query
 - Riferimenti
 
 
@@ -33,7 +33,7 @@ Per ottenere informazioni utili, si estraggono, puliscono e organizzano insieme 
 
 - **Dati dipendenti:** provengono dal sistema HR e sono archiviati in un file di esportazione in una cartella di SharePoint. Vengono aggiornati ogni mattina alle 9.00.
 
-![](../media/Lab-1/image4.jpeg)
+    ![](../media/Lab-1/image4.jpeg)
 
 Attualmente è in fase di creazione un modello semantico in Power BI Premium che estrae i dati dai precedenti sistemi di origine per soddisfare le esigenze di creazione report e fornire agli utenti finali la funzionalità self-service. Si usa Power Query per aggiornare il modello.
 

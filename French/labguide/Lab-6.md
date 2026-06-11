@@ -27,7 +27,7 @@ Nous avons des données provenant de différentes sources ingérées dans la lak
 
 # Lakehouse : analyse des données
 
-### Tâche 1 : interroger des données à l’aide de SQL
+## Tâche 1 : interroger des données à l’aide de SQL
 
 1. Revenons à l’espace de travail Fabric **FAIAD_<username>** que vous avez créé dans le labo 2, tâche 8.
 
@@ -63,11 +63,11 @@ Nous avons des données provenant de différentes sources ingérées dans la lak
 
 8. Dans le **volet gauche** Explorateur, sous la section **Requêtes**, cette requête est enregistrée sous **Mes requêtes** comme **Requête SQL 2**. Cela permet de renommer la requête et de l’enregistrer pour une utilisation ultérieure. En outre, une option permet d’afficher les requêtes partagées avec vous à l’aide du dossier **Requêtes partagées**.
 
-    **Remarque**** :** les requêtes visuelles que vous avez créées dans les labos précédents sont également disponibles sous le dossier Mes requêtes.
+    **Remarque** **:** les requêtes visuelles que vous avez créées dans les labos précédents sont également disponibles sous le dossier Mes requêtes.
 
     ![](../media/Lab-6/image8.png)
 
-### Tâche 2 : visualiser le résultat T-SQL
+## Tâche 2 : visualiser le résultat T-SQL
 
 1. Nous pouvons également visualiser le résultat de cette requête. **Mettez en surbrillance la requête** dans le volet de requête.
 
@@ -79,9 +79,9 @@ Nous avons des données provenant de différentes sources ingérées dans la lak
 
     La boîte de dialogue **Visualiser les résultats** s’ouvre alors et ressemble à la vue d’état Power BI Desktop. Elle affiche toutes les fonctionnalités disponibles dans la vue d’état Power BI Desktop : vous pouvez mettre en forme la page, sélectionner différents visuels, mettre en forme des visuels, ajouter des filtres, etc. Nous n’allons pas explorer ces options dans ce cours.
 
-4. Développez le volet **Données**, puis **Requête**** SQL** **2**.
+4. Développez le volet **Données**, puis **Requête** **SQL** **2**.
 
-5. Sélectionnez les **champs**** Supplier_Name** et **Units**. Un visuel de table est créé.
+5. Sélectionnez les **champs** **Supplier_Name** et **Units**. Un visuel de table est créé.
 
     ![](../media/Lab-6/image10.png)
 
@@ -103,7 +103,7 @@ Nous avons des données provenant de différentes sources ingérées dans la lak
 
 # Lakehouse : modélisation sémantique
 
-### Tâche 3 : créer un modèle sémantique
+## Tâche 3 : créer un modèle sémantique
 
 1. Dans le menu du point de terminaison analytique SQL, cliquez sur **Nouveau modèle sémantique**.
 
@@ -141,9 +141,9 @@ Nous avons des données provenant de différentes sources ingérées dans la lak
 
     Vous allez accéder au nouveau modèle sémantique avec les tables sélectionnées. N’hésitez pas à **réorganiser** les tables si nécessaire. Notez que certaines tables (Geo, Reseller, Sales et Product) comportent un symbole d’avertissement en haut de la table à droite. En effet, il s’agit de vues. Tous les visuels créés avec des champs provenant de ces vues sont en mode DirectQuery et non en mode Direct Lake.
 
-    **Remarque**** :** le mode Direct Lake est plus rapide que le mode DirectQuery.
+    **Remarque** **:** le mode Direct Lake est plus rapide que le mode DirectQuery.
 
-### Tâche 4 : créer des relations
+## Tâche 4 : créer des relations
 
 Si vous n’êtes pas actuellement dans le modèle sémantique nouvellement créé, rendez-vous à l’endroit approprié
 
@@ -203,7 +203,7 @@ Si vous n’êtes pas actuellement dans le modèle sémantique nouvellement cré
 
     Pour gagner du temps, nous n’allons pas créer toutes les relations. Si le temps le permet, vous pouvez suivre la section facultative à la fin du labo. La section facultative passe en revue les étapes permettant de créer les relations restantes.
 
-### Tâche 5 : créer des mesures
+## Tâche 5 : créer des mesures
 
 Ajoutons quelques mesures dont nous avons besoin pour créer le tableau de bord Sales.
 
@@ -265,7 +265,7 @@ Ajoutons quelques mesures dont nous avons besoin pour créer le tableau de bord 
 
     Nous avons créé un modèle sémantique et l’étape suivante consiste à créer un état. Nous allons le faire dans le prochain labo.
 
-### Tâche 6 : section facultative - Créer des relations
+## Tâche 6 : section facultative - Créer des relations
 
 Ajoutons les relations restantes.
 
@@ -343,7 +343,7 @@ Ajoutons les relations restantes.
 
     ![](../media/Lab-6/image33.png)
 
-### Tâche 7 : section facultative - Créer des mesures
+## Tâche 7 : section facultative - Créer des mesures
 
 Ajoutons les mesures restantes.
 
@@ -367,7 +367,7 @@ Ajoutons les mesures restantes.
 
     1. Dans la table **Sales, GM = SUM(‘Sales’[LineProfit])** au format **Devise avec 0 décimale**.
 
-    2. Dans la table **Sales**,** GM% = DIVIDE([GM], [Sales])** au format **Pourcentage avec 0 décimale**.
+    2. Dans la table **Sales**, **GM% = DIVIDE([GM], [Sales])** au format **Pourcentage avec 0 décimale**.
 
     3. Dans la table **Customer, No of Customers = COUNTROWS(Customer)** au format **Nombre entier avec l’option Séparateur de milliers activée**.
 

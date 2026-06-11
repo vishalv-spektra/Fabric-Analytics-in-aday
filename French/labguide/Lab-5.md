@@ -43,7 +43,7 @@ Nous avons ingéré des données issues de différentes sources de données dans
 
 # Dataflow Gen2
 
-### Tâche 1 : configurer l’actualisation planifiée pour le flux de données Fournisseur
+## Tâche 1 : configurer l’actualisation planifiée pour le flux de données Fournisseur
 
 Commençons par configurer une actualisation planifiée du flux de données Fournisseur.
 
@@ -88,9 +88,14 @@ Commençons par configurer une actualisation planifiée du flux de données Four
     ![](../media/Lab-5/image12.png)
 
 11. Vous pouvez voir que dans le panneau **Paramètres** qui s’affiche, nous avons trois options :
-    **À propos :** ici, nous pouvons modifier le nom du flux de données et ajouter une description. Nous pouvons également voir qui est le propriétaire du flux de données et la date de sa dernière modification. **Approbation :** cela nous permet de spécifier si le flux de données portera l’étiquette **Promu** ou **Certifié** afin que les autres puissent l’identifier. **Planifier :** c’est ici que nous pouvons planifier les flux de données.
 
-    ![](../media/Lab-5/image13.png)
+    - **À propos :** ici, nous pouvons modifier le nom du flux de données et ajouter une description. Nous pouvons également voir qui est le propriétaire du flux de données et la date de sa dernière modification.
+    
+    - **Approbation :** cela nous permet de spécifier si le flux de données portera l’étiquette **Promu** ou **Certifié** afin que les autres puissent l’identifier. 
+    
+    - **Planifier :** c’est ici que nous pouvons planifier les flux de données.
+
+        ![](../media/Lab-5/image13.png)
 
 12. Sélectionnez l’option **Planifier**
 
@@ -118,7 +123,7 @@ Commençons par configurer une actualisation planifiée du flux de données Four
 
 # Pipeline
 
-### Tâche 2 : créer un pipeline
+## Tâche 2 : créer un pipeline
 
 1. Revenons à l’espace de travail Fabric **FAIAD_<username>** en cliquant sur l’espace de travail dans le volet gauche.
 
@@ -150,7 +155,7 @@ Commençons par configurer une actualisation planifiée du flux de données Four
 
     ![](../media/Lab-5/image21.png)
 
-### Tâche 3 : créer un pipeline simple
+## Tâche 3 : créer un pipeline simple
 
 Commençons à créer le pipeline. Nous avons besoin d’une activité pour actualiser le flux de données. Trouvons une activité que nous pouvons utiliser.
 
@@ -170,7 +175,7 @@ Commençons à créer le pipeline. Nous avons besoin d’une activité pour actu
 
     ![](../media/Lab-5/image23.png)
 
-5. Dans le **volet**** inférieur**, cliquez sur **Général**. Donnons un nom et une description à l’activité.
+5. Dans le **volet** **inférieur**, cliquez sur **Général**. Donnons un nom et une description à l’activité.
 
 6. Dans le champ **Nom**, saisissez **dfactivity_People_SharePoint**.
 
@@ -198,7 +203,7 @@ Commençons à créer le pipeline. Nous avons besoin d’une activité pour actu
 
     - Le pipeline offre la possibilité d’effectuer d’autres tâches, en plus d’actualiser le flux de données
 
-### Tâche 4 : créer un pipeline
+## Tâche 4 : créer un pipeline
 
 Ajoutons un peu plus de complexité à notre scénario. Nous avons remarqué que si les données ne sont pas disponibles à 9 h, elles le sont généralement sous cinq minutes. Si la fenêtre temporelle est manquée, le fichier est disponible sous 15 minutes. Nous souhaitons planifier les tentatives à cinq et 15 minutes. Voyons comment nous pouvons y parvenir en créant un pipeline.
 
@@ -212,7 +217,7 @@ Ajoutons un peu plus de complexité à notre scénario. Nous avons remarqué que
 
     ![](../media/Lab-5/image26.png)
 
-### Tâche 5 : créer une activité Until
+## Tâche 5 : créer une activité Until
 
 1. Vous êtes alors redirigé vers l’écran Pipeline. Dans le menu, cliquez sur **Activités**.
 
@@ -226,7 +231,7 @@ Ajoutons un peu plus de complexité à notre scénario. Nous avons remarqué que
 
     ![](../media/Lab-5/image27.png)
 
-### Tâche 6 : créer des variables
+## Tâche 6 : créer des variables
 
 1. Nous devons créer des variables permettant d’itérer et de définir le statut. Cliquez sur la **zone vide** dans le volet de conception du pipeline.
 
@@ -264,7 +269,7 @@ Ajoutons un peu plus de complexité à notre scénario. Nous avons remarqué que
 
     ![](../media/Lab-5/image29.png)
 
-### Tâche 7 : configurer l’activité Until
+## Tâche 7 : configurer l’activité Until
 
 1. Sélectionnez l’activité **Jusqu’au**.
 
@@ -284,7 +289,7 @@ Ajoutons un peu plus de complexité à notre scénario. Nous avons remarqué que
 
     ![](../media/Lab-5/image31.png)
 
-    Nous devons écrire une expression qui s’exécute jusqu’à ce que la valeur de **varCounter soit 3** ou** **la valeur **de varIsSuccess soit Oui.** (varCounter et varIsSuccess sont les variables que nous venons de créer.)
+    Nous devons écrire une expression qui s’exécute jusqu’à ce que la valeur de **varCounter soit 3** ou la valeur **de varIsSuccess soit Oui.** (varCounter et varIsSuccess sont les variables que nous venons de créer.)
 
 8. La boîte de dialogue **Générateur d’expressions de pipeline** s’ouvre alors. Dans la moitié inférieure de la boîte de dialogue se trouve un menu :
 
@@ -300,7 +305,7 @@ Ajoutons un peu plus de complexité à notre scénario. Nous avons remarqué que
 
     6. **Variables de bibliothèque :** les variables de bibliothèque utilisent des variables définies dans l’élément Fabric « Bibliothèque de variables ». Ces variables offrent un moyen centralisé de gérer les configurations entre les espaces de travail afin de prendre en charge les flux de travail CI/CD. Elles peuvent être utilisées avec des pipelines, des notebooks, des raccourcis lakehouse, et bien plus encore.
 
-    ![](../media/Lab-5/image32.png)
+        ![](../media/Lab-5/image32.png)
 
 9. Cliquez sur **Fonctions** dans le ruban ou le menu.
 
@@ -350,7 +355,7 @@ Ajoutons un peu plus de complexité à notre scénario. Nous avons remarqué que
 
     ![](../media/Lab-5/image38.png)
 
-### Tâche 8 : configurer l’activité Flux de données
+## Tâche 8 : configurer l’activité Flux de données
 
 1. Vous êtes alors redirigé vers l’écran de conception. Une fois l’activité **Until** sélectionnée, cliquez sur **Activités** dans le **volet inférieur**. Nous allons maintenant ajouter les activités à exécuter.
 
@@ -376,7 +381,7 @@ Ajoutons un peu plus de complexité à notre scénario. Nous avons remarqué que
 
     ![](../media/Lab-5/image41.png)
 
-### Tâche 9 : configurer une 1re activité Définir une variable
+## Tâche 9 : configurer une 1re activité Définir une variable
 
 Nous avons configuré l’activité Flux de données comme nous l’avons fait plus tôt dans le labo. Nous allons maintenant ajouter une nouvelle logique. Si l’actualisation du flux de données réussit, nous devons quitter l’itérateur Until. N’oubliez pas que l’une des conditions pour quitter l’itérateur consiste à définir la valeur de la variable varIsSuccess sur Oui.
 
@@ -390,13 +395,13 @@ Nous avons configuré l’activité Flux de données comme nous l’avons fait p
 
     **Remarque :** survolez l’**activité Flux de données**. À droite de la zone de l’activité se trouvent quatre icônes. Elles permettent de se connecter à l’activité suivante en fonction du résultat de l’activité :
 
-1. L’icône représentant une **flèche incurvée grise** permet d’ignorer l’activité.
+    1. L’icône représentant une **flèche incurvée grise** permet d’ignorer l’activité.
 
-2. L’icône représentant une **coche verte** est utilisée en cas de réussite de l’activité.
+    2. L’icône représentant une **coche verte** est utilisée en cas de réussite de l’activité.
 
-3. L’icône représentant une **croix rouge** est utilisée en cas d’échec de l’activité.
+    3. L’icône représentant une **croix rouge** est utilisée en cas d’échec de l’activité.
 
-4. L’icône représentant une **flèche droite bleue** est utilisée à la fin de l’activité.
+    4. L’icône représentant une **flèche droite bleue** est utilisée à la fin de l’activité.
 
 5. Cliquez sur la **coche verte** de l’activité Flux de données dfactivity_People_SharePoint et faites-la glisser pour vous connecter à la nouvelle **activité Définir une variable** **set_varIsSuccess**. Ainsi, en cas de succès de l’actualisation du flux de données, nous souhaitons exécuter l’activité Définir une variable.
 
@@ -422,7 +427,7 @@ Nous avons configuré l’activité Flux de données comme nous l’avons fait p
 
     Nous devons maintenant définir le compteur si l’activité Flux de données échoue. Dans le pipeline, nous ne pouvons pas auto-référencer une variable. Autrement dit, nous ne pouvons pas incrémenter la variable de compteur varCounter en ajoutant un à sa valeur (varCounter = varCounter + 1). Nous utilisons donc la variable varTempCounter.
 
-### Tâche 10 : configurer une 2<sup>e</sup> activité Définir une variable
+## Tâche 10 : configurer une 2<sup>e</sup> activité Définir une variable
 
 1. Dans le menu supérieur, cliquez sur **Activités -> Définir une variable**. L’activité Définir une variable est alors ajoutée au canevas de conception.
 
@@ -452,7 +457,7 @@ Nous avons configuré l’activité Flux de données comme nous l’avons fait p
 
     Nous devons maintenant définir la valeur de la variable varCounter sur la valeur de varTempCounter.
 
-### Tâche 11 : configurer une 3<sup>e</sup> activité Définir une variable
+## Tâche 11 : configurer une 3<sup>e</sup> activité Définir une variable
 
 1. Dans le menu supérieur, cliquez sur **Activités -> Définir une variable**. L’activité Définir une variable est alors ajoutée au canevas de conception.
 
@@ -482,7 +487,7 @@ Nous avons configuré l’activité Flux de données comme nous l’avons fait p
 
     **Remarque :** cette fonction définit la valeur de la variable varCounter sur la valeur de la variable varTempCounter (varCounter = varTempCounter). À la fin de chaque itération, varCounter et varTempCounter ont la même valeur.
 
-### Tâche 12 : configurer l’activité Attente
+## Tâche 12 : configurer l’activité Attente
 
 Ensuite, nous devons attendre 5 minutes/300 secondes si l’actualisation du flux de données échoue la première fois avant de réessayer. Si l’actualisation du flux de données échoue la seconde fois, nous devons attendre 15 minutes/900 secondes et réessayer. Nous allons définir le temps d’attente à l’aide de l’activité Attente et de la variable varWaitTime.
 
@@ -543,7 +548,7 @@ Ensuite, nous devons attendre 5 minutes/300 secondes si l’actualisation du flu
 
     ![](../media/Lab-5/image53.png)
 
-### Tâche 13 : configurer l’actualisation planifiée pour le pipeline
+## Tâche 13 : configurer l’actualisation planifiée pour le pipeline
 
 1. Nous pouvons tester le pipeline en cliquant sur **Accueil -> Exécuter**.
 
@@ -565,7 +570,7 @@ Ensuite, nous devons attendre 5 minutes/300 secondes si l’actualisation du flu
 
 8. Définissez votre **Fuseau horaire**.
 
-    **Remarque**** :** comme il s’agit d’un environnement de labo, vous pouvez définir le fuseau horaire sur votre fuseau horaire préféré. Dans un scénario réel, vous définissez le fuseau horaire en fonction de l’emplacement de votre source de données.
+    **Remarque** **:** comme il s’agit d’un environnement de labo, vous pouvez définir le fuseau horaire sur votre fuseau horaire préféré. Dans un scénario réel, vous définissez le fuseau horaire en fonction de l’emplacement de votre source de données.
 
 9. Cliquez sur **Enregistrer**.
 
