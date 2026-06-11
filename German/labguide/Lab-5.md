@@ -43,7 +43,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 # Dataflow Gen2
 
-### Aufgabe 1: Geplante Aktualisierung für den Lieferanten-Dataflow konfigurieren
+## Aufgabe 1: Geplante Aktualisierung für den Lieferanten-Dataflow konfigurieren
 
 Beginnen wir damit, eine geplante Aktualisierung des Lieferanten-Dataflows zu konfigurieren.
 
@@ -118,7 +118,7 @@ Beginnen wir damit, eine geplante Aktualisierung des Lieferanten-Dataflows zu ko
 
 # Pipeline
 
-### Aufgabe 2: Pipeline erstellen
+## Aufgabe 2: Pipeline erstellen
 
 1. Wir navigieren zurück zum Fabric-Arbeitsbereich **FAIAD_<Benutzername>**, indem wir den Arbeitsbereich im linken Bereich auswählen.
 
@@ -150,7 +150,7 @@ Beginnen wir damit, eine geplante Aktualisierung des Lieferanten-Dataflows zu ko
 
     ![](../media/Lab-5/image21.png)
 
-### Aufgabe 3: Einfache Pipeline erstellen
+## Aufgabe 3: Einfache Pipeline erstellen
 
 Beginnen wir mit der Erstellung der Pipeline. Wir benötigen eine Aktivität, um den Dataflow zu aktualisieren. Lassen Sie uns nach einer Aktivität suchen, die wir verwenden können.
 
@@ -170,9 +170,9 @@ Beginnen wir mit der Erstellung der Pipeline. Wir benötigen eine Aktivität, um
 
     ![](../media/Lab-5/image23.png)
 
-5. Wählen Sie im **unteren**** Bereich** die Option **Allgemein** aus. Wir geben der Aktivität einen Namen und eine Beschreibung.
+5. Wählen Sie im **unteren** **Bereich** die Option **Allgemein** aus. Wir geben der Aktivität einen Namen und eine Beschreibung.
 
-6. Geben Sie im Feld **Name**** dfactivity_People_SharePoint** ein.
+6. Geben Sie im Feld **Name** **dfactivity_People_SharePoint** ein.
 
 7. Geben Sie im Feld **Beschreibung** df **_People_Sharepoint dataflow ein.**
 
@@ -198,7 +198,7 @@ Beginnen wir mit der Erstellung der Pipeline. Wir benötigen eine Aktivität, um
 
     - Die Pipeline bietet die Möglichkeit, andere Aufgaben auszuführen und den Dataflow zu aktualisieren.
 
-### Aufgabe 4: Neue Pipeline erstellen
+## Aufgabe 4: Neue Pipeline erstellen
 
 Fügen wir unserem Szenario etwas mehr Komplexität hinzu. Wir haben festgestellt, dass, wenn die Daten nicht um 9:00 Uhr morgens verfügbar sind, sie in der Regel innerhalb von fünf Minuten verfügbar sind. Wird das Zeitfenster verpasst, dauert es 15 Minuten, bis die Datei verfügbar ist. Wir möchten die Wiederholungen so planen, dass sie alle 5 und 15 Minuten erfolgen. Sehen wir uns an, wie dies durch die Erstellung einer neuen Pipeline erreicht werden kann.
 
@@ -212,7 +212,7 @@ Fügen wir unserem Szenario etwas mehr Komplexität hinzu. Wir haben festgestell
 
     ![](../media/Lab-5/image26.png)
 
-### Aufgabe 5: Bis-Aktivität erstellen
+## Aufgabe 5: Bis-Aktivität erstellen
 
 1. Sie werden zum Bildschirm „Pipeline“ weitergeleitet. Wählen Sie im Menü die Option **Aktivitäten** aus.
 
@@ -226,7 +226,7 @@ Fügen wir unserem Szenario etwas mehr Komplexität hinzu. Wir haben festgestell
 
     ![](../media/Lab-5/image27.png)
 
-### Aufgabe 6: Variablen erstellen
+## Aufgabe 6: Variablen erstellen
 
 1. Wir müssen Variablen für die Iteration und Festlegung des Status festlegen. Wählen Sie den **leeren Bereich** im Bereich für Pipelinedesign aus.
 
@@ -238,7 +238,7 @@ Fügen wir unserem Szenario etwas mehr Komplexität hinzu. Wir haben festgestell
 
 5. Wählen Sie im Dropdownmenü **Typ** die Option **Integer** aus.
 
-6. Geben Sie den **Standardwert**** 0** ein.
+6. Geben Sie den **Standardwert** **0** ein.
 
     **Hinweis:** Wir hängen Variablennamen den Zusatz „var“ an, damit sie leicht zu finden sind und sich dieses Vorgehen bewährt hat.
 
@@ -250,7 +250,7 @@ Fügen wir unserem Szenario etwas mehr Komplexität hinzu. Wir haben festgestell
 
 9. Wählen Sie im Dropdownmenü **Typ** die Option **Integer** aus.
 
-10. Geben Sie den **Standardwert**** 0** ein.
+10. Geben Sie den **Standardwert** **0** ein.
 
 11. Fügen Sie auf die gleiche Weise drei weitere Variablen hinzu:
 
@@ -264,13 +264,13 @@ Fügen wir unserem Szenario etwas mehr Komplexität hinzu. Wir haben festgestell
 
     ![](../media/Lab-5/image29.png)
 
-### Aufgabe 7: Bis-Aktivität konfigurieren
+## Aufgabe 7: Bis-Aktivität konfigurieren
 
 1. Wählen Sie die **Bis**-Aktivität aus.
 
 2. Wählen Sie im **unteren Bereich** die Option **Allgemein** aus.
 
-3. Geben Sie als **Name**** Iterator** ein.
+3. Geben Sie als **Name** **Iterator** ein.
 
 4. Geben Sie als **Beschreibung** Folgendes ein: „**Iterator to refresh dataflow. It will retry up to 3 times**.“
 
@@ -300,7 +300,7 @@ Fügen wir unserem Szenario etwas mehr Komplexität hinzu. Wir haben festgestell
 
     6. **Bibliotheksvariablen:** Bibliotheksvariablen verwenden Variablen, die im **Fabric-Element der Variablenbibliothek** definiert sind. Diese Variablen bieten eine zentrale Möglichkeit, Konfigurationen arbeitsbereichsübergreifend zu verwalten, um CI/CD-Workflows zu unterstützen. Sie können zusammen mit Pipelines, Notizbüchern, Lakehouse-Verknüpfungen usw. verwendet werden.
 
-    ![](../media/Lab-5/image32.png)
+        ![](../media/Lab-5/image32.png)
 
 9. Klicken Sie im Menüband oder im Menü auf **Funktionen**.
 
@@ -350,7 +350,7 @@ Fügen wir unserem Szenario etwas mehr Komplexität hinzu. Wir haben festgestell
 
     ![](../media/Lab-5/image38.png)
 
-### Aufgabe 8: Dataflow-Aktivität konfigurieren
+## Aufgabe 8: Dataflow-Aktivität konfigurieren
 
 1. Sie werden zum Designbildschirm weitergeleitet. Wählen Sie bei ausgewählter **Bis-Aktivität** im **unteren Bereich** die Option **Aktivitäten** aus. Wir fügen nun die Aktivitäten hinzu, die ausgeführt werden müssen.
 
@@ -362,7 +362,7 @@ Fügen wir unserem Szenario etwas mehr Komplexität hinzu. Wir haben festgestell
 
 4. Wählen Sie bei ausgewählter **Dataflow-Aktivität** im unteren Bereich **Allgemein** aus. Wir geben der Aktivität einen Namen und eine Beschreibung.
 
-5. Geben Sie im Feld **Name**** dfactivity_People_SharePoint** ein.
+5. Geben Sie im Feld **Name** **dfactivity_People_SharePoint** ein.
 
 6. Geben Sie im Feld **Beschreibung** den Text **Dataflow activity to refresh df_People_Sharepoint dataflow** ein.
 
@@ -370,13 +370,13 @@ Fügen wir unserem Szenario etwas mehr Komplexität hinzu. Wir haben festgestell
 
 7. Wählen Sie im unteren Bereich die Option **Einstellungen** aus.
 
-8. Stellen Sie sicher, dass der **Arbeitsbereich**,** FAIAD_<Benutzername>** ist.
+8. Stellen Sie sicher, dass der **Arbeitsbereich**, **FAIAD_<Benutzername>** ist.
 
 9. Wählen Sie im **Dropdownmenü „Dataflow“** die Option **df_People_SharePoint** aus.
 
     ![](../media/Lab-5/image41.png)
 
-### Aufgabe 9: Erste Aktivität „Variable festlegen“ konfigurieren
+## Aufgabe 9: Erste Aktivität „Variable festlegen“ konfigurieren
 
 Wir haben die Dataflow-Aktivität wie zuvor in der Übung konfiguriert. Nun fügen wir neue Logik hinzu. Wenn die Dataflow-Aktualisierung erfolgreich ist, müssen wir den Bis-Iterator beenden. Bedenken Sie, dass eine der Bedingungen für die Beendigung des Iterators darin besteht, den Wert der Variablen „varIsSuccess“ auf „Ja“ festzulegen.
 
@@ -384,7 +384,7 @@ Wir haben die Dataflow-Aktivität wie zuvor in der Übung konfiguriert. Nun füg
 
 2. Wählen Sie bei ausgewählter **Aktivität „Variable festlegen“** im unteren Bereich **Allgemein** aus. Wir geben der Aktivität einen Namen und eine Beschreibung.
 
-3. Geben Sie im Feld **Name**** set_varIsSuccess** ein.
+3. Geben Sie im Feld **Name** **set_varIsSuccess** ein.
 
 4. Geben Sie im Feld **Beschreibung** den Text **Set variable varIsSuccess to Yes** ein.
 
@@ -422,13 +422,13 @@ Wir haben die Dataflow-Aktivität wie zuvor in der Übung konfiguriert. Nun füg
 
     Nun müssen wir den Zähler festlegen, wenn die Dataflow-Aktivität fehlschlägt. In einer Pipeline können wir keine Selbstreferenz für eine Variable festlegen. Das bedeutet, dass wir die Zählervariable „varCounter“ nicht inkrementieren können, indem wir ihr den Wert eins hinzufügen (varCounter = varCounter + 1). Daher nutzen wir die Variable „varTempCounter“.
 
-### Aufgabe 10: Zweite Aktivität „Variable festlegen“ konfigurieren
+## Aufgabe 10: Zweite Aktivität „Variable festlegen“ konfigurieren
 
 1. Wählen Sie im oberen Menü **Aktivitäten -> Variable festlegen** aus. Die Aktivität „Variable festlegen“ wird dem Designcanvas hinzugefügt.
 
 2. Wählen Sie bei ausgewählter **Aktivität „Variable festlegen“** im unteren Bereich **Allgemein** aus. Wir geben der Aktivität einen Namen und eine Beschreibung.
 
-3. Geben Sie im Feld **Name**** set_varTempCounter** ein.
+3. Geben Sie im Feld **Name** **set_varTempCounter** ein.
 
 4. Geben Sie im Feld **Beschreibung** den Text **Increment variable varTempCounter** ein.
 
@@ -440,7 +440,7 @@ Wir haben die Dataflow-Aktivität wie zuvor in der Übung konfiguriert. Nun füg
 
 7. Stellen Sie im unteren Bereich sicher, dass der **Variablentyp** auf **Pipelinevariable** festgelegt ist.
 
-8. Wählen Sie im Feld **Name**** varTempCounter**. aus. Dies ist die Variable, deren Wert wir festlegen werden.
+8. Wählen Sie im Feld **Name** **varTempCounter**. aus. Dies ist die Variable, deren Wert wir festlegen werden.
 
 9. Wählen Sie im Feld **Wert** das **Textfeld** aus. Wählen Sie den Link **Dynamischen Inhalt hinzufügen** aus.
 
@@ -452,13 +452,13 @@ Wir haben die Dataflow-Aktivität wie zuvor in der Übung konfiguriert. Nun füg
 
     Nun müssen wir den Wert der Variablen „varCounter“ auf den Wert „varTempCounter“ festlegen.
 
-### Aufgabe 11: Dritte Aktivität „Variable festlegen“ konfigurieren
+## Aufgabe 11: Dritte Aktivität „Variable festlegen“ konfigurieren
 
 1. Wählen Sie im oberen Menü **Aktivitäten -> Variable festlegen** aus. Die Aktivität „Variable festlegen“ wird dem Designcanvas hinzugefügt.
 
 2. Wählen Sie bei ausgewählter **Aktivität „Variable festlegen“** im unteren Bereich **Allgemein** aus. Wir geben der Aktivität einen Namen und eine Beschreibung.
 
-3. Geben Sie im Feld **Name**** set_varCounter** ein.
+3. Geben Sie im Feld **Name** **set_varCounter** ein.
 
 4. Geben Sie im Feld **Beschreibung** den Text **Increment variable varCounter** ein.
 
@@ -470,7 +470,7 @@ Wir haben die Dataflow-Aktivität wie zuvor in der Übung konfiguriert. Nun füg
 
 7. Stellen Sie im unteren Bereich sicher, dass der **Variablentyp** auf **Pipelinevariable** festgelegt ist.
 
-8. Wählen Sie im Feld **Name**** varCounter** aus. Dies ist die Variable, deren Wert wir festlegen werden.
+8. Wählen Sie im Feld **Name** **varCounter** aus. Dies ist die Variable, deren Wert wir festlegen werden.
 
 9. Wählen Sie im Feld **Wert** das **Textfeld** aus. Wählen Sie den Link **Dynamischen Inhalt hinzufügen** aus.
 
@@ -482,7 +482,7 @@ Wir haben die Dataflow-Aktivität wie zuvor in der Übung konfiguriert. Nun füg
 
     **Hinweis:** Diese Funktion legt den Wert der Variablen „varTempCounter“ auf den Wert der Variablen „varTempCounter“ (varCounter = varTempCounter) fest. Am Ende jeder Iteration haben sowohl varCounter als auch varTempCounter denselben Wert.
 
-### Aufgabe 12: Aktivität „Wartezustand“ konfigurieren
+## Aufgabe 12: Aktivität „Wartezustand“ konfigurieren
 
 Als nächstes müssen wir 5 Minuten/300 Sekunden warten, wenn die Dataflow-Aktualisierung beim ersten Mal fehlschlägt, bevor wir es erneut versuchen. Wenn die Dataflow-Aktualisierung zum zweiten Mal fehlschlägt, müssen wir 15 Minuten/900 Sekunden warten, und es erneut versuchen. Wir verwenden die Aktivität „Wartezustand“ und die Variable „varWaitTime“, um die Wartezeit festzulegen.
 
@@ -490,7 +490,7 @@ Als nächstes müssen wir 5 Minuten/300 Sekunden warten, wenn die Dataflow-Aktua
 
 2. Wählen Sie bei ausgewählter **Aktivität** „Wartezustand“ im unteren Bereich **Allgemein** aus. Wir geben der Aktivität einen Namen und eine Beschreibung.
 
-3. Geben Sie im Feld **Name**** wait_onFailure** ein.
+3. Geben Sie im Feld **Name** **wait_onFailure** ein.
 
 4. Geben Sie im Feld **Beschreibung** den Text **Wait for 300 seconds on 2nd try and 900 seconds on 3rd try** ein.
 
@@ -504,21 +504,16 @@ Als nächstes müssen wir 5 Minuten/300 Sekunden warten, wenn die Dataflow-Aktua
 
 8. Das Dialogfeld Pipeline-Ausdrucksgenerator wird geöffnet. Geben Sie Folgendes ein:
 
-    **@if(**
-
-    **greater(variables(‘varCounter’), 1),**
-
-    **if(equals(variables(‘varCounter’), 2),**
-
-    **mul(variables(‘varWaitTime’),15 ),**
-
-    **mul(variables(‘varWaitTime’), 0)**
-
-    **),**
-
-    **mul(variables(‘varWaitTime’),5 )** ein.
-
-    **)**
+    ```
+    @if(
+        greater(variables('varCounter'), 1),
+        if(equals(variables('varCounter'), 2),
+            mul(variables('varWaitTime'),15 ), 
+            mul(variables('varWaitTime'), 0)
+        ),
+        mul(variables('varWaitTime'),5 )
+    )
+    ```
 
     Sie können diesen Ausdruck eingeben, die Funktionen über das Menü auswählen oder den Ausdruck kopieren und einfügen.
 
@@ -548,7 +543,7 @@ Als nächstes müssen wir 5 Minuten/300 Sekunden warten, wenn die Dataflow-Aktua
 
     ![](../media/Lab-5/image53.png)
 
-### Aufgabe 13: Geplante Aktualisierung für die Pipeline konfigurieren
+## Aufgabe 13: Geplante Aktualisierung für die Pipeline konfigurieren
 
 1. Wir können die Pipeline testen, indem wir **Start -> Ausführen** auswählen.
 
@@ -630,7 +625,7 @@ Lesen Sie die detaillierteren Blogs zur Ankündigung der Fabric-Umgebung:
 
 - [Blog zur Dataverse- und Microsoft Fabric-Integration](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. Alle Rechte vorbehalten.
+© 2026 Microsoft Corporation. Alle Rechte vorbehalten.
 
 Durch die Verwendung der vorliegenden Demo/Übung stimmen Sie den folgenden Bedingungen zu:
 

@@ -34,7 +34,7 @@ Die Daten sind immer auf dem neuesten Stand.
 
 - **Mitarbeiterdaten:** Diese stammen aus dem Personalsystem und werden als Exportdatei in einem SharePoint-Ordner gespeichert. Die Daten werden jeden Morgen um 9 Uhr aktualisiert.
 
-![](../media/Lab-1/image4.jpeg)
+    ![](../media/Lab-1/image4.jpeg)
 
 Sie bauen derzeit ein semantisches Modell in Power BI Premium auf, das die Daten aus den oben genannten Quellsystemen bezieht, um Ihre Anforderungen an das Reporting zu erfüllen und den Anwendern die Möglichkeit zu geben, selbst tätig zu werden. Das Modell aktualisieren Sie mit Power Query.
 
@@ -56,7 +56,7 @@ Sie haben von Microsoft Fabric gehört und möchten es gerne ausprobieren, um al
 
 Bevor wir mit Fabric beginnen, sehen wir uns den aktuellen Bericht in Power BI Desktop an, um die Transformationen und das Modell zu verstehen.
 
-### Aufgabe 1: Power BI Desktop in einer Übungsumgebung einrichten
+## Aufgabe 1: Power BI Desktop in einer Übungsumgebung einrichten
 
 1. Öffnen Sie in der Übungsumgebung auf dem **Desktop** im Ordner **Reports** die Datei **FAIAD.pbix.** Die Datei wird in Power BI Desktop geöffnet.
 
@@ -66,19 +66,19 @@ Bevor wir mit Fabric beginnen, sehen wir uns den aktuellen Bericht in Power BI D
 
     - E-Mail-Adresse/Benutzername:
 
-    ![](../media/Lab-1/image7.png)
+        ![](../media/Lab-1/image7.png)
 
 3. Auf der Registerkarte „Bei Microsoft Azure anmelden“ sehen Sie den Anmeldebildschirm. Hier geben Sie die folgende E-Mail-Adresse bzw. den folgenden Benutzernamen ein und klicken dann auf **Weiter**.
 
     - E-Mail-Adresse/Benutzername:
 
-    ![](../media/Lab-1/image8.png)
+        ![](../media/Lab-1/image8.png)
 
 4. Geben Sie nun den folgenden **befristeten Zugriffspass** ein, und klicken Sie auf **Anmelden**.
 
     - Befristeter Zugriffspass:
 
-    ![](../media/Lab-1/image9.png)
+        ![](../media/Lab-1/image9.png)
 
 5. Das Dialogfeld **Bei all Ihren Apps angemeldet bleiben** wird geöffnet. Klicken Sie auf **OK**.
 
@@ -88,7 +88,7 @@ Bevor wir mit Fabric beginnen, sehen wir uns den aktuellen Bericht in Power BI D
 
     Nun wird Power BI Desktop geöffnet.
 
-### Aufgabe 2: Power BI Desktop-Bericht analysieren
+## Aufgabe 2: Power BI Desktop-Bericht analysieren
 
 Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs stehen oben links auf der Seite. Die restlichen Visuals zeigen die Verkaufszahlen im Laufe der Zeit, nach Gebiet, Produktgruppe und Wiederverkäuferfirma.
 
@@ -138,7 +138,7 @@ Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs 
 
     e. Wir haben Customer-Informationen nach Reseller. Customer steht in Zusammenhang mit Reseller.
 
-### Aufgabe 3: Power Query-Abfragen überprüfen
+## Aufgabe 3: Power Query-Abfragen überprüfen
 
 1. Beschäftigen wir uns nun in Power Query mit den Datenquellen. Wählen Sie im Menüband **Start > Daten transformieren** aus.
 
@@ -184,7 +184,7 @@ Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs 
 
     - **SAS-Token:** befindet sich auf der Registerkarte „Umgebung“
 
-    ![](../media/Lab-1/image23.png)
+        ![](../media/Lab-1/image23.png)
 
 11. Beachten Sie, dass der Ordner **ADLSData** mehrere Dimensionen beinhaltet: Geo, Product, Reseller und Date. Zudem sind Sales-Element enthalten.
 
@@ -228,7 +228,7 @@ Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs 
 
     - **Kennwort:** befindet sich auf der Registerkarte „Umgebung“
 
-    ![](../media/Lab-1/image26.png)
+        ![](../media/Lab-1/image26.png)
 
 17. Beachten Sie, dass der Ordner **SharepointData** die Dimension „People“ enthält.
 
@@ -282,7 +282,7 @@ Lesen Sie die Blogs, in denen die Fabric-Funktionen ausführlich beschrieben wer
 
 - [Blog zur Dataverse- und Microsoft Fabric-Integration](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. Alle Rechte vorbehalten.
+© 2026 Microsoft Corporation. Alle Rechte vorbehalten.
 
 Durch die Verwendung der vorliegenden Demo/Übung stimmen Sie den folgenden Bedingungen zu:
 

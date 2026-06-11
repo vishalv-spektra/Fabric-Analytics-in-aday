@@ -17,7 +17,6 @@
   - Aufgabe 10: Eine Verknüpfung zu einem Lakehouse erstellen
 - Referenzen
 
-
 # Einführung
 
 In unserem Anwendungsfall befinden sich die Lieferantendaten in Snowflake, die Kundendaten in Dataverse und die Mitarbeiterdaten in SharePoint. Alle diese Datenquellen werden zu verschiedenen Zeiten aktualisiert. Um die Anzahl der Datenaktualisierungen für Dataflows zu verringern, erstellen wir für Snowflake und SharePoint-Datenquellen individuelle Dataflows.
@@ -36,7 +35,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 # Dataflow Gen2
 
-### Aufgabe 1: SharePoint-Abfragen in Dataflow kopieren
+## Aufgabe 1: SharePoint-Abfragen in Dataflow kopieren
 
 1. Navigieren wir nun zurück zum Fabric-Arbeitsbereich **FAIAD_<username> (1),** den Sie in Übung 2, Aufgabe 8 erstellt haben.
 
@@ -71,7 +70,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
     Beachten Sie, dass die Abfrage links eingefügt wurde. Weil für SharePoint keine Verbindung erstellt wurde, wird eine Warnmeldung angezeigt, in der Sie aufgefordert werden, eine Verbindung zu konfigurieren.
     ![](../media/Lab-4/image10.png)
 
-### Aufgabe 2: Verbindung zu SharePoint erstellen
+## Aufgabe 2: Verbindung zu SharePoint erstellen
 
 1. Wählen Sie **Verbindung konfigurieren** aus.
 
@@ -87,7 +86,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     ![](../media/Lab-4/image12.png)
 
-### Aufgabe 3: Datenziel für die Abfrage „People“ konfigurieren
+## Aufgabe 3: Datenziel für die Abfrage „People“ konfigurieren
 
 Die Verbindung wird hergestellt, und Sie können die Daten im Vorschaubereich ansehen. Wenn Sie möchten, sehen Sie sich die angewandten Schritte der Abfragen an. Nun müssen die „People“-Daten im Lakehouse erfasst werden.
 
@@ -113,15 +112,15 @@ Die Verbindung wird hergestellt, und Sie können die Daten im Vorschaubereich an
 
     ![](../media/Lab-4/image15.png)
 
-9. Das Dialogfeld „Zieleinstellungen auswählen“ wird geöffnet. Stellen Sie sicher, dass „**Automatische Einstellungen verwenden**“** aktiviert** ist.
+9. Das Dialogfeld „Zieleinstellungen auswählen“ wird geöffnet. Stellen Sie sicher, dass „**Automatische Einstellungen verwenden**“**aktiviert** ist.
 
-    **Hinweis:** Sie können die automatischen Einstellungen deaktivieren und haben die Möglichkeit, die Aktualisierungsmethode und die Schemaoptionen festzulegen. Vergewissern Sie sich nach der Erkundung, dass „**Automatische Einstellungen verwenden**“** aktiviert** ist.
+    **Hinweis:** Sie können die automatischen Einstellungen deaktivieren und haben die Möglichkeit, die Aktualisierungsmethode und die Schemaoptionen festzulegen. Vergewissern Sie sich nach der Erkundung, dass „**Automatische Einstellungen verwenden**“**aktiviert** ist.
 
 10. Wählen Sie **Einstellungen speichern** aus.
 
     ![](../media/Lab-4/image16.png)
 
-### Aufgabe 4: SharePoint-Dataflow veröffentlichen und umbenennen
+## Aufgabe 4: SharePoint-Dataflow veröffentlichen und umbenennen
 
 1. Sie werden zum **Power Query-Fenster** weitergeleitet. Beachten Sie, dass **unten rechts** das Datenziel auf **Lakehouse (1)** festgelegt ist.
 
@@ -155,7 +154,7 @@ Die Verbindung wird hergestellt, und Sie können die Daten im Vorschaubereich an
 
     **Hinweis:** Wenn die neu erstellten Tabellen nicht angezeigt werden, wählen Sie die Auslassungspunkte neben „Tabellen“ und „Aktualisieren“ aus, um die Tabellen zu aktualisieren.
 
-### Aufgabe 5: Snowflake-Abfragen in Dataflow kopieren
+## Aufgabe 5: Snowflake-Abfragen in Dataflow kopieren
 
 1. Wir navigieren zurück zum Fabric-Arbeitsbereich **FAIAD_<username> (1)**.
 
@@ -195,7 +194,7 @@ Die Verbindung wird hergestellt, und Sie können die Daten im Vorschaubereich an
 
     ![](../media/Lab-4/image23.png)
 
-### Aufgabe 6: Verbindung zu Snowflake erstellen
+## Aufgabe 6: Verbindung zu Snowflake erstellen
 
 Beachten Sie, dass die fünf Abfragen eingefügt wurden und dass Sie jetzt links den Bereich „Abfragen“ haben. Weil für Snowflake keine Verbindung erstellt wurde, wird eine Warnmeldung angezeigt, in der Sie aufgefordert werden, eine Verbindung zu konfigurieren.
 
@@ -225,7 +224,7 @@ Beachten Sie, dass die fünf Abfragen eingefügt wurden und dass Sie jetzt links
 
     Die Verbindung wird hergestellt, und Sie können die Daten im Vorschaubereich ansehen. Wenn Sie möchten, sehen Sie sich die angewandten Schritte der Abfragen an. Grundsätzlich enthält die Suppliers-Abfrage Lieferanteninformationen und „SupplierCategories“, wie der Name schon sagt, alle Lieferantenkategorien. Diese beiden Tabellen werden zusammengeführt, um die Dimension „Supplier“ mit den erforderlichen Spalten zu erstellen. Auf ähnliche Weise wird „PO Line Items“ mit „PO“ zusammengeführt, um den Fakt „PO“ zu erstellen. Nun müssen die Daten von „Supplier“ und „PO“ im Lakehouse erfasst werden.
 
-### Aufgabe 7: Datenziel für die Abfragen „Supplier“ und „PO“ konfigurieren
+## Aufgabe 7: Datenziel für die Abfragen „Supplier“ und „PO“ konfigurieren
 
 1. Wählen Sie die Abfrage **Supplier (1)** aus.
 
@@ -241,7 +240,7 @@ Beachten Sie, dass die fünf Abfragen eingefügt wurden und dass Sie jetzt links
 
 5. Das Dialogfeld „Zielort auswählen“ wird geöffnet. Stellen Sie sicher, dass das Optionsfeld **Neue Tabelle** ausgewählt ist, weil wir eine neue Tabelle erstellen.
 
-6. Wir möchten die zuvor erstellte Tabelle in Lakehouse erstellen. Navigieren Sie im linken Bereich zu** Lakehouse -> FAIAD_<username>.**
+6. Wir möchten die zuvor erstellte Tabelle in Lakehouse erstellen. Navigieren Sie im linken Bereich zu **Lakehouse -> FAIAD_<username>.**
 
 7. Wählen Sie **lh_FAIAD** aus.
 
@@ -259,7 +258,7 @@ Beachten Sie, dass die fünf Abfragen eingefügt wurden und dass Sie jetzt links
 
     ![](../media/Lab-4/image30.png)
 
-### Aufgabe 8: Snowflake-Dataflow umbenennen und veröffentlichen
+## Aufgabe 8: Snowflake-Dataflow umbenennen und veröffentlichen
 
 1. Wählen Sie oben im Bildschirm den **Pfeil neben Dataflow 2 (Name ggf. anders)** aus.
 
@@ -289,7 +288,7 @@ Beachten Sie, dass die fünf Abfragen eingefügt wurden und dass Sie jetzt links
 
 # Verknüpfung zum internen Lakehouse
 
-### Aufgabe 9: Eine Verknüpfung zu Dataverse erstellen
+## Aufgabe 9: Eine Verknüpfung zu Dataverse erstellen
 
 Sie sollten sich im Lakehouse **lh_FAIAD** befinden. Stellen Sie sicher, dass Sie sich in der Lakehouse-Ansicht (nicht im SQL-Analyseendpunkt) befinden.
 
@@ -309,7 +308,7 @@ Sie sollten sich im Lakehouse **lh_FAIAD** befinden. Stellen Sie sicher, dass Si
 
 4. **Wählen Sie „Neue Verbindung“ (1)**; das Dialogfeld „Verbindungseinstellungen“ wird geöffnet. Geben Sie **org6c18814a.crm.dynamics.com (2)** als **Umgebungsdomäne** ein.
 
-5. Behalten Sie als **Authentifizierungsart**** Organisationskonto (3)** bei.
+5. Behalten Sie als **Authentifizierungsart Organisationskonto (3)** bei.
 
 6. Wenn Sie nicht angemeldet sind, klicken Sie auf **Anmelden**.
 
@@ -329,7 +328,7 @@ Sie sollten sich im Lakehouse **lh_FAIAD** befinden. Stellen Sie sicher, dass Si
 
     ![](../media/Lab-4/image39.png)
 
-### Aufgabe 10: Eine Verknüpfung zu einem Lakehouse erstellen
+## Aufgabe 10: Eine Verknüpfung zu einem Lakehouse erstellen
 
 1. Wählen Sie im Bereich **Explorer** die **Auslassungspunkte** neben **Tables** aus.
 
@@ -415,7 +414,7 @@ Lesen Sie die detaillierteren Blogs zur Ankündigung der Fabric-Umgebung:
 
 - [Blog zur Dataverse- und Microsoft Fabric-Integration](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. Alle Rechte vorbehalten.
+© 2026 Microsoft Corporation. Alle Rechte vorbehalten.
 
 Durch die Verwendung der vorliegenden Demo/Übung stimmen Sie den folgenden Bedingungen zu:
 

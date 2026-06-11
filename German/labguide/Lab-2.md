@@ -31,7 +31,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 # Fabric-Lizenz
 
-### Aufgabe 1: Lizenz für Testversion von Microsoft Fabric aktivieren
+## Aufgabe 1: Lizenz für Testversion von Microsoft Fabric aktivieren
 
 1. Wählen Sie **Power BI-Portal** auf dem Desktop des virtuellen Computers aus. Sie werden möglicherweise aufgefordert, sich anzumelden.
 
@@ -45,19 +45,19 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     - **E-Mail/Benutzername:** befindet sich auf der Registerkarte „Umgebung“
 
-    ![](../media/Lab-2/image7.png)
+        ![](../media/Lab-2/image7.png)
 
 3. Auf der Registerkarte **Bei Microsoft Azure anmelden** sehen Sie den Anmeldebildschirm, in dem Sie folgenden **EmailUsername** eingeben und dann auf **Weiter** klicken.
 
     - **E-Mail/Benutzername:** befindet sich auf der Registerkarte „Umgebung“
 
-    ![](../media/Lab-2/image8.png)
+        ![](../media/Lab-2/image8.png)
 
 4. Geben Sie nun den folgenden **befristeten Zugriffspass** ein, und klicken Sie auf **Anmelden**.
 
     - **Befristeter Zugriffspass:** befindet sich auf der Registerkarte „Umgebung“
 
-    ![](../media/Lab-2/image9.png)
+        ![](../media/Lab-2/image9.png)
 
 5. Sie werden zur bereits bekannten **Startseite des Power BI-Dienstes** geleitet.
 
@@ -87,7 +87,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 # Fabric-Arbeitsbereich
 
-### Aufgabe 2: Fabric-Arbeitsbereich erstellen
+## Aufgabe 2: Fabric-Arbeitsbereich erstellen
 
 1. Erstellen wir jetzt einen Arbeitsbereich mit einer Fabric-Lizenz. Wählen Sie in der Navigationsleiste links die Option **Arbeitsbereiche** aus. Ein Dialogfeld wird geöffnet.
 
@@ -115,7 +115,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     Sie werden zu Ihrem neu erstellten Arbeitsbereich weitergeleitet. Als Nächstes importieren wir Daten aus verschiedenen Quellen in ein Lakehouse, entwickeln damit ein Modell und nutzen die Daten für Berichte. Erstellen wir zunächst ein Lakehouse. Wir werden dies im nächsten Schritt erledigen.
 
-### Aufgabe 3: Lakehouse erstellen
+## Aufgabe 3: Lakehouse erstellen
 
 1. Suchen Sie im neu erstellten Arbeitsbereich **FAIAD_Username** im linken Navigationsbereich die Schaltfläche **+ Neues Element (1)**. Hier können Sie neue Elemente in Ihrem Arbeitsbereich erstellen.
 
@@ -141,7 +141,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 # Übersicht über die Funktionsbereiche in Fabric
 
-### Aufgabe 4: Data Factory-Funktionsbereich
+## Aufgabe 4: Data Factory-Funktionsbereich
 
 1. Wählen Sie links das Workloads-Symbol aus. Ein Dialogfeld mit einer Liste der Funktionsbereiche von Fabric wird geöffnet. Die Liste der Funktionsbereiche umfasst Power BI, Data Factory, Industry Solutions, Real-Time Intelligence, Data Engineering, Data Science und Data Warehouse. Untersuchen wir dies genauer .
 
@@ -201,13 +201,13 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     7) **Erste Benutzerdatenfunktionen erstellen:** In diesem Abschnitt erfahren Sie, wie Sie Benutzerdatenfunktionen erstellen, die zum Verwalten und Transformieren von Benutzerdaten nützlich sind.
 
-    ![](../media/Lab-2/image22.png)
+        ![](../media/Lab-2/image22.png)
 
 4. Klicken Sie in der oberen linken Ecke des Bildschirms auf **Zurück zu Workloads**. Auf diese Weise gelangen Sie zur Workloads-Hauptseite, auf der Sie andere Tools oder Abschnitte erkunden können.
 
     ![](../media/Lab-2/image23.png)
 
-### Aufgabe 5: Industry Solutions-Funktionsbereich
+## Aufgabe 5: Industry Solutions-Funktionsbereich
 
 1. Klicken Sie auf der Seite **Workloads** auf **Industry Solutions**, um fortzufahren.
 
@@ -243,13 +243,13 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     6) **Erste Schritte mit Einzelhandelslösungen:** Beginnen Sie mit der Bereitstellung von Einzelhandelslösungen, und implementieren Sie sie in Ihre Projekte.
 
-    ![](../media/Lab-2/image25.png)
+        ![](../media/Lab-2/image25.png)
 
 3. Klicken Sie in der oberen linken Ecke des Bildschirms auf „Zurück zu Workloads“. Auf diese Weise gelangen Sie zur Workloads-Hauptseite, auf der Sie andere Tools oder Abschnitte erkunden können.
 
     ![](../media/Lab-2/image23.png)
 
-### Aufgabe 6: Real-Time Intelligence-Funktionsbereich
+## Aufgabe 6: Real-Time Intelligence-Funktionsbereich
 
 1. Klicken Sie auf der Seite **Workloads** auf **Real-Time Intelligence**, um fortzufahren.
 
@@ -261,57 +261,57 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     Mit Real-Time Intelligence können Sie große Mengen an Daten aus verschiedenen Quellen mit hoher Granularität verwalten und analysieren. Die Funktion ermöglicht es Ihnen, Ihre Daten in Echtzeit zu erfassen, zu analysieren und zu verwenden und so Ihre Geschäftsvorgänge durch zeitnahe Entscheidungen und Maßnahmen zu verbessern.
 
-    **Elementtypen\**
+    **Elementtypen**
 
-1. **Eventhouse:** dient dem Erstellen eines Arbeitsbereichs mit einer oder mehreren KQL-Datenbanken, der projektübergreifend genutzt werden kann.
+    1. **Eventhouse:** dient dem Erstellen eines Arbeitsbereichs mit einer oder mehreren KQL-Datenbanken, der projektübergreifend genutzt werden kann.
 
-2. **KQL -Abfrageset:** Wird verwendet, um Abfragen für die Daten auszuführen, um freigabefähige Tabellen und Visuals zu erstellen.
+    2. **KQL -Abfrageset:** Wird verwendet, um Abfragen für die Daten auszuführen, um freigabefähige Tabellen und Visuals zu erstellen.
 
-3. **Echtzeit-Dashboard:** wird verwendet, um Echtzeit-Dashboards innerhalb von Sekunden nach der Datenerfassung zu visualisieren.
+    3. **Echtzeit-Dashboard:** wird verwendet, um Echtzeit-Dashboards innerhalb von Sekunden nach der Datenerfassung zu visualisieren.
 
-4. **Eventstream:** Hiermit werden Ereignisströme in Echtzeit erfasst, umgewandelt und weitergeleitet.
+    4. **Eventstream:** Hiermit werden Ereignisströme in Echtzeit erfasst, umgewandelt und weitergeleitet.
 
-5. **Aktivator:** wird verwendet, um Datasets, Abfragen und Ereignisströme auf Muster zu überwachen.
+    5. **Aktivator:** wird verwendet, um Datasets, Abfragen und Ereignisströme auf Muster zu überwachen.
 
-6. **Ereignisschemasatz (Vorschauversion):** Ereignisschemasätze helfen Ihnen dabei, Datenstrukturen (Schemas) für Ihre Echtzeitanalyse-Workflows zu organisieren und zu standardisieren und so die konsistente Verarbeitung und Analyse von Streamingdaten einfacher zu gestalten.
+    6. **Ereignisschemasatz (Vorschauversion):** Ereignisschemasätze helfen Ihnen dabei, Datenstrukturen (Schemas) für Ihre Echtzeitanalyse-Workflows zu organisieren und zu standardisieren und so die konsistente Verarbeitung und Analyse von Streamingdaten einfacher zu gestalten.
 
-7. **Benutzerdefinierter Streamkonnektor (Vorschauversion):** Mit dem benutzerdefinierten Streamkonnektor können Sie Echtzeitereignisse von Ihren eigenen benutzerdefinierten Endpunkten und Apps an einen Eventstream senden.
+    7. **Benutzerdefinierter Streamkonnektor (Vorschauversion):** Mit dem benutzerdefinierten Streamkonnektor können Sie Echtzeitereignisse von Ihren eigenen benutzerdefinierten Endpunkten und Apps an einen Eventstream senden.
 
-8. **Anomalieerkennung (Vorschauversion):** Die Anomalieerkennung erkennt automatisch ungewöhnliche Muster und Ausreißer in Ihren Veranstaltungshaus-Tabellen.
+    8. **Anomalieerkennung (Vorschauversion):** Die Anomalieerkennung erkennt automatisch ungewöhnliche Muster und Ausreißer in Ihren Veranstaltungshaus-Tabellen.
 
-9. **Betriebsagent (Vorschauversion):** Betriebsagents automatisieren den Zyklus „Beobachten > Analysieren > Entscheiden > Handeln“. Sie verfolgen kontinuierlich wichtige Kennzahlen, ermitteln Erkenntnisse und empfehlen gezielte Aktionen.
+    9. **Betriebsagent (Vorschauversion):** Betriebsagents automatisieren den Zyklus „Beobachten > Analysieren > Entscheiden > Handeln“. Sie verfolgen kontinuierlich wichtige Kennzahlen, ermitteln Erkenntnisse und empfehlen gezielte Aktionen.
 
-10. **Landkarte:** Bringen Sie georäumliche Erkenntnisse in Real-Time Intelligence ein, sodass jede Person visualisieren kann, wo Ereignisse stattfinden, sowie räumliche Daten in andere Fabric-Funktionen integrieren und intelligentere, standortbezogene Entscheidungen treffen kann.
+    10. **Landkarte:** Bringen Sie georäumliche Erkenntnisse in Real-Time Intelligence ein, sodass jede Person visualisieren kann, wo Ereignisse stattfinden, sowie räumliche Daten in andere Fabric-Funktionen integrieren und intelligentere, standortbezogene Entscheidungen treffen kann.
 
-11. **Erstellung digitaler Zwillinge (Vorschauversion):** bietet Benutzern Low-Code-/No-Code-Funktionen, um ihre Geschäftskonzepte wie Anlagen und Prozesse mithilfe einer Ontologie zu erstellen und zu modellieren.
+    11. **Erstellung digitaler Zwillinge (Vorschauversion):** bietet Benutzern Low-Code-/No-Code-Funktionen, um ihre Geschäftskonzepte wie Anlagen und Prozesse mithilfe einer Ontologie zu erstellen und zu modellieren.
 
     **Erste Schritte:**
 
     Sie können folgende Schritte ausführen, um mit Real-Time Intelligence loszulegen:
 
-1. **Durchgängige Erlebnisse in Echtzeit:** Klicken Sie auf die Schaltfläche „Erste Schritte“, um die Datenanalyse in Echtzeit mit Beispieldatasets zu erkunden.
+    1. **Durchgängige Erlebnisse in Echtzeit:** Klicken Sie auf die Schaltfläche „Erste Schritte“, um die Datenanalyse in Echtzeit mit Beispieldatasets zu erkunden.
 
-2. **Beispiel für Real-Time Intelligence erkunden:** Klicken Sie auf die Schaltfläche „Öffnen“, um die Echtzeit-Datenanalyse mit einem Beispiel zu erkunden.
+    2. **Beispiel für Real-Time Intelligence erkunden:** Klicken Sie auf die Schaltfläche „Öffnen“, um die Echtzeit-Datenanalyse mit einem Beispiel zu erkunden.
 
-3. **Ein Veranstaltungshaus-Beispiel ansehen:** Klicken Sie auf die Schaltfläche „Auswählen“, um ein Beispiel zu verwenden und mehr über Real-Time Intelligence zu erfahren.
+    3. **Ein Veranstaltungshaus-Beispiel ansehen:** Klicken Sie auf die Schaltfläche „Auswählen“, um ein Beispiel zu verwenden und mehr über Real-Time Intelligence zu erfahren.
 
-4. **Einführung in Real-Time Intelligence:** Klicken Sie auf die Schaltfläche „Öffnen“, um einen Überblick über Real-Time Intelligence zu erhalten und das Tool effektiv zu nutzen.
+    4. **Einführung in Real-Time Intelligence:** Klicken Sie auf die Schaltfläche „Öffnen“, um einen Überblick über Real-Time Intelligence zu erhalten und das Tool effektiv zu nutzen.
 
-5. **KQL mit Beispieldaten lernen:** Klicken Sie auf die Schaltfläche „Öffnen“, um KQL anhand von Beispieldaten zu lernen.
+    5. **KQL mit Beispieldaten lernen:** Klicken Sie auf die Schaltfläche „Öffnen“, um KQL anhand von Beispieldaten zu lernen.
 
-6. **Was ist ein Echtzeit-Hub:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, was ein Echtzeit-Hub ist und wie er verwendet werden kann.
+    6. **Was ist ein Echtzeit-Hub:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, was ein Echtzeit-Hub ist und wie er verwendet werden kann.
 
-7. **Einen Beispielaktivator erkunden:** Klicken Sie auf die Schaltfläche „Öffnen“, um einen Beispielaktivator zu verwenden und die Funktionen und Möglichkeiten von Real-Time Intelligence zu verstehen.
+    7. **Einen Beispielaktivator erkunden:** Klicken Sie auf die Schaltfläche „Öffnen“, um einen Beispielaktivator zu verwenden und die Funktionen und Möglichkeiten von Real-Time Intelligence zu verstehen.
 
-8. **Erste Schritte mit Aktivator:** Klicken Sie auf die Schaltfläche „Öffnen“, um mit Aktiviatorkonzepten zu beginnen und das Tool effektiv zu nutzen.
+    8. **Erste Schritte mit Aktivator:** Klicken Sie auf die Schaltfläche „Öffnen“, um mit Aktiviatorkonzepten zu beginnen und das Tool effektiv zu nutzen.
 
-    ![](../media/Lab-2/image27.png)
+        ![](../media/Lab-2/image27.png)
 
 3. Klicken Sie in der oberen linken Ecke des Bildschirms auf „Zurück zu Workloads“. Auf diese Weise gelangen Sie zur Workloads-Hauptseite, auf der Sie andere Tools oder Abschnitte erkunden können.
 
     ![](../media/Lab-2/image23.png)
 
-### Aufgabe 7: Data Engineering-Funktionsbereich
+## Aufgabe 7: Data Engineering-Funktionsbereich
 
 1. Klicken Sie auf der Seite **Workloads** auf „Data Engineering“, um fortzufahren.
 
@@ -323,56 +323,56 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     Data Engineering hilft Ihnen beim Entwerfen, Erstellen und Verwalten von Infrastrukturen und Systemen zum Erfassen, Speichern, Verarbeiten und Analysieren großer Datenmengen. Es ermöglicht Ihnen, Lakehouses zu erstellen und Ihren Workflow zu operationalisieren, um Ihren Datenbestand aufzubauen, zu transformieren und zu teilen.
 
-    **Elementtypen:\**
+    **Elementtypen:**
 
-1. **Lakehouse:** wird zum Speichern großer Datenmengen für die Bereinigung, Abfrage, Berichterstellung und Freigabe verwendet.
+    1. **Lakehouse:** wird zum Speichern großer Datenmengen für die Bereinigung, Abfrage, Berichterstellung und Freigabe verwendet.
 
-2. **Notebook:** dient zum Erfassen, Aufbereiten und Analysieren von Daten und anderen datenbezogenen Aufgaben mithilfe verschiedener Sprachen wie Python und Scala.
+    2. **Notebook:** dient zum Erfassen, Aufbereiten und Analysieren von Daten und anderen datenbezogenen Aufgaben mithilfe verschiedener Sprachen wie Python und Scala.
 
-3. **Umgebung:** dient dem Einrichten gemeinsam genutzter Bibliotheken, Spark-Compute-Einstellungen und Ressourcen für Notebooks und Spark-Auftragsdefinitionen.
+    3. **Umgebung:** dient dem Einrichten gemeinsam genutzter Bibliotheken, Spark-Compute-Einstellungen und Ressourcen für Notebooks und Spark-Auftragsdefinitionen.
 
-4. **Spark-Auftragsdefinition:** dient zum Definieren, Planen und Verwalten von Apache-Aufträgen.
+    4. **Spark-Auftragsdefinition:** dient zum Definieren, Planen und Verwalten von Apache-Aufträgen.
 
-5. **Benutzerdatenfunktionen:** Plattform, mit der Sie Anwendungen in Fabric hosten und ausführen können.
+    5. **Benutzerdatenfunktionen:** Plattform, mit der Sie Anwendungen in Fabric hosten und ausführen können.
 
-6. **API für GraphQL:** eine API zum Abfragen mehrerer Datenquellen.
+    6. **API für GraphQL:** eine API zum Abfragen mehrerer Datenquellen.
 
-7. **Snowflake-Datenbank:** ermöglicht Benutzern, die Snowflake-Datenbank innerhalb von Fabric zu spiegeln.
+    7. **Snowflake-Datenbank:** ermöglicht Benutzern, die Snowflake-Datenbank innerhalb von Fabric zu spiegeln.
 
     **Erste Schritte:**
 
     Sie können folgende Schritte ausführen, um mit Data Engineering loszulegen:
 
-1. **Ein Beispiel erkunden:** Klicken Sie auf die Schaltfläche „Auswählen“, um ein Beispiel zu verwenden und mehr über Data Engineering zu erfahren.
+    1. **Ein Beispiel erkunden:** Klicken Sie auf die Schaltfläche „Auswählen“, um ein Beispiel zu verwenden und mehr über Data Engineering zu erfahren.
 
-2. **Was ist ein Lakehouse?:** Klicken Sie auf die Schaltfläche „Öffnen“, um mehr darüber zu erfahren, was ein Lakehouse ist und wie Sie es verwenden können.
+    2. **Was ist ein Lakehouse?:** Klicken Sie auf die Schaltfläche „Öffnen“, um mehr darüber zu erfahren, was ein Lakehouse ist und wie Sie es verwenden können.
 
-3. **Abrufen von Datenerfahrungen in Lakehouse:** Klicken Sie auf die Schaltfläche „Öffnen“, um Datentechnik mittels Lakehouses zu nutzen.
+    3. **Abrufen von Datenerfahrungen in Lakehouse:** Klicken Sie auf die Schaltfläche „Öffnen“, um Datentechnik mittels Lakehouses zu nutzen.
 
-4. **Erste Schritte mit Spark-Auftragsdefinitionen:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, wie Sie Spark-Auftragsdefinitionen für die Datenverarbeitung verwenden können.
+    4. **Erste Schritte mit Spark-Auftragsdefinitionen:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, wie Sie Spark-Auftragsdefinitionen für die Datenverarbeitung verwenden können.
 
-5. **Notebooks entwickeln und ausführen:** Klicken Sie auf die Schaltfläche „Öffnen“,
+    5. **Notebooks entwickeln und ausführen:** Klicken Sie auf die Schaltfläche „Öffnen“,
     um zu erfahren, wie Sie Notebooks für die Datenanalyse entwickeln und ausführen.
 
-6. **NotebookUtils verwenden:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren,
+    6. **NotebookUtils verwenden:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren,
     wie Sie NotebookUtils für die erweiterte Datenanalyse verwenden können.
 
-7. **Notebooks für das eigene Lakehouse verwenden:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, wie Sie Notebooks für Ihr Lakehouse nutzen können.
+    7. **Notebooks für das eigene Lakehouse verwenden:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, wie Sie Notebooks für Ihr Lakehouse nutzen können.
 
-8. **Datasets für das eigene Lakehouse verwenden:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, wie Sie Datasets für Ihr Lakehouse nutzen können.
+    8. **Datasets für das eigene Lakehouse verwenden:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, wie Sie Datasets für Ihr Lakehouse nutzen können.
 
-9. **Erste Benutzerdatenfunktionen erstellen:** Klicken Sie auf die Schaltfläche „Öffnen“,
+    9. **Erste Benutzerdatenfunktionen erstellen:** Klicken Sie auf die Schaltfläche „Öffnen“,
     um zu erfahren, wie Sie Benutzerdatenfunktionen erstellen.
 
-10. **Erste API für GraphQL erstellen:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, wie Sie eine API für GraphQL erstellen.
+    10. **Erste API für GraphQL erstellen:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, wie Sie eine API für GraphQL erstellen.
 
-    ![](../media/Lab-2/image29.png)
+        ![](../media/Lab-2/image29.png)
 
 3. Klicken Sie in der oberen linken Ecke des Bildschirms auf **Zurück zu Workloads**. Auf diese Weise gelangen Sie zur Workloads-Hauptseite, auf der Sie andere Tools oder Abschnitte erkunden können.
 
     ![](../media/Lab-2/image23.png)
 
-### Aufgabe 8: Data Science-Funktionsbereich
+## Aufgabe 8: Data Science-Funktionsbereich
 
 1. Klicken Sie auf der Seite **Workloads** auf **Data Science**, um fortzufahren.
 
@@ -384,42 +384,42 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     Data Science ist ein Tool, mit dem Sie dank KI und maschinellem Lernen aussagekräftige Erkenntnisse gewinnen können. Es bietet KI-Tools, mit denen Sie umfassende Data Science-Workflows durchführen und KI für die Datenanreicherung und Geschäftseinblicke nutzen können.
 
-    **Elementtypen:\**
+    **Elementtypen:**
 
-1. **ML-Modell:** wird zur Erstellung von Machine Learning-Modellen verwendet.
+    1. **ML-Modell:** wird zur Erstellung von Machine Learning-Modellen verwendet.
 
-2. **Experiment:** dient zum Entwickeln und Ausführen von Modellen und zur Nachverfolgung der Modellentwicklung.
+    2. **Experiment:** dient zum Entwickeln und Ausführen von Modellen und zur Nachverfolgung der Modellentwicklung.
 
-3. **Notebook:** Hiermit werden Daten ausgewertet und Machine-Learning-Lösungen entwickelt.
+    3. **Notebook:** Hiermit werden Daten ausgewertet und Machine-Learning-Lösungen entwickelt.
 
-4. **Umgebung:** dient dem Einrichten gemeinsam genutzter Bibliotheken, Spark-Compute-Einstellungen und Ressourcen für Notebooks und Spark-Auftragsdefinitionen.
+    4. **Umgebung:** dient dem Einrichten gemeinsam genutzter Bibliotheken, Spark-Compute-Einstellungen und Ressourcen für Notebooks und Spark-Auftragsdefinitionen.
 
-5. **Daten-Agent:** wird verwendet, um Unterhaltungs-KI-Umgebungen zu erstellen, die Fragen zu in Lakehouses, Warehouses, semantischen Modellen in Power BI und KQL-Datenbanken gespeicherten Daten beantworten.
+    5. **Daten-Agent:** wird verwendet, um Unterhaltungs-KI-Umgebungen zu erstellen, die Fragen zu in Lakehouses, Warehouses, semantischen Modellen in Power BI und KQL-Datenbanken gespeicherten Daten beantworten.
 
-6. **Python-Notebook:** wird zum Importieren von Python-Notebooks von einem lokalen Computer verwendet.
+    6. **Python-Notebook:** wird zum Importieren von Python-Notebooks von einem lokalen Computer verwendet.
 
     **Erste Schritte:**
 
     Sie können folgende Schritte ausführen, um mit Data Science loszulegen:
 
-1. **Ein Beispiel erkunden:** Klicken Sie auf die Schaltfläche „Auswählen“, um ein Beispiel zu verwenden und mehr über Data Science zu erfahren.
+    1. **Ein Beispiel erkunden:** Klicken Sie auf die Schaltfläche „Auswählen“, um ein Beispiel zu verwenden und mehr über Data Science zu erfahren.
 
-2. **Erste Schritte mit ML-Modellen:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, wie Sie mit Machine-Learning-Modellen beginnen können.
+    2. **Erste Schritte mit ML-Modellen:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, wie Sie mit Machine-Learning-Modellen beginnen können.
 
-3. **Erste Schritte mit ML-Experimenten:** Klicken Sie auf die Schaltfläche „Öffnen“,
-    um zu erfahren, wie Sie Machine-Learning-Experimente durchführen können.
+    3. **Erste Schritte mit ML-Experimenten:** Klicken Sie auf die Schaltfläche „Öffnen“,
+        um zu erfahren, wie Sie Machine-Learning-Experimente durchführen können.
 
-4. **Erste Schritte mit Notebooks:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, wie Sie mit Notebooks loslegen können.
+    4. **Erste Schritte mit Notebooks:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, wie Sie mit Notebooks loslegen können.
 
-5. **Notebooks entwickeln und ausführen:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, wie Sie Notebooks für die Datenanalyse entwickeln und ausführen.
+    5. **Notebooks entwickeln und ausführen:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, wie Sie Notebooks für die Datenanalyse entwickeln und ausführen.
 
-    ![](../media/Lab-2/image31.png)
+        ![](../media/Lab-2/image31.png)
 
 3. Klicken Sie in der oberen linken Ecke des Bildschirms auf **Zurück zu Workloads**. Auf diese Weise gelangen Sie zur Workloads-Hauptseite, auf der Sie andere Tools oder Abschnitte erkunden können.
 
     ![](../media/Lab-2/image23.png)
 
-### Aufgabe 9: Data Warehouse-Funktionsbereich
+## Aufgabe 9: Data Warehouse-Funktionsbereich
 
 1. Klicken Sie auf der Seite **Workloads** auf **Data Warehouse**, um fortzufahren.
 
@@ -431,51 +431,55 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     Data Warehouse ist ein Tool, mit dem Sie Daten in einem sicheren SQL Warehouse speichern und analysieren können. Damit können Sie Ihre Erkenntnisse erweitern, indem Sie von erstklassiger Leistung im Petabytebereich in einem offenen Datenformat profitieren.
 
-    **Elementtypen:\**
+    **Elementtypen:**
 
-1. **Warehouse:** dient dem Erstellen eines Data Warehouse.
+    1. **Warehouse:** dient dem Erstellen eines Data Warehouse.
 
-2. **Beispiel-Warehouse:** wird verwendet, um Datenaufbewahrungsfunktionen mit vorkonfigurierten Datensätzen und Modellen zu erkunden und zu testen.
+    2. **Beispiel-Warehouse:** wird verwendet, um Datenaufbewahrungsfunktionen mit vorkonfigurierten Datensätzen und Modellen zu erkunden und zu testen.
 
-3. **Notebook:** wird für das Erstellen und Teilen interaktiver Datenanalyse‑ und Visualisierungsaufgaben verwendet.
+    3. **Notebook:** wird für das Erstellen und Teilen interaktiver Datenanalyse‑ und Visualisierungsaufgaben verwendet.
 
-4. **Gespiegelte Azure SQL-Datenbank:** wird verwendet, um die Azure SQL-Datenbank zu spiegeln.
+    4. **Gespiegelte Azure SQL-Datenbank:** wird verwendet, um die Azure SQL-Datenbank zu spiegeln.
 
-5. **Gespiegelter Azure Databricks-Katalog:** wird zum Spiegeln von Daten von Azure Databricks für verbesserte Integration und Analyse verwendet.
+    5. **Gespiegelter Azure Databricks-Katalog:** wird zum Spiegeln von Daten von Azure Databricks für verbesserte Integration und Analyse verwendet.
 
-6. **Gespiegeltes Snowflake:** wird verwendet, um die Snowflake-Datenbank zu spiegeln.
+    6. **Gespiegeltes Snowflake:** wird verwendet, um die Snowflake-Datenbank zu spiegeln.
 
-7. **Gespiegeltes Oracle:** wird verwendet, um Oracle zu spiegeln.
+    7. **Gespiegeltes Oracle:** wird verwendet, um Oracle zu spiegeln.
 
-8. **Gespiegeltes Google BigQuery (Vorschauversion):** wird verwendet, um Google BigQuery zu spiegeln.
+    8. **Gespiegeltes Google BigQuery (Vorschauversion):** wird verwendet, um Google BigQuery zu spiegeln.
 
-9. **Gespiegelte SharePoint Online-Liste (Vorschauversion):** repliziert SharePoint-Listendaten nahezu in Echtzeit in Microsoft Fabric OneLake als schreibgeschützte, für die Analyse bereite Quelle. Es entfernt ETL und stellt die Daten über einen automatisch erstellten SQL-Analyseendpunkt für Power BI und andere Fabric-Workloads zur Verfügung.
+    9. **Gespiegelte SharePoint Online-Liste (Vorschauversion):** repliziert SharePoint-Listendaten nahezu in Echtzeit in Microsoft Fabric OneLake als schreibgeschützte, für die Analyse bereite Quelle. Es entfernt ETL und stellt die Daten über einen automatisch erstellten SQL-Analyseendpunkt für Power BI und andere Fabric-Workloads zur Verfügung.
 
-10. **Gespiegelte Azure Cosmos DB:** wird verwendet, um Azure Cosmos DB zu spiegeln.
+    10. **Gespiegelte Azure Cosmos DB:** wird verwendet, um Azure Cosmos DB zu spiegeln.
 
-11. **Gespiegelter SQL Server:** Wird verwendet, um SQL Server zu spiegeln.
+    11. **Gespiegelter SQL Server:** Wird verwendet, um SQL Server zu spiegeln.
 
-12. **Gespiegelte Azure Database for PostgreSQL:** wird verwendet, um Ihre vorhandene Azure Database for PostgreSQL zu spiegeln.
+    12. **Gespiegelte Azure Database for PostgreSQL:** wird verwendet, um Ihre vorhandene Azure Database for PostgreSQL zu spiegeln.
 
-13. **Gespiegelte Azure Database for MySQL (Vorschauversion):** repliziert MySQL-Daten in Microsoft Fabric OneLake als schreibgeschützte, für die Analyse bereite Quelle und ermöglicht so eine Analyse nahezu in Echtzeit ohne ETL.
+    13. **Gespiegelte Azure Database for MySQL (Vorschauversion):** repliziert MySQL-Daten in Microsoft Fabric OneLake als schreibgeschützte, für die Analyse bereite Quelle und ermöglicht so eine Analyse nahezu in Echtzeit ohne ETL.
 
-14. **Gespiegelte Azure SQL Managed Instance:** wird zum Spiegeln verwalteter Azure SQL-Datenbanken für hohe Verfügbarkeit und Notfallwiederherstellung verwendet.
+    14. **Gespiegelte Azure SQL Managed Instance:** wird zum Spiegeln verwalteter Azure SQL-Datenbanken für hohe Verfügbarkeit und Notfallwiederherstellung verwendet.
 
-15. **Gespiegelte Datenbank:** wird für das Replizieren von Datenbanken für hohe Verfügbarkeit und Notfallwiederherstellung verwendet.
+    15. **Gespiegelte Datenbank:** wird für das Replizieren von Datenbanken für hohe Verfügbarkeit und Notfallwiederherstellung verwendet.
 
-16. **Gespiegelter Dremio-Katalog (Vorschauversion):** spiegelt Metadaten des Dremio-Katalogs in Microsoft Fabric (es werden keine Daten kopiert) und erstellt Verknüpfungen, mit denen Fabric-Workloads Dremio-verwaltete Daten über einen schreibgeschützten SQL-Analyse-Endpunkt abfragen können.
+    16. **Gespiegelter Dremio-Katalog (Vorschauversion):** spiegelt Metadaten des Dremio-Katalogs in Microsoft Fabric (es werden keine Daten kopiert) und erstellt Verknüpfungen, mit denen Fabric-Workloads Dremio-verwaltete Daten über einen schreibgeschützten SQL-Analyse-Endpunkt abfragen können.
 
     **Erste Schritte:**
 
     Sie können folgende Schritte ausführen, um mit Data Warehouse loszulegen:
 
-1. **Ein Beispiel-Warehouse erkunden:** ein neues Warehouse mit bereits geladenen Beispieldaten starten
+    1. **Ein Beispiel-Warehouse erkunden:** ein neues Warehouse mit bereits geladenen Beispieldaten starten
 
-2. **Erste Schritte mit Warehouse:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, wie Sie ein Warehouse zum Analysieren von Daten verwenden können.
+    2. **Erste Schritte mit Warehouse:** Klicken Sie auf die Schaltfläche „Öffnen“, um zu erfahren, wie Sie ein Warehouse zum Analysieren von Daten verwenden können.
 
-    ![](../media/Lab-2/image33.png)
+        ![](../media/Lab-2/image33.png)
 
-### Aufgabe 10: Datenbanken-Funktionsbereich
+3. Klicken Sie in der oberen linken Ecke des Bildschirms auf **Zurück zu Workloads**. Auf diese Weise gelangen Sie zur Workloads-Hauptseite, auf der Sie andere Tools oder Abschnitte erkunden können.
+
+    ![](../media/Lab-2/image23.png)
+
+## Aufgabe 10: Datenbanken-Funktionsbereich
 
 1. Klicken Sie auf der Seite **Workloads** auf **Databases**, um fortzufahren.
 
@@ -487,23 +491,23 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     Die SQL-Datenbank in Microsoft Fabric ist eine entwicklerfreundliche Transaktionsdatenbank, die auf Azure SQL -Datenbank basiert und es Ihnen ermöglicht, Ihre Betriebsdatenbank einfach in Fabric zu erstellen. Eine SQL-Datenbank in Fabric verwendet dasselbe SQL-Datenbankmodul wie die Azure SQL-Datenbank.
 
-    **Elementtypen:\**
+    **Elementtypen:**
 
-1. **SQL-Datenbank:** SQL-Datenbank in Fabric ist Teil des Datenbankworkloads; auf die Daten kann von anderen Elementen in Fabric aus zugegriffen werden. Ihre SQL-Datenbankdaten werden auch in OneLake in einem abfragbaren Format auf dem neuesten Stand gehalten, sodass Sie alle verschiedenen Dienste in Fabric nutzen können, z. B. Analysen mit Spark, Ausführung von Notebooks, Datentechnik, Visualisierung durch Power BI-Berichte und mehr.
+    1. **SQL-Datenbank:** SQL-Datenbank in Fabric ist Teil des Datenbankworkloads; auf die Daten kann von anderen Elementen in Fabric aus zugegriffen werden. Ihre SQL-Datenbankdaten werden auch in OneLake in einem abfragbaren Format auf dem neuesten Stand gehalten, sodass Sie alle verschiedenen Dienste in Fabric nutzen können, z. B. Analysen mit Spark, Ausführung von Notebooks, Datentechnik, Visualisierung durch Power BI-Berichte und mehr.
 
-2. **Cosmos DB:** Cosmos DB in Microsoft Fabric ist eine KI-optimierte NoSQL-Datenbank mit einer vereinfachten Verwaltung. Als Mitglied des Entwicklungsteams können Sie Cosmos DB in Fabric nutzen, um KI-Anwendungen mit weniger Reibungsverlusten und ohne die typischen Datenbankverwaltungsaufgaben zu erstellen.
+    2. **Cosmos DB:** Cosmos DB in Microsoft Fabric ist eine KI-optimierte NoSQL-Datenbank mit einer vereinfachten Verwaltung. Als Mitglied des Entwicklungsteams können Sie Cosmos DB in Fabric nutzen, um KI-Anwendungen mit weniger Reibungsverlusten und ohne die typischen Datenbankverwaltungsaufgaben zu erstellen.
 
     **Erste Schritte:**
 
     Sie können folgende Schritte ausführen, um mit Datenbanken loszulegen:
 
-1. **Erkunden:** Klicken Sie auf „Öffnen“, um eine Beispieldatenbank zu erkunden.
+    1. **Erkunden:** Klicken Sie auf „Öffnen“, um eine Beispieldatenbank zu erkunden.
 
-2. **Datenbankkonzepte:** In diesem Abschnitt werden allgemeine Begriffe und Konzepte rund um Transaktionsdatenbanken erläutert, damit Sie sich mit der Arbeit mit der SQL-Datenbank vertraut machen können.
+    2. **Datenbankkonzepte:** In diesem Abschnitt werden allgemeine Begriffe und Konzepte rund um Transaktionsdatenbanken erläutert, damit Sie sich mit der Arbeit mit der SQL-Datenbank vertraut machen können.
 
-3. **Datenbankvorlagen:** Durchsuchen Sie eine Bibliothek mit vorgefertigten Vorlagen gängiger Datenbankdesigns.
+    3. **Datenbankvorlagen:** Durchsuchen Sie eine Bibliothek mit vorgefertigten Vorlagen gängiger Datenbankdesigns.
 
-    ![](../media/Lab-2/image35.png)
+        ![](../media/Lab-2/image35.png)
 
 3. Klicken Sie in der oberen linken Ecke des Bildschirms auf „Zurück zu Workloads“. Auf diese Weise gelangen Sie zur Workloads-Hauptseite, auf der Sie andere Tools oder Abschnitte erkunden können.
 
@@ -557,7 +561,7 @@ Lesen Sie die Blogs, in denen die Fabric-Funktionen ausführlich beschrieben wer
 
 - [Blog zur Dataverse- und Microsoft Fabric-Integration](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. Alle Rechte vorbehalten.
+© 2026 Microsoft Corporation. Alle Rechte vorbehalten.
 
 Durch die Verwendung der vorliegenden Demo/Übung stimmen Sie den folgenden Bedingungen zu:
 

@@ -15,8 +15,6 @@
 - Referenzen
 
 
-![](../media/Lab-6/image4.png)
-
 # Einführung
 
 Wir haben Daten aus verschiedenen Datenquellen im Lakehouse erfasst. In dieser Übung arbeiten Sie mit dem semantischen Modell. Üblicherweise werden Modellierungsarbeiten wie das Erstellen von Beziehungen, das Hinzufügen von Measures usw. in Power BI Desktop durchgeführt. Nun erfahren Sie, wie Sie diese Vorgänge im Dienst durchführen können.
@@ -29,7 +27,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 # Lakehouse – Analysieren von Daten
 
-### Aufgabe 1: Daten mithilfe von SQL abfragen
+## Aufgabe 1: Daten mithilfe von SQL abfragen
 
 1. Navigieren wir nun zurück zum Fabric-Arbeitsbereich **FAIAD_<Benutzername>** den Sie in Übung 2, Aufgabe 8 erstellt haben.
 
@@ -53,15 +51,12 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     ```sql
     SELECT su.SupplierName, SUM(Quantity) as Units
-
     FROM dbo.Sales s
-
     JOIN dbo.Product p on p.StockItemID = s.StockItemID
-
     JOIN dbo.Supplier su on su.SupplierID = p.SupplierID
-
     GROUP BY su.SupplierName
     ```
+
 6. Klicken Sie im SQL-Editor-Menü auf **Ausführen**, um die Ergebnisse anzuzeigen.
 
 7. Beachten Sie, dass die Abfrage mit der Option **Als Ansicht speichern** gespeichert werden kann.
@@ -72,7 +67,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     ![](../media/Lab-6/image7.png)
 
-### Aufgabe 2: T-SQL-Ergebnis visualisieren
+## Aufgabe 2: T-SQL-Ergebnis visualisieren
 
 1. Das Ergebnis der Abfrage kann auch visualisiert werden. **Markieren Sie die Abfrage** im Abfragebereich
 
@@ -108,7 +103,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 # Lakehouse – Semantische Modellierung
 
-### Aufgabe 3: Semantisches Modell erstellen
+## Aufgabe 3: Semantisches Modell erstellen
 
 1. Wählen Sie im Menü „SQL-Analyseendpunkt“ die Option **Neues semantisches Modell** aus.
 
@@ -149,15 +144,14 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     **Hinweis:** Der Direct Lake-Modus ist schneller als der Direct Query-Modus.
 
-### Aufgabe 4: Beziehungen erstellen
+## Aufgabe 4: Beziehungen erstellen
 
 Wenn Sie sich nicht im neu erstellten semantischen Modell befinden, lassen Sie uns zur richtigen Stelle gehen.
 
 1. Wir kehren zum **Fabric-Arbeitsbereich** zurück und wählen das semantische Modell **sm_FAIAD** aus.
 
     ![](../media/Lab-6/image15.png)
-    Semantisches Modell
-
+    
 2. Klicken Sie auf **Semantisches Modell öffnen**.
 
     ![](../media/Lab-6/image16.png)
@@ -176,7 +170,7 @@ Wenn Sie sich nicht im neu erstellten semantischen Modell befinden, lassen Sie u
 
 6. Das Dialogfeld „Neue Beziehung“ wird geöffnet. Vergewissern Sie sich, dass unter **Von Tabelle** **Sales** und in der **Spalte**** ResellerID** angegeben ist.
 
-7. Vergewissern Sie sicher, dass unter **In Tabelle** **Reseller** und in der **Spalte**** ResellerID** angegeben ist.
+7. Vergewissern Sie sicher, dass unter **In Tabelle** **Reseller** und in der **Spalte** **ResellerID** angegeben ist.
 
 8. Die **Kardinalität** lautet **Viele-zu-Eins (\*:1)**.
 
@@ -190,7 +184,7 @@ Wenn Sie sich nicht im neu erstellten semantischen Modell befinden, lassen Sie u
 
 12. Das Dialogfeld „Neue Beziehung“ wird geöffnet. Vergewissern Sie sich, dass unter **Von Tabelle** **Sales** und in der **Spalte**** InvoiceDate** angegeben ist.
 
-13. Vergewissern Sie sich, dass unter **In Tabelle** **Date** und in der **Spalte**** Date** angegeben ist.
+13. Vergewissern Sie sich, dass unter **In Tabelle** **Date** und in der **Spalte** **Date** angegeben ist.
 
 14. Die **Kardinalität** lautet **Viele-zu-Eins (\*:1)**.
 
@@ -210,7 +204,7 @@ Wenn Sie sich nicht im neu erstellten semantischen Modell befinden, lassen Sie u
 
     Aus Zeitgründen können wir nicht alle Beziehungen erstellen. Sofern Zeit verbleibt, können Sie den fakultativen Abschnitt am Ende der Übung durcharbeiten. Darin werden die restlichen Beziehungen erstellt.
 
-### Aufgabe 5: Measures erstellen
+## Aufgabe 5: Measures erstellen
 
 Fügen wir nun ein paar Measures hinzu, die zur Erstellung des Sales-Dashboards benötigt werden.
 
@@ -272,7 +266,7 @@ Fügen wir nun ein paar Measures hinzu, die zur Erstellung des Sales-Dashboards 
 
     Wir haben nun ein semantisches Modell erstellt. Im nächsten Schritt geht es darum, einen Bericht zu erstellen. Dies ist Thema der nächsten Übung.
 
-### Aufgabe 6: Fakultativer Abschnitt – Beziehungen erstellen
+## Aufgabe 6: Fakultativer Abschnitt – Beziehungen erstellen
 
 Fügen wir die restlichen Beziehungen hinzu.
 
@@ -312,7 +306,7 @@ Fügen wir die restlichen Beziehungen hinzu.
 
 15. Das Dialogfeld „Neue Beziehung“ wird geöffnet. Vergewissern Sie sich, dass unter **Von Tabelle** **Reseller** und in der **Spalte**** PostalCityID** angegeben ist.
 
-16. Vergewissern Sie sich, dass unter **In Tabelle** **Geo** und in der **Spalte**** CityID** angegeben ist.
+16. Vergewissern Sie sich, dass unter **In Tabelle** **Geo** und in der **Spalte** **CityID** angegeben ist.
 
 17. Die **Kardinalität** lautet **Viele-zu-Eins (\*:1)**.
 
@@ -326,7 +320,7 @@ Fügen wir die restlichen Beziehungen hinzu.
 
 21. Das Dialogfeld „Neue Beziehung“ wird geöffnet. Vergewissern Sie sich, dass unter **Von Tabelle** **Customer** und in der **Spalte**** ResellerID** angegeben ist.
 
-22. Vergewissern Sie sicher, dass unter **In Tabelle** **Reseller** und in der **Spalte**** ResellerID** angegeben ist.
+22. Vergewissern Sie sicher, dass unter **In Tabelle** **Reseller** und in der **Spalte** **ResellerID** angegeben ist.
 
 23. Die **Kardinalität** lautet **Viele-zu-Eins (\*:1)**.
 
@@ -350,7 +344,7 @@ Fügen wir die restlichen Beziehungen hinzu.
 
     ![](../media/Lab-6/image32.png)
 
-### Aufgabe 7: Fakultativer Abschnitt – Measures erstellen
+## Aufgabe 7: Fakultativer Abschnitt – Measures erstellen
 
 Fügen wir die restlichen Measures hinzu.
 
@@ -424,7 +418,7 @@ Lesen Sie die detaillierteren Blogs zur Ankündigung der Fabric-Umgebung:
 
 - [Blog zur Dataverse- und Microsoft Fabric-Integration](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. Alle Rechte vorbehalten.
+© 2026 Microsoft Corporation. Alle Rechte vorbehalten.
 
 Durch die Verwendung der vorliegenden Demo/Übung stimmen Sie den folgenden Bedingungen zu:
 
