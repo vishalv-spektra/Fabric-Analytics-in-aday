@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Laboratorio 1
 
+![](../media/Lab-1/ii1.png)
+
 ## Contenido
 
 - Estructura del documento
@@ -62,19 +64,19 @@ Antes de comenzar con Fabric, veamos el informe actual en Power BI Desktop para 
 
 2. Una vez que aparezca el cuadro de diálogo "Introduzca su dirección de correo electrónico", copie el **Nombre de usuario** y péguelo en el campo **Correo electrónico** del cuadro de diálogo, y seleccione **Continuar**.
 
-    - Correo electrónico/nombre de usuario:
+    - Correo electrónico/nombre de usuario: <inject key="AzureAdUserEmail"></inject>
 
         ![](../media/Lab-1/image8.png)
 
 3. En la pestaña de inicio de sesión de Microsoft Azure, verá la pantalla de inicio de sesión. Introduzca el siguiente correo electrónico/nombre de usuario y luego haga clic en **Siguiente**.
 
-    - Correo electrónico/nombre de usuario:
+    - Correo electrónico/nombre de usuario: <inject key="AzureAdUserEmail"></inject>
 
         ![](../media/Lab-1/image9.png)
 
 4. Ahora introduzca el siguiente **Pase de acceso temporal** y haga clic en **Iniciar sesión**.
 
-    - Pase de acceso temporal:
+    - Pase de acceso temporal: <inject key="AzureAdUserPassword"></inject>
 
         ![](../media/Lab-1/image10.png)
 
@@ -169,9 +171,9 @@ El siguiente informe analiza las ventas de Fabrikam. Los KPI se enumeran en la p
 
 8. Puede escribir las credenciales para el origen de datos de Dataverse si escribe el **nombre de usuario** y la contraseña. Las credenciales se proporcionan a **continuación**. Cuando termine, seleccione **Conectar**.
 
-    - Correo electrónico/nombre de usuario: se encuentra en la pestaña Entorno.
+    - Correo electrónico/nombre de usuario: <inject key="AzureAdUserEmail"></inject>
 
-    - Contraseña: se encuentra en la pestaña Entorno.
+    - Contraseña: <inject key="AzureAdUserPassword"></inject>
 
 9. Haga clic en la consulta **ADLS Base Folder** en la ventana Consultas. Al seleccionar esta consulta, tendrá que volver a escribir las credenciales. Haga clic en **Editar credenciales**.
 
@@ -179,7 +181,7 @@ El siguiente informe analiza las ventas de Fabrikam. Los KPI se enumeran en la p
 
 10. Para el origen de datos ADLS, elija la opción **Firma de acceso compartido** **(SAS)** e introduzca el **token de SAS** que se proporciona a continuación. Después, seleccione **Conectar**.
 
-    - **Token de SAS:** se encuentra en la pestaña Entorno.
+    - **Token de SAS:** <inject key="Sas token"></inject>
 
         ![](../media/Lab-1/image24.png)
 
@@ -199,9 +201,9 @@ El siguiente informe analiza las ventas de Fabrikam. Los KPI se enumeran en la p
 
 13. Introduzca el **nombre de usuario de Snowflake** y la **contraseña de Snowflake** que se proporcionan a continuación. Use estas credenciales para conectar todas las tablas de Snowflake con Snowflake y luego seleccione **Conectar**.
 
-    - **Nombre de usuario de Snowflake:** TE_SNOWFLAKE1
+    - **Nombre de usuario de Snowflake:** <inject key="SnowFlake Username" enableCopy="false" />
 
-    - **Contraseña de Snowflake:** 8UpfRpExVDXv2AC1
+    - **Contraseña de Snowflake:** <inject key="SnowFlake Password" enableCopy="false" />
 
     *Nota: Si tiene algún problema para conectarse a Snowflake con las credenciales anteriores, utilice las credenciales de copia de seguridad que se proporcionan a continuación.*
 
@@ -222,9 +224,9 @@ El siguiente informe analiza las ventas de Fabrikam. Los KPI se enumeran en la p
 16. Seleccione la opción **Cuenta de Microsoft** y, a continuación, haga clic en **Iniciar sesión**. Introduzca el nombre de usuario y la contraseña que se proporcionan a continuación
     y luego seleccione **Conectar**.
 
-    - **Correo electrónico/nombre de usuario:** se encuentra en la pestaña Entorno.
+    - **Correo electrónico/nombre de usuario:** <inject key="AzureAdUserEmail"></inject>
 
-    - **Contraseña:** se encuentra en la pestaña Entorno.
+    - **Contraseña:** <inject key="AzureAdUserPassword"></inject>
 
         ![](../media/Lab-1/image27.png)
 

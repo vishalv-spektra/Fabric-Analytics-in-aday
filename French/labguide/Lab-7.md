@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Labo 7
 
+![](../media/Lab-1/fn7.png)
+
 ## Sommaire
 
 - Introduction
@@ -38,7 +40,7 @@ Dans cette formation, vous avez découvert le lakehouse, ingéré des données d
 
 Commençons par utiliser l’option de création automatique d’un état. Plus tard dans le labo, nous allons recréer l’état dont nous disposons dans Power BI.
 
-1. Revenons à **l’espace de travail Fabric FAIAD_<username>** que vous avez créé dans le labo 2, dénommé **FAIAD_<username>.**
+1. Revenons à **l’espace de travail Fabric FAIAD_<inject key="Deployment ID" enableCopy="false"/>** que vous avez créé dans le labo 2, dénommé **FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 2. Cliquez sur l’icône du **sélecteur de l’expérience Fabric** dans la partie inférieure du volet gauche.
 
@@ -82,7 +84,7 @@ Commençons par utiliser l’option de création automatique d’un état. Plus 
 
     **Remarque :** nous ajoutons le préfixe rpt, à savoir l’abréviation du terme « report » (état) en anglais, au nom de l’état.
 
-11. Assurez-vous que l’état est enregistré dans votre espace de travail **FAIAD_<username>.**
+11. Assurez-vous que l’état est enregistré dans votre espace de travail **FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 12. Cliquez sur **Enregistrer**.
 
@@ -100,7 +102,7 @@ Commençons par utiliser l’option de création automatique d’un état. Plus 
 
 Nous allons créer un nouvel état en utilisant un canevas vierge.
 
-1. Dans le **panneau de gauche**, sélectionnez le nom de votre espace de travail, **FAIAD_<username>** pour naviguer dans l’espace de travail.
+1. Dans le **panneau de gauche**, sélectionnez le nom de votre espace de travail, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** pour naviguer dans l’espace de travail.
 
 2. Dans le menu supérieur, cliquez sur **Nouvel élément -> Rapport.** Vous êtes alors redirigé(e) vers la page Créer votre premier état.
 
@@ -244,7 +246,7 @@ Nous allons enregistrer l’état avant de le quitter pour apporter des modifica
 
     **Remarque :** nous ajoutons le préfixe rpt, à savoir l’abréviation du terme « report » (état) en anglais, au nom de l’état.
 
-3. Assurez-vous que l’état est enregistré dans l’espace de travail **FAIAD_<username>.**
+3. Assurez-vous que l’état est enregistré dans l’espace de travail **FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 4. Cliquez sur **Enregistrer**. Notez que l’état est enregistré et que vous êtes en mode Affichage.
 
@@ -440,7 +442,7 @@ Dans un scénario réel, les données sont mises à jour à la source. Puisque n
 
 2. Dans le coin inférieur droit, cliquez sur le **logo Fabric** et passez à la **vue Fabric**.
 
-3. Cliquez sur **FAIAD_<username>** dans la barre de menus gauche pour accéder à la page d’accueil de l’espace de travail.
+3. Cliquez sur **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** dans la barre de menus gauche pour accéder à la page d’accueil de l’espace de travail.
 
 4. Cliquez sur **lh_FAIAD** pour accéder au lakehouse.
 
@@ -677,7 +679,7 @@ Dans un scénario réel, les données sont mises à jour à la source. Puisque n
 
 Une fois que vous êtes prêt à nettoyer l’environnement de labo, procédez comme suit :
 
-1. Sélectionnez l’espace de travail **FAIAD_<username>** à partir du panneau de gauche pour naviguer vers la page d’accueil de l’espace de travail.
+1. Sélectionnez l’espace de travail **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** à partir du panneau de gauche pour naviguer vers la page d’accueil de l’espace de travail.
 
 2. Dans le menu supérieur, cliquez sur **Paramètres de l’espace de travail**.
 

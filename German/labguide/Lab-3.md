@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Übung 3
 
+![](../media/Lab-1/i3.png)
+
 ## Inhalt
 
 - Einführung
@@ -63,7 +65,7 @@ Verknüpfungen werden verwendet, um eine Verbindung zum Zielort herzustellen. Mi
 
 9. Kopieren Sie das SAS-Token, und fügen Sie es in das Feld„SAS-Token“ (5) ein.
 
-    - **SAS-Token:**
+    - **SAS-Token:** <inject key="Sas token"></inject>
 
 10. Wählen Sie unten rechts auf dem Bildschirm **Weiter (6)** aus.
 

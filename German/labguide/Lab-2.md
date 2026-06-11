@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Übung 2
 
+![](../media/Lab-1/i2.png)
+
 ## Inhalt
 
 - Einführung
@@ -43,19 +45,19 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 2. Kopieren Sie den Benutzernamen, fügen Sie ihn im Feld „E-Mail“ des Dialogfelds ein, und wählen Sie „Senden“ aus.
 
-    - **E-Mail/Benutzername:** befindet sich auf der Registerkarte „Umgebung“
+    - **E-Mail/Benutzername:** <inject key="AzureAdUserEmail"></inject>
 
         ![](../media/Lab-2/image7.png)
 
 3. Auf der Registerkarte **Bei Microsoft Azure anmelden** sehen Sie den Anmeldebildschirm, in dem Sie folgenden **EmailUsername** eingeben und dann auf **Weiter** klicken.
 
-    - **E-Mail/Benutzername:** befindet sich auf der Registerkarte „Umgebung“
+    - **E-Mail/Benutzername:** <inject key="AzureAdUserEmail"></inject>
 
         ![](../media/Lab-2/image8.png)
 
 4. Geben Sie nun den folgenden **befristeten Zugriffspass** ein, und klicken Sie auf **Anmelden**.
 
-    - **Befristeter Zugriffspass:** befindet sich auf der Registerkarte „Umgebung“
+    - **Befristeter Zugriffspass:** <inject key="AzureAdUserPassword"></inject>
 
         ![](../media/Lab-2/image9.png)
 
@@ -97,7 +99,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 3. Rechts im Browser wird das Dialogfeld **Arbeitsbereich erstellen** geöffnet.
 
-4. Geben Sie im Feld **Name** „FAIAD_UserID“ ein (Sie finden diese auf der Registerkarte „Umgebung“).
+4. Geben Sie im Feld **Name** „FAIAD_<inject key="Deployment ID" enableCopy="false"/>
 
     **Hinweis:** Der Name des Arbeitsbereichs muss eindeutig sein. Achten Sie darauf, dass unter dem Feld für den Namen ein grünes Häkchen mit dem Text „Dieser Name ist verfügbar“ zu sehen ist.
 
@@ -117,7 +119,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 ## Aufgabe 3: Lakehouse erstellen
 
-1. Suchen Sie im neu erstellten Arbeitsbereich **FAIAD_Username** im linken Navigationsbereich die Schaltfläche **+ Neues Element (1)**. Hier können Sie neue Elemente in Ihrem Arbeitsbereich erstellen.
+1. Suchen Sie im neu erstellten Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** im linken Navigationsbereich die Schaltfläche **+ Neues Element (1)**. Hier können Sie neue Elemente in Ihrem Arbeitsbereich erstellen.
 
 2. Geben Sie im Suchfeld **Lakehouse (2)** ein, und wählen Sie in den Suchergebnissen die Option **Lakehouse (3)** aus. Auf diese Weise können Sie ein neues Lakehouse erstellen, um Ihre Big Data zu speichern, abzufragen und zu verwalten.
 

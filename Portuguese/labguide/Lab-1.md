@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Laboratório 1
 
+![](../media/Lab-1/prt1.png)
+
 ## Conteúdo
 
 - Estrutura do documento
@@ -64,19 +66,19 @@ Antes de começarmos com o Fabric, vamos dar uma olhada no Relatório atual no P
 2. Quando o diálogo "Insira seu endereço de email" for exibido, copie o **Nome de usuário**
     e cole-o no campo **Email** do diálogo e selecione **Continuar**.
 
-    - Email/Nome de usuário:
+    - Email/Nome de usuário: <inject key="AzureAdUserEmail"></inject>
 
     ![](../media/Lab-1/image7.png)
 
 3. Na guia Entrar no Microsoft Azure, você verá a tela de logon. Nessa tela, insira o seguinte Email/Nome de usuário e clique em **Avançar**.
 
-    - Email/Nome de usuário:
+    - Email/Nome de usuário: <inject key="AzureAdUserEmail"></inject>
 
     ![](../media/Lab-1/image8.png)
 
 4. Agora, insira a seguinte **Senha de Acesso Temporária** e clique em **Entrar**.
 
-    - Senha de Acesso Temporária:
+    - Senha de Acesso Temporária:  <inject key="AzureAdUserPassword"></inject>
 
     ![](../media/Lab-1/image9.png)
 
@@ -172,9 +174,9 @@ O relatório abaixo analisa as Sales da Fabrikam. Os KPIs estão listados no can
 
 8. Você pode inserir as credenciais para a fonte de dados do Dataverse inserindo o **Nome de usuário e a Senha**. As credenciais são fornecidas abaixo. Quando concluído, selecione **Conectar**.
 
-    - Email/Nome de usuário: encontrado na guia Ambiente
+    - Email/Nome de usuário: <inject key="AzureAdUserEmail"></inject>
 
-    - Senha: encontrada na guia Ambiente
+    - Senha: <inject key="AzureAdUserPassword"></inject>
 
 9. Clique na Consulta **ADLS Base Folder** na janela Consultas. Para selecionar essa consulta, forneça as credenciais. Clique em **Editar Credenciais**.
 
@@ -182,7 +184,7 @@ O relatório abaixo analisa as Sales da Fabrikam. Os KPIs estão listados no can
 
 10. Para a fonte de dados ADLS, escolha a opção **SAS (Assinatura de acesso compartilhado)** e insira o **token SAS** fornecido abaixo. Em seguida, selecione **Conectar**.
 
-    - **Token SAS:** encontrado na guia Ambiente
+    - **Token SAS:** <inject key="Sas token"></inject>
 
     ![](../media/Lab-1/image23.png)
 
@@ -204,9 +206,9 @@ O relatório abaixo analisa as Sales da Fabrikam. Os KPIs estão listados no can
 
 13. Insira o **Nome de usuário do Snowflake** e a **Senha do Snowflake** fornecidos abaixo. Use essas credenciais para conectar todas as tabelas do Snowflake ao Snowflake e selecione **Conectar**.
 
-    - **Nome de usuário do Snowflake:** TE_SNOWFLAKE1
+    - **Nome de usuário do Snowflake:** <inject key="SnowFlake Username" enableCopy="false" />
 
-    - **Senha do Snowflake:** 8UpfRpExVDXv2AC1
+    - **Senha do Snowflake:** <inject key="SnowFlake Password" enableCopy="false" />
 
     *Observação: se você tiver problemas para se conectar ao Snowflake com as credenciais acima, use as credenciais de backup fornecidas abaixo.*
 
@@ -226,9 +228,9 @@ O relatório abaixo analisa as Sales da Fabrikam. Os KPIs estão listados no can
 
 16. Selecione a opção **Conta da Microsoft** e clique em **Entrar**. Insira o Nome de usuário e a Senha fornecidos abaixo e selecione **Conectar**.
 
-    - **Email/Nome de usuário:** encontrado na guia Ambiente
+    - **Email/Nome de usuário:** <inject key="AzureAdUserEmail"></inject>
 
-    - **Senha:** encontrada na guia Ambiente
+    - **Senha:** <inject key="AzureAdUserPassword"></inject>
 
     ![](../media/Lab-1/image26.png)
 

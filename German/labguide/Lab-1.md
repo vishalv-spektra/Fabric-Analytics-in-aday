@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Übung 1
 
+![](../media/Lab-1/i1.png)
+
 ## Inhalt
 
 - Dokumentstruktur
@@ -172,9 +174,9 @@ Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs 
 
 8. Sie können die Anmeldeinformationen für die Dataverse-Datenquelle eingeben, indem Sie den **Benutzernamen** und das **Kennwort** eingeben. Die Anmeldeinformationen sind unten angegeben. Wenn Sie fertig sind, wählen Sie **Verbinden** aus.
 
-    - E-Mail/Benutzername: befindet sich auf der Registerkarte „Umgebung“
+    - E-Mail/Benutzername: <inject key="AzureAdUserEmail"></inject>
 
-    - Kennwort: befindet sich auf der Registerkarte „Umgebung“
+    - Kennwort: <inject key="AzureAdUserPassword"></inject>
 
 9. Klicken Sie im Fenster „Abfragen“ auf die Abfrage **ADLS Base Folder**. Sie müssen die Anmeldeinformationen erneut eingeben, wenn Sie diese Abfrage auswählen. Klicken Sie auf **Anmeldeinformationen bearbeiten**.
 
@@ -182,7 +184,7 @@ Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs 
 
 10. Wählen Sie für die ADLS-Datenquelle die Option **Shared Access Signature (SAS)** aus, und geben Sie das unten angegebene **SAS-Token** ein. Wählen Sie dann **Verbinden** aus.
 
-    - **SAS-Token:** befindet sich auf der Registerkarte „Umgebung“
+    - **SAS-Token:** <inject key="Sas token"></inject>
 
         ![](../media/Lab-1/image23.png)
 
@@ -202,9 +204,9 @@ Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs 
 
 13. Geben Sie den **Benutzernamen für Snowflake** und das **Kennwort für Snowflake** ein, die unten angegeben sind. Verwenden Sie diese Anmeldeinformationen, um alle Tabellen unter Snowflake mit Snowflake zu verbinden, und wählen Sie dann „**Verbinden**“.
 
-    - **Snowflake-Benutzername:** 
+    - **Snowflake-Benutzername:** <inject key="SnowFlake Username" enableCopy="false" /> 
 
-    - **Snowflake-Kennwort:** 
+    - **Snowflake-Kennwort:** <inject key="SnowFlake Password" enableCopy="false" />
 
     *Hinweis: Wenn Sie Probleme beim Herstellen einer Verbindung zu Snowflake mit obigen Anmeldeinformationen haben, verwenden Sie bitte die nachfolgenden Backup-Anmeldeinformationen.*
 
@@ -224,9 +226,9 @@ Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs 
 
 16. Wählen Sie die Option **Microsoft-Konto** aus, und klicken Sie dann auf **Anmelden**. Geben Sie den unten angegebenen Benutzernamen und das Kennwort ein, und wählen Sie dann „Verbinden“ aus.
 
-    - **E-Mail/Benutzername:** befindet sich auf der Registerkarte „Umgebung“
+    - **E-Mail/Benutzername:** <inject key="AzureAdUserEmail"></inject>
 
-    - **Kennwort:** befindet sich auf der Registerkarte „Umgebung“
+    - **Kennwort:** <inject key="AzureAdUserPassword"></inject>
 
         ![](../media/Lab-1/image26.png)
 

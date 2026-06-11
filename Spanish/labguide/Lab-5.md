@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Laboratorio 5
 
+![](../media/Lab-1/ii5.png)
+
 ## Contenido
 
 - Presentación
@@ -47,7 +49,7 @@ Al final de este laboratorio, habrá aprendido:
 
 Comencemos configurando una actualización programada del flujo de datos del proveedor.
 
-1. Volvamos al área de trabajo de Fabric, **FAIAD_<nombre de usuario>** seleccionando el área de trabajo en el panel izquierdo.
+1. Volvamos al área de trabajo de Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** seleccionando el área de trabajo en el panel izquierdo.
 
 2. Para maximizar el panel con la lista de artefactos, seleccione la flecha doble situada en la parte superior derecha del panel.
 
@@ -125,7 +127,7 @@ Comencemos configurando una actualización programada del flujo de datos del pro
 
 ## Tarea 2: Crear una canalización
 
-1. Volvamos al área de trabajo de Fabric, **FAIAD_<nombre de usuario>** seleccionando el área de trabajo en el panel izquierdo.
+1. Volvamos al área de trabajo de Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** seleccionando el área de trabajo en el panel izquierdo.
 
 2. En el menú superior, seleccione **+ Nuevo elemento (1) -> pipeline (2)**.
 
@@ -167,7 +169,7 @@ Comencemos a crear la canalización. Necesitamos una actividad para actualizar e
 
     ![](../media/Lab-5/image22.png)
 
-3. Asegúrese de que **Área de trabajo** está configurada en su área de trabajo de Fabric, **FAIAD_<username>.**
+3. Asegúrese de que **Área de trabajo** está configurada en su área de trabajo de Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 4. En el **menú desplegable Flujo de datos**, seleccione **df_People_SharePoint**. Cuando se ejecute esta actividad del flujo de datos, se actualizará **df_People_SharePoint.** Fácil, ¿verdad?
 
@@ -207,7 +209,7 @@ Comencemos a crear la canalización. Necesitamos una actividad para actualizar e
 
 Agreguemos un poco más de complejidad a nuestro escenario. Hemos observado que si los datos no están disponibles a las 09:00, normalmente lo estarán en cinco minutos. Si se pierde la ventana de tiempo, el archivo tardará 15 minutos en estar disponible. Queremos programar los reintentos a los cinco y 15 minutos. Veamos cómo se puede lograr esto mediante la creación de una nueva canalización.
 
-1. En el panel izquierdo, haga clic en **FAIAD_<username>** para navegar a la página de inicio del área de trabajo.
+1. En el panel izquierdo, haga clic en **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** para navegar a la página de inicio del área de trabajo.
 
 2. En el menú superior, haga clic en **+ Nuevo elemento (1)** y en la ventana emergente, haga clic en **Canalización (2)**.
 
@@ -375,7 +377,7 @@ Agreguemos un poco más de complejidad a nuestro escenario. Hemos observado que 
 
 7. Seleccione **Configuración** en el panel inferior.
 
-8. Asegúrese de que **Área de trabajo** está configurada en su área de trabajo, **FAIAD_<username>.**
+8. Asegúrese de que **Área de trabajo** está configurada en su área de trabajo, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 9. En el **menú desplegable Flujo de datos**, seleccione **df_People_SharePoint**.
 
@@ -576,7 +578,7 @@ A continuación, debemos esperar cinco minutos/300 segundos si la actualización
 
 10. Seleccione la marca con forma de **X** en la parte superior derecha del cuadro de diálogo para cerrarlo.
 
-11. Seleccione el área de trabajo de Fabric **FAIAD_<username>** en el panel izquierdo para navegar al área de trabajo.
+11. Seleccione el área de trabajo de Fabric **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** en el panel izquierdo para navegar al área de trabajo.
 
     **Nota:** En la pantalla Programación, no hay ninguna opción para notificar sobre el éxito o el error (como la programación de flujos de datos). La notificación se puede llevar a cabo mediante una actividad en la canalización. No lo haremos en este laboratorio, ya que es un entorno de laboratorio.
 

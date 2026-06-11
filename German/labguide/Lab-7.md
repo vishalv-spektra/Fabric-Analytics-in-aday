@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Übung 7
 
+![](../media/Lab-1/i7.png)
+
 ## Inhalt
 
 - Einführung
@@ -39,7 +41,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 Verwenden wir zunächst die Option „Bericht automatisch erstellen“. Und später in der Übung werden wir den Bericht, den wir in Power BI haben, neu erstellen.
 
-1. Navigieren wir zurück zum **Fabric-Arbeitsbereich**, den Sie in Übung 2 erstellt haben, mit dem Namen **FAIAD_<Benutzername>**.
+1. Navigieren wir zurück zum **Fabric-Arbeitsbereich**, den Sie in Übung 2 erstellt haben, mit dem Namen **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 2. Wählen Sie unten links das Symbol **Fabric-Funktionsbereichs-Auswahl** aus.
 
@@ -82,7 +84,7 @@ Verwenden wir zunächst die Option „Bericht automatisch erstellen“. Und spä
 10. Das Dialogfeld „Bericht speichern“ wird geöffnet. Geben Sie dem Bericht den Namen **rpt_Sales_Auto_Report**.
     **Hinweis:** Wir stellen dem Berichtsnamen das Präfix „rpt“ voran, was für „Bericht“ steht.
 
-11. Stellen Sie sicher, dass der Bericht in Ihrem Arbeitsbereich **FAIAD_<Benutzername>** gespeichert wird.
+11. Stellen Sie sicher, dass der Bericht in Ihrem Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** gespeichert wird.
 
 12. Wählen Sie **Speichern** aus.
 
@@ -100,7 +102,7 @@ Verwenden wir zunächst die Option „Bericht automatisch erstellen“. Und spä
 
 Lassen Sie uns einen neuen Bericht mit einem leeren Canvas erstellen.
 
-1. Wählen Sie im **linken Bereich** den Namen Ihres Arbeitsbereichs, **FAIAD_<Benutzername>**, aus, um zum Arbeitsbereich zu gelangen.
+1. Wählen Sie im **linken Bereich** den Namen Ihres Arbeitsbereichs, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, aus, um zum Arbeitsbereich zu gelangen.
 
 2. Wählen Sie im oberen Menü **Neues Element -> Bericht** aus. Sie werden zur Seite „Erstellen Sie Ihren ersten Bericht“ weitergeleitet.
 
@@ -243,7 +245,7 @@ Speichern wir den Bericht, bevor wir ihn verlassen, um Änderungen am Modell vor
 2. Das Dialogfeld „Bericht speichern“ wird geöffnet. Geben Sie dem Bericht den Namen **rpt_Sales_Report**.
     **Hinweis:** Wir stellen dem Berichtsnamen das Präfix „rpt“ voran, was für „Bericht“ steht.
 
-3. Stellen Sie sicher, dass der Bericht im Arbeitsbereich **FAIAD_<Benutzername>** gespeichert wird.
+3. Stellen Sie sicher, dass der Bericht im Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** gespeichert wird.
 
 4. Wählen Sie **Speichern** aus. Beachten Sie, dass der Bericht gespeichert ist und Sie sich im Anzeigemodus befinden.
 
@@ -439,7 +441,7 @@ In einem realen Szenario werden die Daten an der Quelle aktualisiert. Da wir uns
 
 2. Klicken Sie in der unteren rechten Ecke auf das **Fabric-Logo**, und wechseln Sie zur **Fabric-Ansicht**.
 
-3. Wählen Sie in der linken Menüleiste **FAIAD_<Benutzername>** aus, um zur Startseite des Arbeitsbereichs zu wechseln.
+3. Wählen Sie in der linken Menüleiste **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** aus, um zur Startseite des Arbeitsbereichs zu wechseln.
 
 4. Wählen Sie **lh_FAIAD** aus, um zum Lakehouse zu navigieren.
 
@@ -676,7 +678,7 @@ In einem realen Szenario werden die Daten an der Quelle aktualisiert. Da wir uns
 
 Wenn Sie bereit sind, die Übungsumgebung zu bereinigen, führen Sie die folgenden Schritte aus.
 
-1. Wählen Sie im linken Bereich den Arbeitsbereich **FAIAD_<Benutzername>** aus, um zur Startseite des Arbeitsbereichs zu navigieren.
+1. Wählen Sie im linken Bereich den Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** aus, um zur Startseite des Arbeitsbereichs zu navigieren.
 
 2. Wählen Sie im oberen Menü **Arbeitsbereichseinstellungen** aus.
 

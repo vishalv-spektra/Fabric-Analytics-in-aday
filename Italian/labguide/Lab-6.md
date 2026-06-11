@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Lab 6
 
+![](../media/Lab-1/it6.png)
+
 ## Contents
 
 - Introduzione
@@ -29,11 +31,11 @@ In questo lab si apprenderà quanto segue:
 
 ## Attività 1: Query sui dati mediante SQL
 
-1. Torniamo all'area di lavoro di Fabric **FAIAD_<nome utente>** creata nel Lab 2, Attività 8.
+1. Torniamo all'area di lavoro di Fabric **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** creata nel Lab 2, Attività 8.
 
 2. Se si preferisce, è possibile **ridurre a icona il flusso di attività** per visualizzare l'elenco completo degli elementi.
 
-3. Saranno visibili tre elementi associati a lh_FAIAD, ovvero il lakehouse, il modello semantico e l'endpoint SQL. In un lab precedente sono stati esplorati il lakehouse e sono state create una query visiva e una query SQL tramite l'endpoint di **Analisi SQL**. Seleziona l'icona **FAIAD_<nome utente>** nel riquadro di spostamento a sinistra e scegli l'opzione **Endpoint di analisi SQL lh_FAIAD** per continuare a esplorare questa opzione. Si aprirà la **vista SQL** di Explorer.
+3. Saranno visibili tre elementi associati a lh_FAIAD, ovvero il lakehouse, il modello semantico e l'endpoint SQL. In un lab precedente sono stati esplorati il lakehouse e sono state create una query visiva e una query SQL tramite l'endpoint di **Analisi SQL**. Seleziona l'icona **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** nel riquadro di spostamento a sinistra e scegli l'opzione **Endpoint di analisi SQL lh_FAIAD** per continuare a esplorare questa opzione. Si aprirà la **vista SQL** di Explorer.
 
     ![](../media/Lab-6/image6.png)
 
@@ -93,7 +95,7 @@ In questo lab si apprenderà quanto segue:
 
 8. Si apre la finestra di dialogo Salva il report. Digitare **Units per fornitore** nella casella di testo **Immettere un nome per il report**.
 
-9. Assicurarsi che l'area di lavoro di destinazione sia l'area di lavoro di Fabric, **FAIAD_<nome utente>**
+9. Assicurarsi che l'area di lavoro di destinazione sia l'area di lavoro di Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**
 
 10. Selezionare **Salva**.
 

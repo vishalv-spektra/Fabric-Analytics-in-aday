@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - 实验室 0
 
+![](../media/Lab-1/cn2.png)
+
 ## 目录
 
 - 简介
@@ -41,20 +43,20 @@
 
 2. 复制用户名，并将其粘贴到对话框的“电子邮件”字段中，然后选择“提交”。
 
-    - **电子邮件/用户名：**在“环境”选项卡中找到
+    - **电子邮件/用户名：** <inject key="AzureAdUserEmail"></inject>
 
     ![](../media/Lab-2/image7.png)
 
 3. 在**登录到 Microsoft Azure** 选项卡上，您将看到登录屏幕，在该屏幕中输入以下
     **EmailUsername**，然后单击**下一步**。
 
-    - **电子邮件/用户名：**在“环境”选项卡中找到
+    - **电子邮件/用户名：** <inject key="AzureAdUserEmail"></inject>
 
     ![](../media/Lab-2/image8.png)
 
 4. 现在，输入以下**临时登入密码**，然后单击**登录**。
 
-    - **临时登入密码：**在“环境”选项卡中找到
+    - **临时登入密码：** <inject key="AzureAdUserPassword"></inject>
 
     ![](../media/Lab-2/image9.png)
 
@@ -98,7 +100,7 @@
 
 3. 浏览器右侧将打开**创建工作区**对话框。
 
-4. 在**名称**字段中，输入 FAIAD_UserID（在“环境”选项卡中找到）
+4. 在**名称**字段中，输入 FAIAD_<inject key="Deployment ID" enableCopy="false"/>
 
     ***注意：**工作区名称必须唯一。确保“名称”字段下方显示带有“此名称可用” 的绿色复选标记。*
 
@@ -118,7 +120,7 @@
 
 ### 任务 3：创建湖屋
 
-1. 在新创建的工作区 **FAIAD_Username** 中，在左侧导航窗格中找到 **+ 新建项 (1)** 按钮。
+1. 在新创建的工作区 **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** 中，在左侧导航窗格中找到 **+ 新建项 (1)** 按钮。
     在此处，您可以开始在工作区中创建新项目。
 
 2. 在搜索框中，键入**湖屋 (2)**，然后从搜索结果中，选择**湖屋 (3)** 选项。这将使您能够创建一个新湖屋来存储、查询和管理您的大数据。

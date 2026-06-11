@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Lab 5
 
+![](../media/Lab-1/it5.png)
+
 ## Contents
 
 - Introduzione
@@ -47,7 +49,7 @@ In questo lab si imparerà a:
 
 Iniziamo con la configurazione di un aggiornamento pianificato del flusso di dati dei fornitori.
 
-1. Torniamo all'area di lavoro Fabric, **FAIAD_<username>** selezionando l'area di lavoro nel pannello a sinistra.
+1. Torniamo all'area di lavoro Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** selezionando l'area di lavoro nel pannello a sinistra.
 
 2. Per ingrandire il pannello con l'elenco degli artefatti, selezionare la doppia freccia in alto a destra del pannello.
 
@@ -126,7 +128,7 @@ Iniziamo con la configurazione di un aggiornamento pianificato del flusso di dat
 
 ## Attività 2: Creazione di una pipeline
 
-1. Torniamo all'area di lavoro di Fabric, **FAIAD_<nome utente>** selezionandola nel pannello di sinistra.
+1. Torniamo all'area di lavoro di Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** selezionandola nel pannello di sinistra.
 
 2. Nel menu in alto seleziona **+ Nuovo elemento (1) -> Pipeline (2).**
 
@@ -168,7 +170,7 @@ Iniziamo a creare la pipeline. Abbiamo bisogno di un'attività per aggiornare il
 
     ![](../media/Lab-5/image22.png)
 
-3. Assicurarsi che l'**Area di lavoro** sia impostata sull'area di lavoro di Fabric **FAIAD_<nomeutente>.**
+3. Assicurarsi che l'**Area di lavoro** sia impostata sull'area di lavoro di Fabric **FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 4. Nel menu a discesa **Flusso di dati** selezionare **df_People_SharePoint**. Quando questa attività Flusso di dati viene eseguita, aggiornerà **df_People_SharePoint.** Questa procedura è molto semplice.
 
@@ -208,7 +210,7 @@ Iniziamo a creare la pipeline. Abbiamo bisogno di un'attività per aggiornare il
 
 Aggiungiamo un po' più di complessità al nostro scenario. Abbiamo notato che se i dati non sono disponibili alle 09:00, in genere lo sono entro cinque minuti. Se non viene rispettata la finestra temporale, saranno necessari 15 minuti affinché il file sia disponibile. Vogliamo pianificare i nuovi tentativi a cinque e 15 minuti. Vediamo come è possibile ottenere questo risultato creando una nuova pipeline.
 
-1. Nel pannello di sinistra fare clic su **FAIAD_<nome utente>** per andare alla home page dell'area di lavoro.
+1. Nel pannello di sinistra fare clic su **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** per andare alla home page dell'area di lavoro.
 
 2. Nel menu in alto, fare clic su + **Nuovo elemento (1)** e nella finestra popup, fare clic su **Pipeline (2)**.
 
@@ -377,7 +379,7 @@ Aggiungiamo un po' più di complessità al nostro scenario. Abbiamo notato che s
 
 7. Selezionare **Impostazioni** nel riquadro inferiore.
 
-8. Assicurarsi che l'**Area di lavoro** sia impostata sulla propria area di lavoro **FAIAD_<nomeutente>**.
+8. Assicurarsi che l'**Area di lavoro** sia impostata sulla propria area di lavoro **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 9. Nel menu a discesa **Flusso di dati** selezionare **df_People_SharePoint**.
 
@@ -580,7 +582,7 @@ Quindi, dovremo impostare un'attesa di 5 minuti/300 secondi in caso di un primo 
 
     ![](../media/Lab-5/image55.png)
 
-11. Selezionare l'area di lavoro di Fabric **FAIAD_<nome utente>** nel pannello di sinistra per andare all'area di lavoro.
+11. Selezionare l'area di lavoro di Fabric **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** nel pannello di sinistra per andare all'area di lavoro.
 
     **Nota:** nella schermata Pianificazione non vi è un'opzione per la notifica dell'esito positivo o negativo (come nella pianificazione del flusso di dati). È possibile impostare la notifica aggiungendo un'attività nella pipeline. Non effettueremo questa impostazione in questo lab poiché si tratta di un ambiente lab.
 

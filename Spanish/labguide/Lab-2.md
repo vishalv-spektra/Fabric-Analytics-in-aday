@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Laboratorio 2
 
+![](../media/Lab-1/ii2.png)
+
 ## Contenido
 
 - Presentación
@@ -43,19 +45,19 @@ Al final de este laboratorio, habrá aprendido:
 
 2. Copie el nombre de usuario y péguelo en el campo Correo electrónico del cuadro de diálogo y seleccione Enviar.
 
-    - **Correo electrónico/nombre de usuario:** se encuentra en la pestaña Entorno.
+    - **Correo electrónico/nombre de usuario:** <inject key="AzureAdUserEmail"></inject>
 
         ![](../media/Lab-2/image7.png)
 
 3. En la pestaña de **inicio de sesión de Microsoft Azure**, verá la pantalla de inicio de sesión. Introduzca el siguiente **EmailUsername** y luego haga clic en **Siguiente**.
 
-    - **Correo electrónico/nombre de usuario**: se encuentra en la pestaña Entorno.
+    - **Correo electrónico/nombre de usuario**: <inject key="AzureAdUserEmail"></inject>
 
         ![](../media/Lab-2/image8.png)
 
 4. Ahora introduzca el siguiente **Pase de acceso temporal** y haga clic en **Iniciar sesión**.
 
-    - **Pase de acceso temporal:** se encuentra en la pestaña Entorno.
+    - **Pase de acceso temporal:** <inject key="AzureAdUserPassword"></inject>
 
         ![](../media/Lab-2/image9.png)
 
@@ -97,7 +99,7 @@ Al final de este laboratorio, habrá aprendido:
 
 3. El cuadro de diálogo **Crear un área de trabajo** se abre en el lado derecho del explorador.
 
-4. En el campo **Nombre**, introduzca FAIAD_UserID (que se encuentra en la pestaña Entorno).
+4. En el campo **Nombre**, introduzca FAIAD_<inject key="Deployment ID" enableCopy="false"/>
 
     **Nota:** El nombre del área de trabajo debe ser único. Asegúrese de que aparezca una marca de verificación verde con “Este nombre está disponible” debajo del campo Nombre.
 
@@ -117,7 +119,7 @@ Al final de este laboratorio, habrá aprendido:
 
 ## Tarea 3: Crear un Lakehouse
 
-1. En el espacio de trabajo **FAIAD_Username** recién creado, localice el botón **+ Nuevo elemento (1)** en el panel de navegación de la izquierda. Aquí es donde puede comenzar a crear nuevos elementos en su área de trabajo.
+1. En el espacio de trabajo **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** recién creado, localice el botón **+ Nuevo elemento (1)** en el panel de navegación de la izquierda. Aquí es donde puede comenzar a crear nuevos elementos en su área de trabajo.
 
 2. En el cuadro de búsqueda, escriba **Lakehouse (2)** y, en los resultados de búsqueda, seleccione la opción **Lakehouse (3)**. Esto le permitirá crear un nuevo almacén de lago de datos para almacenar, consultar y administrar sus macrodatos.
 

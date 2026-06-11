@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Labo 3
 
+![](../media/Lab-1/fn3.png)
+
 ## Sommaire
 
 - Introduction
@@ -64,7 +66,7 @@ Des raccourcis permettent de créer un lien vers l’emplacement cible. Les racc
 
 9. Copiez le jeton SAS et collez-le dans le champ Jeton SAS (5).
 
-    - **Jeton SAS :**
+    - **Jeton SAS :** <inject key="Sas token"></inject>
 
 10. Cliquez sur **Suivant (6)** en bas de l’écran à droite.
 

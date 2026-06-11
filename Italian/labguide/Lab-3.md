@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Lab 3
 
+![](../media/Lab-1/it3.png)
+
 ## Contents
 
 - Introduzione
@@ -63,7 +65,7 @@ I collegamenti sono usati per creare un collegamento all'ubicazione di destinazi
 
 9. Copiare il token di firma di accesso condiviso e incollarlo nel campo Token di firma di accesso condiviso (5).
 
-    - **Token di firma di accesso condiviso:**
+    - **Token di firma di accesso condiviso:** <inject key="Sas token"></inject>
 
 10. Selezionare **Avanti (6)** in basso a destra della schermata.
 

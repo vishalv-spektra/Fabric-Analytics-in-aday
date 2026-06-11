@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Lab 1
 
+![](../media/Lab-1/it1.png)
+
 ## Contents
 
 - Struttura del documento
@@ -62,19 +64,19 @@ Prima di iniziare con Fabric, esaminiamo l'attuale report in Power BI Desktop pe
 
 2. Quando si apre la finestra di dialogo "Immettere l'indirizzo di posta elettronica", copiare il **Nome utente** e incollarlo nel campo **Posta elettronica** della finestra di dialogo, quindi selezionare **Continua**.
 
-    - Posta elettronica/nome utente:
+    - Posta elettronica/nome utente: <inject key="AzureAdUserEmail"></inject>
 
         ![](../media/Lab-1/image7.png)
 
 3. Immettere i dati Posta elettronica/nome utente seguenti nella schermata di accesso visualizzata nella scheda Accedi a Microsoft Azure, quindi fare clic su **Avanti**.
 
-    - Posta elettronica/nome utente:
+    - Posta elettronica/nome utente: <inject key="AzureAdUserEmail"></inject>
 
         ![](../media/Lab-1/image8.png)
 
 4. Immettere il **Pass di accesso temporaneo** seguente e fare clic su **Accedi**.
 
-    - Pass di accesso temporaneo:
+    - Pass di accesso temporaneo: <inject key="AzureAdUserPassword"></inject>
 
         ![](../media/Lab-1/image9.png)
 
@@ -168,9 +170,9 @@ Il report seguente analizza le vendite per Fabrikam. I KPI sono elencati in alto
 
 8. È possibile immettere le credenziali per l'origine dati Dataverse immettendo **Nome utente** e **Password**. Le credenziali vengono fornite di seguito. Al termine, selezionare **Connetti**.
 
-    - E-mail/Nome utente: disponibili nella scheda Ambiente
+    - E-mail/Nome utente: <inject key="AzureAdUserEmail"></inject>
 
-    - Password: disponibile nella scheda Ambiente
+    - Password: <inject key="AzureAdUserPassword"></inject>
 
 9. Fare clic sulla query **ADLS Base Folder** nella finestra Query. Alla selezione di questa query verranno richieste le credenziali. Fare clic su **Modifica credenziali**.
 
@@ -178,7 +180,7 @@ Il report seguente analizza le vendite per Fabrikam. I KPI sono elencati in alto
 
 10. Per l'origine dati ADLS, scegliere l'opzione **Firma di accesso** **condiviso (SAS)** e immettere il **token SAS** fornito in precedenza. Selezionare **Connetti**.
 
-    - **Token SAS:** disponibile nella scheda Ambiente
+    - **Token SAS:** <inject key="Sas token"></inject>
 
     ![](../media/Lab-1/image23.png)
 
@@ -198,9 +200,9 @@ Il report seguente analizza le vendite per Fabrikam. I KPI sono elencati in alto
 
 13. Immettere il **Nome utente Snowflake** e la **Password Snowflake** forniti di seguito. Usare queste credenziali per connettere tutte le tabelle in Snowflake a Snowflake, quindi selezionare **Connetti**.
 
-    - **Nome utente Snowflake:** TE_SNOWFLAKE1
+    - **Nome utente Snowflake:** <inject key="SnowFlake Username" enableCopy="false" />
 
-    - **Password Snowflake:** 8UpfRpExVDXv2AC1
+    - **Password Snowflake:** <inject key="SnowFlake Password" enableCopy="false" />
 
     *Nota: se si verificano problemi di connessione a Snowflake con le credenziali descritte sopra, usare le credenziali di backup fornite di seguito.*
 
@@ -220,9 +222,9 @@ Il report seguente analizza le vendite per Fabrikam. I KPI sono elencati in alto
 
 16. Selezionare l'opzione **Account Microsoft**, quindi fare clic su **Accedi**. Immettere il nome utente e la password forniti di seguito, quindi selezionare Connetti.
 
-    - **E-mail/Nome utente:** disponibili nella scheda Ambiente
+    - **E-mail/Nome utente:** <inject key="AzureAdUserEmail"></inject>
 
-    - **Password:** disponibile nella scheda Ambiente
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
     ![](../media/Lab-1/image26.png)
 

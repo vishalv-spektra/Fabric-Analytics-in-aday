@@ -1,5 +1,7 @@
 # Microsoft Fabric Fabric Analyst in a Day 랩 3 - 버전: 2026년 5월
 
+![](../media/Lab-1/krn3.png)
+
 ## 목차
 
 - 소개
@@ -63,7 +65,7 @@
 
 9. SAS 토큰을 복사하여 SAS 토큰 (5) 필드에 붙여넣습니다.
 
-    - **SAS 토큰:**
+    - **SAS 토큰:** <inject key="Sas token"></inject>
 
 10. 화면 오른쪽 하단에서 **다음 (6)**을 선택합니다.
 

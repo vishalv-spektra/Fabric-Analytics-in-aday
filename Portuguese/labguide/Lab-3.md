@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Laboratório 3
 
+![](../media/Lab-1/prt3.png)
+
 ## Conteúdo
 
 - Introdução
@@ -65,7 +67,7 @@ Os atalhos são usados para criar um link com o local de destino. Os atalhos for
 
 9. Copie o token SAS e cole-o no campo Token SAS (5).
 
-    - **Token SAS:**
+    - **Token SAS:** <inject key="Sas token"></inject>
 
 10. Selecione **Avançar (6)** na parte inferior direita da tela.
 

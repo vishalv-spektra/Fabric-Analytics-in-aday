@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Laboratório 6
 
+![](../media/Lab-1/prt6.png)
+
 ## Conteúdo
 
 - Introdução
@@ -31,11 +33,11 @@ Ao final deste laboratório, você terá aprendido:
 
 ### Tarefa 1: Consultar dados usando SQL
 
-1. Vamos voltar ao workspace do Fabric, **FAIAD_<nome de usuário>,** que você criou no Laboratório 2, Tarefa 8.
+1. Vamos voltar ao workspace do Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>,** que você criou no Laboratório 2, Tarefa 8.
 
 2. Você pode escolher **Minimizar o fluxo de tarefas** para exibir toda a lista de itens.
 
-3. Você verá três elementos associados a lh_FAIAD – Lakehouse, Modelo semântico e Ponto de extremidade de SQL. Exploramos o Lakehouse e criamos consultas de visual usando o ponto de extremidade da análise SQL em um laboratório anterior. Selecione **FAIAD_<nome de usuário>** na navegação esquerda e escolha o **Ponto de extremidade de análise de SQL lh_FAIAD** para continuar a explorar essa opção. Você será direcionado à **exibição de SQL** do explorador.
+3. Você verá três elementos associados a lh_FAIAD – Lakehouse, Modelo semântico e Ponto de extremidade de SQL. Exploramos o Lakehouse e criamos consultas de visual usando o ponto de extremidade da análise SQL em um laboratório anterior. Selecione **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** na navegação esquerda e escolha o **Ponto de extremidade de análise de SQL lh_FAIAD** para continuar a explorar essa opção. Você será direcionado à **exibição de SQL** do explorador.
 
     ![](../media/Lab-6/image6.png)
 
@@ -95,7 +97,7 @@ Ao final deste laboratório, você terá aprendido:
 
 8. A caixa de diálogo Salvar seu relatório é aberta. Digite **Units por Fornecedor** na caixa de texto **Inserir um nome para o relatório**.
 
-9. Certifique-se de que o workspace de destino seja seu workspace do Fabric, **FAIAD_<nome de usuário>**.
+9. Certifique-se de que o workspace de destino seja seu workspace do Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 10. Selecione **Salvar**.
 

@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - ラボ 1
 
+![](../media/Lab-1/jpn1.png)
+
 ## 目次
 
 - ドキュメントの構造
@@ -64,19 +66,19 @@ Fabric の説明を始める前に、変換とモデルについて理解する�
 
 2. [メール アドレスの入力] ダイアログが表示されたら、**ユーザー名**をコピーしてダイアログの**メール** フィールドに貼り付け、**続行**を選択します。
 
-    - メール/ユーザー名:
+    - メール/ユーザー名: <inject key="AzureAdUserEmail"></inject>
 
     ![](../media/Lab-1/image7.png)
 
 3. [Microsoft Azure にサインインする] タブにログイン画面が表示されます。次のメール アドレス/ユーザー名を入力して、**次へ**をクリックします。
 
-    - メール/ユーザー名:
+    - メール/ユーザー名: <inject key="AzureAdUserEmail"></inject>
 
     ![](../media/Lab-1/image8.png)
 
 4. 次に、以下の**一時アクセス パス**を入力して、**サインイン**をクリックします。
 
-    - 一時アクセス パス:
+    - 一時アクセス パス: <inject key="AzureAdUserPassword"></inject>
 
     ![](../media/Lab-1/image9.png)
 
@@ -175,9 +177,9 @@ Fabric の説明を始める前に、変換とモデルについて理解する�
 
 8. **ユーザー名**と**パスワード**を入力することで、Dataverse データ ソースの資格情報を入力できます。資格情報は以下で提供します。終わったら、**接続**を選択します。
 
-    - メール/ユーザー名: [環境] タブで見つけることができます
+    - メール/ユーザー名: <inject key="AzureAdUserEmail"></inject>
 
-    - パスワード: [環境] タブで見つけることができます
+    - パスワード: <inject key="AzureAdUserPassword"></inject>
 
 9. クエリ ウィンドウから **ADLS Base Folder** クエリをクリックします。このクエリを選択すると、資格情報を求められます。**資格情報の編集**をクリックします。
 
@@ -185,7 +187,7 @@ Fabric の説明を始める前に、変換とモデルについて理解する�
 
 10. ADLS データ ソースの場合、**Shared Access Signature (SAS)** オプションを選択し、下記の **SAS トークン**を入力します。
 
-    - **SAS** トークン: [環境] タブで見つけることができます
+    - **SAS** トークン: <inject key="Sas token"></inject>
 
     ![](../media/Lab-1/image23.png)
 
@@ -207,9 +209,9 @@ Fabric の説明を始める前に、変換とモデルについて理解する�
 
 13. 下記の **Snowflake ユーザー名**と** Snowflake パスワード**を入力します。これらの資格情報を使用して Snowflake にあるすべてのテーブルを Snowflake に接続し、**[接続]** を選択します。
 
-    - **Snowflake ユーザー名**: TE_SNOWFLAKE1
+    - **Snowflake ユーザー名**: <inject key="SnowFlake Username" enableCopy="false" />
 
-    - **Snowflake パスワード**: 8UpfRpExVDXv2AC1
+    - **Snowflake パスワード**: <inject key="SnowFlake Password" enableCopy="false" />
 
     *注: 上で示した資格情報を使用した Snowflake への接続で問題が発生する場合は、以下で示すバックアップ資格情報を使用してください。*
 
@@ -229,9 +231,9 @@ Fabric の説明を始める前に、変換とモデルについて理解する�
 
 16. **Microsoft アカウント** オプションを選択し、**サインイン**をクリックします。下記のユーザー名とパスワードを入力し、[接続] を選択します。
 
-    - **メール/ユーザー名:** [環境] タブで見つけることができます
+    - **メール/ユーザー名:** <inject key="AzureAdUserEmail"></inject>
 
-    - **パスワード:** [環境] タブで見つけることができます
+    - **パスワード:** <inject key="AzureAdUserPassword"></inject>
 
     ![](../media/Lab-1/image26.png)
 

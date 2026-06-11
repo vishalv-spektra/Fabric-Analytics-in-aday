@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Übung 5
 
+![](../media/Lab-1/i5.png)
+
 ## Inhalt
 
 - Einführung
@@ -47,7 +49,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 Beginnen wir damit, eine geplante Aktualisierung des Lieferanten-Dataflows zu konfigurieren.
 
-1. Wir navigieren zurück zum Fabric-Arbeitsbereich **FAIAD_<Benutzername>** indem wir den Arbeitsbereich im linken Bereich auswählen.
+1. Wir navigieren zurück zum Fabric-Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** indem wir den Arbeitsbereich im linken Bereich auswählen.
 
 2. Zum Erweitern des Bereichs mit der Liste der Artefakte wählen Sie den Doppelpfeil oben rechts im Bereich aus.
 
@@ -125,7 +127,7 @@ Beginnen wir damit, eine geplante Aktualisierung des Lieferanten-Dataflows zu ko
 
 ## Aufgabe 2: Pipeline erstellen
 
-1. Wir navigieren zurück zum Fabric-Arbeitsbereich **FAIAD_<Benutzername>**, indem wir den Arbeitsbereich im linken Bereich auswählen.
+1. Wir navigieren zurück zum Fabric-Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, indem wir den Arbeitsbereich im linken Bereich auswählen.
 
 2. Wählen Sie im oberen Menü **+ Neues Element (1) -> Pipeline (2)** aus.
 
@@ -167,7 +169,7 @@ Beginnen wir mit der Erstellung der Pipeline. Wir benötigen eine Aktivität, um
 
     ![](../media/Lab-5/image22.png)
 
-3. Stellen Sie sicher, dass der **Arbeitsbereich** Ihr Fabric-Arbeitsbereich **FAIAD_<Benutzername>** ist.
+3. Stellen Sie sicher, dass der **Arbeitsbereich** Ihr Fabric-Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** ist.
 
 4. Wählen Sie im **Dropdownmenü „Dataflow“** die Option **df_People_SharePoint** aus. Wenn diese Dataflow-Aktivität ausgeführt wird, erfolgt eine Aktualisierung von **df_People_SharePoint.** Das war doch einfach, oder?
 
@@ -207,7 +209,7 @@ Beginnen wir mit der Erstellung der Pipeline. Wir benötigen eine Aktivität, um
 
 Fügen wir unserem Szenario etwas mehr Komplexität hinzu. Wir haben festgestellt, dass, wenn die Daten nicht um 9:00 Uhr morgens verfügbar sind, sie in der Regel innerhalb von fünf Minuten verfügbar sind. Wird das Zeitfenster verpasst, dauert es 15 Minuten, bis die Datei verfügbar ist. Wir möchten die Wiederholungen so planen, dass sie alle 5 und 15 Minuten erfolgen. Sehen wir uns an, wie dies durch die Erstellung einer neuen Pipeline erreicht werden kann.
 
-1. Wählen Sie im linken Bereich **FAIAD_<Benutzername>** aus, um zur Startseite des Arbeitsbereichs zu gelangen.
+1. Wählen Sie im linken Bereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** aus, um zur Startseite des Arbeitsbereichs zu gelangen.
 
 2. Klicken Sie im oberen Menü auf **+Neues Element (1)** und im Popout-Fenster auf **Pipeline (2)**.
 
@@ -375,7 +377,7 @@ Fügen wir unserem Szenario etwas mehr Komplexität hinzu. Wir haben festgestell
 
 7. Wählen Sie im unteren Bereich die Option **Einstellungen** aus.
 
-8. Stellen Sie sicher, dass der **Arbeitsbereich**, **FAIAD_<Benutzername>** ist.
+8. Stellen Sie sicher, dass der **Arbeitsbereich**, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** ist.
 
 9. Wählen Sie im **Dropdownmenü „Dataflow“** die Option **df_People_SharePoint** aus.
 
@@ -576,7 +578,7 @@ Als nächstes müssen wir 5 Minuten/300 Sekunden warten, wenn die Dataflow-Aktua
 
 10. Wählen Sie das **X** oben rechts im Dialogfeld aus, um es zu schließen.
 
-11. Wählen Sie im linken Bereich Ihren Fabric-Arbeitsbereich **FAIAD_<Benutzername>** aus, um zur Startseite des Arbeitsbereichs zu gelangen.
+11. Wählen Sie im linken Bereich Ihren Fabric-Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** aus, um zur Startseite des Arbeitsbereichs zu gelangen.
 
     **Hinweis:** Im Bildschirm „Zeitplan“ ist keine Option verfügbar, um Sie zu benachrichtigen, ob der Vorgang erfolgreich war oder nicht (wie beim Dataflow-Zeitplan). Die Benachrichtigung kann durch Hinzufügen einer Aktivität in der Pipeline erfolgen. Wir führen diesen Schritt nicht in dieser Übung durch, weil es sich um eine Übungsumgebung handelt.
 

@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Laboratorio 7
 
+![](../media/Lab-1/ii7.png)
+
 ## Contenido
 
 - Introducción
@@ -39,7 +41,7 @@ Al final de este laboratorio, habrá aprendido:
 
 Comencemos con la opción de creación automática de informes. Y, más adelante en el laboratorio, volveremos a crear el informe que tenemos en Power BI.
 
-1. Volvamos al **área de trabajo de Fabric** que creó en el Laboratorio 2 llamada **FAIAD_<username>**.
+1. Volvamos al **área de trabajo de Fabric** que creó en el Laboratorio 2 llamada **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 2. En la parte inferior del panel de navegación de la izquierda, seleccione el icono **Selector de experiencia de Fabric**.
 
@@ -81,7 +83,7 @@ Comencemos con la opción de creación automática de informes. Y, más adelante
 
 10. Se abre el cuadro de diálogo Guardar el informe. Nombre el informe como **rpt_Sales_Auto_Report** **Nota:** Estamos anteponiendo rpt al nombre del informe, que es la abreviatura de informe (en inglés).
 
-11. Asegúrese de que el informe esté guardado en el área de trabajo **FAIAD_<username>.**
+11. Asegúrese de que el informe esté guardado en el área de trabajo **FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 12. Seleccione **Guardar.**
 
@@ -99,7 +101,7 @@ Comencemos con la opción de creación automática de informes. Y, más adelante
 
 Creemos un nuevo informe usando un lienzo en blanco.
 
-1. En el **panel izquierdo**, seleccione el nombre del área de trabajo, **FAIAD_<username>** por el que se navegará en el área de trabajo.
+1. En el **panel izquierdo**, seleccione el nombre del área de trabajo, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** por el que se navegará en el área de trabajo.
 
 2. En el menú superior, seleccione **Nuevo elemento -> Informe**. Se le dirigirá a la página de creación de su primer informe.
 
@@ -242,7 +244,7 @@ Guardemos el informe antes de salir de él para realizar cambios en el modelo.
 2. Se abre el cuadro de diálogo Guardar el informe. Nombre el informe como **rpt_Sales_Report**
     **Nota:** Estamos anteponiendo rpt al nombre del informe, que es la abreviatura de informe (en inglés).
 
-3. Asegúrese de que el informe esté guardado en el área de trabajo **FAIAD_<username>.**
+3. Asegúrese de que el informe esté guardado en el área de trabajo **FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 4. Seleccione **Guardar.** Observe que el informe se guarda y usted se encuentra en modo de vista.
 
@@ -438,7 +440,7 @@ En un escenario real, los datos se actualizan en el origen. Como estamos en un e
 
 2. En la esquina inferior derecha, haga clic en el **logotipo de Fabric** y cambie a la **vista de Fabric**.
 
-3. Seleccione **FAIAD_<username>** en la barra de menús de la izquierda para navegar hasta la página de inicio del área de trabajo.
+3. Seleccione **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** en la barra de menús de la izquierda para navegar hasta la página de inicio del área de trabajo.
 
 4. Seleccione **lh_FAIAD** para ir al almacén de lago de datos.
 
@@ -675,7 +677,7 @@ En un escenario real, los datos se actualizan en el origen. Como estamos en un e
 
 Una vez que esté todo listo para limpiar el entorno del laboratorio, siga los pasos a continuación.
 
-1. Seleccione el área de trabajo **FAIAD_<nombre de usuario>** en el panel izquierdo para navegar a la página de inicio del área de trabajo.
+1. Seleccione el área de trabajo **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** en el panel izquierdo para navegar a la página de inicio del área de trabajo.
 
 2. En el menú superior, seleccione **Configuración del área de trabajo**.
 

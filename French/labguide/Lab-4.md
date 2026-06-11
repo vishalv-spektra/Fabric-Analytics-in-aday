@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Labo 4
 
+![](../media/Lab-1/fn4.png)
+
 ## Sommaire
 
 - Introduction
@@ -38,7 +40,7 @@ L’équipe informatique a déjà établi un lien vers Dataverse et appliqué le
 
 ## Tâche 1 : copier des requêtes SharePoint dans Dataflow
 
-1. Revenons à l’espace de travail Fabric **FAIAD_<username> (1)** que vous avez créé dans le labo 2, tâche 8.
+1. Revenons à l’espace de travail Fabric **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)** que vous avez créé dans le labo 2, tâche 8.
 
 2. Cliquez sur l’option **+ Nouvel élément (2)** qui se trouve en haut à gauche de l’écran.
 
@@ -104,7 +106,7 @@ La connexion est établie et vous pouvez afficher les données dans le volet d�
 
 4. La boîte de dialogue Choisir la cible de destination s’ouvre alors. Assurez-vous que le bouton radio **Nouvelle table** est coché, car nous créons une table.
 
-5. Nous souhaitons créer la table dans le lakehouse que nous avons créé plus tôt. Dans le volet gauche, accédez à **Lakehouse -> FAIAD_<username>**.
+5. Nous souhaitons créer la table dans le lakehouse que nous avons créé plus tôt. Dans le volet gauche, accédez à **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 6. Sélectionnez **lh_FAIAD**.
 
@@ -130,7 +132,7 @@ La connexion est établie et vous pouvez afficher les données dans le volet d�
 
     ![](../media/Lab-4/image17.png)
 
-    **Remarque :** vous êtes alors redirigé(e) vers l’espace de travail **FAIAD_<username>**. L’exécution du flux de données peut prendre quelques instants avant de se terminer.
+    **Remarque :** vous êtes alors redirigé(e) vers l’espace de travail **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**. L’exécution du flux de données peut prendre quelques instants avant de se terminer.
 
 3. **Dataflow 1** est le flux de données sur lequel nous travaillions. Renommons-le avant de continuer. Cliquez sur les points de **suspension (…)** en regard de Flux de données 1. Sélectionnez **Paramètres**. (Pendant l’exécution du flux de données, vous ne pouvez pas accéder aux paramètres.)
 
@@ -144,7 +146,7 @@ La connexion est établie et vous pouvez afficher les données dans le volet d�
 
     ![](../media/Lab-4/image19.png)
 
-    Vous êtes alors redirigé vers l’espace de travail **FAIAD_<username>**.
+    Vous êtes alors redirigé vers l’espace de travail **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 7. Cliquez sur **lh_FAIAD** pour accéder au lakehouse.
 
@@ -158,7 +160,7 @@ La connexion est établie et vous pouvez afficher les données dans le volet d�
 
 ## Tâche 5 : copier des requêtes Snowflake dans Dataflow
 
-1. Revenons à l’espace de travail Fabric **FAIAD_<username> (1)**.
+1. Revenons à l’espace de travail Fabric **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)**.
 
 2. Cliquez sur l’option **+ Nouvel élément (2)** qui se trouve en haut à gauche de l’écran.
 
@@ -210,9 +212,9 @@ Notez que les cinq requêtes sont collées et que vous disposez désormais du vo
 
 4. Saisissez le **nom d’utilisateur Snowflake** et le **mot de passe Snowflake** fournis ci-après. Utilisez ces informations d’identification pour connecter toutes les tables sous Snowflake à Snowflake, puis cliquez sur **Connecter**.
 
-    - Nom d’utilisateur Snowflake : TE_SNOWFLAKE1
+    - Nom d’utilisateur Snowflake : <inject key="SnowFlake Username" enableCopy="false" />
 
-    - Mot de passe Snowflake : 8UpfRpExVDXv2AC1
+    - Mot de passe Snowflake : <inject key="SnowFlake Password" enableCopy="false" />
 
     **Remarque :** si vous avez des difficultés à vous connecter à Snowflake avec les informations d’identification des détails de l’environnement, veuillez utiliser les informations d’identification fournies ci-après.
 
@@ -234,7 +236,7 @@ Notez que les cinq requêtes sont collées et que vous disposez désormais du vo
 
     ![](../media/Lab-4/image26.png)
 
-3. La boîte de dialogue Se connecter à la destination des données s’ouvre alors. Dans la liste déroulante **Connexion**, sélectionnez **Lakehouse odl_user_<username> (aucun)**.
+3. La boîte de dialogue Se connecter à la destination des données s’ouvre alors. Dans la liste déroulante **Connexion**, sélectionnez **Lakehouse odl_user_<inject key="Deployment ID" enableCopy="false"/> (aucun)**.
 
 4. Cliquez sur **Suivant**.
 
@@ -242,7 +244,7 @@ Notez que les cinq requêtes sont collées et que vous disposez désormais du vo
 
 5. La boîte de dialogue Choisir la cible de destination s’ouvre alors. Assurez-vous que le **bouton** radio Nouvelle **table** est **coché**, car nous créons une table.
 
-6. Nous souhaitons créer la table dans le lakehouse que nous avons créé plus tôt. Dans le volet gauche, accédez à **Lakehouse -> FAIAD_<username>**.
+6. Nous souhaitons créer la table dans le lakehouse que nous avons créé plus tôt. Dans le volet gauche, accédez à **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 7. Sélectionnez **lh_FAIAD**.
 
@@ -274,7 +276,7 @@ Notez que les cinq requêtes sont collées et que vous disposez désormais du vo
 
     ![](../media/Lab-4/image32.png)
 
-    Vous êtes alors redirigé vers l’espace de travail **FAIAD_<username>**. La publication du flux de données peut prendre quelques instants.
+    Vous êtes alors redirigé vers l’espace de travail **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**. La publication du flux de données peut prendre quelques instants.
 
 5. Cliquez sur **lh_FAIAD** pour accéder au lakehouse.
 

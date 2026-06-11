@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - 实验室 0
 
+![](../media/Lab-1/cn3.png)
+
 ## 目录
 
 - 简介
@@ -63,7 +65,7 @@
 
 9. 复制 SAS 令牌并将其粘贴到 SAS 令牌 (5) 字段中。
 
-    - **SAS 令牌：**
+    - **SAS 令牌：** <inject key="Sas token"></inject>
 
 10. 选择屏幕右下角的**下一步 (6)**。
 

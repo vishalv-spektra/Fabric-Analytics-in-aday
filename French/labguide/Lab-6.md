@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Labo 6
 
+![](../media/Lab-1/fn6.png)
+
 ## Sommaire
 
 - Introduction
@@ -29,11 +31,11 @@ Nous avons des données provenant de différentes sources ingérées dans la lak
 
 ## Tâche 1 : interroger des données à l’aide de SQL
 
-1. Revenons à l’espace de travail Fabric **FAIAD_<username>** que vous avez créé dans le labo 2, tâche 8.
+1. Revenons à l’espace de travail Fabric **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** que vous avez créé dans le labo 2, tâche 8.
 
 2. Si vous le souhaitez, **réduisez le flux de tâches** pour afficher la liste complète des éléments.
 
-3. Vous voyez trois éléments associés à lh_FAIAD : Lakehouse, Modèle sémantique et Point de terminaison SQL. Nous avons exploré le lakehouse et créé une requête visuelle ainsi qu’une requête SQL à l’aide du point de terminaison d’analytique SQL dans un labo précédent. Sélectionnez l’icône **FAIAD_<username>** dans le volet de navigation de gauche et choisissez l’option **point de terminaison analytique SQL lh_FAIAD** pour continuer à explorer cette option. Vous êtes alors redirigé vers la **vue SQL** de l’explorateur.
+3. Vous voyez trois éléments associés à lh_FAIAD : Lakehouse, Modèle sémantique et Point de terminaison SQL. Nous avons exploré le lakehouse et créé une requête visuelle ainsi qu’une requête SQL à l’aide du point de terminaison d’analytique SQL dans un labo précédent. Sélectionnez l’icône **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** dans le volet de navigation de gauche et choisissez l’option **point de terminaison analytique SQL lh_FAIAD** pour continuer à explorer cette option. Vous êtes alors redirigé vers la **vue SQL** de l’explorateur.
 
     ![](../media/Lab-6/image6.png)
 
@@ -93,7 +95,7 @@ Nous avons des données provenant de différentes sources ingérées dans la lak
 
 8. La boîte de dialogue Enregistrer votre rapport s’ouvre alors. Tapez **Units by Supplier** dans la zone de texte **Entrez un nom pour votre rapport**.
 
-9. Assurez-vous que l’espace de travail de destination est votre espace de travail Fabric **FAIAD_<username>**.
+9. Assurez-vous que l’espace de travail de destination est votre espace de travail Fabric **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 10. Cliquez sur **Enregistrer**.
 

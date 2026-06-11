@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - ラボ 3
 
+![](../media/Lab-1/jpn3.png)
+
 ## 目次
 
 - 概要
@@ -63,7 +65,7 @@
 
 9. SAS トークンをコピーして、SAS トークン (5) フィールドに貼り付けます。
 
-    - **SAS トークン:**
+    - **SAS トークン:** <inject key="Sas token"></inject>
 
 10. 画面右下の**次へ (6)** を選択します。
 

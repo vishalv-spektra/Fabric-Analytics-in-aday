@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Laboratorio 6
 
+![](../media/Lab-1/ii6.png)
+
 ## Contenido
 
 - Presentación
@@ -28,11 +30,11 @@ Al final de este laboratorio, habrá aprendido:
 
 ### Tarea 1: Consultar datos con SQL
 
-1. Volvamos al área de trabajo de Fabric, **FAIAD_<username>**, que creó en el Laboratorio 2, Tarea 8.
+1. Volvamos al área de trabajo de Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, que creó en el Laboratorio 2, Tarea 8.
 
 2. Si lo desea, **Minimice el flujo de tareas** para ver la lista completa de elementos.
 
-3. Verá tres elementos asociados a lh_FAIAD: almacén de lago de datos, modelo semántico y punto de conexión SQL. Hemos explorador el almacén de lago de datos y creado una consulta de objeto visual y consulta SQL mediante el **punto de conexión de análisis SQL** en un laboratorio anterior. Seleccione **FAIAD_<nombre de usuario>** en la navegación izquierda y elija la opción **punto de conexión de análisis SQL de lh_FAIAD** para continuar explorando esta opción. Esto le llevará a la **vista de SQL** del explorador.
+3. Verá tres elementos asociados a lh_FAIAD: almacén de lago de datos, modelo semántico y punto de conexión SQL. Hemos explorador el almacén de lago de datos y creado una consulta de objeto visual y consulta SQL mediante el **punto de conexión de análisis SQL** en un laboratorio anterior. Seleccione **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** en la navegación izquierda y elija la opción **punto de conexión de análisis SQL de lh_FAIAD** para continuar explorando esta opción. Esto le llevará a la **vista de SQL** del explorador.
 
     ![](../media/Lab-6/image6.png)
 
@@ -92,7 +94,7 @@ Al final de este laboratorio, habrá aprendido:
 
 8. Se abre el cuadro de diálogo Guardar el informe. Escriba **Units by Supplier** en el cuadro de texto **Especifique un nombre para el informe**.
 
-9. Asegúrese de que el área de trabajo de destino es su área de trabajo de Fabric **FAIAD_<username>**
+9. Asegúrese de que el área de trabajo de destino es su área de trabajo de Fabric **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**
 
 10. Seleccione **Guardar**.
 

@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Laboratorio 4
 
+![](../media/Lab-1/ii4.png)
+
 ## Contenido
 
 - Presentación
@@ -37,7 +39,7 @@ Al final de este laboratorio, habrá aprendido:
 
 ## Tarea 1: Copiar consultas de SharePoint al flujo de datos
 
-1. Volvamos al área de trabajo de Fabric, **FAIAD_<username> (1)**, que creó en el Laboratorio 2, Tarea 8.
+1. Volvamos al área de trabajo de Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)**, que creó en el Laboratorio 2, Tarea 8.
 
 2. Seleccione la opción **+ Nuevo elemento (2)** en la esquina superior derecha.
 
@@ -103,7 +105,7 @@ Se establece la conexión y puede ver los datos en el panel de vista previa. Si�
 
 4. Se abre el cuadro de diálogo de Elegir el objetivo de destino. Asegúrese de que el **botón de opción** Nueva tabla esté seleccionado, ya que estamos creando una nueva tabla.
 
-5. Queremos crear la tabla en el lakehouse que creamos anteriormente. En el panel izquierdo, navegue hasta **Lakehouse -> FAIAD_<username>.**
+5. Queremos crear la tabla en el lakehouse que creamos anteriormente. En el panel izquierdo, navegue hasta **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 6. Seleccione **lh_FAIAD**.
 
@@ -129,7 +131,7 @@ Se establece la conexión y puede ver los datos en el panel de vista previa. Si�
 
     ![](../media/Lab-4/image17.png)
 
-    **Nota:** Se le dirigirá de vuelta al área de trabajo **FAIAD_<username>**. Es posible que el flujo de datos tarde unos minutos en terminar de ejecutarse.
+    **Nota:** Se le dirigirá de vuelta al área de trabajo **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**. Es posible que el flujo de datos tarde unos minutos en terminar de ejecutarse.
 
 3. **Estamos trabajando con Dataflow 1.** Vamos a cambiarle el nombre antes de continuar. Haga clic en los **puntos suspensivos (...)** junto a Dataflow 1. Seleccione **Configuración** (mientras se ejecuta el flujo de datos, no puede acceder a la configuración).
 
@@ -143,7 +145,7 @@ Se establece la conexión y puede ver los datos en el panel de vista previa. Si�
 
     ![](../media/Lab-4/image19.png)
 
-    Se le dirigirá de vuelta al **área de trabajo FAIAD_<username>**.
+    Se le dirigirá de vuelta al **área de trabajo FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 7. Seleccione **lh_FAIAD** para ir al almacén de lago de datos.
 
@@ -157,7 +159,7 @@ Se establece la conexión y puede ver los datos en el panel de vista previa. Si�
 
 ## Tarea 5: Copiar consultas de Snowflake al flujo de datos
 
-1. Volvamos al área de trabajo de Fabric, **FAIAD_<username> (1)**.
+1. Volvamos al área de trabajo de Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)**.
 
 2. Seleccione la opción **+ Nuevo elemento (2)** en la esquina superior derecha.
 
@@ -209,9 +211,9 @@ Observe que las cinco consultas están pegadas y ahora tiene el panel Consultas 
 
 4. Introduzca el **nombre de usuario de Snowflake** y la **contraseña de Snowflake** que se proporcionan a continuación. Use estas credenciales para conectar todas las tablas de Snowflake con Snowflake y luego seleccione **Conectar**.
 
-    - Nombre de usuario de Snowflake: TE_SNOWFLAKE1
+    - Nombre de usuario de Snowflake: <inject key="SnowFlake Username" enableCopy="false" />
 
-    - Contraseña de Snowflake: 8UpfRpExVDXv2AC1
+    - Contraseña de Snowflake: <inject key="SnowFlake Password" enableCopy="false" />
 
     **Nota:** Si tiene algún problema para conectarse a Snowflake con las credenciales de los detalles del entorno, utilice las credenciales que se proporcionan a continuación.
 
@@ -233,7 +235,7 @@ Observe que las cinco consultas están pegadas y ahora tiene el panel Consultas 
 
     ![](../media/Lab-4/image26.png)
 
-3. Se abre el cuadro de diálogo Conectarse al destino de datos. En el **menú desplegable Conexión**, seleccione **Lakehouse odl_user_<username> (ninguno)**.
+3. Se abre el cuadro de diálogo Conectarse al destino de datos. En el **menú desplegable Conexión**, seleccione **Lakehouse odl_user_<inject key="Deployment ID" enableCopy="false"/> (ninguno)**.
 
 4. Seleccione **Siguiente**.
 
@@ -241,7 +243,7 @@ Observe que las cinco consultas están pegadas y ahora tiene el panel Consultas 
 
 5. Se abre el cuadro de diálogo de Elegir el objetivo de destino. Asegúrese de que el botón de opción **Nueva tabla** esté seleccionado, ya que estamos creando una nueva tabla.
 
-6. Queremos crear la tabla en el lakehouse que creamos anteriormente. En el panel izquierdo, navegue hasta **Lakehouse -> FAIAD_<username>.**
+6. Queremos crear la tabla en el lakehouse que creamos anteriormente. En el panel izquierdo, navegue hasta **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 7. Seleccione **lh_FAIAD**.
 
@@ -273,7 +275,7 @@ Observe que las cinco consultas están pegadas y ahora tiene el panel Consultas 
 
     ![](../media/Lab-4/image32.png)
 
-    Se le dirigirá de vuelta al **área de trabajo FAIAD_<username>**. Es posible que el flujo de datos tarde unos minutos en publicarse.
+    Se le dirigirá de vuelta al **área de trabajo FAIAD_<inject key="Deployment ID" enableCopy="false"/>**. Es posible que el flujo de datos tarde unos minutos en publicarse.
 
 5. Seleccione **lh_FAIAD** para ir al almacén de lago de datos.
 

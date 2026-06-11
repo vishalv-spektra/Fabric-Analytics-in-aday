@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Lab 7
 
+![](../media/Lab-1/it7.png)
+
 ## Contents
 
 - Introduzione
@@ -38,7 +40,7 @@ In questo lab si imparerà a:
 
 Iniziamo usando l'opzione di creazione automatica del report. Più avanti nel lab, creeremo nuovamente il report presente in Power BI.
 
-1. Torniamo **all'area di lavoro di Fabric** creata nel Lab 2, di nome **FAIAD_<nome utente>**.
+1. Torniamo **all'area di lavoro di Fabric** creata nel Lab 2, di nome **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 2. Nella parte inferiore del pannello di sinistra selezionare l'icona **selettore esperienza in Fabric**.
 
@@ -81,7 +83,7 @@ Iniziamo usando l'opzione di creazione automatica del report. Più avanti nel la
 10. Si apre la finestra di dialogo Salva report. Assegnare al report il nome **rpt_Sales_Auto_Report**
     **Nota:** all'inizio del nome del report aggiungiamo il prefisso rpt, ovvero l'abbreviazione di report.
 
-11. Assicurarsi che il report sia salvato nell'area di lavoro **FAIAD_<nome utente>.**
+11. Assicurarsi che il report sia salvato nell'area di lavoro **FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 12. Selezionare **Salva.**
 
@@ -99,7 +101,7 @@ Iniziamo usando l'opzione di creazione automatica del report. Più avanti nel la
 
 Creiamo un nuovo report usando un'area di disegno vuota.
 
-1. Nel **pannello di sinistra** selezionare il nome dell'area di lavoro, **FAIAD_<nome utente>**, per tornare a essa.
+1. Nel **pannello di sinistra** selezionare il nome dell'area di lavoro, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, per tornare a essa.
 
 2. Nel menu in alto selezionare **Nuovo elemento** -> **Report**. Si aprirà la pagina per creare il primo report.
 
@@ -242,7 +244,7 @@ Salviamo il report prima di uscire da esso per apportare modifiche al modello.
 2. Si apre la finestra di dialogo Salva report. Assegnare al report il nome **rpt_Sales_Report**
     **Nota:** all'inizio del nome del report aggiungiamo il prefisso rpt, ovvero l'abbreviazione di report.
 
-3. Assicurarsi che il report sia salvato nell'area di lavoro **FAIAD_<nome utente>.**
+3. Assicurarsi che il report sia salvato nell'area di lavoro **FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 4. Selezionare **Salva.** Notare che il report è stato salvato ed è attiva la modalità di visualizzazione.
 
@@ -438,7 +440,7 @@ In uno scenario reale, i dati vengono aggiornati nell'origine. Poiché ci trovia
 
 2. Nell'angolo in basso a destra, fai clic sul **logo Fabric** e passa alla **visualizzazione Fabric**.
 
-3. Selezionare **FAIAD_<nome utente>** nella barra dei menu di sinistra per andare alla home page dell'area di lavoro.
+3. Selezionare **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** nella barra dei menu di sinistra per andare alla home page dell'area di lavoro.
 
 4. Selezionare **lh_FAIAD** per spostarsi nel lakehouse.
 
@@ -675,7 +677,7 @@ In uno scenario reale, i dati vengono aggiornati nell'origine. Poiché ci trovia
 
 Quando si è pronti a eseguire la pulizia dell'ambiente lab, effettuare i passaggi seguenti.
 
-1. Selezionare l'area di lavoro **FAIAD_<nome utente>** nel pannello di sinistra per andare alla home page dell'area di lavoro.
+1. Selezionare l'area di lavoro **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** nel pannello di sinistra per andare alla home page dell'area di lavoro.
 
 2. Dal menu in alto selezionare **Area di lavoro e impostazioni**.
 

@@ -1,6 +1,6 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Übung 6
 
-![](../media/Lab-1/lab6.png)
+![](../media/Lab-1/i6.png)
 
 ## Inhalt
 
@@ -31,11 +31,11 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 ## Aufgabe 1: Daten mithilfe von SQL abfragen
 
-1. Navigieren wir nun zurück zum Fabric-Arbeitsbereich **FAIAD_<Benutzername>** den Sie in Übung 2, Aufgabe 8 erstellt haben.
+1. Navigieren wir nun zurück zum Fabric-Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** den Sie in Übung 2, Aufgabe 8 erstellt haben.
 
 2. Sie können bei Bedarf den **Taskflow minimieren**, um die vollständige Liste der Elemente anzuzeigen.
 
-3. Sie sehen drei Elemente, die mit lh_FAIAD – Lakehouse, dem semantischen Modell und dem SQL-Endpunkt zusammenhängen. In einer früheren Übung haben wir uns mit Lakehouse beschäftigt und eine Visual-Abfrage und eine SQL-Abfrage mithilfe des **SQL-Analyseendpunkts** erstellt. Wählen Sie **FAIAD_<Benutzername>** in der linken Navigationsleiste aus, und wählen Sie dann die Option **Analyse-Endpunkt lh_FAIAD SQL** aus, um diese Option weiter zu untersuchen. Sie werden zur **SQL-Ansicht** des Explorers weitergeleitet.
+3. Sie sehen drei Elemente, die mit lh_FAIAD – Lakehouse, dem semantischen Modell und dem SQL-Endpunkt zusammenhängen. In einer früheren Übung haben wir uns mit Lakehouse beschäftigt und eine Visual-Abfrage und eine SQL-Abfrage mithilfe des **SQL-Analyseendpunkts** erstellt. Wählen Sie **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** in der linken Navigationsleiste aus, und wählen Sie dann die Option **Analyse-Endpunkt lh_FAIAD SQL** aus, um diese Option weiter zu untersuchen. Sie werden zur **SQL-Ansicht** des Explorers weitergeleitet.
 
     ![](../media/Lab-6/image5.png)
 
@@ -95,7 +95,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 8. Das Dialogfeld „Bericht speichern“ wird geöffnet. Geben Sie im Textfeld **Namen für Bericht eingeben** den Text **Units by Supplier** ein.
 
-9. Überprüfen Sie, dass der Zielarbeitsbereich Ihrem Fabric-Arbeitsbereich **FAIAD_<Benutzername>** entspricht.
+9. Überprüfen Sie, dass der Zielarbeitsbereich Ihrem Fabric-Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** entspricht.
 
 10. Wählen Sie **Speichern** aus.
 

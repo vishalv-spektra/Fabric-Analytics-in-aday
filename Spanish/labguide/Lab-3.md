@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Laboratorio 3
 
+![](../media/Lab-1/ii3.png)
+
 ## Contenido
 
 - Presentación
@@ -63,7 +65,7 @@ Los accesos directos se utilizan para crear un vínculo a la ubicación de desti
 
 9. Copie el token de SAS y péguelo en el campo Token de SAS (5).
 
-    - **Token de SAS:**
+    - **Token de SAS:** <inject key="Sas token"></inject>
 
 10. Seleccione **Siguiente (6)** en la esquina inferior derecha de la pantalla.
 

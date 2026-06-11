@@ -1,5 +1,7 @@
 # Microsoft Fabric - Fabric Analyst in a Day - Labo 2
 
+![](../media/Lab-1/fn2.png)
+
 ## Sommaire
 
 - Introduction
@@ -43,19 +45,19 @@ Aujourd’hui, vous allez découvrir diverses fonctionnalités clés de Microsof
 
 2. Copiez le Nom d’utilisateur et collez-le dans le champ Messagerie de la boîte de dialogue, puis cliquez sur Envoyer.
 
-    - **Adresse e-mail/Nom d’utilisateur :** disponible dans l’onglet Environnement
+    - **Adresse e-mail/Nom d’utilisateur :** <inject key="AzureAdUserEmail"></inject>
 
         ![](../media/Lab-2/image7.png)
 
 3. Dans l’onglet **Se connecter à Microsoft Azure**, vous voyez l’écran de connexion ; saisissez la valeur **EmailUsername** suivante, puis cliquez sur **Suivant**.
 
-    - **Adresse e-mail/Nom d’utilisateur :** disponible dans l’onglet Environnement
+    - **Adresse e-mail/Nom d’utilisateur :** <inject key="AzureAdUserEmail"></inject>
 
         ![](../media/Lab-2/image8.png)
 
 4. Saisissez maintenant le **Passe d’accès temporaire** suivant et cliquez sur **Se connecter**.
 
-    - **Passe d’accès temporaire :** disponible dans l’onglet Environnement
+    - **Passe d’accès temporaire :**  <inject key="AzureAdUserPassword"></inject>
 
         ![](../media/Lab-2/image9.png)
 
@@ -97,7 +99,7 @@ Aujourd’hui, vous allez découvrir diverses fonctionnalités clés de Microsof
 
 3. La boîte de dialogue **Créer un espace de travail** s’ouvre alors sur le côté droit du navigateur.
 
-4. Dans le champ **Nom**, saisissez FAIAD_UserID (disponible dans l’onglet Environnement).
+4. Dans le champ **Nom**, saisissez FAIAD_<inject key="Deployment ID" enableCopy="false"/> (disponible dans l’onglet Environnement).
 
     ***Remarque :** le nom de l’espace de travail doit être unique. Assurez-vous qu’une coche verte avec « Ce nom est disponible » s’affiche sous le champ Nom.*
 
@@ -117,7 +119,7 @@ Aujourd’hui, vous allez découvrir diverses fonctionnalités clés de Microsof
 
 ## Tâche 3 : créer un lakehouse
 
-1. Dans l’espace de travail **FAIAD_Username** venant d’être créé, recherchez le bouton **+ Nouvel élément (1)** dans le volet de navigation gauche. C’est dans cette section que vous pouvez commencer à créer des éléments dans votre espace de travail.
+1. Dans l’espace de travail **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** venant d’être créé, recherchez le bouton **+ Nouvel élément (1)** dans le volet de navigation gauche. C’est dans cette section que vous pouvez commencer à créer des éléments dans votre espace de travail.
 
 2. Dans la zone de recherche, saisissez **Lakehouse (2)** puis, dans les résultats de la recherche, sélectionnez l’option **Lakehouse (3)**. Vous pourrez alors créer un lakehouse pour stocker, interroger et gérer votre Big Data.
 
