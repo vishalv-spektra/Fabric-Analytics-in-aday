@@ -18,55 +18,6 @@
 - 참조
 
 
-Microsoft Fabric Fabric Analyst in a Day 랩 4
-
-버전: 2026년 5월
-
-![](../media/Lab-4/image1.png)
-
-랩 0
-
-Microsoft Fabric
-
-Fabric Analyst in a Day
-
-![](../media/Lab-4/image1.png)
-
-랩 0
-
-작
-
-![](../media/Lab-4/image2.png)
-목차
-
-소개
-
-데이터 흐름 2세대
-
-작업 1: SharePoint 쿼리를 데이터 흐름에 복사
-
-작업 2: SharePoint 연결 만들기
-
-작업 3: People 쿼리를 위한 데이터 대상 구성
-
-작업 4: SharePoint 데이터 흐름 이름 바꾸기 및 게시
-
-작업 5: Snowflake 쿼리를 데이터 흐름에 복사
-
-작업 6: Snowflake에 대한 연결 만들기
-
-작업 7: Supplier 및 PO 쿼리를 위한 데이터 대상 구성
-
-작업 8: Snowflake 데이터 흐름 이름 바꾸기 및 게시
-
-내부 레이크하우스 바로 가기
-
-작업 9: Dataverse 바로 가기 생성 방법
-
-작업 10: 레이크하우스 바로 가기 생성
-
-참조
-
 # 소개
 
 우리 시나리오에서 공급사 데이터는 Snowflake에 있고 고객 데이터는 Dataverse에 있으며 직원 데이터는 SharePoint에 있습니다. 이들 모든 데이터 원본은 서로 다른 시간에 업데이트됩니다. 데이터 흐름의 데이터 새로 고침 횟수를 최소화하기 위해 Snowflake 및 SharePoint 데이터 원본에 대한 개별 데이터 흐름을 만들겠습니다.
@@ -465,7 +416,7 @@ Fabric Analyst in a Day(FAIAD)는 Microsoft Fabric에서 사용할 수 있는 �
 
 - [Dataverse 및 Microsoft Fabric 통합 블로그](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. All rights reserved.
+© 2026 Microsoft Corporation. All rights reserved.
 
 이 데모/랩을 사용하면 다음 조건에 동의하게 됩니다.
 

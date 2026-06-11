@@ -15,26 +15,6 @@
 - 참조
 
 
-Microsoft Fabric Fabric Analyst in a Day 랩 6
-
-버전: 2026년 5월
-
-![](../media/Lab-6/image1.png)
-
-랩 0
-
-Microsoft Fabric
-
-Fabric Analyst in a Day
-
-![](../media/Lab-6/image1.png)
-
-랩 0
-
-작
-
-![](../media/Lab-6/image2.png)
-
 # 소개
 
 우리는 다양한 데이터 원본의 데이터를 레이크하우스로 수집했습니다. 본 랩에서는 의미 체계 모델을 사용합니다. 일반적으로 우리는 Power BI Desktop에서 관계 생성, 측정값 추가 등과 같은 모델링 활동을 수행했습니다. 여기서는 서비스에서 이러한 모델링 활동을 수행하는 방법을 알아봅니다.
@@ -437,7 +417,7 @@ Fabric Analyst in a Day(FAIAD)는 Microsoft Fabric에서 사용할 수 있는 �
 
 - [Dataverse 및 Microsoft Fabric 통합 블로그](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. All rights reserved.
+© 2026 Microsoft Corporation. All rights reserved.
 
 이 데모/랩을 사용하면 다음 조건에 동의하게 됩니다.
 

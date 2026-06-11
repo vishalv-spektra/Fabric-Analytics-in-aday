@@ -11,24 +11,6 @@
 - 참조
 
 
-Microsoft Fabric Fabric Analyst in a Day 랩 3
-
-버전: 2026년 5월
-
-![](../media/Lab-3/image1.png)
-
-랩 0
-
-Microsoft Fabric
-
-Fabric Analyst in a Day
-
-![](../media/Lab-3/image1.png)
-
-랩 0
-
-작
-
 # 소개
 
 우리 시나리오에서 매출 데이터는 ERP 시스템에서 제공되며 ADLS Gen2에 저장됩니다. 매일 정오/오후 12시에 업데이트됩니다. 이 데이터를 레이크하우스로 변환하고 수집하여 모델에서 사용해야 합니다.
@@ -564,7 +546,7 @@ Fabric Analyst in a Day(FAIAD)는 Microsoft Fabric에서 사용할 수 있는 �
 
 - [Dataverse 및 Microsoft Fabric 통합 블로그](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. All rights reserved.
+© 2026 Microsoft Corporation. All rights reserved.
 
 이 데모/랩을 사용하면 다음 조건에 동의하게 됩니다.
 

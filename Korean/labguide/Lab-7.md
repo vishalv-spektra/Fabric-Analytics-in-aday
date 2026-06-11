@@ -19,22 +19,6 @@
 - 참조
 
 
-Microsoft Fabric Fabric Analyst in a Day 랩 7
-
-버전: 2026년 5월
-
-![](../media/Lab-7/image1.png)
-
-랩 0
-
-Microsoft Fabric
-
-Fabric Analyst in a Day
-
-![](../media/Lab-7/image1.png)
-
-랩 0
-
 # 소개
 
 이 과정에서 여러분은 레이크하우스에 대해 알게 되었으며, 각각의 데이터 원본들에서 레이크하우스로 데이터를 수집하고, 데이터 원본의 새로 고침 일정을 지정하고, 데이터 모델을 생성했습니다. 이제는 보고서를 생성하겠습니다.
@@ -754,7 +738,7 @@ Fabric Analyst in a Day(FAIAD)는 Microsoft Fabric에서 사용할 수 있는 �
 
 - [Dataverse 및 Microsoft Fabric 통합 블로그](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. All rights reserved.
+© 2026 Microsoft Corporation. All rights reserved.
 
 이 데모/랩을 사용하면 다음 조건에 동의하게 됩니다.
 

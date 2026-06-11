@@ -287,7 +287,7 @@ Microsoft Fabric の次のステップに役立つリソースをいくつか以
 
 - [Dataverse と Microsoft Fabric の統合に関するブログ](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation.All rights reserved.
+© 2026 Microsoft Corporation.All rights reserved.
 
 このデモ/ラボを使用すると、次の条件に同意したことになります。
 

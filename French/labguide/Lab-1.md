@@ -15,7 +15,7 @@
 
 Le labo comprend des étapes à suivre par l’utilisateur, ainsi que des captures d’écran associées qui fournissent une aide visuelle. Dans chaque capture d’écran, des sections sont mises en évidence avec des encadrés orange afin de souligner la ou les zones sur laquelle/lesquelles l’utilisateur doit se concentrer.
 
-**Remarque**** :** certaines captures d’écran peuvent être obsolètes en raison des mises à jour produit en cours.
+**Remarque** **:** certaines captures d’écran peuvent être obsolètes en raison des mises à jour produit en cours.
 
 # Scénario/Énoncé du problème
 
@@ -33,7 +33,7 @@ Afin de tirer de précieux insights des données, vous extrayez les données de 
 
 - **Données collaborateur** **:** proviennent du système RH ; elles sont stockées sous forme de fichiers d’exportation dans un dossier SharePoint. Elles sont mises à jour tous les matins à 9 h.
 
-![](../media/Lab-1/image4.jpeg)
+    ![](../media/Lab-1/image4.jpeg)
 
 Vous créez actuellement un modèle sémantique dans Power BI Premium qui extrait les données des systèmes sources ci-dessus, afin de répondre à vos besoins en matière de reporting et de fournir un libre-service aux utilisateurs finaux. Vous mettez à jour votre modèle à l’aide de Power Query.
 
@@ -71,13 +71,13 @@ Avant de prendre en main Fabric, examinons l’état actuel dans Power BI Deskto
 
     - Adresse e-mail/nom d’utilisateur :
 
-    ![](../media/Lab-1/image8.png)
+        ![](../media/Lab-1/image8.png)
 
 4. Saisissez maintenant le **Passe d’accès temporaire** suivant et cliquez sur **Se connecter**.
 
     - Passe d’accès temporaire :
 
-    ![](../media/Lab-1/image9.png)
+        ![](../media/Lab-1/image9.png)
 
 5. La boîte de dialogue **Rester connecté à toutes vos applications** s’ouvre alors. Cliquez sur **OK**.
 
@@ -182,7 +182,7 @@ L’état ci-dessous analyse les ventes de Fabrikam. Les KPI sont répertoriés 
 
     - **Jeton SAS :** Disponible dans l’onglet Environnement
 
-    ![](../media/Lab-1/image23.png)
+        ![](../media/Lab-1/image23.png)
 
 11. Notez que le dossier **ADLSData** comporte plusieurs dimensions : Geo, Product, Reseller et Date. Il comporte également des faits Sales.
 
@@ -226,7 +226,7 @@ L’état ci-dessous analyse les ventes de Fabrikam. Les KPI sont répertoriés 
 
     - **Mot de passe :** Disponible dans l’onglet Environnement
 
-    ![](../media/Lab-1/image26.png)
+        ![](../media/Lab-1/image26.png)
 
 17. Notez que le dossier **SharepointData** comporte la dimension People.
 
@@ -280,7 +280,7 @@ Lisez les blogs d’annonces plus détaillés sur l’expérience Fabric :
 
 - [Blog Intégration de Dataverse et Microsoft Fabric](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. Tous droits réservés.
+© 2026 Microsoft Corporation. Tous droits réservés.
 
 En effectuant cette démonstration/ce labo, vous acceptez les conditions suivantes :
 

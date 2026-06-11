@@ -19,24 +19,6 @@
 - 참조
 
 
-Microsoft Fabric Fabric Analyst in a Day 랩 2
-
-버전: 2026년 5월
-
-![](../media/Lab-2/image1.png)
-
-랩 0
-
-Microsoft Fabric
-
-Fabric Analyst in a Day
-
-![](../media/Lab-2/image1.png)
-
-랩 0
-
-작
-
 # 소개
 
 오늘은 Microsoft Fabric의 다양한 주요 기능을 학습하게 됩니다. 본 랩은 Fabric에서 이용할 수 있는 다양한 제품 환경과 항목을 소개하기 위한 입문 워크샵입니다. 이 워크샵이 끝나면 레이크하우스, 데이터 흐름 2세대, 파이프라인, DirectLake 등을 사용하는 방법을 배우게 됩니다.
@@ -543,7 +525,7 @@ Fabric Analyst in a Day(FAIAD)는 Microsoft Fabric에서 사용할 수 있는 �
 
 - [Dataverse 및 Microsoft Fabric 통합 블로그](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. All rights reserved.
+© 2026 Microsoft Corporation. All rights reserved.
 
 이 데모/랩을 사용하면 다음 조건에 동의하게 됩니다.
 

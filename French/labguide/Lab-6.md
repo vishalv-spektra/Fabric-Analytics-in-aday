@@ -15,8 +15,6 @@
 - Références
 
 
-# ![](../media/Lab-6/image4.png)c
-
 # Introduction
 
 Nous avons des données provenant de différentes sources ingérées dans la lakehouse. Dans ce labo, vous allez utiliser le modèle sémantique. Nous avons généralement effectué des activités de modélisation telles que la création de relations, l’ajout de mesures, etc. dans Power BI Desktop. Ici, nous allons découvrir comment effectuer ces activités de modélisation dans le service.
@@ -419,7 +417,7 @@ Lisez les blogs d’annonces plus détaillés sur l’expérience Fabric :
 
 - [Blog Intégration de Dataverse et Microsoft Fabric](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. Tous droits réservés.
+© 2026 Microsoft Corporation. Tous droits réservés.
 
 En effectuant cette démonstration/ce labo, vous acceptez les conditions suivantes :
 

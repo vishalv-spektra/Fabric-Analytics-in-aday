@@ -21,8 +21,6 @@
 - Références
 
 
-# ![](../media/Lab-5/image4.png)w
-
 # Introduction
 
 Nous avons ingéré des données issues de différentes sources de données dans le lakehouse. Dans ce labo, vous allez configurer un calendrier d’actualisation pour les sources de données. Voici un résumé du besoin :
@@ -627,7 +625,7 @@ Lisez les blogs d’annonces plus détaillés sur l’expérience Fabric :
 
 - [Blog Intégration de Dataverse et Microsoft Fabric](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. Tous droits réservés.
+© 2026 Microsoft Corporation. Tous droits réservés.
 
 En effectuant cette démonstration/ce labo, vous acceptez les conditions suivantes :
 
