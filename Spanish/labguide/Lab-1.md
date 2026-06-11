@@ -10,9 +10,6 @@
   - Tarea 3: Revisar consultas de Power Query
 - Referencias
 
-
-####
-
 # Estructura del documento
 
 El laboratorio incluye pasos que el usuario debe seguir junto con capturas de pantalla asociadas que sirven de ayuda visual. En cada captura de pantalla, las secciones se resaltan con cuadros de color naranja para indicar en qué áreas debe centrarse el usuario.
@@ -35,7 +32,7 @@ Para extraer información valiosa de los datos, se extraen datos de varios siste
 
 - **Datos de empleado:** estos datos provienen del sistema de recursos humanos; se almacenan como un archivo de exportación en una carpeta de SharePoint. Se actualiza a todas las mañanas a las 9:00.
 
-![](../media/Lab-1/image6.jpeg)
+    ![](../media/Lab-1/image6.jpeg)
 
 Actualmente está creando un modelo semántico en Power BI Premium que extrae los datos de los sistemas de origen anteriores para satisfacer sus necesidades de informes y ofrecer a los usuarios finales la capacidad de autoservicio. Use Power Query para actualizar su modelo.
 
@@ -57,7 +54,7 @@ Ha oído hablar sobre Microsoft Fabric y ha decidido probar para ver si abordaba
 
 Antes de comenzar con Fabric, veamos el informe actual en Power BI Desktop para comprender las transformaciones y el modelo.
 
-### Tarea 1: Configurar Power BI Desktop en un entorno de laboratorio
+## Tarea 1: Configurar Power BI Desktop en un entorno de laboratorio
 
 1. Abra **FAIAD.pbix**, que se encuentra en la carpeta **Reports** en el **escritorio** de su entorno de laboratorio. El archivo se abrirá en Power BI Desktop.
 
@@ -67,19 +64,19 @@ Antes de comenzar con Fabric, veamos el informe actual en Power BI Desktop para 
 
     - Correo electrónico/nombre de usuario:
 
-    ![](../media/Lab-1/image8.png)
+        ![](../media/Lab-1/image8.png)
 
 3. En la pestaña de inicio de sesión de Microsoft Azure, verá la pantalla de inicio de sesión. Introduzca el siguiente correo electrónico/nombre de usuario y luego haga clic en **Siguiente**.
 
     - Correo electrónico/nombre de usuario:
 
-    ![](../media/Lab-1/image9.png)
+        ![](../media/Lab-1/image9.png)
 
 4. Ahora introduzca el siguiente **Pase de acceso temporal** y haga clic en **Iniciar sesión**.
 
     - Pase de acceso temporal:
 
-    ![](../media/Lab-1/image10.png)
+        ![](../media/Lab-1/image10.png)
 
 5. Se abre el cuadro de diálogo **Sesión iniciada en todas las aplicaciones**. Seleccione **OK**.
 
@@ -89,7 +86,7 @@ Antes de comenzar con Fabric, veamos el informe actual en Power BI Desktop para 
 
     Ahora se abrirá Power BI Desktop.
 
-### Tarea 2: Analizar el informe de Power BI Desktop
+## Tarea 2: Analizar el informe de Power BI Desktop
 
 El siguiente informe analiza las ventas de Fabrikam. Los KPI se enumeran en la parte superior izquierda de la página. Los objetos visuales restantes resaltan Sales a lo largo del tiempo, por territorio, grupo de productos y empresa revendedora.
 
@@ -138,7 +135,7 @@ El siguiente informe analiza las ventas de Fabrikam. Los KPI se enumeran en la p
 
     5. Disponemos de información de Customer por Reseller. Customer se conecta con Reseller.
 
-### Tarea 3: Revisar consultas de Power Query
+## Tarea 3: Revisar consultas de Power Query
 
 1. Echemos un vistazo a Power Query para entender los orígenes de datos. En la cinta de opciones, seleccione **Inicio -> Transformar datos**.
 
@@ -184,7 +181,7 @@ El siguiente informe analiza las ventas de Fabrikam. Los KPI se enumeran en la p
 
     - **Token de SAS:** se encuentra en la pestaña Entorno.
 
-    ![](../media/Lab-1/image24.png)
+        ![](../media/Lab-1/image24.png)
 
 11. Observe que la carpeta **ADLSData** tiene varias dimensiones: Geo, Product, Reseller y Date. También tiene datos de Sales.
 
@@ -229,7 +226,7 @@ El siguiente informe analiza las ventas de Fabrikam. Los KPI se enumeran en la p
 
     - **Contraseña:** se encuentra en la pestaña Entorno.
 
-    ![](../media/Lab-1/image27.png)
+        ![](../media/Lab-1/image27.png)
 
 17. Observe que la carpeta **SharepointData** tiene la dimensión People.
 
@@ -283,7 +280,7 @@ Obtenga más información en los blogs de anuncios de la experiencia Fabric:
 
 - [Blog de integración de Dataverse y Microsoft Fabric](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. Todos los derechos reservados.
+© 2026 Microsoft Corporation. Todos los derechos reservados.
 
 Al participar en esta demostración o laboratorio práctico, acepta las siguientes condiciones:
 

@@ -45,7 +45,7 @@ Al final de este laboratorio, habrá aprendido:
 
 # Flujo de datos de segunda generación
 
-### Tarea 1: Configurar la actualización programada para el flujo de datos del proveedor
+## Tarea 1: Configurar la actualización programada para el flujo de datos del proveedor
 
 Comencemos configurando una actualización programada del flujo de datos del proveedor.
 
@@ -120,7 +120,7 @@ Comencemos configurando una actualización programada del flujo de datos del pro
 
 # Canalización
 
-### Tarea 2: Crear una canalización
+## Tarea 2: Crear una canalización
 
 1. Volvamos al área de trabajo de Fabric, **FAIAD_<nombre de usuario>** seleccionando el área de trabajo en el panel izquierdo.
 
@@ -152,7 +152,7 @@ Comencemos configurando una actualización programada del flujo de datos del pro
 
     ![](../media/Lab-5/image21.png)
 
-### Tarea 3: Crear una canalización simple
+## Tarea 3: Crear una canalización simple
 
 Comencemos a crear la canalización. Necesitamos una actividad para actualizar el flujo de datos. Busquemos una actividad que podamos utilizar.
 
@@ -201,7 +201,7 @@ Comencemos a crear la canalización. Necesitamos una actividad para actualizar e
 
     - La canalización brinda la capacidad de realizar otras tareas, así como de actualizar el flujo de datos.
 
-### Tarea 4: Crear una nueva canalización
+## Tarea 4: Crear una nueva canalización
 
 Agreguemos un poco más de complejidad a nuestro escenario. Hemos observado que si los datos no están disponibles a las 09:00, normalmente lo estarán en cinco minutos. Si se pierde la ventana de tiempo, el archivo tardará 15 minutos en estar disponible. Queremos programar los reintentos a los cinco y 15 minutos. Veamos cómo se puede lograr esto mediante la creación de una nueva canalización.
 
@@ -215,7 +215,7 @@ Agreguemos un poco más de complejidad a nuestro escenario. Hemos observado que 
 
     ![](../media/Lab-5/image26.png)
 
-### Tarea 5: Crear la actividad Until
+## Tarea 5: Crear la actividad Until
 
 1. Esto le llevará a la pantalla Canalización. En el menú, seleccione **Actividades**.
 
@@ -229,7 +229,7 @@ Agreguemos un poco más de complejidad a nuestro escenario. Hemos observado que 
 
     ![](../media/Lab-5/image27.png)
 
-### Tarea 6: Crear variables
+## Tarea 6: Crear variables
 
 1. Necesitamos crear variables que se utilizarán para iterar y establecer el estado. Seleccione el **área en blanco** en el panel de diseño de la canalización.
 
@@ -267,7 +267,7 @@ Agreguemos un poco más de complejidad a nuestro escenario. Hemos observado que 
 
     ![](../media/Lab-5/image29.png)
 
-### Tarea 7: Configurar la actividad Until
+## Tarea 7: Configurar la actividad Until
 
 1. Seleccione la actividad **Hasta**.
 
@@ -353,7 +353,7 @@ Agreguemos un poco más de complejidad a nuestro escenario. Hemos observado que 
 
     ![](../media/Lab-5/image38.png)
 
-### Tarea 8: Configurar la actividad del flujo de datos
+## Tarea 8: Configurar la actividad del flujo de datos
 
 1. Volverá a la pantalla de diseño. Con **la actividad Hasta** seleccionada, en el **panel inferior**, seleccione **Actividades**. Ahora agregaremos las actividades que deben ejecutarse.
 
@@ -379,7 +379,7 @@ Agreguemos un poco más de complejidad a nuestro escenario. Hemos observado que 
 
     ![](../media/Lab-5/image41.png)
 
-### Tarea 9: Configurar la primera actividad de Establecer variable
+## Tarea 9: Configurar la primera actividad de Establecer variable
 
 Hemos configurado la actividad del flujo de datos como lo hicimos anteriormente en el laboratorio. Ahora agregaremos nueva lógica. Si la actualización del flujo de datos se realiza correctamente, debemos salir del iterador Hasta. Recuerde que una de las condiciones para que exista el iterador es establecer el valor de la variable varIsSuccess en Sí.
 
@@ -425,7 +425,7 @@ Hemos configurado la actividad del flujo de datos como lo hicimos anteriormente 
 
     Ahora necesitamos configurar el contador si falla la actividad del flujo de datos. En una canalización, no podemos hacer referencia a una variable. Lo que significa que no podemos incrementar la variable de contador varCounter si agregamos uno a su valor (varCounter = varCounter + 1). Entonces, utilizamos la variable varTempCounter.
 
-### Tarea 10: Configurar la segunda actividad de Establecer variable
+## Tarea 10: Configurar la segunda actividad de Establecer variable
 
 1. En el menú superior, seleccione **Actividades -> Establecer variable**. La actividad variable establecida se agrega al lienzo de diseño.
 
@@ -455,7 +455,7 @@ Hemos configurado la actividad del flujo de datos como lo hicimos anteriormente 
 
     Ahora necesitamos establecer el valor de la variable varCounter en el valor de varTempCounter.
 
-### Tarea 11: Configurar la tercera actividad de Establecer variable
+## Tarea 11: Configurar la tercera actividad de Establecer variable
 
 1. En el menú superior, seleccione **Actividades -> Establecer variable**. La actividad variable establecida se agrega al lienzo de diseño.
 
@@ -485,7 +485,7 @@ Hemos configurado la actividad del flujo de datos como lo hicimos anteriormente 
 
     **Nota:** Esta función establece el valor de la variable varCounter al valor de la variable varTempCounter (varCounter = varTempCounter). Al final de cada iteración, tanto varCounter como varTempCounter tienen el mismo valor.
 
-### Tarea 12: Configurar la actividad Esperar
+## Tarea 12: Configurar la actividad Esperar
 
 A continuación, debemos esperar cinco minutos/300 segundos si la actualización del flujo de datos falla la primera vez antes de volver a intentarlo. Si la actualización del flujo de datos falla una segunda vez, debemos esperar 15 minutos/900 segundos y volver a intentarlo. Usaremos la actividad de espera y la variable varWaitTime para establecer el tiempo de espera.
 
@@ -551,7 +551,7 @@ A continuación, debemos esperar cinco minutos/300 segundos si la actualización
 
     ![](../media/Lab-5/image53.png)
 
-### Tarea 13: Configurar la actualización programada para la canalización
+## Tarea 13: Configurar la actualización programada para la canalización
 
 1. Podemos probar la canalización si seleccionamos **Inicio -> Ejecutar**.
 

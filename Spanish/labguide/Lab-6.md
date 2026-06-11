@@ -14,9 +14,6 @@
   - Tarea 7: Sección opcional: crear medidas
 - Referencias
 
-
-# ![](../media/Lab-6/image4.png)c
-
 # Presentación
 
 Tenemos datos de diferentes orígenes ingeridos en el almacén de lago de datos. En esta práctica de laboratorio, trabajará con el modelo semántico. Normalmente, hacemos actividades de modelado como crear relaciones, agregar medidas, etc. en Power BI Desktop. Aquí aprenderemos cómo hacer estas actividades de modelado en el servicio.
