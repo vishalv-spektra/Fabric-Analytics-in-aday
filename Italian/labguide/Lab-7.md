@@ -4,20 +4,19 @@
 
 - Introduzione
 - Power BI
-- Attività 1: Creazione automatica del report
-- Attività 2: Configurazione dello sfondo per un nuovo report
-- Attività 3: Aggiunta dell'intestazione al report
-- Attività 4: Aggiunta di KPI al report
-- Attività 5: Aggiunta di un grafico a linee al report
-- Attività 6: Salvataggio del report
-- Attività 7: Configurazione della colonna Year nella tabella Date
-- Attività 8: Configurazione della colonna Month Name nella tabella Date
-- Attività 9: Formattazione del grafico a linee
-- Attività 10: Connessione di Power BI Desktop al modello semantico
-- Attività 11: Aggiunta di nuovi dati per simulare la modalità Direct Lake
+    - Attività 1: Creazione automatica del report
+    - Attività 2: Configurazione dello sfondo per un nuovo report
+    - Attività 3: Aggiunta dell'intestazione al report
+    - Attività 4: Aggiunta di KPI al report
+    - Attività 5: Aggiunta di un grafico a linee al report
+    - Attività 6: Salvataggio del report
+    - Attività 7: Configurazione della colonna Year nella tabella Date
+    - Attività 8: Configurazione della colonna Month Name nella tabella Date
+    - Attività 9: Formattazione del grafico a linee
+    - Attività 10: Connessione di Power BI Desktop al modello semantico
+    - Attività 11: Aggiunta di nuovi dati per simulare la modalità Direct Lake
 - Pulizia dell'ambiente lab
 - Riferimenti
-
 
 # Introduzione
 
@@ -49,7 +48,7 @@ Iniziamo usando l'opzione di creazione automatica del report. Più avanti nel la
 
     ![](../media/Lab-7/image7.png)
 
-4. Selezionare **Nuovo report** dal menu in alto.
+4. Selezionare **+ Nuovo report** dal menu in alto.
 
     ![](../media/Lab-7/image8.png)
 
@@ -152,7 +151,7 @@ Creiamo un nuovo report usando un'area di disegno vuota.
 
 5. Evidenziare **Report vendite** e impostare **Tipo di carattere** su **Segoe UI** e **Dimensioni carattere** su **14**.
 
-6. Con la **casella di testo selezionata**, nel riquadro Casella di testo Formato sulla destra **espandere**** Effetti**.
+6. Con la **casella di testo selezionata**, nel riquadro Casella di testo Formato sulla destra **espandere** **Effetti**.
 
 7. Impostare il dispositivo di scorrimento **Sfondo** su **Disattivato**.
 
@@ -166,7 +165,7 @@ Creiamo un nuovo report usando un'area di disegno vuota.
 
 2. Nella **sezione Visualizzazioni** selezionare l'oggetto visivo **scheda**.
 
-3. Nella **sezione**** Dati** espandere la **tabella**** Sales**.
+3. Nella **sezione** **Dati** espandere la **tabella** **Sales**.
 
 4. Selezionare la **misura Sales**.
 
@@ -200,7 +199,7 @@ Creiamo un nuovo report usando un'area di disegno vuota.
 
 15. Selezionare **Generale** nel riquadro Visualizzazioni.
 
-16. Espandere la **sezione**** Effetti**.
+16. Espandere la **sezione** **Effetti**.
 
 17. Impostare il dispositivo di scorrimento **Sfondo** su **Disattivato**.
 
@@ -226,9 +225,9 @@ Creiamo un grafico a linee per visualizzare le vendite nel tempo per azienda riv
 
 1. Selezionare lo **spazio vuoto** nel canvas per spostare lo stato attivo fuori dall'oggetto visivo scheda con più righe.
 
-2. Nella **sezione**** Visualizzazioni** selezionare **Grafico a linee**.
+2. Nella **sezione** **Visualizzazioni** selezionare **Grafico a linee**.
 
-3. Nella **sezione**** Dati** espandere la tabella **Date**.
+3. Nella **sezione** **Dati** espandere la tabella **Date**.
 
 4. Selezionare il campo **Year**. Si noti che Year viene sommato per impostazione predefinita e aggiunto all'asse Y. Correggiamo.
 
@@ -277,7 +276,7 @@ Salviamo il report prima di uscire da esso per apportare modifiche al modello.
 
 10. Nel **riquadro Dati** a destra espandere la tabella **Date**. Notare che Year non è un campo di somma.
 
-11. Con l'**oggetto visivo grafico a linee selezionato**,** rimuovere Somma di Year** dall'asse Y.
+11. Con l'**oggetto visivo grafico a linee selezionato**, **rimuovere Somma di Year** dall'asse Y.
 
 12. Selezionare il campo **Year** per aggiungerlo all'**asse X**.
 
@@ -287,7 +286,7 @@ Salviamo il report prima di uscire da esso per apportare modifiche al modello.
 
 ## Attività 8: Configurazione della colonna Month Name nella tabella Date
 
-1. Aggiungiamo il mese al grafico. Nella tabella Date trascinare il campo **MonthNameShort** sotto **Year** sull'**asse**** X**. Notare che l'oggetto visivo è ordinato in base a Sales. Ordiniamolo in base a **MonthNameShort**.
+1. Aggiungiamo il mese al grafico. Nella tabella Date trascinare il campo **MonthNameShort** sotto **Year** sull'**asse** **X**. Notare che l'oggetto visivo è ordinato in base a Sales. Ordiniamolo in base a **MonthNameShort**.
 
 2. Selezionare i **puntini di sospensione (…)** nell'angolo superiore destro dell'oggetto visivo.
 
@@ -473,7 +472,7 @@ In uno scenario reale, i dati vengono aggiornati nell'origine. Poiché ci trovia
 
     ![](../media/Lab-7/image51.png)
 
-15. Si verrà indirizzati alla finestra di dialogo successiva, dove avremo la possibilità di modificare i nomi. Seleziona l' **icona**** Modifica** in Azioni per **Sales.Invoices_May**.
+15. Si verrà indirizzati alla finestra di dialogo successiva, dove avremo la possibilità di modificare i nomi. Seleziona l' **icona** **Modifica** in Azioni per **Sales.Invoices_May**.
 
 16. Rinominare **Sales.Invoices_May in InvoicesMay**.
 
@@ -644,7 +643,7 @@ In uno scenario reale, i dati vengono aggiornati nell'origine. Poiché ci trovia
 
 23. Selezionare **rpt_Sales_Report** nella barra dei menu di sinistra per tornare al report.
 
-24. Dal menu in alto selezionare l**'icona Aggiorna**. Notare che ora nel grafico a linee sono presenti dati per maggio 2024. Inoltre, notare che l'importo delle vendite è aumentato.
+24. Dal menu in alto selezionare l **'icona Aggiorna**. Notare che ora nel grafico a linee sono presenti dati per maggio 2024. Inoltre, notare che l'importo delle vendite è aumentato.
 
     ![](../media/Lab-7/image55.png)
 

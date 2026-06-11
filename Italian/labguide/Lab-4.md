@@ -4,17 +4,17 @@
 
 - Introduzione
 - Flusso di dati Gen2
-- Attività 1: Copia di query SharePoint nel flusso di dati
-- Attività 2: Creazione della connessione a SharePoint
-- Attività 3: Configurazione della destinazione dei dati per la query People
-- Attività 4: Pubblicazione e ridenominazione del flusso di dati SharePoint
-- Attività 5: Copia di query di Snowflake nel flusso di dati
-- Attività 6: Creazione della connessione a Snowflake
-- Attività 7: Configurazione della destinazione dei dati per le query Supplier e PO
-- Attività 8: Ridenominazione e pubblicazione del flusso di dati Snowflake
+    - Attività 1: Copia di query SharePoint nel flusso di dati
+    - Attività 2: Creazione della connessione a SharePoint
+    - Attività 3: Configurazione della destinazione dei dati per la query People
+    - Attività 4: Pubblicazione e ridenominazione del flusso di dati SharePoint
+    - Attività 5: Copia di query di Snowflake nel flusso di dati
+    - Attività 6: Creazione della connessione a Snowflake
+    - Attività 7: Configurazione della destinazione dei dati per le query Supplier e PO
+    - Attività 8: Ridenominazione e pubblicazione del flusso di dati Snowflake
 - Collegamento al lakehouse interno
-- Attività 9: Come creare un collegamento a Dataverse
-- Attività 10: Creazione di un collegamento a un lakehouse
+    - Attività 9: Come creare un collegamento a Dataverse
+    - Attività 10: Creazione di un collegamento a un lakehouse
 - Riferimenti
 
 
@@ -64,7 +64,7 @@ In questo lab si apprenderà quanto segue:
 
     ![](../media/Lab-4/image8.png)
 
-    **Nota:** se si lavora in un ambiente lab, selezionare i puntini di sospensione in alto a destra della schermata. Usare il dispositivo di scorrimento per **abilitare**** VM Native Clipboard**. Nella finestra di dialogo selezionare OK. Dopo aver incollato le query è possibile disabilitare questa opzione.
+    **Nota:** se si lavora in un ambiente lab, selezionare i puntini di sospensione in alto a destra della schermata. Usare il dispositivo di scorrimento per **abilitare** **VM Native Clipboard**. Nella finestra di dialogo selezionare OK. Dopo aver incollato le query è possibile disabilitare questa opzione.
 
     ![](../media/Lab-4/image9.png)
 
@@ -98,7 +98,7 @@ Viene stabilita la connessione ed è possibile visualizzare i dati nel pannello 
 
     ![](../media/Lab-4/image13.png)
 
-3. Si apre la finestra di dialogo Connetti alla destinazione dati. Dobbiamo creare una nuova connessione a Lakehouse. Con l'opzione **Crea nuova connessione** selezionata nel menu a discesa Connessione e** **Tipo di autenticazione impostato su **Account aziendale**, selezionare **Avanti**.
+3. Si apre la finestra di dialogo Connetti alla destinazione dati. Dobbiamo creare una nuova connessione a Lakehouse. Con l'opzione **Crea nuova connessione** selezionata nel menu a discesa Connessione e Tipo di autenticazione impostato su **Account aziendale**, selezionare **Avanti**.
 
     ![](../media/Lab-4/image14.png)
 
@@ -132,8 +132,7 @@ Viene stabilita la connessione ed è possibile visualizzare i dati nel pannello 
 
     **Nota:** sarai reindirizzato all'**area di lavoro FAIAD_<nome utente>**. Il completamento dell'esecuzione del flusso di dati potrebbe richiedere alcuni istanti.
 
-3. **Dataflow 1** è il flusso di dati utilizzato. Rinominiamolo prima di continuare. Fai clic sui **puntini di sospensione (...)** accanto a Dataflow 1. Seleziona **Impostazioni** (mentre il flusso di dati
-    è in esecuzione, non è possibile accedere alle impostazioni).
+3. **Dataflow 1** è il flusso di dati utilizzato. Rinominiamolo prima di continuare. Fai clic sui **puntini di sospensione (...)** accanto a Dataflow 1. Seleziona **Impostazioni** (mentre il flusso di dati è in esecuzione, non è possibile accedere alle impostazioni).
 
     ![](../media/Lab-4/image18.png)
 
@@ -193,7 +192,7 @@ Viene stabilita la connessione ed è possibile visualizzare i dati nel pannello 
 
 9. Nel **riquadro Flusso di dati** selezionare il **riquadro centrale** e premere **CTRL+V** (l'opzione Incolla del menu del pulsante destro non è attualmente supportata). Se si usa un dispositivo MAC, usare Cmd+V per incollare.
 
-    **Nota:** se si lavora in un ambiente lab, selezionare i **puntini di sospensione (…)** in alto a destra nello schermo. Usare il dispositivo di scorrimento per **abilitare**** VM Native Clipboard**. Nella finestra di dialogo selezionare OK. Dopo aver incollato le query è possibile disabilitare questa opzione.
+    **Nota:** se si lavora in un ambiente lab, selezionare i **puntini di sospensione (…)** in alto a destra nello schermo. Usare il dispositivo di scorrimento per **abilitare** **VM Native Clipboard**. Nella finestra di dialogo selezionare OK. Dopo aver incollato le query è possibile disabilitare questa opzione.
 
     ![](../media/Lab-4/image23.png)
 
@@ -317,7 +316,9 @@ Ci si dovrebbe trovare nel lakehouse **lh_FAIAD**. Accertarsi di essere nella vi
 
     ![](../media/Lab-4/image37.png)
 
-7. Nella finestra di dialogo per l'accesso selezionare l'**account utente** usato per i lab. **Nota:** l'account sarà diverso rispetto allo screenshot di seguito.
+7. Nella finestra di dialogo per l'accesso selezionare l'**account utente** usato per i lab. 
+    
+    **Nota:** l'account sarà diverso rispetto allo screenshot di seguito.
 
     ![](../media/Lab-4/image38.png)
 
@@ -339,7 +340,7 @@ Ci si dovrebbe trovare nel lakehouse **lh_FAIAD**. Accertarsi di essere nella vi
 
     ![](../media/Lab-4/image35.png)
 
-3. Viene visualizzata la finestra di dialogo Nuovo collegamento. Selezionare l'opzione **Microsoft**** OneLake** in Origini interne.
+3. Viene visualizzata la finestra di dialogo Nuovo collegamento. Selezionare l'opzione **Microsoft** **OneLake** in Origini interne.
 
     ![](../media/Lab-4/image40.png)
 

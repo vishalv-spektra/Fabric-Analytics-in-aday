@@ -4,10 +4,10 @@
 
 - Introduzione
 - Collegamento ad ADLS Gen2
-- Attività 1 - Creazione di un collegamento
+    - Attività 1 - Creazione di un collegamento
 - Trasformazione dei dati usando le query visive
-- Attività 2 - Creazione di una vista Geo mediante le query visive
-- Attività 3 - Creazione delle viste Reseller, Sales e Product tramite una query SQL
+    - Attività 2 - Creazione di una vista Geo mediante le query visive
+    - Attività 3 - Creazione delle viste Reseller, Sales e Product tramite una query SQL
 - Riferimenti
 
 

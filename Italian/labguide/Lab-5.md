@@ -4,20 +4,20 @@
 
 - Introduzione
 - Flusso di dati Gen2
-- Attività 1: Configurazione dell'aggiornamento pianificato per il flusso di dati del fornitore
+    - Attività 1: Configurazione dell'aggiornamento pianificato per il flusso di dati del fornitore
 - Pipeline
-- Attività 2: Creazione di una pipeline
-- Attività 3: Creazione di una pipeline semplice
-- Attività 4: Creazione di una nuova pipeline
-- Attività 5: Creazione di un'attività Until
-- Attività 6: Creazione di variabili
-- Attività 7: Configurazione di un'attività Until
-- Attività 8: Configurazione di un'attività Flusso di dati
-- Attività 9: Configurazione della prima attività Imposta variabile
-- Attività 10: Configurazione della seconda attività Imposta variabile
-- Attività 11: Configurazione della terza attività Imposta variabile
-- Attività 12: Configurazione di un'attività Attesa
-- Attività 13: Configurazione dell'aggiornamento pianificato per la pipeline
+    - Attività 2: Creazione di una pipeline
+    - Attività 3: Creazione di una pipeline semplice
+    - Attività 4: Creazione di una nuova pipeline
+    - Attività 5: Creazione di un'attività Until
+    - Attività 6: Creazione di variabili
+    - Attività 7: Configurazione di un'attività Until
+    - Attività 8: Configurazione di un'attività Flusso di dati
+    - Attività 9: Configurazione della prima attività Imposta variabile
+    - Attività 10: Configurazione della seconda attività Imposta variabile
+    - Attività 11: Configurazione della terza attività Imposta variabile
+    - Attività 12: Configurazione di un'attività Attesa
+    - Attività 13: Configurazione dell'aggiornamento pianificato per la pipeline
 - Riferimenti
 
 
@@ -89,9 +89,14 @@ Iniziamo con la configurazione di un aggiornamento pianificato del flusso di dat
     ![](../media/Lab-5/image12.png)
 
 11. Vedrai che nel pannello **Impostazioni** che appare sono disponibili tre opzioni:
-    **Informazioni su:** possiamo modificare il nome del flusso di dati e aggiungere una descrizione. Inoltre, possiamo vedere chi è il proprietario del flusso di dati e l'ultima volta che è stato modificato. **Approvazione:** consente di specificare se il flusso di dati conterrà il tag **Alzato di livello** o **Certificato** per consentire agli altri di visualizzarlo. **Pianifica:** qui è possibile pianificare i flussi di dati.
 
-    ![](../media/Lab-5/image13.png)
+    - **Informazioni su:** possiamo modificare il nome del flusso di dati e aggiungere una descrizione. Inoltre, possiamo vedere chi è il proprietario del flusso di dati e l'ultima volta che è stato modificato.
+    
+    - **Approvazione:** consente di specificare se il flusso di dati conterrà il tag **Alzato di livello** o **Certificato** per consentire agli altri di visualizzarlo.
+    
+    - **Pianifica:** qui è possibile pianificare i flussi di dati.
+
+        ![](../media/Lab-5/image13.png)
 
 12. Seleziona l'opzione **Pianifica**
 
@@ -171,7 +176,7 @@ Iniziamo a creare la pipeline. Abbiamo bisogno di un'attività per aggiornare il
 
     ![](../media/Lab-5/image23.png)
 
-5. Nel **riquadro**** inferiore** selezionare **Generale**. Assegniamo all'attività un nome e una descrizione.
+5. Nel **riquadro** **inferiore** selezionare **Generale**. Assegniamo all'attività un nome e una descrizione.
 
 6. Nel campo **Nome** immettere **dfactivity_People_SharePoint**.
 
@@ -271,7 +276,7 @@ Aggiungiamo un po' più di complessità al nostro scenario. Abbiamo notato che s
 
 2. Nel **riquadro inferiore** selezionare **Generale**.
 
-3. Immettere il **Nome**:** Iterator**
+3. Immettere il **Nome** -  **Iterator**
 
 4. Immettere la **Descrizione** come **“Iterator to refresh dataflow. It will retry up to 3 times”**.
 
@@ -302,7 +307,7 @@ Aggiungiamo un po' più di complessità al nostro scenario. Abbiamo notato che s
 
     6. **Variabili di libreria:** le variabili di libreria utilizzano variabili definite nell'elemento Fabric della libreria di variabili. Queste variabili offrono un modo centralizzato per gestire le configurazioni tra le aree di lavoro per supportare i flussi di lavoro CI/CD. Possono essere utilizzate insieme a pipeline, notebook, collegamenti lakehouse e altro ancora.
 
-    ![](../media/Lab-5/image32.png)
+        ![](../media/Lab-5/image32.png)
 
 9. Fare clic su **Funzioni** nella barra multifunzione o nel menu.
 
@@ -392,13 +397,13 @@ Abbiamo configurato l'attività Flusso di dati come abbiamo fatto in precedenza 
 
     **Nota:** passare il puntatore del mouse sull'**attività Flusso di dati**. A destra del riquadro dell'attività sono presenti quattro icone. Tali icone si possono usare per la connessione all'attività successiva in base al risultato dell'attività:
 
-1. L'icona **freccia curva grigia** si usa per saltare l'attività.
+    1. L'icona **freccia curva grigia** si usa per saltare l'attività.
 
-2. L'icona **segno di spunta verde** si usa in caso di esito positivo dell'attività.
+    2. L'icona **segno di spunta verde** si usa in caso di esito positivo dell'attività.
 
-3. L'icona **segno X rosso** si usa in caso di esito negativo dell'attività.
+    3. L'icona **segno X rosso** si usa in caso di esito negativo dell'attività.
 
-4. L'icona **freccia dritta blu** si usa al completamento dell'attività.
+    4. L'icona **freccia dritta blu** si usa al completamento dell'attività.
 
 5. Fare clic sul **segno di spunta verde** dall'attività Flusso di dati dfactivity_People_SharePoint e trascinare per connettere la nuova **attività Imposta variabile** **set_varIsSuccess**. In caso di esito positivo dell'aggiornamento del flusso di dati, vogliamo eseguire l'attività Imposta variabile.
 

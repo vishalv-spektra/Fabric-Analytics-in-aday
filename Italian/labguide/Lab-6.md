@@ -4,18 +4,16 @@
 
 - Introduzione
 - Lakehouse: analisi di dati
-- Attività 1: Query sui dati mediante SQL
-- Attività 2: Visualizzazione del risultato T-SQL
+    - Attività 1: Query sui dati mediante SQL
+    - Attività 2: Visualizzazione del risultato T-SQL
 - Lakehouse: modellazione semantica
-- Attività 3: Creazione di un modello semantico
-- Attività 4: Creazione di relazioni
-- Attività 5: Creazione delle misure
-- Attività 6: Sezione facoltativa: creazione delle relazioni
-- Attività 7: Sezione facoltativa: creazione delle misure
+    - Attività 3: Creazione di un modello semantico
+    - Attività 4: Creazione di relazioni
+    - Attività 5: Creazione delle misure
+    - Attività 6: Sezione facoltativa: creazione delle relazioni
+    - Attività 7: Sezione facoltativa: creazione delle misure
 - Riferimenti
 
-
-# ![](../media/Lab-6/image4.png) c
 
 # Introduzione
 
@@ -229,7 +227,7 @@ Aggiungiamo alcune misure necessarie per creare il dashboard Sales.
 
     ![](../media/Lab-6/image24.png)
 
-9. Con la **tabella**** Sales** selezionata nel menu in alto, selezionare **Home -> Nuova misura**. Notare che viene visualizzata la barra della formula.
+9. Con la **tabella** **Sales** selezionata nel menu in alto, selezionare **Home -> Nuova misura**. Notare che viene visualizzata la barra della formula.
 
 10. Immettere **Units = SUM (‘Sales’[Quantity])** nella **barra della formula**.
 
@@ -371,7 +369,7 @@ Aggiungiamo le misure rimanenti.
 
     1. Nella tabella **Sales GM = SUM(‘Sales’[LineProfit])** formattata come **Valuta con 0 posizioni decimali**.
 
-    2. Nella tabella **Sales**,** GM% = DIVIDE([GM], [Sales])** formattato come **Percentuale con 0 posizioni decimali.**
+    2. Nella tabella **Sales**, **GM% = DIVIDE([GM], [Sales])** formattato come **Percentuale con 0 posizioni decimali.**
 
     3. Nella tabella **Customer, No of Customers = COUNTROWS(Customer)** formattato come **Numero intero con separatore delle migliaia abilitato.**
 
