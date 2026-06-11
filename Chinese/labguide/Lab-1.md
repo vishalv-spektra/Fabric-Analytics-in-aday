@@ -16,7 +16,11 @@
 
 本实验室包含用户需要遵循的步骤以及可提供直观协助的关联屏幕截图。在每个屏幕截图中，以橙色框突出显示的部分指出了用户应注意的区域。
 
+<<<<<<< HEAD
+**注意：** 由于正在进行的产品更新，某些屏幕截图可能已过时。
+=======
 **注意**：由于正在进行的产品更新，某些屏幕截图可能已过时。
+>>>>>>> 60255d5352a0e8f4f5d83c2a882a9a11ff060820
 
 # 应用场景/问题陈述
 
@@ -26,16 +30,32 @@ Fabrikam, Inc. 是一家经营创意商品的批发分销商。作为批发商�
 
 为了从数据中获得有价值的见解，您需要从多个系统中请求数据，对其进行清理并整理在一起。您从以下来源请求数据：
 
+<<<<<<< HEAD
+- **销售数据：** 来自 ERP 系统，数据存储在 ADLS Gen2 数据库中。每天中午 12 点更新。
+=======
 - **销售数据**：来自 ERP 系统，数据存储在 ADLS Gen2 数据库中。每天中午 12 点更新。
+>>>>>>> 60255d5352a0e8f4f5d83c2a882a9a11ff060820
 
+<<<<<<< HEAD
+- **供应商数据：** 来自不同的供应商，数据存储在 Snowflake 数据库中。每天凌晨 12 点更新。
+=======
 - **供应商数据**：来自不同的供应商，数据存储在 Snowflake 数据库中。每天凌晨 12 点更新。
+>>>>>>> 60255d5352a0e8f4f5d83c2a882a9a11ff060820
 
+<<<<<<< HEAD
+- **客户数据：** 来自 Customer Insights，数据存储在 Dataverse 中。此数据随时更新。
+=======
 - **客户数据**：来自 Customer Insights，数据存储在 Dataverse 中。此数据随时更新。
+>>>>>>> 60255d5352a0e8f4f5d83c2a882a9a11ff060820
 
+<<<<<<< HEAD
+- **员工数据：** 来自 HR 系统；作为导出文件存储在 SharePoint 文件夹中。每天早上
+=======
 - **员工数据**：来自 HR 系统；作为导出文件存储在 SharePoint 文件夹中。每天早上
+>>>>>>> 60255d5352a0e8f4f5d83c2a882a9a11ff060820
 9 点更新。
 
-![](../media/Lab-1/image4.jpeg)
+    ![](../media/Lab-1/image4.jpeg)
 
 您正在 Power BI Premium 中生成一个语义模型，该模型从上述源系统中提取数据，以满足您的报告需求并为最终用户提供自助服务功能。您使用 Power Query 更新模型。
 
@@ -57,9 +77,9 @@ Fabrikam, Inc. 是一家经营创意商品的批发分销商。作为批发商�
 
 在开始使用 Fabric 之前，我们先来看看 Power BI Desktop 中的当前报表，以了解转换 和模型。
 
-### 任务 1：在实验室环境中设置 Power BI Desktop
+## 任务 1：在实验室环境中设置 Power BI Desktop
 
-1. 打开 **FAIAD.pbix，**它位于您的实验室环境的**桌面**上的** Reports** 文件夹中。该文件将在
+1. 打开 **FAIAD.pbix，**它位于您的实验室环境的**桌面**上的 **Reports** 文件夹中。该文件将在
     Power BI Desktop 中打开。
 
     ![](../media/Lab-1/image5.png)
@@ -68,35 +88,39 @@ Fabrikam, Inc. 是一家经营创意商品的批发分销商。作为批发商�
 
     - 电子邮件/用户名：<inject key="AzureAdUserEmail"></inject>
 
-    ![](../media/Lab-1/image6.png)
+        ![](../media/Lab-1/image6.png)
 
 3. 在“登录到 Microsoft Azure”选项卡上，您将看到登录屏幕，输入以下电子邮件/用户名，然后单击**下一步**。
 
     - 电子邮件/用户名：<inject key="AzureAdUserEmail"></inject>
 
-    ![](../media/Lab-1/image7.png)
+        ![](../media/Lab-1/image7.png)
 
 4. 现在，输入以下**临时登入密码**，然后单击**登录**。
 
     - 临时登入密码：<inject key="AzureAdUserPassword"></inject>
 
-    ![](../media/Lab-1/image8.png)
+        ![](../media/Lab-1/image8.png)
 
 5. **保持登录到您的所有应用**对话框随即打开。选择**确定**。
 
     ![](../media/Lab-1/image9.png)
 
-6. **您已完成所有设置！**对话框随即打开。选择完成。
+6. **您已完成所有设置！** 对话框随即打开。选择完成。
 
     Power BI Desktop 现在将打开。
 
-### 任务 2：分析 Power BI Desktop 报表
+## 任务 2：分析 Power BI Desktop 报表
 
 下面的报表分析 Fabrikam 的销售情况。页面左上角列出了 KPI。其余的视觉对象突出显示了按区域、产品组和经销商公司划分的一段时间内的销售情况。
 
 ![](../media/Lab-1/image10.jpeg)
 
+<<<<<<< HEAD
+**注意：** 在本次培训中，我们重点关注使用 Fabric 中提供的工具进行数据采集、转换和建模。我们不会专注于报表开发或导航。让我们花几分钟时间来理解该报表，然后继续执行后续步骤。
+=======
 **注意**：在本次培训中，我们重点关注使用 Fabric 中提供的工具进行数据采集、转换和建模。我们不会专注于报表开发或导航。让我们花几分钟时间来理解该报表，然后继续执行后续步骤。
+>>>>>>> 60255d5352a0e8f4f5d83c2a882a9a11ff060820
 
 1. 我们按销售区域分析数据。选择**销售区域中的新英格兰**（散点图）视觉对象。从一段时间内的销售情况来看，经销商 Tailspin Toys 在新英格兰的销售额高于 Wingtip Toys。如果您查看销售额同比百分比柱形图，就会发现 Wingtip Toys 的销售额增长率一直很低，并且在去年逐季下降。在第三季度小幅反弹后，第四季度再次下跌。
 
@@ -140,7 +164,7 @@ Fabrikam, Inc. 是一家经营创意商品的批发分销商。作为批发商�
 
     e. 我们有按 Reseller 划分的 Customer 信息。Customer 连接到 Reseller。
 
-### 任务 3：查看 Power Queries
+## 任务 3：查看 Power Queries
 
 1. 让我们查看 Power Query 来了解数据源。从功能区中选择**主页 -> 转换数据**。
 
@@ -188,7 +212,7 @@ Fabrikam, Inc. 是一家经营创意商品的批发分销商。作为批发商�
 
     - **SAS 令牌：** <inject key="Sas token"></inject>
 
-    ![](../media/Lab-1/image22.png)
+        ![](../media/Lab-1/image22.png)
 
 11. 请注意，**ADLSData** 文件夹具有多个维度：Geo、Product、Reseller 和 Date。还具有
     Sales 事实。
@@ -205,7 +229,7 @@ Fabrikam, Inc. 是一家经营创意商品的批发分销商。作为批发商�
 
     ![](../media/Lab-1/image23.png)
 
-13. 输入下面提供的 **Snowflake 用户名**和** Snowflake 密码**。使用这些凭据将 Snowflake 下的所有表连接到 Snowflake，然后选择“连接”。
+13. 输入下面提供的 **Snowflake 用户名**和 **Snowflake 密码**。使用这些凭据将 Snowflake 下的所有表连接到 Snowflake，然后选择“连接”。
 
     - **Snowflake 用户名：** <inject key="SnowFlake Username" enableCopy="false" />
 
@@ -213,9 +237,12 @@ Fabrikam, Inc. 是一家经营创意商品的批发分销商。作为批发商�
 
     *注意：如果您在使用上述凭据连接到 Snowflake 时遇到任何问题，请使用下面提供的备份凭据。*
 
+<<<<<<< HEAD
+    - **Snowflake 用户名：** SNOWFLAKE_BACKUP
+=======
     - **Snowflake 用户名**：SNOWFLAKE_BACKUP
+>>>>>>> 60255d5352a0e8f4f5d83c2a882a9a11ff060820
 
-    - **Snowflake 密码**：8UpfRpExVDXv2AC1
 
 14. 请注意，**SnowflakeData** 文件夹包含 Supplier 维度和 PO（订单/支出）事实。
 
@@ -234,7 +261,7 @@ Fabrikam, Inc. 是一家经营创意商品的批发分销商。作为批发商�
 
     - **密码：** <inject key="AzureAdUserPassword"></inject>
 
-    ![](../media/Lab-1/image25.png)
+        ![](../media/Lab-1/image25.png)
 
 17. 请注意，**SharepointData** 文件夹具有 People 维度。
 
@@ -298,7 +325,7 @@ Fabric Analyst in a Day (FAIAD) 介绍了 Microsoft Fabric 中提供的一些主
 
 本演示/实验出于上述目的，在不涉及复杂设置或安装操作的模拟环境中提供特定软件技术/产品特性和功能，包括潜在的新功能和概念。本演示/实验中展示的技术/概念可能不是完整的功能，可能会以不同于最终版本的工作方式工作。我们也可能不会发布此类功能或概念的最终版本。在物理环境中使用此类特性和功能的体验可能也有所不同。
 
-**反馈。**如您针对本演示/实验中所述的技术特性、功能和/或概念向 Microsoft 提供反馈，则意味着您向 Microsoft 无偿提供以任何方式、出于任何目的使用和分享您的反馈并将其商业化的权利。您同样无偿为第三方提供其产品、技术和服务使用或配合使用包含此反馈的 Microsoft 软件或服务的任何特定部分所需的任何专利权。如果根据某项许可的规定，Microsoft 由于在其软件或文档中包含了您的反馈需要向第三方授予该软件或文档的许可，请不要提供这样的反馈。这些权利在本协议终止后继续有效。
+**反馈。** 如您针对本演示/实验中所述的技术特性、功能和/或概念向 Microsoft 提供反馈，则意味着您向 Microsoft 无偿提供以任何方式、出于任何目的使用和分享您的反馈并将其商业化的权利。您同样无偿为第三方提供其产品、技术和服务使用或配合使用包含此反馈的 Microsoft 软件或服务的任何特定部分所需的任何专利权。如果根据某项许可的规定，Microsoft 由于在其软件或文档中包含了您的反馈需要向第三方授予该软件或文档的许可，请不要提供这样的反馈。这些权利在本协议终止后继续有效。
 
 对于本演示/实验，Microsoft Corporation 不提供任何明示、暗示或法定的保证和条件，包括有关适销性、针对特定目的的适用性、所有权和不侵权的所有保证和条件。对于使用本演示/实验产生的结果或输出内容的准确性，或者出于任何目的包含本演示/实验中的信息的适用性，Microsoft 不做任何保证或陈述。
 
