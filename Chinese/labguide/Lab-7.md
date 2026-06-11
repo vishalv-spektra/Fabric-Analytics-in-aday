@@ -1,4 +1,4 @@
-# Microsoft Fabric - Fabric Analyst in a Day
+# Microsoft Fabric - Fabric Analyst in a Day - 实验室 7
 
 ![](../media/Lab-1/cn7.png)
 
