@@ -10,7 +10,6 @@
     - Attività 3 - Analisi delle query in Power Query
 - Riferimenti
 
-
 # Struttura del documento
 
 Il lab include i passaggi che l'utente deve seguire con gli screenshot associati che forniscono un aiuto visivo. In ogni screenshot vi sono sezioni evidenziate con riquadri arancioni che indicano le aree su cui l'utente deve concentrarsi.
@@ -55,7 +54,7 @@ Hai sentito parlare di Microsoft Fabric e hai deciso di provarlo per verificare 
 
 Prima di iniziare con Fabric, esaminiamo l'attuale report in Power BI Desktop per comprendere le trasformazioni e il modello.
 
-### Attività 1 - Impostazione di Power BI Desktop nell'ambiente lab
+## Attività 1 - Impostazione di Power BI Desktop nell'ambiente lab
 
 1. Aprire il file **FAIAD.pbix** contenuto nella cartella **Reports** sul **Desktop** dell'ambiente lab. Il file si aprirà in Power BI Desktop.
 
@@ -65,19 +64,19 @@ Prima di iniziare con Fabric, esaminiamo l'attuale report in Power BI Desktop pe
 
     - Posta elettronica/nome utente:
 
-    ![](../media/Lab-1/image7.png)
+        ![](../media/Lab-1/image7.png)
 
 3. Immettere i dati Posta elettronica/nome utente seguenti nella schermata di accesso visualizzata nella scheda Accedi a Microsoft Azure, quindi fare clic su **Avanti**.
 
     - Posta elettronica/nome utente:
 
-    ![](../media/Lab-1/image8.png)w
+        ![](../media/Lab-1/image8.png)
 
 4. Immettere il **Pass di accesso temporaneo** seguente e fare clic su **Accedi**.
 
     - Pass di accesso temporaneo:
 
-    ![](../media/Lab-1/image9.png)
+        ![](../media/Lab-1/image9.png)
 
 5. Si apre la finestra di dialogo **Rimani connesso a tutte le tue app**. Selezionare **OK**.
 
@@ -87,7 +86,7 @@ Prima di iniziare con Fabric, esaminiamo l'attuale report in Power BI Desktop pe
 
     Si aprirà Power BI Desktop.
 
-### Attività 2 - Analisi del report di Power BI Desktop
+## Attività 2 - Analisi del report di Power BI Desktop
 
 Il report seguente analizza le vendite per Fabrikam. I KPI sono elencati in alto a sinistra nella pagina. Gli oggetti visivi rimanenti evidenziano le vendite nel tempo, per area, gruppo di prodotti e azienda rivenditrice.
 
@@ -135,7 +134,7 @@ Il report seguente analizza le vendite per Fabrikam. I KPI sono elencati in alto
 
     5. Sono presenti informazioni di Customer per Reseller. Customer si collega a Reseller.
 
-### Attività 3 - Analisi delle query in Power Query
+## Attività 3 - Analisi delle query in Power Query
 
 1. Osserviamo Power Query per comprendere le origini dati. Nella barra multifunzione selezionare **Home -> Trasforma dati**.
 

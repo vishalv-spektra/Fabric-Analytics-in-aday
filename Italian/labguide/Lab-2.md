@@ -31,7 +31,7 @@ In questo lab si apprenderà quanto segue:
 
 # Licenza di Fabric
 
-### Attività 1 - Abilitazione di una licenza di valutazione per Microsoft Fabric
+## Attività 1 - Abilitazione di una licenza di valutazione per Microsoft Fabric
 
 1. Selezionare il **portale Power BI** nel desktop della macchina virtuale. Potrebbe essere richiesto di effettuare l'accesso.
 
@@ -87,7 +87,7 @@ In questo lab si apprenderà quanto segue:
 
 # Area di lavoro di Fabric
 
-### Attività 2 - Creazione di un'area di lavoro di Fabric
+## Attività 2 - Creazione di un'area di lavoro di Fabric
 
 1. Ora creeremo un'area di lavoro con una licenza di Fabric. Selezionare **Aree di lavoro** (1) nella barra di spostamento a sinistra. Si apre una finestra di dialogo.
 
@@ -113,7 +113,7 @@ In questo lab si apprenderà quanto segue:
 
     Si aprirà l'area di lavoro appena creata. Importeremo dati da diverse origini dati in un lakehouse e useremo i dati dal lakehouse per creare il modello e il report relativi. Il primo passaggio consiste nel creare un Lakehouse. Lo faremo nel prossimo passaggio.
 
-### Attività 3 - Creazione di un lakehouse
+## Attività 3 - Creazione di un lakehouse
 
 1. Nella nuova area di lavoro **FAIAD_Username** individuare il pulsante **+ Nuovo elemento (1)** nel riquadro di spostamento a sinistra. Qui è possibile iniziare a creare nuovi elementi nell'area di lavoro.
 
@@ -139,7 +139,7 @@ In questo lab si apprenderà quanto segue:
 
 # Panoramica delle esperienze in Fabric
 
-### Attività 4 - Esperienza Data Factory
+## Attività 4 - Esperienza Data Factory
 
 1. Selezionare l'icona Carichi di lavoro a sinistra della schermata. Si apre una finestra di dialogo contenente l'elenco delle esperienze in Fabric. L'elenco di esperienze include Power BI, Data Factory, Industry Solutions, Real-Time Intelligence, Data Engineering, Data Science e Data Warehouse. Esaminiamole.
 
@@ -203,7 +203,7 @@ In questo lab si apprenderà quanto segue:
 
     ![](../media/Lab-2/image23.png)
 
-### Attività 5 - Esperienza Industry Solutions
+## Attività 5 - Esperienza Industry Solutions
 
 1. Nella pagina **Carichi di lavoro personali** fare clic su **Industry** Solutions per procedere.
 
@@ -245,7 +245,7 @@ In questo lab si apprenderà quanto segue:
 
     ![](../media/Lab-2/image23.png)
 
-### Attività 6 - Esperienza Real-Time Intelligence
+## Attività 6 - Esperienza Real-Time Intelligence
 
 1. Nella pagina **Carichi di lavoro personali** fare clic su **Real-Time Intelligence** per procedere.
 
@@ -307,7 +307,7 @@ In questo lab si apprenderà quanto segue:
 
     ![](../media/Lab-2/image23.png)
 
-### Attività 7 - Esperienza Data Engineering
+## Attività 7 - Esperienza Data Engineering
 
 1. Nella pagina **Carichi di lavoro personali** fare clic su Data Engineering per procedere.
 
@@ -365,7 +365,7 @@ In questo lab si apprenderà quanto segue:
 
     ![](../media/Lab-2/image23.png)
 
-### Attività 8 - Esperienza Data Science
+## Attività 8 - Esperienza Data Science
 
 1. Nella pagina **Carichi di lavoro personali** fare clic su **Data Science** per procedere.
 
@@ -411,7 +411,7 @@ In questo lab si apprenderà quanto segue:
 
     ![](../media/Lab-2/image23.png)
 
-### Attività 9 - Esperienza Data Warehouse
+## Attività 9 - Esperienza Data Warehouse
 
 1. Nella pagina **Carichi di lavoro personali** fare clic su **Data Warehouse** per procedere.
 
@@ -467,7 +467,7 @@ In questo lab si apprenderà quanto segue:
 
     ![](../media/Lab-2/image33.png)
 
-### Attività 10 - Esperienza Databases
+## Attività 10 - Esperienza Databases
 
 1. Nella pagina **Carichi di lavoro personali** fare clic su **Databases** per procedere.
 

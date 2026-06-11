@@ -35,7 +35,7 @@ In questo lab si imparerà a:
 
 # Collegamento ad ADLS Gen2
 
-### Attività 1 - Creazione di un collegamento
+## Attività 1 - Creazione di un collegamento
 
 I collegamenti sono usati per creare un collegamento all'ubicazione di destinazione e permettono di accedere ai dati senza la necessità di spostarli fisicamente nel lakehouse. È come creare collegamenti nel desktop di Windows.
 
@@ -143,7 +143,7 @@ I collegamenti sono usati per creare un collegamento all'ubicazione di destinazi
 
 # Trasformazione dei dati usando le query visive
 
-### Attività 2 - Creazione di una vista Geo mediante le query visive
+## Attività 2 - Creazione di una vista Geo mediante le query visive
 
 1. Possiamo accedere a Lakehouse tramite un endpoint SQL. Questo permette di eseguire query sui dati e creare viste. In **alto a destra** della schermata selezionare **Lakehouse (1) -> Endpoint di Analisi SQL (2)**.
 
@@ -313,7 +313,7 @@ I collegamenti sono usati per creare un collegamento all'ubicazione di destinazi
 
     ![](../media/Lab-3/image28.png)
 
-### Attività 3 - Creazione delle viste Reseller, Sales e Product tramite una query SQL
+## Attività 3 - Creazione delle viste Reseller, Sales e Product tramite una query SQL
 
 1. In Fabric è anche possibile creare viste tramite query SQL. Nella barra multifunzione della finestra per selezionare una **nuova query SQL**
 

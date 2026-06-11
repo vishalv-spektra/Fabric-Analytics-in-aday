@@ -43,7 +43,7 @@ In questo lab si imparerà a:
 
 # Flusso di dati Gen2
 
-### Attività 1: Configurazione dell'aggiornamento pianificato per il flusso di dati del fornitore
+## Attività 1: Configurazione dell'aggiornamento pianificato per il flusso di dati del fornitore
 
 Iniziamo con la configurazione di un aggiornamento pianificato del flusso di dati dei fornitori.
 
@@ -119,7 +119,7 @@ Iniziamo con la configurazione di un aggiornamento pianificato del flusso di dat
 
 # Pipeline
 
-### Attività 2: Creazione di una pipeline
+## Attività 2: Creazione di una pipeline
 
 1. Torniamo all'area di lavoro di Fabric, **FAIAD_<nome utente>** selezionandola nel pannello di sinistra.
 
@@ -151,7 +151,7 @@ Iniziamo con la configurazione di un aggiornamento pianificato del flusso di dat
 
     ![](../media/Lab-5/image21.png)
 
-### Attività 3: Creazione di una pipeline semplice
+## Attività 3: Creazione di una pipeline semplice
 
 Iniziamo a creare la pipeline. Abbiamo bisogno di un'attività per aggiornare il flusso di dati. Troviamo un'attività che possiamo usare.
 
@@ -199,7 +199,7 @@ Iniziamo a creare la pipeline. Abbiamo bisogno di un'attività per aggiornare il
 
     - La pipeline offre la possibilità di eseguire altre attività oltre ad aggiornare il flusso di dati
 
-### Attività 4: Creazione di una nuova pipeline
+## Attività 4: Creazione di una nuova pipeline
 
 Aggiungiamo un po' più di complessità al nostro scenario. Abbiamo notato che se i dati non sono disponibili alle 09:00, in genere lo sono entro cinque minuti. Se non viene rispettata la finestra temporale, saranno necessari 15 minuti affinché il file sia disponibile. Vogliamo pianificare i nuovi tentativi a cinque e 15 minuti. Vediamo come è possibile ottenere questo risultato creando una nuova pipeline.
 
@@ -213,7 +213,7 @@ Aggiungiamo un po' più di complessità al nostro scenario. Abbiamo notato che s
 
     ![](../media/Lab-5/image26.png)
 
-### Attività 5: Creazione di un'attività Until
+## Attività 5: Creazione di un'attività Until
 
 1. Si aprirà la schermata di Pipeline. Nel menu selezionare **Attività**.
 
@@ -227,7 +227,7 @@ Aggiungiamo un po' più di complessità al nostro scenario. Abbiamo notato che s
 
     ![](../media/Lab-5/image27.png)
 
-### Attività 6: Creazione di variabili
+## Attività 6: Creazione di variabili
 
 1. Dobbiamo creare variabili che verranno usate per l'iterazione e l'impostazione dello stato. Selezionare l'**area vuota** nel riquadro di progettazione della pipeline.
 
@@ -265,7 +265,7 @@ Aggiungiamo un po' più di complessità al nostro scenario. Abbiamo notato che s
 
     ![](../media/Lab-5/image29.png)
 
-### Attività 7: Configurazione di un'attività Until
+## Attività 7: Configurazione di un'attività Until
 
 1. Selezionare l'attività **Fino a**.
 
@@ -352,7 +352,7 @@ Aggiungiamo un po' più di complessità al nostro scenario. Abbiamo notato che s
 
     ![](../media/Lab-5/image38.png)
 
-### Attività 8: Configurazione di un'attività Flusso di dati
+## Attività 8: Configurazione di un'attività Flusso di dati
 
 1. Si aprirà nuovamente la schermata di progettazione. Con l'**attività Fino a** selezionata, nel **riquadro inferiore** selezionare **Attività**. Aggiungeremo ora le attività che devono essere eseguite.
 
@@ -378,7 +378,7 @@ Aggiungiamo un po' più di complessità al nostro scenario. Abbiamo notato che s
 
     ![](../media/Lab-5/image41.png)
 
-### Attività 9: Configurazione della prima attività Imposta variabile
+## Attività 9: Configurazione della prima attività Imposta variabile
 
 Abbiamo configurato l'attività Flusso di dati come abbiamo fatto in precedenza nel lab. Ora aggiungeremo nuova logica. Se l'aggiornamento del flusso di dati ha esito positivo, è necessario uscire dall'iteratore Fino a. Ricordare che una delle condizioni per uscire dell'iteratore è impostare il valore della variabile varIsSuccess su Sì.
 
@@ -424,7 +424,7 @@ Abbiamo configurato l'attività Flusso di dati come abbiamo fatto in precedenza 
 
     Ora dobbiamo impostare il contatore degli esiti negativi dell'attività Flusso di dati. In una pipeline una variabile non può fare riferimento a se stessa. Pertanto non possiamo incrementare la variabile contatore varCounter aggiungendo uno al suo valore (varCounter = varCounter + 1). Usiamo quindi la variabile varTempCounter.
 
-### Attività 10: Configurazione della seconda attività Imposta variabile
+## Attività 10: Configurazione della seconda attività Imposta variabile
 
 1. Nel menu in alto selezionare **Attività -> Imposta variabile**. L'attività Imposta variabile viene aggiunta al canvas di progettazione.
 
@@ -454,7 +454,7 @@ Abbiamo configurato l'attività Flusso di dati come abbiamo fatto in precedenza 
 
     Ora dobbiamo impostare il valore della variabile varCounter sul valore di varTempCounter.
 
-### Attività 11: Configurazione della terza attività Imposta variabile
+## Attività 11: Configurazione della terza attività Imposta variabile
 
 1. Nel menu in alto selezionare **Attività -> Imposta variabile**. L'attività Imposta variabile viene aggiunta al canvas di progettazione.
 
@@ -484,7 +484,7 @@ Abbiamo configurato l'attività Flusso di dati come abbiamo fatto in precedenza 
 
     **Nota:** questa funzione imposta il valore della variabile varCounter sul valore della variabile varTempCounter (varCounter = varTempCounter). Alla fine di ogni iterazione varCounter e varTempCounter hanno lo stesso valore.
 
-### Attività 12: Configurazione di un'attività Attesa
+## Attività 12: Configurazione di un'attività Attesa
 
 Quindi, dovremo impostare un'attesa di 5 minuti/300 secondi in caso di un primo esito negativo dell'aggiornamento del flusso di dati, prima di un nuovo tentativo. Se l'aggiornamento del flusso di dati non riesce per una seconda volta, dovrà intercorrere un'attesa di 15 minuti/900 secondi prima di un nuovo tentativo. Useremo l'attività Attesa e la variabile varWaitTime per impostare il tempo di attesa.
 
@@ -545,7 +545,7 @@ Quindi, dovremo impostare un'attesa di 5 minuti/300 secondi in caso di un primo 
 
     ![](../media/Lab-5/image53.png)
 
-### Attività 13: Configurazione dell'aggiornamento pianificato per la pipeline
+## Attività 13: Configurazione dell'aggiornamento pianificato per la pipeline
 
 1. Possiamo testare la pipeline di dati selezionando **Home -> Esegui**.
 

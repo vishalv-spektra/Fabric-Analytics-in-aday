@@ -36,7 +36,7 @@ In questo lab si apprenderà quanto segue:
 
 # Flusso di dati Gen2
 
-### Attività 1: Copia di query SharePoint nel flusso di dati
+## Attività 1: Copia di query SharePoint nel flusso di dati
 
 1. Torneremo quindi all'area di lavoro di Fabric, **FAIAD_<nome utente> (1)** creata nel Lab 2, Attività 8.
 
@@ -72,7 +72,7 @@ In questo lab si apprenderà quanto segue:
 
     ![](../media/Lab-4/image10.png)
 
-### Attività 2: Creazione della connessione a SharePoint
+## Attività 2: Creazione della connessione a SharePoint
 
 1. Selezionare **Configura connessione**.
 
@@ -88,7 +88,7 @@ In questo lab si apprenderà quanto segue:
 
     ![](../media/Lab-4/image12.png)
 
-### Attività 3: Configurazione della destinazione dei dati per la query People
+## Attività 3: Configurazione della destinazione dei dati per la query People
 
 Viene stabilita la connessione ed è possibile visualizzare i dati nel pannello di anteprima. Esplora i passaggi applicati delle query. Ora dobbiamo inserire i dati di People nel lakehouse.
 
@@ -122,7 +122,7 @@ Viene stabilita la connessione ed è possibile visualizzare i dati nel pannello 
 
     ![](../media/Lab-4/image16.png)
 
-### Attività 4: Pubblicazione e ridenominazione del flusso di dati SharePoint
+## Attività 4: Pubblicazione e ridenominazione del flusso di dati SharePoint
 
 1. Si apre nuovamente la **finestra di Power Query**. Nell'**angolo in basso a destra** nota che la Destinazione dati è impostata su **Lakehouse (1)**.
 
@@ -157,7 +157,7 @@ Viene stabilita la connessione ed è possibile visualizzare i dati nel pannello 
 
     **Nota:** se le tabelle appena create non sono visibili, selezionare i puntini di sospensione accanto a Tables e selezionare Aggiorna per aggiornare le tabelle.
 
-### Attività 5: Copia di query di Snowflake nel flusso di dati
+## Attività 5: Copia di query di Snowflake nel flusso di dati
 
 1. Ora torniamo all'area di lavoro di Fabric, **FAIAD_<nome utente> (1)**.
 
@@ -197,7 +197,7 @@ Viene stabilita la connessione ed è possibile visualizzare i dati nel pannello 
 
     ![](../media/Lab-4/image23.png)
 
-### Attività 6: Creazione della connessione a Snowflake
+## Attività 6: Creazione della connessione a Snowflake
 
 Notare che le cinque query vengono incollate e sulla sinistra è visualizzato il pannello Query. Poiché non abbiamo creato una connessione a Snowflake, compare un messaggio di avviso che chiede di configurare la connessione.
 
@@ -227,7 +227,7 @@ Notare che le cinque query vengono incollate e sulla sinistra è visualizzato il
 
     Viene stabilita la connessione ed è possibile visualizzare i dati nel pannello di anteprima. Esplorare i Passaggi applicati delle query. In genere, la query Suppliers contiene i dettagli sui fornitori e SupplierCategories, come il nome della tabella indica, contiene tutte le categorie di fornitori. Queste due tabelle vengono unite per creare la dimensione Supplier, con le colonne necessarie. Analogamente, uniremo PO Line Items e PO per creare il fatto PO. Ora dobbiamo inserire i dati di Supplier e PO nel lakehouse.
 
-### Attività 7: Configurazione della destinazione dei dati per le query Supplier e PO
+## Attività 7: Configurazione della destinazione dei dati per le query Supplier e PO
 
 1. Selezionare la query **Supplier (1)**.
 
@@ -261,7 +261,7 @@ Notare che le cinque query vengono incollate e sulla sinistra è visualizzato il
 
     ![](../media/Lab-4/image30.png)
 
-### Attività 8: Ridenominazione e pubblicazione del flusso di dati Snowflake
+## Attività 8: Ridenominazione e pubblicazione del flusso di dati Snowflake
 
 1. Nella parte superiore dello schermo seleziona la **freccia accanto a Flusso di dati 2 (il nome potrebbe essere diverso)** per rinominarlo.
 
@@ -291,7 +291,7 @@ Notare che le cinque query vengono incollate e sulla sinistra è visualizzato il
 
 # Collegamento al lakehouse interno
 
-### Attività 9: Come creare un collegamento a Dataverse
+## Attività 9: Come creare un collegamento a Dataverse
 
 Ci si dovrebbe trovare nel lakehouse **lh_FAIAD**. Accertarsi di essere nella vista Lakehouse (non nell'endpoint di Analisi SQL).
 
@@ -331,7 +331,7 @@ Ci si dovrebbe trovare nel lakehouse **lh_FAIAD**. Accertarsi di essere nella vi
 
     ![](../media/Lab-4/image39.png)
 
-### Attività 10: Creazione di un collegamento a un lakehouse
+## Attività 10: Creazione di un collegamento a un lakehouse
 
 1. Nel pannello **Explorer** selezionare i **puntini di sospensione** accanto a **Tables**.
 

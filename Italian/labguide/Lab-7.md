@@ -35,7 +35,7 @@ In questo lab si imparerà a:
 
 # Power BI
 
-### Attività 1: Creazione automatica del report
+## Attività 1: Creazione automatica del report
 
 Iniziamo usando l'opzione di creazione automatica del report. Più avanti nel lab, creeremo nuovamente il report presente in Power BI.
 
@@ -96,7 +96,7 @@ Iniziamo usando l'opzione di creazione automatica del report. Più avanti nel la
 
     ![](../media/Lab-7/image13.png)
 
-### Attività 2: Configurazione dello sfondo per un nuovo report
+## Attività 2: Configurazione dello sfondo per un nuovo report
 
 Creiamo un nuovo report usando un'area di disegno vuota.
 
@@ -140,7 +140,7 @@ Creiamo un nuovo report usando un'area di disegno vuota.
 
     ![](../media/Lab-7/image18.png)
 
-### Attività 3: Aggiunta dell'intestazione al report
+## Attività 3: Aggiunta dell'intestazione al report
 
 1. Aggiungiamo l'intestazione nel margine superiore. Nel **menu** selezionare **Casella di testo**.
 
@@ -160,7 +160,7 @@ Creiamo un nuovo report usando un'area di disegno vuota.
 
     ![](../media/Lab-7/image19.png)
 
-### Attività 4: Aggiunta di KPI al report
+## Attività 4: Aggiunta di KPI al report
 
 1. Aggiungiamo l'indicatore KPI delle vendite. Selezionare lo **spazio vuoto** nell'area di disegno per spostare lo stato attivo fuori dalla casella di testo.
 
@@ -220,7 +220,7 @@ Creiamo un nuovo report usando un'area di disegno vuota.
 
     ![](../media/Lab-7/image25.png)
 
-### Attività 5: Aggiunta di un grafico a linee al report
+## Attività 5: Aggiunta di un grafico a linee al report
 
 Creiamo un grafico a linee per visualizzare le vendite nel tempo per azienda rivenditrice.
 
@@ -234,7 +234,7 @@ Creiamo un grafico a linee per visualizzare le vendite nel tempo per azienda riv
 
     ![](../media/Lab-7/image26.png)
 
-### Attività 6: Salvataggio del report
+## Attività 6: Salvataggio del report
 
 Salviamo il report prima di uscire da esso per apportare modifiche al modello.
 
@@ -249,7 +249,7 @@ Salviamo il report prima di uscire da esso per apportare modifiche al modello.
 
     ![](../media/Lab-7/image27.png)
 
-### Attività 7: Configurazione della colonna Year nella tabella Date
+## Attività 7: Configurazione della colonna Year nella tabella Date
 
 1. Dal **menu in alto** selezionare **Modifica** per tornare alla modalità di modifica.
 
@@ -285,7 +285,7 @@ Salviamo il report prima di uscire da esso per apportare modifiche al modello.
 
     ![](../media/Lab-7/image31.png)
 
-### Attività 8: Configurazione della colonna Month Name nella tabella Date
+## Attività 8: Configurazione della colonna Month Name nella tabella Date
 
 1. Aggiungiamo il mese al grafico. Nella tabella Date trascinare il campo **MonthNameShort** sotto **Year** sull'**asse**** X**. Notare che l'oggetto visivo è ordinato in base a Sales. Ordiniamolo in base a **MonthNameShort**.
 
@@ -319,7 +319,7 @@ Salviamo il report prima di uscire da esso per apportare modifiche al modello.
 
     ![](../media/Lab-7/image35.png)
 
-### Attività 9: Formattazione del grafico a linee
+## Attività 9: Formattazione del grafico a linee
 
 È molto semplice aggiornare il modello semantico durante la creazione dei report. Ciò fornisce un'interazione fluida come Power BI Desktop.
 
@@ -365,7 +365,7 @@ Salviamo il report prima di uscire da esso per apportare modifiche al modello.
 
     Come indicato in precedenza, non creeremo tutti gli oggetti visivi in questo lab. Se si desidera, aggiungere ulteriori oggetti visivi.
 
-### Attività 10: Connessione di Power BI Desktop al modello semantico
+## Attività 10: Connessione di Power BI Desktop al modello semantico
 
 Vediamo ora quanto è semplice connettere Power BI Desktop al modello semantico e creare oggetti visivi.
 
@@ -427,7 +427,7 @@ Vediamo ora quanto è semplice connettere Power BI Desktop al modello semantico 
 
 20. Per salvare il report, nella barra multifunzione selezionare **File -> Salva**.
 
-### Attività 11: Aggiunta di nuovi dati per simulare la modalità Direct Lake
+## Attività 11: Aggiunta di nuovi dati per simulare la modalità Direct Lake
 
 In genere, in modalità Import, dopo aver aggiornato i dati nell'origine è necessario aggiornare il modello di Power BI dopodiché vengono aggiornati i dati nel report. Con la modalità Direct Query, quando i dati vengono aggiornati nell'origine sono disponibili nel report Power BI. Tuttavia, la modalità Direct Query è in genere lenta. Per risolvere questo problema, Microsoft Fabric ha introdotto la modalità Direct Lake. Direct Lake è un percorso rapido per caricare i dati dal lake al motore di Power BI per poter procedere immediatamente con l'analisi.
 
