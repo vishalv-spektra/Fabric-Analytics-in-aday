@@ -506,21 +506,16 @@ Ensuite, nous devons attendre 5 minutes/300 secondes si l’actualisation du flu
 
 8. La boîte de dialogue Générateur d’expressions de pipeline s’ouvre alors. Saisissez
 
-    **@if(**
-
-    **greater(variables(‘varCounter’), 1),**
-
-    **if(equals(variables(‘varCounter’), 2),**
-
-    **mul(variables(‘varWaitTime’),15 ),**
-
-    **mul(variables(‘varWaitTime’), 0)**
-
-    **),**
-
-    **mul(variables(‘varWaitTime’),5 )**
-
-    **)**
+    ```
+    @if(
+        greater(variables('varCounter'), 1),
+        if(equals(variables('varCounter'), 2),
+            mul(variables('varWaitTime'),15 ), 
+            mul(variables('varWaitTime'), 0)
+        ),
+        mul(variables('varWaitTime'),5 )
+    )
+    ```
 
     N’hésitez pas à saisir cette expression, à sélectionner les fonctions à l’aide du menu ou à la copier-coller.
 

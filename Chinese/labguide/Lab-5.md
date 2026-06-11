@@ -512,21 +512,16 @@
 
 8. 管道表达式生成器对话框随即打开。输入
 
-    **@if(**
-
-    **greater(variables(‘varCounter’), 1),**
-
-    **if(equals(variables(‘varCounter’), 2),**
-
-    **mul(variables(‘varWaitTime’),15 ),**
-
-    **mul(variables(‘varWaitTime’), 0)**
-
-    **),**
-
-    **mul(variables(‘varWaitTime’),5 )**
-
-    **)**
+    ```
+    @if(
+        greater(variables('varCounter'), 1),
+        if(equals(variables('varCounter'), 2),
+            mul(variables('varWaitTime'),15 ), 
+            mul(variables('varWaitTime'), 0)
+        ),
+        mul(variables('varWaitTime'),5 )
+    )
+    ```
 
     自由输入此表达式，使用菜单选择函数，或者复制并粘贴它。
 

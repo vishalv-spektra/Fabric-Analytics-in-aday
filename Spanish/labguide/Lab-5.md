@@ -21,8 +21,6 @@
 - Referencias
 
 
-# ![](../media/Lab-5/image4.png)w
-
 # Presentación
 
 Hemos ingerido datos de diferentes orígenes de datos en un almacén de lago de datos. En este laboratorio, configurará un programa de actualización para los orígenes de datos. Solo para recapitular el requisito:
@@ -90,9 +88,14 @@ Comencemos configurando una actualización programada del flujo de datos del pro
     ![](../media/Lab-5/image12.png)
 
 11. Verá que en el panel de **Configuración** que apareció tenemos tres opciones:
-    **Acerca de:** aquí podemos cambiar el nombre del flujo de datos y agregar una descripción. Además, podemos ver quién es el propietario del flujo de datos y la última vez que se modificó. **Aprobación:** esto nos permite especificar si el flujo de datos llevará la etiqueta **Promocionado** o **Certificado** para que otros la vean. **Programación:** aquí es donde podemos programar los flujos de datos.
 
-    ![](../media/Lab-5/image13.png)
+    - **Acerca de:** aquí podemos cambiar el nombre del flujo de datos y agregar una descripción. Además, podemos ver quién es el propietario del flujo de datos y la última vez que se modificó.
+   
+    - **Aprobación:** esto nos permite especificar si el flujo de datos llevará la etiqueta **Promocionado** o **Certificado** para que otros la vean.
+   
+    - **Programación:** aquí es donde podemos programar los flujos de datos.
+
+        ![](../media/Lab-5/image13.png)
 
 12. Seleccione la opción **Programación**.
 
@@ -158,8 +161,7 @@ Comencemos a crear la canalización. Necesitamos una actividad para actualizar e
 
 1. En el menú superior, seleccione **Actividades -> Flujo de datos**. La actividad del flujo de datos se agrega al panel de diseño central. Observe que el panel inferior ahora tiene opciones de configuración de la actividad de flujo de datos.
 
-2. Vamos a configurar la actividad para conectarse al flujo de datos de df_People_SharePoint.
-    En el **panel inferior**, seleccione **Configuración**.
+2. Vamos a configurar la actividad para conectarse al flujo de datos de df_People_SharePoint. En el **panel inferior**, seleccione **Configuración**.
 
     *Nota: Es posible que tenga que arrastrar el panel inferior hacia arriba para ver la configuración.*
 
@@ -173,7 +175,7 @@ Comencemos a crear la canalización. Necesitamos una actividad para actualizar e
 
     ![](../media/Lab-5/image23.png)
 
-5. En el **panel**** inferior**, seleccione **General**. Pongamos un nombre y una descripción a la actividad.
+5. En el **panel** **inferior**, seleccione **General**. Pongamos un nombre y una descripción a la actividad.
 
 6. En el campo **Nombre**, introduzca **dfactivity_People_SharePoint**.
 
@@ -303,7 +305,7 @@ Agreguemos un poco más de complejidad a nuestro escenario. Hemos observado que 
 
     6. **Variables de biblioteca:** las variables de biblioteca utilizan variables que se definen en el **elemento de Fabric de biblioteca de variables.** Estas variables proporcionan una manera centralizada de administrar las configuraciones en los espacios de trabajo para admitir los flujos de trabajo de CI/CD. Se pueden usar junto con canalizaciones, blocs de notas y accesos directos almacén de Lakehouse, entre otros.
 
-    ![](../media/Lab-5/image32.png)
+        ![](../media/Lab-5/image32.png)
 
 9. Haga clic en **Funciones** en la cinta de opciones o el menú.
 
@@ -507,21 +509,16 @@ A continuación, debemos esperar cinco minutos/300 segundos si la actualización
 
 8. Se abre el cuadro de diálogo Generador de expresiones de canalización. Introducir
 
-    **@if(**
-
-    **greater(variables(‘varCounter’), 1),**
-
-    **if(equals(variables(‘varCounter’), 2),**
-
-    **mul(variables(‘varWaitTime’),15 ),**
-
-    **mul(variables(‘varWaitTime’), 0)**
-
-    **),**
-
-    **mul(variables(‘varWaitTime’),5 )**
-
-    **)**
+    ```
+    @if(
+        greater(variables('varCounter'), 1),
+        if(equals(variables('varCounter'), 2),
+            mul(variables('varWaitTime'),15 ), 
+            mul(variables('varWaitTime'), 0)
+        ),
+        mul(variables('varWaitTime'),5 )
+    )
+    ```
 
     Siéntase libre de escribir esta expresión o use el menú para seleccionar las funciones o copiarla y pegarla.
 

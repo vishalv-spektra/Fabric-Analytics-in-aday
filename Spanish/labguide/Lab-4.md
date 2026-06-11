@@ -17,7 +17,6 @@
   - Tarea 10: Crear un acceso directo a un almacén de lago de datos
 - Referencias
 
-
 # Presentación
 
 En nuestro escenario, los datos del proveedor están en Snowflake, los datos del cliente están en Dataverse y los datos de los empleados están en SharePoint. Todos estos orígenes de datos se actualizan en diferentes momentos. Para minimizar la cantidad de actualizaciones de datos para flujos de datos, crearemos flujos de datos individuales para los orígenes de datos de Snowflake y SharePoint.
@@ -172,7 +171,7 @@ Se establece la conexión y puede ver los datos en el panel de vista previa. Si�
 
 5. En la cinta de opciones, seleccione **Inicio -> Transformar datos**. Se abre la ventana de Power Query. Como habrá notado en la práctica de laboratorio anterior, las consultas en el panel izquierdo están organizadas por orígenes de datos.
 
-6. Desde el panel izquierdo, en la carpeta **SnowflakeData**** Ctrl+Seleccionar** o Mayús+Seleccionar las siguientes consultas:
+6. Desde el panel izquierdo, en la carpeta **SnowflakeData** **Ctrl+Seleccionar** o Mayús+Seleccionar las siguientes consultas:
 
     1. SupplierCategories
 
@@ -416,7 +415,7 @@ Obtenga más información en los blogs de anuncios de la experiencia Fabric:
 
 - [Blog de integración de Dataverse y Microsoft Fabric](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. Todos los derechos reservados.
+© 2026 Microsoft Corporation. Todos los derechos reservados.
 
 Al participar en esta demostración o laboratorio práctico, acepta las siguientes condiciones:
 
