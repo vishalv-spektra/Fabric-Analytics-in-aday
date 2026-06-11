@@ -12,29 +12,6 @@
   - 任务 3：查看 Power Queries
 - 参考
 
-
-Microsoft Fabric Fabric Analyst in a Day 实验室 1
-
-版本：2026 年 5 月
-
-实验室 0
-
-![](../media/Lab-1/image1.png)
-
-![](../media/Lab-1/image2.png)
-
-Microsoft Fabric
-
-Fabric Analyst in a Day
-
-实验室 0
-
-![](../media/Lab-1/image1.png)
-
-![](../media/Lab-1/image3.emf)
-
-zzzz
-
 # 文档结构
 
 本实验室包含用户需要遵循的步骤以及可提供直观协助的关联屏幕截图。在每个屏幕截图中，以橙色框突出显示的部分指出了用户应注意的区域。
