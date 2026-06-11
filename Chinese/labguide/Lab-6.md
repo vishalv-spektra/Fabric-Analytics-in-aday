@@ -1,4 +1,4 @@
-# Microsoft Fabric - Fabric Analyst in a Day - 实验室 0
+# Microsoft Fabric - Fabric Analyst in a Day - 实验室 6
 
 ![](../media/Lab-1/cn6.png)
 
@@ -15,7 +15,6 @@
   - 任务 6：可选部分 - 创建关系
   - 任务 7：可选部分 - 创建度量值
 - 参考
-
 
 
 # **简介**
