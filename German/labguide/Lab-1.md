@@ -64,19 +64,19 @@ Bevor wir mit Fabric beginnen, sehen wir uns den aktuellen Bericht in Power BI D
 
 2. Sobald das Dialogfeld „E-Mail-Adresse eingeben“ angezeigt wird, kopieren Sie den **Benutzernamen**, fügen Sie ihn in das Feld **E-Mail-Adresse** des Dialogfelds ein, und wählen Sie **Weiter** aus.
 
-    - E-Mail-Adresse/Benutzername:
+    - E-Mail-Adresse/Benutzername: <inject key="AzureAdUserEmail"></inject>  
 
         ![](../media/Lab-1/image7.png)
 
 3. Auf der Registerkarte „Bei Microsoft Azure anmelden“ sehen Sie den Anmeldebildschirm. Hier geben Sie die folgende E-Mail-Adresse bzw. den folgenden Benutzernamen ein und klicken dann auf **Weiter**.
 
-    - E-Mail-Adresse/Benutzername:
+    - E-Mail-Adresse/Benutzername: <inject key="AzureAdUserEmail"></inject>  
 
         ![](../media/Lab-1/image8.png)
 
 4. Geben Sie nun den folgenden **befristeten Zugriffspass** ein, und klicken Sie auf **Anmelden**.
 
-    - Befristeter Zugriffspass:
+    - Befristeter Zugriffspass: <inject key="AzureAdUserPassword"></inject>
 
         ![](../media/Lab-1/image9.png)
 
@@ -202,9 +202,9 @@ Im nachstehenden Bericht werden die Verkäufe von Fabrikam analysiert. Die KPIs 
 
 13. Geben Sie den **Benutzernamen für Snowflake** und das **Kennwort für Snowflake** ein, die unten angegeben sind. Verwenden Sie diese Anmeldeinformationen, um alle Tabellen unter Snowflake mit Snowflake zu verbinden, und wählen Sie dann „**Verbinden**“.
 
-    - **Snowflake-Benutzername:** TE_SNOWFLAKE1
+    - **Snowflake-Benutzername:** 
 
-    - **Snowflake-Kennwort:** 8UpfRpExVDXv2AC1
+    - **Snowflake-Kennwort:** 
 
     *Hinweis: Wenn Sie Probleme beim Herstellen einer Verbindung zu Snowflake mit obigen Anmeldeinformationen haben, verwenden Sie bitte die nachfolgenden Backup-Anmeldeinformationen.*
 
