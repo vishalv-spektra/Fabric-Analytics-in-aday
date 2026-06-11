@@ -54,15 +54,12 @@
 
     ```sql
     SELECT su.SupplierName, SUM(Quantity) as Units
-
     FROM dbo.Sales s
-
     JOIN dbo.Product p on p.StockItemID = s.StockItemID
-
     JOIN dbo.Supplier su on su.SupplierID = p.SupplierID
-
     GROUP BY su.SupplierName
     ```
+
 6. 在 SQL 编辑器菜单中单击**运行**以查看结果。
 
 7. 请注意，有一个选项用于通过选择**另存为视图**来将此查询另存为视图。

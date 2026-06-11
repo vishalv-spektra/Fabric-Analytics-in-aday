@@ -53,15 +53,12 @@
 
     ```sql
     SELECT su.SupplierName, SUM(Quantity) as Units
-
     FROM dbo.Sales s
-
     JOIN dbo.Product p on p.StockItemID = s.StockItemID
-
     JOIN dbo.Supplier su on su.SupplierID = p.SupplierID
-
     GROUP BY su.SupplierName
     ```
+    
 6. 結果を見るには、SQL エディター メニューで **Run** をクリックします。
 
 7. **ビューとして保存**を選択すると、このクエリをビューとして保存できます。

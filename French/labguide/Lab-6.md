@@ -53,15 +53,12 @@ Nous avons des données provenant de différentes sources ingérées dans la lak
 
     ```sql
     SELECT su.SupplierName, SUM(Quantity) as Units
-
     FROM dbo.Sales s
-
     JOIN dbo.Product p on p.StockItemID = s.StockItemID
-
     JOIN dbo.Supplier su on su.SupplierID = p.SupplierID
-
     GROUP BY su.SupplierName
     ```
+
 6. Cliquez sur **Run** dans le menu de l’éditeur SQL pour afficher les résultats.
 
 7. Notez qu’une option permet d’enregistrer cette requête en tant que vue en cliquant sur **Enregistrer en tant que vue**.

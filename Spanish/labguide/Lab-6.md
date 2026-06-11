@@ -50,15 +50,12 @@ Al final de este laboratorio, habrá aprendido:
 
     ```sql
     SELECT su.SupplierName, SUM(Quantity) as Units
-
     FROM dbo.Sales s
-
     JOIN dbo.Product p on p.StockItemID = s.StockItemID
-
     JOIN dbo.Supplier su on su.SupplierID = p.SupplierID
-
     GROUP BY su.SupplierName
     ```
+    
 6. Haga clic en **Run** en el menú del editor de SQL para ver los resultados.
 
 7. Observe que hay una opción para guardar esta consulta como Vista si selecciona **Guardar como copia**.
