@@ -1,4 +1,4 @@
-# Microsoft Fabric - Fabric Analyst in a Day
+# Microsoft Fabric - Fabric Analyst in a Day - 实验室 5
 
 ![](../media/Lab-1/cn5.png)
 
@@ -21,7 +21,6 @@
   - 任务 12：配置等待活动
   - 任务 13：为管道配置计划刷新
 - 参考
-
 
 
 # 简介
