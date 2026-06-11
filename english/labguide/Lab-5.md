@@ -161,7 +161,7 @@ Let’s start by configuring a scheduled refresh of Supplier Dataflow.
 
 3. A new pipeline dialog opens. Name the pipeline as **pl_Refresh_People_SharePoint** and select **Create**.
 
-    ![](../media/Lab-5/image18.png)
+    ![](../media/Lab-5/L5T2S3-1106.png)
 
     You are navigated to the **Pipeline page**. If you have worked with Azure Data Factory, this screen will be familiar. Let’s get a quick overview of the layout.
 
@@ -226,19 +226,15 @@ Let’s start building the pipeline. We need an activity to refresh the Dataflow
 
     >**Note:** Since the data is not available on a schedule, let’s set the activity to re-execute every 10 minutes, three times. If it fails on the third attempt as well, then it will report a failure.
 
+10. Check **Enable retries** box. 
 
-10. Set **Retry** to **3**
-
-
-11. Expand **Advanced** section.
-
+11. Set **Retry** to **3**
 
 12. Set **Retry interval (sec)** to **600**.
 
-
 13. From the menu select **Home -> Save** icon to save the pipeline.
 
-    ![](../media/Lab-5/image24.png)
+    ![](../media/Lab-5/L5T3S13-1106.png)
 
     Notice the advantage of using the pipeline compared to setting the dataflow on scheduled refresh (like we did for the earlier dataflow):
 
@@ -258,7 +254,7 @@ Let’s add a little more complexity to our scenario. We have noticed that if th
 
 3. New pipeline dialog opens. **Name** the pipeline as **pl_Refresh_People_SharePoint_Option2 (3),** and select **Create (4)**.
 
-    ![](../media/Lab-5/image26.png)
+    ![](../media/Lab-5/L5T4S3-1106.png)
 
 ## Task 5: Create Until Activity
 
@@ -320,7 +316,7 @@ Let’s add a little more complexity to our scenario. We have noticed that if th
 
 3. Enter **Name** as **Iterator**
 
-4. Enter **Description** as “**Iterator to refresh dataflow. It will retry up to 3 times**”.
+4. Enter **Description** as **Iterator to refresh dataflow. It will retry up to 3 times**.
 
     ![](../media/Lab-5/image30.png)
 
@@ -432,7 +428,7 @@ Let’s add a little more complexity to our scenario. We have noticed that if th
 5. In the **Name** field, enter **dfactivity_People_SharePoint**
 
 
-6. In the **Description** field, enter “**Dataflow activity to refresh df_People_SharePoint dataflow**”.
+6. In the **Description** field, enter **Dataflow activity to refresh df_People_SharePoint dataflow**.
 
     ![](../media/Lab-5/image40.png)
 
@@ -457,7 +453,7 @@ We have configured the Dataflow activity like we did earlier in the lab. Now we 
 
 3. In the **Name** field, enter **set_varIsSuccess**
 
-4. In the **Description** field, enter “**Set variable varIsSuccess to Yes”**.
+4. In the **Description** field, enter **Set variable varIsSuccess to Yes**.
 
     >**Note:** Hover over **Dataflow activity**. To the right of the activity box there are four icons. These can be used to connect to the next activity based on the result of the activity:
 
@@ -501,7 +497,7 @@ We have configured the Dataflow activity like we did earlier in the lab. Now we 
 
 3. In the **Name** field, enter **set_varTempCounter**
 
-4. In the **Description** field, enter “**Increment variable varTempCounter”**.
+4. In the **Description** field, enter **Increment variable varTempCounter**.
 
 5. Click the **red x-mark** from Dataflow activity to the new Set variable activity. So, on failure of dataflow refresh we want to execute this Set variable activity.
 
@@ -531,7 +527,7 @@ We have configured the Dataflow activity like we did earlier in the lab. Now we 
 
 3. In the **Name** field, enter **set_varCounter**
 
-4. In the **Description** field, enter “**Increment variable varCounter”**.
+4. In the **Description** field, enter **Increment variable varCounter**.
 
 5. Click the **green check mark** from set_varTempCounter Set variable activity and drag to connect to the new **set_varCounter Set variable activity**.
 
@@ -569,7 +565,7 @@ Next, we need to wait for 5 minutes/300 seconds if dataflow refresh fails the fi
 3. In the **Name** field, enter **wait_onFailure**
 
 
-4. In the **Description** field, enter “**Wait for 300 seconds on 2nd try and 900 seconds on 3rd try”**.
+4. In the **Description** field, enter **Wait for 300 seconds on 2nd try and 900 seconds on 3rd try**.
 
 
 5. Click the **green check mark** from set_varCounter Set variable activity and drag to connect to the new **wait_onFailure Wait activity**.
