@@ -209,7 +209,7 @@ Al final de este laboratorio, habrá aprendido:
 
 ## Tarea 5: Experiencia de Industry Solutions
 
-1. En la página **Cargas de trabajo**, haga clic en **Industry**** Solutions** para continuar.
+1. En la página **Cargas de trabajo**, haga clic en **Industry** **Solutions** para continuar.
 
     ![](../media/Lab-2/image24.png)
 

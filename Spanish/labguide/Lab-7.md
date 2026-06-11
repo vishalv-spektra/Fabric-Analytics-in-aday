@@ -49,7 +49,7 @@ Comencemos con la opción de creación automática de informes. Y, más adelante
 
     ![](../media/Lab-7/image7.png)
 
-4. Seleccione **Nuevo informe** en el menú superior.
+4. Seleccione **+ Nuevo informe** en el menú superior.
 
     ![](../media/Lab-7/image8.png)
 
@@ -79,7 +79,7 @@ Comencemos con la opción de creación automática de informes. Y, más adelante
 
 9. Guardemos este informe. En el menú superior, seleccione **Guardar**.
 
-10. Se abre el cuadro de diálogo Guardar el informe. Nombre el informe como **rpt_Sales_Auto_Report**** Nota:** Estamos anteponiendo rpt al nombre del informe, que es la abreviatura de informe (en inglés).
+10. Se abre el cuadro de diálogo Guardar el informe. Nombre el informe como **rpt_Sales_Auto_Report** **Nota:** Estamos anteponiendo rpt al nombre del informe, que es la abreviatura de informe (en inglés).
 
 11. Asegúrese de que el informe esté guardado en el área de trabajo **FAIAD_<username>.**
 
@@ -111,7 +111,7 @@ Creemos un nuevo informe usando un lienzo en blanco.
 
 4. Se abre el cuadro de diálogo Selección de un modelo semántico para usarlo en su informe. Seleccione **sm_FAIAD**.
 
-5. Haga clic en la **flecha**** junto al botón Crear informe de forma automática**. Se le dirigirá a una página del informe similar a la página del informe de Power BI Desktop.
+5. Haga clic en la **flecha** **junto al botón Crear informe de forma automática**. Se le dirigirá a una página del informe similar a la página del informe de Power BI Desktop.
 
     ![](../media/Lab-7/image16.png)
 
@@ -123,7 +123,7 @@ Creemos un nuevo informe usando un lienzo en blanco.
 
 7. Vuelva al **lienzo de Power BI** en su explorador.
 
-8. Seleccione el **icono**** de** **la página Formato** en el panel de Visualizaciones.
+8. Seleccione el **icono** **de** **la página Formato** en el panel de Visualizaciones.
 
 9. Expanda la **sección Fondo del lienzo**.
 
@@ -225,7 +225,7 @@ Creemos un gráfico de líneas para visualizar las ventas a lo largo del tiempo 
 
 1. Seleccione el **espacio en blanco** en el lienzo para quitar el foco del objeto visual de tarjeta de varias filas.
 
-2. En la **sección**** Visualizaciones**, seleccione **Gráfico de líneas**.
+2. En la **sección** **Visualizaciones**, seleccione **Gráfico de líneas**.
 
 3. En la **sección Datos**, expanda la tabla **Date**.
 
@@ -260,7 +260,7 @@ Guardemos el informe antes de salir de él para realizar cambios en el modelo.
 
 3. En la esquina superior derecha, cambie al modo **Edición**.
 
-4. En el panel **Datos**** de la derecha,** seleccione Tablas.
+4. En el panel **Datos** **de la derecha,** seleccione Tablas.
 
 5. Expanda la tabla **Date**.
 
@@ -276,7 +276,7 @@ Guardemos el informe antes de salir de él para realizar cambios en el modelo.
 
 10. En el **panel Datos** de la derecha, expanda la tabla **Date**. Observe que Year no es un campo de suma.
 
-11. Con el **objeto visual Gráfico de líneas seleccionado**,** elimine la Sum of Year** del eje Y.
+11. Con el **objeto visual Gráfico de líneas seleccionado**, **elimine la Sum of Year** del eje Y.
 
 12. Seleccione el campo **Year** y se agregará al **eje X**.
 
@@ -737,7 +737,7 @@ Obtenga más información en los blogs de anuncios de la experiencia Fabric:
 
 - [Blog de integración de Dataverse y Microsoft Fabric](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. Todos los derechos reservados.
+© 2026 Microsoft Corporation. Todos los derechos reservados.
 
 Al participar en esta demostración o laboratorio práctico, acepta las siguientes condiciones:
 

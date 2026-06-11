@@ -80,7 +80,7 @@ Al final de este laboratorio, habrá aprendido:
 
 4. Expanda el panel **Datos** y expanda **SQL query 2**.
 
-5. Seleccione los **campos**** Supplier_Name** y **Units**. Se crea un objeto visual de tabla.
+5. Seleccione los **campos** **Supplier_Name** y **Units**. Se crea un objeto visual de tabla.
 
     ![](../media/Lab-6/image10.png)
 
@@ -366,7 +366,7 @@ Agreguemos las medidas restantes.
 
     1. En la tabla **Sales , GM = SUM(‘Sales’[LineProfit])** formateado como **Divisa con 0 decimales.**
 
-    2. En la tabla **Sales**,** GM% = DIVIDE([GM], [Sales])** formateado como **Porcentaje con 0 decimales.**
+    2. En la tabla **Sales**, **GM% = DIVIDE([GM], [Sales])** formateado como **Porcentaje con 0 decimales.**
 
     3. En la tabla **Customer, No of Customers = COUNTROWS(Customer)** formateado como **Número entero con separador de miles activado.**
 
@@ -416,7 +416,7 @@ Obtenga más información en los blogs de anuncios de la experiencia Fabric:
 
 - [Blog de integración de Dataverse y Microsoft Fabric](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. Todos los derechos reservados.
+© 2026 Microsoft Corporation. Todos los derechos reservados.
 
 Al participar en esta demostración o laboratorio práctico, acepta las siguientes condiciones:
 

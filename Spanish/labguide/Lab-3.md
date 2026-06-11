@@ -207,7 +207,7 @@ Los accesos directos se utilizan para crear un vínculo a la ubicación de desti
 
     Necesitamos fusionar la consulta Countries ahora.
 
-15. Con la consulta de combinación seleccionada **(1),** seleccione **Inicio**** (2) -> Combinar (3) -> Menú desplegable Combinar consultas (4) -> Combinar consultas (5).**
+15. Con la consulta de combinación seleccionada **(1),** seleccione **Inicio** **(2) -> Combinar (3) -> Menú desplegable Combinar consultas (4) -> Combinar consultas (5).**
 
     ![](../media/Lab-3/image20.png)
 

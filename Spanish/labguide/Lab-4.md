@@ -63,7 +63,7 @@ Al final de este laboratorio, habrá aprendido:
 
     ![](../media/Lab-4/image8.png)
 
-    **Nota:** Si está trabajando en el entorno de laboratorio, seleccione los puntos suspensivos en la parte superior derecha de la pantalla. Utilice el control deslizante para **habilitar**** Portapapeles nativo de VM**. Seleccione Aceptar en el cuadro de diálogo. Una vez que haya terminado de pegar las consultas, puede desactivar esta opción.
+    **Nota:** Si está trabajando en el entorno de laboratorio, seleccione los puntos suspensivos en la parte superior derecha de la pantalla. Utilice el control deslizante para **habilitar** **Portapapeles nativo de VM**. Seleccione Aceptar en el cuadro de diálogo. Una vez que haya terminado de pegar las consultas, puede desactivar esta opción.
 
     ![](../media/Lab-4/image9.png)
 
@@ -191,7 +191,7 @@ Se establece la conexión y puede ver los datos en el panel de vista previa. Si�
 
 9. En el **panel del flujo de datos**, seleccione el **panel central**, introduzca **Ctrl+V** (actualmente, hacer clic con el botón derecho en Pegar no es compatible). Si está utilizando un dispositivo MAC, utilice Cmd+V para pegar.
 
-    **Nota:** Si está trabajando en el entorno de laboratorio, seleccione los **puntos suspensivos (…)** en la parte superior derecha de la pantalla. Utilice el control deslizante para **habilitar**** Portapapeles nativo de VM**. Seleccione Aceptar en el cuadro de diálogo. Una vez que haya terminado de pegar las consultas, puede desactivar esta opción.
+    **Nota:** Si está trabajando en el entorno de laboratorio, seleccione los **puntos suspensivos (…)** en la parte superior derecha de la pantalla. Utilice el control deslizante para **habilitar** **Portapapeles nativo de VM**. Seleccione Aceptar en el cuadro de diálogo. Una vez que haya terminado de pegar las consultas, puede desactivar esta opción.
 
     ![](../media/Lab-4/image23.png)
 

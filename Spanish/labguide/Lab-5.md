@@ -237,7 +237,7 @@ Agreguemos un poco más de complejidad a nuestro escenario. Hemos observado que 
 
 2. Observe que el menú en el panel inferior cambia. Seleccione **Variables**.
 
-3. Seleccione **+**** Nuevo** para agregar una variable.
+3. Seleccione **+** **Nuevo** para agregar una variable.
 
 4. Observe que aparece una fila. Escriba **varCounter** en el **cuadro de texto Nombre**. Usaremos esta variable para iterar tres veces.
 
