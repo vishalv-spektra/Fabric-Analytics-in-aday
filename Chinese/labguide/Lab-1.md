@@ -1,4 +1,4 @@
-# Microsoft FabricFabric Analyst in a Day实验室 1 - 版本：2026 年 5 月 - 实验室 0
+# Microsoft Fabric - Fabric Analyst in a Day - 实验室 1
 
 ![](../media/Lab-1/cn1.png)
 
