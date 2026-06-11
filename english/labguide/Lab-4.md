@@ -140,13 +140,13 @@ The connection is established, and you can view the data in the preview panel. F
 
 5. We want to create the table in the Lakehouse we created earlier. In the left panel, navigate to **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
-6. Select **lh_FAIAD**
+6. Expand **lh_FAIAD** and select the **dbo** folder.
 
 7. Leave the table name as **People**
 
 8. Select **Next**.
 
-    ![](../media/Lab-4/image15.png)
+    ![](../media/Lab-4/L4T3S8-1106.png)
 
 9. Choose destination settings dialog opens. Make sure “**Use automatic settings**” is **enabled**.
 
@@ -216,7 +216,7 @@ The connection is established, and you can view the data in the preview panel. F
 
     4. PO
 
-    5. PO Line Items
+    5. POLineItems
 
 7. **Right-click** and select **Copy**.
 
@@ -296,16 +296,13 @@ Notice the five queries are pasted and now you have the Queries panel on the lef
 
 6. We want to create the table in the Lakehouse we created earlier. In the left panel, navigate to **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
-
-7. Select **lh_FAIAD**
-
+7. Expand **lh_FAIAD** and select the **dbo** folder.
 
 8. Leave the table name as **Supplier**
 
-
 9. Select **Next**.
 
-    ![](../media/Lab-4/image28.png)
+    ![](../media/Lab-4/L4T7S9-1106.png)
 
 10. Choose destination settings dialog opens. We will use the automatic settings as this will do a full update of the data. Also, it will rename the columns as needed. Select **Save settings**.
 
@@ -355,9 +352,9 @@ Notice the five queries are pasted and now you have the Queries panel on the lef
 
 ## Task 9: How to create a Shortcut to Dataverse
 
-You should be in the Lakehouse **lh_FAIAD**. Make sure you are in Lakehouse view (not SQL analytics endpoint).
+You should be in the Lakehouse **lh_FAIAD**. Make sure you are in **Analyze data with** view (not SQL analytics endpoint).
 
-![](../media/Lab-4/image34.png)
+![](../media/Lab-4/L4T9-1106.png)
 
 
 1. In **Explorer** panel, select the **ellipsis** next to **Tables**.
@@ -413,16 +410,13 @@ You should be in the Lakehouse **lh_FAIAD**. Make sure you are in Lakehouse view
 
     ![](../media/Lab-4/image40.png)
 
-
 4. Select **lh_dataverse**.
-
 
 5. Select **Next**.
 
     ![](../media/Lab-4/image41.png)
 
 6. In the left panel, expand **lh_dataverse -> Tables**. Notice the IT admin has provided access to the Customer table.
-
 
 7. Select **Customer**.
 
@@ -431,11 +425,9 @@ You should be in the Lakehouse **lh_FAIAD**. Make sure you are in Lakehouse view
 
     ![](../media/Lab-4/image42.png)
 
-
 9. Select **Create** on the next dialog. You will be navigated back to lh_FAIAD lakehouse.
 
     ![](../media/Lab-4/image43.png)
-
 
 10. In the **Explorer** panel on the left, notice the new **Customer** table has been created.
 

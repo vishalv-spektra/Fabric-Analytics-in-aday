@@ -156,9 +156,9 @@ Shortcuts are used to create a link to the target location. Shortcuts provide ac
 
 ## Task 2: Create Geo view using Visual Query
 
-1. We can access the Lakehouse using a SQL endpoint. This provides the ability to query the data and create views. On the **top right** of the screen, select **Lakehouse (1) -> SQL analytics endpoint (2)**.
+1. We can access the Lakehouse using a SQL endpoint. This provides the ability to query the data and create views. On the **top right** of the screen, select **Analyze with data (1) -> SQL analytics endpoint (2)**.
 
-    ![](../media/Lab-3/image13.png)
+    ![](../media/Lab-3/L3T2S1-1106.png)
 
     You will be navigated to SQL analytics endpoint. You have a new item now in your top navigation and can move back to the Lakehouse by selecting that tab. Notice the Explorer panel has changed. You now can create views, stored procedures, queries and more. We are going to create a visual query as it provides a low code, like Power Query, interface. We will save the result as a view.
 
