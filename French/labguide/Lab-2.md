@@ -89,9 +89,9 @@ Aujourd’hui, vous allez découvrir diverses fonctionnalités clés de Microsof
 
 ## Tâche 2 : créer un espace de travail Fabric
 
-1. Créons maintenant un espace de travail avec la licence Fabric. Cliquez sur **Espaces de travail** (1) dans la barre de navigation gauche. Une boîte de dialogue s’ouvre alors.
+1. Créons maintenant un espace de travail avec la licence Fabric. Cliquez sur **Espaces de travail** **(1)** dans la barre de navigation gauche. Une boîte de dialogue s’ouvre alors.
 
-2. Cliquez sur **+ Nouvel espace de travail** (2) en bas du menu contextuel.
+2. Cliquez sur **+ Nouvel espace de travail** **(2)** en bas du menu contextuel.
 
     ![](../media/Lab-2/image14.png)
 

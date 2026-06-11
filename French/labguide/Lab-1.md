@@ -65,7 +65,7 @@ Avant de prendre en main Fabric, examinons l’état actuel dans Power BI Deskto
 
     - Adresse e-mail/nom d’utilisateur :
 
-    ![](../media/Lab-1/image7.png)
+        ![](../media/Lab-1/image7.png)
 
 3. Sur l’onglet Se connecter à Microsoft Azure, vous verrez l’écran de connexion ; saisissez l’adresse e-mail/nom d’utilisateur suivant, puis cliquez sur **Suivant**.
 
@@ -170,9 +170,9 @@ L’état ci-dessous analyse les ventes de Fabrikam. Les KPI sont répertoriés 
 
 8. Vous pouvez saisir les informations d’identification de la source de données Dataverse en saisissant le **Nom d’utilisateur** et le **Mot de passe**. Les informations d’identification sont fournies ci-après. Une fois que vous avez terminé, cliquez sur **Connecter**.
 
-    - Adresse e-mail/Nom d’utilisateur : disponible dans l’onglet Environnement
+    - Adresse e-mail/Nom d’utilisateur : 
 
-    - Mot de passe : disponible dans l’onglet Environnement
+    - Mot de passe : 
 
 9. Cliquez sur la requête **ADLS Base Folder** dans la fenêtre de requêtes. En sélectionnant cette requête, vous devrez entrer les informations d’identification. Cliquez sur **Modifier les informations d’identification**.
 
@@ -180,7 +180,7 @@ L’état ci-dessous analyse les ventes de Fabrikam. Les KPI sont répertoriés 
 
 10. Pour la source de données ADLS, sélectionnez l’option **Signature d’accès partagé (SAS)**, puis saisissez le **jeton SAS** fourni ci-dessous. Cliquez ensuite sur **Connecter**.
 
-    - **Jeton SAS :** Disponible dans l’onglet Environnement
+    - **Jeton SAS :** 
 
         ![](../media/Lab-1/image23.png)
 
