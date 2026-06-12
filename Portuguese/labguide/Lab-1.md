@@ -35,7 +35,7 @@ Para obter insights valiosos dos dados, você extrai dados de vários sistemas, 
 
 - **Dados do Funcionário:** são obtidos do sistema de RH e armazenados como um arquivo de exportação em uma pasta do SharePoint. São atualizados todas as manhãs, às 9h.
 
-![](../media/Lab-1/image4.jpeg)
+    ![](../media/Lab-1/image4.jpeg)
 
 No momento, você está criando um modelo semântico no Power BI Premium que extrai os dados dos sistemas de origem acima para que você possa gerar relatórios e fornecer aos usuários finais o recurso de autoatendimento. Você usa o Power Query para atualizar seu modelo.
 
@@ -57,7 +57,7 @@ Você ouviu falar do Microsoft Fabric e decidiu tentar ver se ele resolverá seu
 
 Antes de começarmos com o Fabric, vamos dar uma olhada no Relatório atual no Power BI Desktop para entender as transformações e o modelo.
 
-### Tarefa 1: Configurar o Power BI Desktop no ambiente de laboratório
+## Tarefa 1: Configurar o Power BI Desktop no ambiente de laboratório
 
 1. Abra o arquivo **FAIAD.pbix** que está na pasta **Reports** na **área de trabalho** do seu ambiente de laboratório. O arquivo será aberto no Power BI Desktop.
 
@@ -68,19 +68,19 @@ Antes de começarmos com o Fabric, vamos dar uma olhada no Relatório atual no P
 
     - Email/Nome de usuário: <inject key="AzureAdUserEmail"></inject>
 
-    ![](../media/Lab-1/image7.png)
+        ![](../media/Lab-1/image7.png)
 
 3. Na guia Entrar no Microsoft Azure, você verá a tela de logon. Nessa tela, insira o seguinte Email/Nome de usuário e clique em **Avançar**.
 
     - Email/Nome de usuário: <inject key="AzureAdUserEmail"></inject>
 
-    ![](../media/Lab-1/image8.png)
+        ![](../media/Lab-1/image8.png)
 
 4. Agora, insira a seguinte **Senha de Acesso Temporária** e clique em **Entrar**.
 
     - Senha de Acesso Temporária:  <inject key="AzureAdUserPassword"></inject>
 
-    ![](../media/Lab-1/image9.png)
+        ![](../media/Lab-1/image9.png)
 
 5. A caixa de diálogo **Continuar conectado a todos os aplicativos** é aberta. Selecione **OK**.
 
@@ -90,7 +90,7 @@ Antes de começarmos com o Fabric, vamos dar uma olhada no Relatório atual no P
 
     O Power BI Desktop será aberto.
 
-### Tarefa 2: Analisar relatório do Power BI Desktop
+## Tarefa 2: Analisar relatório do Power BI Desktop
 
 O relatório abaixo analisa as Sales da Fabrikam. Os KPIs estão listados no canto superior esquerdo da página. Os visuais restantes destacam as Sales over time, por Territory, Product Group e Reseller Company.
 
@@ -140,7 +140,7 @@ O relatório abaixo analisa as Sales da Fabrikam. Os KPIs estão listados no can
 
     e. Temos informações de Customer por Reseller. Customer conecta-se a Reseller.
 
-### Tarefa 3: Revisar Power Queries
+## Tarefa 3: Revisar Power Queries
 
 1. Vamos analisar o Power Query para entender as fontes de dados. Na faixa de opções, selecione **Página Inicial -> Transformar dados**.
 
@@ -186,7 +186,7 @@ O relatório abaixo analisa as Sales da Fabrikam. Os KPIs estão listados no can
 
     - **Token SAS:** <inject key="Sas token"></inject>
 
-    ![](../media/Lab-1/image23.png)
+        ![](../media/Lab-1/image23.png)
 
 11. Observe que a pasta **ADLSData** tem múltiplas dimensões: Geo, Product, Reseller e Date.
     Também tem o fato Sales.
@@ -232,7 +232,7 @@ O relatório abaixo analisa as Sales da Fabrikam. Os KPIs estão listados no can
 
     - **Senha:** <inject key="AzureAdUserPassword"></inject>
 
-    ![](../media/Lab-1/image26.png)
+        ![](../media/Lab-1/image26.png)
 
 17. Observe que a pasta **SharepointData** tem a dimensão People.
 

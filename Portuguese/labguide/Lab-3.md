@@ -39,7 +39,7 @@ Ao final deste laboratório, você terá aprendido a:
 
 # Atalho para o ADLS Gen2
 
-### Tarefa 1: Criar um atalho
+## Tarefa 1: Criar um atalho
 
 Os atalhos são usados para criar um link com o local de destino. Os atalhos fornecem acesso aos dados sem a necessidade de mover fisicamente os dados para o lakehouse. É como criar atalhos na área de trabalho do Windows.
 
@@ -147,7 +147,7 @@ Os atalhos são usados para criar um link com o local de destino. Os atalhos for
 
 # Transformar dados usando uma consulta Visual
 
-### Tarefa 2: Criar exibição Geo usando uma consulta Visual
+## Tarefa 2: Criar exibição Geo usando uma consulta Visual
 
 1. Nós podemos acessar o Lakehouse usando um ponto de extremidade SQL. Isso possibilita consultar os dados e criar exibições. No **canto superior direito** da tela, selecione **Lakehouse (1) -> Ponto de extremidade de análise de SQL (2)**.
 
@@ -313,7 +313,7 @@ Os atalhos são usados para criar um link com o local de destino. Os atalhos for
 
     ![](../media/Lab-3/image28.png)
 
-### Tarefa 3: Criar as exibições Reseller, Sales e Product usando uma consulta SQL
+## Tarefa 3: Criar as exibições Reseller, Sales e Product usando uma consulta SQL
 
 1. No Fabric, também podemos criar a exibição usando consultas SQL. Na faixa de opções, selecione New SQL query
 

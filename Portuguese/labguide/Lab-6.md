@@ -17,8 +17,6 @@
 - Referências
 
 
-# ![](../media/Lab-6/image4.png)c
-
 # Introdução
 
 Temos dados de diversas fontes ingeridos no Lakehouse. Neste laboratório, você trabalhará com o modelo semântico. Geralmente, realizamos atividades de modelagem, como criar relacionamentos, adicionar medidas, etc. no Power BI Desktop. Aqui aprenderemos como realizar essas atividades de modelagem no serviço.
@@ -31,7 +29,7 @@ Ao final deste laboratório, você terá aprendido:
 
 # Lakehouse - Analisar dados
 
-### Tarefa 1: Consultar dados usando SQL
+## Tarefa 1: Consultar dados usando SQL
 
 1. Vamos voltar ao workspace do Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>,** que você criou no Laboratório 2, Tarefa 8.
 
@@ -71,7 +69,7 @@ Ao final deste laboratório, você terá aprendido:
 
     ![](../media/Lab-6/image8.png)
 
-### Tarefa 2: Visualizar resultado de T-SQL
+## Tarefa 2: Visualizar resultado de T-SQL
 
 1. Também podemos visualizar o resultado desta consulta. **Realce a consulta** no painel de consultas
 
@@ -107,7 +105,7 @@ Ao final deste laboratório, você terá aprendido:
 
 # Lakehouse – Modelagem semântica
 
-### Tarefa 3: Criar um modelo semântico
+## Tarefa 3: Criar um modelo semântico
 
 1. No menu de ponto de extremidade de análise do SQL, selecione **Novo modelo semântico.**
 
@@ -146,7 +144,7 @@ Ao final deste laboratório, você terá aprendido:
 
     **Observação:** o modo Direct Lake é mais rápido do que o modo Direct Query.
 
-### Tarefa 4: Criar relacionamentos
+## Tarefa 4: Criar relacionamentos
 
 Se você não está atualmente dentro do modelo semântico recém-criado, vamos ao lugar certo
 
@@ -206,7 +204,7 @@ Se você não está atualmente dentro do modelo semântico recém-criado, vamos 
 
     Por uma questão de tempo, não criaremos todos os relacionamentos. Se o tempo permitir, você poderá concluir a seção opcional no fim do laboratório. A seção opcional percorre as etapas para criar os relacionamentos restantes.
 
-### Tarefa 5: Criar medidas
+## Tarefa 5: Criar medidas
 
 Vamos adicionar algumas medidas necessárias para criar o dashboard Sales.
 
@@ -268,7 +266,7 @@ Vamos adicionar algumas medidas necessárias para criar o dashboard Sales.
 
     Criamos um modelo semântico. A próxima etapa é criar um relatório. Faremos isso no próximo laboratório.
 
-### Tarefa 6: Seção Opcional – Criar relacionamentos
+## Tarefa 6: Seção Opcional – Criar relacionamentos
 
 Vamos adicionar os relacionamentos restantes.
 
@@ -346,7 +344,7 @@ Vamos adicionar os relacionamentos restantes.
 
     ![](../media/Lab-6/image33.png)
 
-### Tarefa 7: Seção Opcional – Criar medidas
+## Tarefa 7: Seção Opcional – Criar medidas
 
 Vamos adicionar as medidas restantes.
 
