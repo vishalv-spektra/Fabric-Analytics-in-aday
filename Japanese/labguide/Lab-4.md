@@ -136,7 +136,7 @@ IT チームは、既に Dataverse へのリンクを確立しており、必要
 
     ![](../media/Lab-4/image17.png)
 
-4. データフロー設定ウィンドウが開きます。**名前**を** df_People_SharePoint** に変更
+4. データフロー設定ウィンドウが開きます。**名前**を**df_People_SharePoint** に変更
     します (1)。
 
 5. **説明**テキスト ボックスに、**Dataflow to ingest People data from SharePoint to Lakehouse** と入力します (2)。
@@ -207,7 +207,7 @@ IT チームは、既に Dataverse へのリンクを確立しており、必要
 
 2. [データ ソースへの接続] ダイアログが開きます。**接続**ドロップダウンで、**新しい接続の作成**が選択されていることを確認します。
 
-3. **認証の種類**は** Snowflake** にします。
+3. **認証の種類**は **Snowflake** にします。
 
 4. 下記の **Snowflake** ユーザー名と **Snowflake** パスワードを入力します。これらの資格情報を使用して Snowflake にあるすべてのテーブルを Snowflake に接続し、**接続**を選択します。
 
@@ -235,7 +235,7 @@ IT チームは、既に Dataverse へのリンクを確立しており、必要
 
     ![](../media/Lab-4/image25.png)
 
-3. [データ変換先に接続] ダイアログが開きます。**接続ドロップダウ**ンから** Lakehouse odl_user_<inject key="Deployment ID" enableCopy="false"/> (なし)** を選択します。
+3. [データ変換先に接続] ダイアログが開きます。**接続ドロップダウ**ンから **Lakehouse odl_user_<inject key="Deployment ID" enableCopy="false"/> (なし)** を選択します。
 
 4. **次へ**を選択します。
 
@@ -309,7 +309,7 @@ IT チームは、既に Dataverse へのリンクを確立しており、必要
 
     ![](../media/Lab-4/image35.png)
 
-4. **[新しい接続] (1) を選択すると、**[接続設定] ダイアログが開きます。**環境**のドメインに** org6c18814a.crm.dynamics.com (2)** と入力します。
+4. **[新しい接続] (1) を選択すると、**[接続設定] ダイアログが開きます。**環境**のドメインに**org6c18814a.crm.dynamics.com (2)** と入力します。
 
 5. **認証の種類は組織アカウント (3)** のままにします。
 
