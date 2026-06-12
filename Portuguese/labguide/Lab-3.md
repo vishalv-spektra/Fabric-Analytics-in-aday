@@ -13,8 +13,6 @@
 - Referências
 
 
-# ![](../media/Lab-3/image4.png)w
-
 # Introdução
 
 Em nosso cenário, os Dados de Venda são obtidos do sistema ERP e armazenados em um ADLS Gen2. Eles são atualizados ao meio-dia/12h, todos os dias. Precisamos transformar e ingerir esses dados no Lakehouse e usá-los em nosso modelo.

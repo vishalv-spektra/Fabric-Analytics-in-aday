@@ -22,7 +22,6 @@
   - Tarefa 13: Configurar atualização de agenda para o Pipeline
 - Referências
 
-
 # Introdução
 
 Temos ingerido dados de diversas fontes de dados no Lakehouse. Neste laboratório, você configurará uma agenda de atualização para as fontes de dados. Apenas para recapitular o requisito:
@@ -67,8 +66,7 @@ Vamos começar configurando uma atualização agendada do Fluxo de dados Supplie
 
     **Observação:** uma janela/painel aparecerá no lado direito mostrando uma lista de atualizações
 
-6. Você notará que há uma atualização singular executada quando selecionamos a opção **Salvar
-    e Executar** no laboratório anterior. O **Tipo** de atualização que podemos ver está listado como **Sob demanda**, o que nos permite saber que esta foi uma atualização executada manualmente.
+6. Você notará que há uma atualização singular executada quando selecionamos a opção **Salvare Executar** no laboratório anterior. O **Tipo** de atualização que podemos ver está listado como **Sob demanda**, o que nos permite saber que esta foi uma atualização executada manualmente.
 
     ![](../media/Lab-5/image9.png)
 
@@ -90,10 +88,15 @@ Vamos começar configurando uma atualização agendada do Fluxo de dados Supplie
 
     ![](../media/Lab-5/image12.png)
 
-11. Você verá no painel **Configurações** que apareceu que temos três opções:**
-    Sobre –** aqui, podemos alterar o nome do Fluxo de Dados e adicionar uma descrição. Além disso, nós podemos ver quem é o proprietário do fluxo de dados e a última vez em que ele foi modificado. **Endosso –** isso nos permite especificar se o fluxo de dados carregará a marca **Promovido** ou **Certificado** para que outras pessoas vejam. **Agendamento** – é aqui que podemos agendar os fluxos de dados
+11. Você verá no painel **Configurações** que apareceu que temos três opções:
 
-    ![](../media/Lab-5/image13.png)
+    - **Sobre –** aqui, podemos alterar o nome do Fluxo de Dados e adicionar uma descrição. Além disso, nós podemos ver quem é o proprietário do fluxo de dados e a última vez em que ele foi modificado.
+    
+    - **Endosso –** isso nos permite especificar se o fluxo de dados carregará a marca **Promovido** ou **Certificado** para que outras pessoas vejam.
+    
+    - **Agendamento** – é aqui que podemos agendar os fluxos de dados
+
+        ![](../media/Lab-5/image13.png)
 
 12. Selecione a opção **Agendamento**
 
@@ -173,7 +176,7 @@ Vamos começar a criar o pipeline. Precisamos de uma atividade para atualizar o 
 
     ![](../media/Lab-5/image23.png)
 
-5. No **painel**** inferior**, selecione **Geral**. Vamos atribuir um nome e uma descrição à atividade.
+5. No **painel** **inferior**, selecione **Geral**. Vamos atribuir um nome e uma descrição à atividade.
 
 6. No campo **Nome**, insira **dfactivity_People_SharePoint**.
 
@@ -287,7 +290,7 @@ Vamos adicionar um pouco mais de complexidade ao nosso cenário. Observamos que,
 
     ![](../media/Lab-5/image31.png)
 
-    Precisamos escrever uma expressão que seja executada até que o valor de **varCounter seja 3** ou** **o valor **de varIsSuccess seja Sim.** (varCounter e varIsSuccess são as variáveis que acabamos de criar.)
+    Precisamos escrever uma expressão que seja executada até que o valor de **varCounter seja 3** ou o valor **de varIsSuccess seja Sim.** (varCounter e varIsSuccess são as variáveis que acabamos de criar.)
 
 8. A caixa de diálogo **Construtor de expressão de pipeline** é aberta. Na metade inferior da caixa de diálogo, você terá um menu:
 
@@ -303,7 +306,7 @@ Vamos adicionar um pouco mais de complexidade ao nosso cenário. Observamos que,
 
     6. **Variáveis de biblioteca:** as variáveis de biblioteca usam variáveis definidas no **item da biblioteca de variáveis do Fabric.** Essas variáveis oferecem uma maneira centralizada de gerenciar configurações entre os espaços de trabalho para dar suporte a fluxos de trabalho de CI/CD. Elas podem ser usadas com pipelines, notebooks, atalhos do Lakehouse e muito mais.
 
-    ![](../media/Lab-5/image32.png)
+        ![](../media/Lab-5/image32.png)
 
 9. Clique em **Functions** no menu inferior.
 
@@ -393,13 +396,13 @@ Configuramos a atividade Fluxo de dados como fizemos anteriormente no laboratór
 
     **Observação:** Passe o mouse sobre **atividade Fluxo de dados**. À direita da caixa de atividades existem quatro ícones. Eles podem ser usados para conectar-se à próxima atividade com base no resultado da atividade:
 
-1. O ícone de **seta curvada cinza** é usado para ignorar a atividade.
+    1. O ícone de **seta curvada cinza** é usado para ignorar a atividade.
 
-2. O ícone de **marca de seleção verde** é usado no sucesso da atividade.
+    2. O ícone de **marca de seleção verde** é usado no sucesso da atividade.
 
-3. O ícone de **marca x vermelho** é usado na falha da atividade.
+    3. O ícone de **marca x vermelho** é usado na falha da atividade.
 
-4. O ícone de **seta reta azul** é usado na conclusão da atividade.
+    4. O ícone de **seta reta azul** é usado na conclusão da atividade.
 
 5. Clique na **marca de seleção verde** da atividade de Fluxo de dados dfactivity_People_SharePoint e arraste para se conectar à nova **atividade Definir variável** **set_varIsSuccess**. Portanto, se a atualização do fluxo de dados for bem-sucedida, queremos executar a atividade Definir variável.
 

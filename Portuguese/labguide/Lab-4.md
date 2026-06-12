@@ -19,7 +19,6 @@
   - Task 10: Create a Shortcut to a Lakehouse
 - Referências
 
-
 # Introdução
 
 Em nosso cenário, os Dados do Fornecedor estão no Snowflake, os Dados do Cliente no Dataverse e os Dados do Funcionário no SharePoint. Todas essas fontes de dados são atualizadas em momentos diferentes. Para minimizar o número de atualizações de dados para Fluxos de Dados, criaremos fluxos de dados individuais para as fontes de dados Snowflake e SharePoint.
@@ -66,7 +65,7 @@ Ao final deste laboratório, você terá aprendido:
 
     ![](../media/Lab-4/image8.png)
 
-    **Observação:** se você estiver trabalhando no ambiente de laboratório, selecione as reticências no canto superior direito da tela. Use o controle deslizante para **habilitar**** Área de Transferência Nativa da VM**. Selecione OK na caixa de diálogo. Depois que terminar de colar as consultas, você poderá desabilitar essa opção.
+    **Observação:** se você estiver trabalhando no ambiente de laboratório, selecione as reticências no canto superior direito da tela. Use o controle deslizante para **habilitar** **Área de Transferência Nativa da VM**. Selecione OK na caixa de diálogo. Depois que terminar de colar as consultas, você poderá desabilitar essa opção.
 
     ![](../media/Lab-4/image9.png)
 
@@ -146,7 +145,7 @@ A conexão é estabelecida, e você pode exibir os dados no painel de visualiza�
 
     ![](../media/Lab-4/image19.png)
 
-    Você será direcionado de volta para o **workspace FAIAD_<inject key="Deployment ID" enableCopy="false"/> **.
+    Você será direcionado de volta para o **workspace FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 7. Selecione **lh_FAIAD** para acessar o lakehouse.
 
@@ -194,7 +193,7 @@ A conexão é estabelecida, e você pode exibir os dados no painel de visualiza�
 
 9. No **painel Dataflow**, selecione o **painel central** e pressione **Ctrl+V** (no momento, não é possível clicar com o botão direito do mouse em Colar). Se você estiver usando o dispositivo MAC, use Cmd+V para colar.
 
-    **Observação:** se você estiver trabalhando no ambiente de laboratório, selecione as **reticências(…)** no canto superior direito da tela. Use o controle deslizante para **habilitar**** VM Native Clipboard**. Selecione OK na caixa de diálogo. Depois que terminar de colar as consultas, você poderá desabilitar essa opção.
+    **Observação:** se você estiver trabalhando no ambiente de laboratório, selecione as **reticências(…)** no canto superior direito da tela. Use o controle deslizante para **habilitar** **VM Native Clipboard**. Selecione OK na caixa de diálogo. Depois que terminar de colar as consultas, você poderá desabilitar essa opção.
 
     ![](../media/Lab-4/image23.png)
 

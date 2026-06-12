@@ -20,7 +20,6 @@
 - Limpar o ambiente do laboratório
 - Referências
 
-
 # Introdução
 
 Neste curso, conhecemos o Lakehouse, fizemos a ingestão de dados de diferentes fontes de dados no Lakehouse, definimos uma agenda de atualização para as fontes de dados e criamos um modelo de dados. Agora você vai criar um relatório.
@@ -51,7 +50,7 @@ Vamos começar usando a opção de criação automática de relatório. E, mais 
 
     ![](../media/Lab-7/image7.png)
 
-4. No menu superior, selecione **Novo relatório**.
+4. No menu superior, selecione **+ Novo relatório**.
 
     ![](../media/Lab-7/image8.png)
 
@@ -127,7 +126,7 @@ Vamos criar um novo relatório usando uma tela em branco.
 
 7. Volte para a **tela do Power BI** no seu navegador.
 
-8. Selecione o **ícone**** Formatar página** no painel **Visualizações**.
+8. Selecione o **ícone** **Formatar página** no painel **Visualizações**.
 
 9. Expanda a seção **Tela de fundo**.
 
@@ -169,7 +168,7 @@ Vamos criar um novo relatório usando uma tela em branco.
 
 2. Na seção **Visualizações, selecione** o Visual **Cartão.**
 
-3. Na **seção Dados**, expanda a **tabela**** Sales**.
+3. Na **seção Dados**, expanda a **tabela** **Sales**.
 
 4. Selecione a **medida Sales**.
 
@@ -229,7 +228,7 @@ Vamos criar um gráfico de linhas para visualizar Vendas ao longo do tempo por R
 
 1. Selecione o **espaço em branco** na tela para tirar o foco do visual de cartão de várias linhas.
 
-2. Na **seção**** Visualizações**, selecione **Gráfico de linhas**.
+2. Na **seção** **Visualizações**, selecione **Gráfico de linhas**.
 
 3. Na seção **Dados**, expanda a tabela **Date**.
 
@@ -265,7 +264,7 @@ Para fazer as alterações no modelo, salve o relatório antes de sair.
 
 3. No canto superior direito, alterne para o modo **Edição**.
 
-4. No painel **Dados**** à direita,** selecione Tabelas.
+4. No painel **Dados** **à direita,** selecione Tabelas.
 
 5. Expanda a tabela **Date**.
 
@@ -279,9 +278,9 @@ Para fazer as alterações no modelo, salve o relatório antes de sair.
 
 9. Volte para a **janela/guia do relatório** do navegador.
 
-10. No **painel**** Dados** da direita, expanda a tabela **Date**. Observe que Year não é campo de soma.
+10. No **painel** **Dados** da direita, expanda a tabela **Date**. Observe que Year não é campo de soma.
 
-11. Com o **Visual de gráfico de linhas selecionado**,** remova Soma de Year** do eixo Y.
+11. Com o **Visual de gráfico de linhas selecionado**,**remova Soma de Year** do eixo Y.
 
 12. Selecione o campo **Year** e ele será adicionado ao **Eixo X**.
 
@@ -327,7 +326,7 @@ Para fazer as alterações no modelo, salve o relatório antes de sair.
 
 Observe como é fácil atualizar o modelo semântico durante a criação dos relatórios. Isso proporciona uma interação perfeita, como Power BI Desktop.
 
-1. Com o **Visual de gráfico de linhas selecionado**, na **seção**** Dados**, expanda a tabela **Reseller**.
+1. Com o **Visual de gráfico de linhas selecionado**, na **seção** **Dados**, expanda a tabela **Reseller**.
 
 2. Arraste o campo **Reseller -> Reseller Company** na seção **Legenda**.
 

@@ -83,7 +83,7 @@ Ao final deste laboratório, você terá aprendido:
 
 4. Expanda o painel **Data** e expanda **SQL query 2**.
 
-5. Selecione os **campos**** Supplier_Name** e **Units**. Um visual de tabela é criado.
+5. Selecione os **campos** **Supplier_Name** e **Units**. Um visual de tabela é criado.
 
     ![](../media/Lab-6/image10.png)
 
@@ -139,8 +139,9 @@ Ao final deste laboratório, você terá aprendido:
 
 5. Selecione **Confirmar.**
 
-    ![](../media/Lab-6/image15.png)**\**
-     Você será direcionado até o novo modelo semântico com as tabelas selecionadas. Você pode **reorganizar** as tabelas conforme necessário. Observe que algumas tabelas (Geo, Reseller, Sales e Product) têm um sinal de aviso no canto superior direito da tabela. Isso porque são exibições. Todos os elementos visuais criados com campos dessas exibições estarão no modo Direct Query e não no modo Direct Lake.
+    ![](../media/Lab-6/image15.png)
+
+    Você será direcionado até o novo modelo semântico com as tabelas selecionadas. Você pode **reorganizar** as tabelas conforme necessário. Observe que algumas tabelas (Geo, Reseller, Sales e Product) têm um sinal de aviso no canto superior direito da tabela. Isso porque são exibições. Todos os elementos visuais criados com campos dessas exibições estarão no modo Direct Query e não no modo Direct Lake.
 
     **Observação:** o modo Direct Lake é mais rápido do que o modo Direct Query.
 
@@ -182,9 +183,9 @@ Se você não está atualmente dentro do modelo semântico recém-criado, vamos 
 
 11. Da mesma forma, crie um relacionamento entre as tabelas Sales e Date. Selecione **InvoiceDate** na tabela **Sales** e arraste-o para **Date** na tabela **Date**.
 
-12. A caixa de diálogo Novo relacionamento é aberta. Verifique se a **tabela**** From** é **Sales** e **Coluna** é **InvoiceDate**.
+12. A caixa de diálogo Novo relacionamento é aberta. Verifique se a **tabela** **From** é **Sales** e **Coluna** é **InvoiceDate**.
 
-13. Verifique se a **tabela**** To** é **Date** e **Coluna** é **Date**.
+13. Verifique se a **tabela** **To** é **Date** e **Coluna** é **Date**.
 
 14. Verifique se **Cardinalidade** é **Muitos para um (\*:1)**.
 
@@ -226,7 +227,7 @@ Vamos adicionar algumas medidas necessárias para criar o dashboard Sales.
 
     ![](../media/Lab-6/image24.png)
 
-9. Com a **tabela**** Sales** selecionada no menu superior, selecione **Página Inicial -> Nova medida**. Observe que a barra de fórmulas é exibida.
+9. Com a **tabela** **Sales** selecionada no menu superior, selecione **Página Inicial -> Nova medida**. Observe que a barra de fórmulas é exibida.
 
 10. Insira **Units = SUM(‘Sales’[Quantity])** na **barra de fórmulas**.
 
@@ -240,7 +241,7 @@ Vamos adicionar algumas medidas necessárias para criar o dashboard Sales.
 
     ![](../media/Lab-6/image25.png)
 
-15. Com a **tabela**** Sales** selecionada no menu superior, selecione **Página Inicial -> Nova medida**. Observe que a barra de fórmulas é exibida.
+15. Com a **tabela** **Sales** selecionada no menu superior, selecione **Página Inicial -> Nova medida**. Observe que a barra de fórmulas é exibida.
 
 16. Insira **Sales Orders = DISTINCTCOUNT(‘Sales’[InvoiceID])** na **barra de fórmulas**.
 
@@ -278,7 +279,7 @@ Vamos adicionar os relacionamentos restantes.
 
 3. A caixa de diálogo Novo relacionamento é aberta. Verifique se a tabela **From** é **Sales** e **Coluna** é **SalespersonPersonID**.
 
-4. Verifique se a **tabela**** To** é **People** e **Coluna** é **PersonID**.
+4. Verifique se a **tabela** **To** é **People** e **Coluna** é **PersonID**.
 
 5. Verifique se **Cardinalidade** é **Muitos para um (\*:1)**.
 
@@ -290,9 +291,9 @@ Vamos adicionar os relacionamentos restantes.
 
 8. Agora, vamos criar um relacionamento entre Product e Supplier. Selecione **+ Novo relacionamento**.
 
-9. Verifique se a **tabela**** From** é **Product** e **Coluna** é **SupplierID**.
+9. Verifique se a **tabela** **From** é **Product** e **Coluna** é **SupplierID**.
 
-10. Verifique se a **tabela**** To** é **Supplier** e **Coluna** é **SupplierID**.
+10. Verifique se a **tabela** **To** é **Supplier** e **Coluna** é **SupplierID**.
 
 11. Verifique se **Cardinalidade** é **Muitos para um (\*:1)**.
 
@@ -306,7 +307,7 @@ Vamos adicionar os relacionamentos restantes.
 
 15. A caixa de diálogo Novo relacionamento é aberta. Verifique se a tabela **From** é **Reseller** e **Coluna** é **PostalCityID**.
 
-16. Verifique se a **tabela**** To** é **Geo** e **Coluna** é **CityID**.
+16. Verifique se a **tabela** **To** é **Geo** e **Coluna** é **CityID**.
 
 17. Verifique se **Cardinalidade** é **Muitos para um (\*:1)**.
 
@@ -318,9 +319,9 @@ Vamos adicionar os relacionamentos restantes.
 
 20. Da mesma forma, crie um relacionamento entre Customer e Reseller. Selecione **+ Novo relacionamento.**
 
-21. A caixa de diálogo Novo relacionamento é aberta. Verifique se a **tabela**** From** é **Customer** e **Coluna** é **ResellerID**.
+21. A caixa de diálogo Novo relacionamento é aberta. Verifique se a **tabela** **From** é **Customer** e **Coluna** é **ResellerID**.
 
-22. Verifique se a **tabela**** To** é **Reseller** e **Coluna** é **ResellerID**.
+22. Verifique se a **tabela** **To** é **Reseller** e **Coluna** é **ResellerID**.
 
 23. Verifique se **Cardinalidade** é **Muitos para um (\*:1)**.
 
