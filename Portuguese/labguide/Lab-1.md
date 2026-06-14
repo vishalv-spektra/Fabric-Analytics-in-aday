@@ -63,6 +63,10 @@ Antes de começarmos com o Fabric, vamos dar uma olhada no Relatório atual no P
 
     ![](../media/Lab-1/image6.png)
 
+    > ### **Observação:** Se o Power BI Desktop parar de responder na tela **“Digite seu endereço de e-mail”** e você não conseguir digitar, mova o cursor sobre o ícone do Power BI na barra de tarefas **(1)**. Em seguida, feche a janela em branco extra clicando no **X** **(2)**. Isso fará com que a janela principal do Power BI volte a responder.
+
+    ![](../../English/media/Lab-1/powerbidesktop-note.png)
+
 2. Quando o diálogo "Insira seu endereço de email" for exibido, copie o **Nome de usuário**
     e cole-o no campo **Email** do diálogo e selecione **Continuar**.
 

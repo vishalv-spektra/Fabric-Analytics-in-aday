@@ -43,7 +43,7 @@ Des raccourcis permettent de créer un lien vers l’emplacement cible. Les racc
 
 1. En haut de votre écran, sélectionnez l’onglet **lh_FAIAD** pour accéder au lakehouse.
 
-    1. Si vous n’avez pas d’onglet ouvert, vous pouvez revenir à votre espace de travail et ouvrir le lakehouse à partir de là.
+1. Si vous n’avez pas d’onglet ouvert, vous pouvez revenir à votre espace de travail et ouvrir le lakehouse à partir de là.
 
 2. Dans le volet **Explorateur**, cliquez sur les **points de suspension** en regard de **Tables**.
 

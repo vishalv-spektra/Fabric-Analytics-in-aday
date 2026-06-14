@@ -39,9 +39,9 @@ Al final de este laboratorio, habrá aprendido:
 
     ![](../media/Lab-2/image6.png)
 
-    **Nota:** Si está utilizando el entorno de laboratorio, es posible que inicie sesión automáticamente.
+    >**Nota:** Si está utilizando el entorno de laboratorio, es posible que inicie sesión automáticamente.
 
-    **Nota:** Si Fabric no se abre, vaya a http://app.fabric.microsoft.com/ en el explorador.
+    >**Nota:** Si Fabric no se abre, vaya a http://app.fabric.microsoft.com/ en el explorador.
 
 2. Copie el nombre de usuario y péguelo en el campo Correo electrónico del cuadro de diálogo y seleccione Enviar.
 
@@ -75,7 +75,7 @@ Al final de este laboratorio, habrá aprendido:
 
 9. Se abre un cuadro de diálogo para actualizar a una prueba de Microsoft Fabric gratuita. Seleccione **Activar**.
 
-    **Nota:** No cambie la región predeterminada. Manténgala tal y como está.
+    >**Nota:** No cambie la región predeterminada. Manténgala tal y como está.
 
     ![](../media/Lab-2/image11.png)
 
@@ -101,7 +101,7 @@ Al final de este laboratorio, habrá aprendido:
 
 4. En el campo **Nombre**, introduzca FAIAD_<inject key="Deployment ID" enableCopy="false"/>
 
-    **Nota:** El nombre del área de trabajo debe ser único. Asegúrese de que aparezca una marca de verificación verde con “Este nombre está disponible” debajo del campo Nombre.
+    >**Nota:** El nombre del área de trabajo debe ser único. Asegúrese de que aparezca una marca de verificación verde con “Este nombre está disponible” debajo del campo Nombre.
 
 5. Si lo desea, puede escribir una Descripción para el área de trabajo. Este campo es opcional.
 
@@ -127,9 +127,9 @@ Al final de este laboratorio, habrá aprendido:
 
 3. Aparecerá un cuadro de diálogo Nuevo lakehouse. Escriba **lh_FAIAD** en el cuadro de texto Nombre.
 
-    **Nota:** lh aquí se refiere al Lakehouse. Vamos a anteponer lh para que sea fácil de identificar y buscar.
+    >**Nota:** lh aquí se refiere al Lakehouse. Vamos a anteponer lh para que sea fácil de identificar y buscar.
 
-    **Nota:** Esta característica ya no se encuentra en versión preliminar, **pero aún no necesitamos habilitarla**.
+    >**Nota:** Esta característica ya no se encuentra en versión preliminar, **pero aún no necesitamos habilitarla**.
 
 4. Seleccione **Crear**.
 
@@ -227,7 +227,7 @@ Al final de este laboratorio, habrá aprendido:
 
     2) **Soluciones de datos de atención sanitaria:** están diseñadas estratégicamente para acelerar el tiempo de creación de valor para los clientes al abordar la necesidad crítica de transformar de manera eficiente los datos sanitarios en un formato adecuado para el análisis.
 
-    **Nota:** Es posible que algunas soluciones no aparezcan para usted.
+    >**Nota:** Es posible que algunas soluciones no aparezcan para usted.
 
     **Introducción:**
 

@@ -43,7 +43,7 @@ I collegamenti sono usati per creare un collegamento all'ubicazione di destinazi
 
 1. Nella parte superiore della schermata, selezionare la scheda **lh_FAIAD** per accedere al lakehouse.
 
-    1. Se non è disponibile alcuna scheda, è possibile tornare all'area di lavoro e aprire il lakehouse da lì.
+1. Se non è disponibile alcuna scheda, è possibile tornare all'area di lavoro e aprire il lakehouse da lì.
 
 2. Nel **pannello Explorer** selezionare i **puntini di sospensione** accanto a **Tables**.
 

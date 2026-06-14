@@ -63,6 +63,10 @@ Fabric을 시작하기 전에 Power BI Desktop의 현재 보고서를 살펴보�
 
     ![](../media/Lab-1/image4.png)
 
+    > ### **참고:** Power BI Desktop이 **“Enter your email address”** 화면에서 응답하지 않아 입력할 수 없는 경우, 작업 표시줄에 있는 Power BI 아이콘 위로 마우스를 이동하세요 **(1)**. 그런 다음 추가로 열린 빈(흰색) 창을 **X** 버튼 **(2)** 을 클릭하여 닫으세요. 그러면 Power BI의 기본 창이 다시 정상적으로 응답합니다.
+
+    ![](../../English/media/Lab-1/powerbidesktop-note.png)
+
 2. "전자 메일 주소 입력" 대화 상자가 나타나면 **사용자 이름**을 복사하여 대화 상자의 **전자 메일** 필드에 붙여넣고 **계속**을 선택합니다.
 
     - 이메일/사용자 이름:  <inject key="AzureAdUserEmail"></inject>

@@ -63,6 +63,10 @@ Avant de prendre en main Fabric, examinons l’état actuel dans Power BI Deskto
 
     ![](../media/Lab-1/image6.png)
 
+    > ### **Remarque :** Si Power BI Desktop ne répond plus sur l’écran **« Entrez votre adresse e-mail »** et que vous ne pouvez pas taper, placez votre curseur sur l’icône Power BI dans la barre des tâches **(1)**. Ensuite, fermez la fenêtre supplémentaire vide (blanche) en cliquant sur **X** **(2)**. Cela rendra à nouveau la fenêtre principale de Power BI réactive.
+
+    ![](../../English/media/Lab-1/powerbidesktop-note.png)
+
 2. Lorsque la boîte de dialogue « Saisissez votre adresse e-mail » apparaît, copiez le **nom d’utilisateur** et collez-le dans le champ **E-mail** de la boîte de dialogue, puis cliquez sur **Continuer**.
 
     - Adresse e-mail/nom d’utilisateur : <inject key="AzureAdUserEmail"></inject>

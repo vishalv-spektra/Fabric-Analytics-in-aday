@@ -105,11 +105,15 @@ Ao final deste laboratório, você terá aprendido a:
 
 5. Se preferir, você poderá inserir uma Descrição para o workspace. Esse campo é opcional.
 
-6. Clique em **Avançado** para expandir a seção.![](../media/Lab-2/image15.png)
+6. Clique em **Avançado** para expandir a seção.
+    
+    ![](../media/Lab-2/image15.png)
 
 7. Em **Modo de licença**, verifique se **Avaliação** está selecionada. (Essa opção deve estar selecionada por padrão.)
 
-8. ![](../media/Lab-2/image16.png)Selecione **Aplicar** para criar um novo workspace.
+    ![](../media/Lab-2/image16.png)
+
+8. Selecione **Aplicar** para criar um novo workspace.
 
     Você será navegado para seu espaço de trabalho recém-criado. Traremos dados de diferentes fontes de dados para um Lakehouse e usaremos os dados do Lakehouse para criar nosso modelo e relatá-lo. A primeira etapa é criar um Lakehouse. Faremos isso em seguida.
 

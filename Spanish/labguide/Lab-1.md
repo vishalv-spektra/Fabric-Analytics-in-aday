@@ -16,7 +16,7 @@
 
 El laboratorio incluye pasos que el usuario debe seguir junto con capturas de pantalla asociadas que sirven de ayuda visual. En cada captura de pantalla, las secciones se resaltan con cuadros de color naranja para indicar en qué áreas debe centrarse el usuario.
 
-**Nota:** Algunas de las capturas de pantalla pueden estar desactualizadas debido a las actualizaciones continuas del producto.
+>**Nota:** Algunas de las capturas de pantalla pueden estar desactualizadas debido a las actualizaciones continuas del producto.
 
 # Escenario/planteamiento del problema
 
@@ -62,6 +62,10 @@ Antes de comenzar con Fabric, veamos el informe actual en Power BI Desktop para 
 
     ![](../media/Lab-1/image7.png)
 
+    > ### **Nota:** Si Power BI Desktop deja de responder en la pantalla **“Enter your email address”** y no puedes escribir, mueve el cursor sobre el icono de Power BI en la barra de tareas **(1)**. Luego, cierra la ventana adicional en blanco haciendo clic en **X** **(2)**. Esto hará que la ventana principal de Power BI vuelva a responder.
+
+    ![](../../English/media/Lab-1/powerbidesktop-note.png)
+
 2. Una vez que aparezca el cuadro de diálogo "Introduzca su dirección de correo electrónico", copie el **Nombre de usuario** y péguelo en el campo **Correo electrónico** del cuadro de diálogo, y seleccione **Continuar**.
 
     - Correo electrónico/nombre de usuario: <inject key="AzureAdUserEmail"></inject>
@@ -94,7 +98,7 @@ El siguiente informe analiza las ventas de Fabrikam. Los KPI se enumeran en la p
 
 ![](../media/Lab-1/image12.jpeg)
 
-**Nota:** En esta formación, nos centraremos en la adquisición, transformación y modelado de datos mediante las herramientas disponibles en Fabric. No nos centraremos en el desarrollo de informes ni en la navegación. Dediquemos un par de minutos a comprender el informe y avancemos a los siguientes pasos.
+>**Nota:** En esta formación, nos centraremos en la adquisición, transformación y modelado de datos mediante las herramientas disponibles en Fabric. No nos centraremos en el desarrollo de informes ni en la navegación. Dediquemos un par de minutos a comprender el informe y avancemos a los siguientes pasos.
 
 1. Analicemos los datos por zona de ventas. Seleccione **New England en el objeto visual Sales Territory** (gráfico de dispersión). Vea que en las Ventas a lo largo del tiempo, el revendedor Tailspin Toys tiene más ventas en comparación con Wingtip Toys en New England. Si observa el gráfico de columnas de YoY% de ventas, notará que el crecimiento de las ventas de Wingtip Toys ha sido bajo y ha disminuido trimestre tras trimestre durante el año pasado. Tras un pequeño repunte en el tercer trimestre, volvió a bajar en el cuarto.
 
@@ -205,7 +209,7 @@ El siguiente informe analiza las ventas de Fabrikam. Los KPI se enumeran en la p
 
     - **Contraseña de Snowflake:** <inject key="SnowFlake Password" enableCopy="false" />
 
-    *Nota: Si tiene algún problema para conectarse a Snowflake con las credenciales anteriores, utilice las credenciales de copia de seguridad que se proporcionan a continuación.*
+        >**Nota:** Si tiene algún problema para conectarse a Snowflake con las credenciales anteriores, utilice las credenciales de copia de seguridad que se proporcionan a continuación.*
 
     - **Nombre de usuario de Snowflake:** SNOWFLAKE_BACKUP
 

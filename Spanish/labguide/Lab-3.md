@@ -97,7 +97,7 @@ Los accesos directos se utilizan para crear un vínculo a la ubicación de desti
 
     11. Warehouse.StockItems
 
-    **Nota:** Sales.Invoice_May es el único directorio que **no** está seleccionado.
+    >**Nota:** Sales.Invoice_May es el único directorio que **no** está seleccionado.
 
     ![](../media/Lab-3/image9.png)
 
@@ -131,7 +131,7 @@ Los accesos directos se utilizan para crear un vínculo a la ubicación de desti
 
     10. Warehouse.StockItems a **ProductItem**
 
-    **Nota:** Compruebe dos veces los nombres. Un error tipográfico causará errores durante el laboratorio.
+    >**Nota:** Compruebe dos veces los nombres. Un error tipográfico causará errores durante el laboratorio.
 
 17. Seleccione **Crear** para crear el acceso directo.
 
@@ -169,7 +169,7 @@ Los accesos directos se utilizan para crear un vínculo a la ubicación de desti
 
 5. **En el menú del editor de consultas visuales,** seleccione el icono **Abrir en menú emergente** (hacia la derecha). Se le llevará al Editor de Power Query.
 
-    **Nota:** Es posible que tenga que desplazarse hacia la derecha o volver a abrir la pestaña de consulta visual si no ve este icono inmediatamente.
+    >**Nota:** Es posible que tenga que desplazarse hacia la derecha o volver a abrir la pestaña de consulta visual si no ve este icono inmediatamente.
 
     ![](../media/Lab-3/image16.png)
 
@@ -255,7 +255,7 @@ Los accesos directos se utilizan para crear un vínculo a la ubicación de desti
 
 23. Con la consulta **Combinar** seleccionada (1), en la cinta de opciones seleccione **Inicio (2) -> Elegir columnas (3) -> Elegir columnas (4)**.
 
-    **Nota:** Si la opción Elegir columnas no está visible, puede encontrarla en Administrar columnas.
+    >**Nota:** Si la opción Elegir columnas no está visible, puede encontrarla en Administrar columnas.
 
     ![](../media/Lab-3/image23.png)
 
@@ -291,7 +291,7 @@ Los accesos directos se utilizan para crear un vínculo a la ubicación de desti
 
     Se nos dirigirá al editor de consultas visuales. Guardemos ahora esta consulta como una vista.
 
-    **Nota**: Todos los pasos que hemos realizado con el Editor de Power Query también se pueden llevar a cabo con el editor de consultas visuales.
+    >**Nota**: Todos los pasos que hemos realizado con el Editor de Power Query también se pueden llevar a cabo con el editor de consultas visuales.
 
 30. En el menú del editor de consultas visuales, seleccione **Guardar como copia**.
 

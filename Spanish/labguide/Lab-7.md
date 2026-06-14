@@ -655,23 +655,23 @@ En un escenario real, los datos se actualizan en el origen. Como estamos en un e
 
     - **Debe actualizar su conjunto de datos al menos tres veces al día para adaptarse a los diferentes tiempos de actualización para los diferentes orígenes de datos.**
 
-    Resolvimos esto con Direct Lake. Cada flujo de datos individual se actualiza según su programación. No es necesario actualizar los conjuntos de datos y los informes.
+        Resolvimos esto con Direct Lake. Cada flujo de datos individual se actualiza según su programación. No es necesario actualizar los conjuntos de datos y los informes.
 
     - **Sus operaciones de actualización tardan mucho tiempo, ya que necesita hacer una actualización completa cada vez para capturar cualquier actualización que haya ocurrido en los sistemas de origen.**
 
-    De nuevo, resolvimos esto con Direct Lake. Cada flujo de datos individual se actualiza según su programación. No es necesario actualizar los conjunto de datos y los informes, por lo que no tenemos que preocuparnos por la actualización completa.
+        De nuevo, resolvimos esto con Direct Lake. Cada flujo de datos individual se actualiza según su programación. No es necesario actualizar los conjunto de datos y los informes, por lo que no tenemos que preocuparnos por la actualización completa.
 
     - **Cualquier error en cualquiera de los orígenes de datos de los que extrae provocará que se interrumpa la actualización del conjunto de datos. Muchas veces, el archivo del empleado no se carga a tiempo, lo que provoca que se interrumpa la actualización del conjunto de datos.**
 
-    Las canalizaciones ayudan a resolver este problema al ofrecer la capacidad de volver a intentar la actualización en caso de error y en diferentes intervalos.
+        Las canalizaciones ayudan a resolver este problema al ofrecer la capacidad de volver a intentar la actualización en caso de error y en diferentes intervalos.
 
     - **Se necesita mucho tiempo para hacer cambios en su modelo de datos, ya que Power Query tarda mucho en actualizar sus versiones preliminares, dado el gran tamaño de los datos y las transformaciones complejas.**
 
-    Vimos que los flujos de datos y los almacenes de lago de datos son eficientes y es fácil realizar cambios en ellos. Normalmente, la versión preliminar en flujos de datos y almacenes de lago de datos no tarda mucho en cargarse.
+        Vimos que los flujos de datos y los almacenes de lago de datos son eficientes y es fácil realizar cambios en ellos. Normalmente, la versión preliminar en flujos de datos y almacenes de lago de datos no tarda mucho en cargarse.
 
     - **Necesita que un PO con Windows use Power BI Desktop aunque el estándar corporativo es Mac.**
 
-    Microsoft Fabric es una oferta SaaS. Lo único que necesitamos es un explorador para acceder al servicio. No tenemos que instalar ningún software en nuestros escritorios.
+        Microsoft Fabric es una oferta SaaS. Lo único que necesitamos es un explorador para acceder al servicio. No tenemos que instalar ningún software en nuestros escritorios.
 
 # Limpieza del entorno de laboratorio
 
