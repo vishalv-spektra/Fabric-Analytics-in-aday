@@ -56,7 +56,7 @@ By the end of this lab, you will have learned:
 
 4. From the **top menu** select **New SQL query** or from the center of the screen click **New SQL query**. You will be navigated to SQL query view.
 
-    ![](../media/Lab-6/image7.png)
+    ![](../media/Lab-6/image7new.png)
 
 5. Paste the **below SQL query** into the **query window**. This query will return the units by Supplier Name. It is joining the Sales table with the Product and Supplier tables to achieve this.
 

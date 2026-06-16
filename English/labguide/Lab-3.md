@@ -162,7 +162,7 @@ Shortcuts are used to create a link to the target location. Shortcuts provide ac
 
 2. From the top menu, click the drop down next to **New SQL query (1)** and then select **New visual query (2)**.
     
-    ![](../media/Lab-3/image14.png)
+    ![](../media/Lab-3/image14new.png)
 
 3. To build a query, we need to add tables to the Visual Query panel. Click on the ellipsis next to the **Cities (1)** table and select **Insert into canvas (2).**
 

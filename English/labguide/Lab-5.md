@@ -196,7 +196,7 @@ Let’s start building the pipeline. We need an activity to refresh the Dataflow
 
 6. In the **Name** field, enter **dfactivity_People_SharePoint**.
 
-7. In the **Description** field, enter **Dataflow activity to refresh df_People_Sharepoint dataflow.**.
+7. In the **Description** field, enter **Dataflow activity to refresh df_People_Sharepoint dataflow**.
 
 8. Notice there is an option to Deactivate an activity. This feature is useful during testing or debugging. Leave it as **Activated**.
 

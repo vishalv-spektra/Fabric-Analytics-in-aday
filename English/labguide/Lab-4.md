@@ -248,7 +248,7 @@ Notice the five queries are pasted and now you have the Queries panel on the lef
 
 2. From the ribbon select **Home (2) -> Add data destination (3) -> Lakehouse (4)**.
 
-    ![](../media/Lab-4/image26.png)
+    ![](../media/Lab-4/image14new.png)
 
 3. Connect to data destination dialog opens. From the **Connection dropdown** select **Lakehouse odl_user_<inject key="Deployment ID" enableCopy="false"/> (none)**.
 
@@ -376,7 +376,7 @@ You should be in the Lakehouse **lh_FAIAD**. Make sure you are in Lakehouse view
 
 9. Select **Create** on the next dialog. You will be navigated back to lh_FAIAD lakehouse.
 
-    ![](../media/Lab-4/image43.png)
+    ![](../media/Lab-4/image43new.png)
 
 10. In the **Explorer** panel on the left, notice the new **Customer** table has been created.
 

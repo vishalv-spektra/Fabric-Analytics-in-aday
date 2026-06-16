@@ -124,7 +124,7 @@ The report below analyzes Sales for Fabrikam. KPIs are listed on the left top of
 
 6. Let’s get the Product details by Product Group and Reseller. From the Sales by Product Group and Reseller Company bar chart visual, **right click on the orange portion of the Packaging Materials bar for Tailspin Toys** and from the dialog select **Drill through -> Product Detail**.
 
-    ![](../media/Lab-1/image16.png)
+    ![](../media/Lab-1/image16new.png)
 
 7. You will be navigated to the page which provides the Product Details. Notice there are some future orders in place as well.
 
