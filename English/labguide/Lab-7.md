@@ -498,7 +498,7 @@ In a real scenario, data is updated at the source. Since we are in a training en
 
 18. Select **Create**.
 
-    ![](../media/Lab-7/image51new.png)
+    ![](../media/Lab-7/image51.png)
 
     Notice in the **Explorer pane** on the left, we now have the InvoicesMay table. Now we need to update the Sales view.
 
